@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SSI Calculator</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 1200px;
+            margin: 50px auto;
+            padding: 20px;
+        }
+        .text-box {
+            margin-bottom: 15px;
+            position: relative;
+        }
+        .delete-btn {
+            position: absolute;
+            top: 0;
+            right: 0;
+            background-color: #dc3545;
+            color: white;
+            border: none;
+            padding: 5px 10px;
+            cursor: pointer;
+            border-radius: 3px;
+            font-size: 12px;
+        }
+        .delete-btn:hover {
+            background-color: #c82333;
+        }
+        textarea {
+            width: 100%;
+            min-height: 80px;
+            padding: 8px;
+            font-size: 14px;
+        }
+        button {
+            padding: 10px 20px;
+            margin: 5px;
+            font-size: 14px;
+            cursor: pointer;
+        }
+        .result {
+            margin-top: 20px;
+            padding: 15px;
+            background-color: #f0f0f0;
+            border-radius: 5px;
+            font-size: 18px;
+        }
+        .loading {
+            color: #666;
+            font-style: italic;
+        }
+        .error {
+            color: red;
+        }
+        .info {
+            background-color: #e7f3ff;
+            padding: 10px;
+            border-radius: 5px;
+            margin-bottom: 20px;
+        }
+        .details-section {
+            margin-top: 15px;
+            padding: 15px;
+            background-color: #fff;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+        .similarity-matrix {
+            margin-top: 15px;
+            overflow-x: auto;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 10px;
+        }
+        th, td {
+            padding: 8px;
+            text-align: center;
+            border: 1px solid #ddd;
+        }
+        th {
+            background-color: #4CAF50;
+            color: white;
+        }
+        td {
+            background-color: #f9f9f9;
+        }
+        .text-preview {
+            max-width: 200px;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+            font-size: 12px;
+            text-align: left;
+        }
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+            gap: 15px;
+            margin-top: 15px;
+        }
+        .stat-card {
+            padding: 15px;
+            background-color: #fff;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+        .stat-value {
+            font-size: 24px;
+            font-weight: bold;
+            color: #4CAF50;
+        }
+        .stat-label {
+            font-size: 12px;
+            color: #666;
+            margin-top: 5px;
+        }
+        .similarity-high {
+            background-color: #d4edda !important;
+            color: #155724;
+            font-weight: bold;
+        }
+        .similarity-medium {
+            background-color: #fff3cd !important;
+            color: #856404;
+        }
+        .similarity-low {
+            background-color: #f8d7da !important;
+            color: #721c24;
+        }
+        .interpretation {
+            margin-top: 20px;
+            padding: 15px;
+            background-color: #f8f9fa;
+            border-left: 4px solid #4CAF50;
+            border-radius: 5px;
+        }
+        .interpretation h3 {
+            margin-top: 0;
+            color: #4CAF50;
+        }
+        .interpretation ul {
+            margin: 10px 0;
+            padding-left: 20px;
+        }
+        .interpretation li {
+            margin: 5px 0;
+        }
+    </style>
+</head>
+<body>
+    <h1>Semantic Stability Index (SSI) Calculator</h1>
+    <div class="info">
+        <strong>Note:</strong> This calculator requires a Python backend running on localhost:5000
+    </div>
+    <p>Enter 2 or more texts to calculate SSI</p>
+    
+    <div id="textBoxContainer">
+        <div class="text-box">
+            <label>Text 1:</label>
+            <textarea class="text-input"></textarea>
+        </div>
+        <div class="text-box">
+            <label>Text 2:</label>
+            <textarea class="text-input"></textarea>
+        </div>
+    </div>
+    
+    <button onclick="addTextBox()">Add Another Text Box</button>
+    <button onclick="calculateSSI()">Calculate SSI</button>
+    
+    <div id="result"></div>
+
+    <script>
+        function addTextBox() {
+            const container = document.getElementById('textBoxContainer');
+            const count = container.children.length + 1;
+            const newBox = document.createElement('div');
+            newBox.className = 'text-box';
+            newBox.innerHTML = `
+                <button class="delete-btn" onclick="deleteTextBox(this)">✕ Delete</button>
+                <label>Text ${count}:</label>
+                <textarea class="text-input"></textarea>
+            `;
+            container.appendChild(newBox);
+            updateLabels();
+        }
+
+        function deleteTextBox(btn) {
+            const container = document.getElementById('textBoxContainer');
+            const textBoxes = container.querySelectorAll('.text-box');
+            
+            // Prevent deleting if only 2 text boxes remain
+            if (textBoxes.length <= 2) {
+                alert('You must have at least 2 text boxes.');
+                return;
+            }
+            
+            // Remove the text box
+            btn.parentElement.remove();
+            updateLabels();
+        }
+
+        function updateLabels() {
+            const container = document.getElementById('textBoxContainer');
+            const textBoxes = container.querySelectorAll('.text-box');
+            textBoxes.forEach((box, index) => {
+                const label = box.querySelector('label');
+                label.textContent = `Text ${index + 1}:`;
+            });
+        }
+
+        function getSimilarityClass(score) {
+            if (score >= 0.7) return 'similarity-high';
+            if (score >= 0.4) return 'similarity-medium';
+            return 'similarity-low';
+        }
+
+        function getInterpretation(ssi) {
+            if (ssi >= 0.8) {
+                return {
+                    level: 'Very High Semantic Stability',
+                    meaning: 'The texts are highly consistent in meaning and express very similar concepts.',
+                    color: '#28a745'
+                };
+            } else if (ssi >= 0.6) {
+                return {
+                    level: 'High Semantic Stability',
+                    meaning: 'The texts share strong semantic similarity with good conceptual alignment.',
+                    color: '#5cb85c'
+                };
+            } else if (ssi >= 0.4) {
+                return {
+                    level: 'Moderate Semantic Stability',
+                    meaning: 'The texts have some semantic overlap but differ in several aspects.',
+                    color: '#ffc107'
+                };
+            } else if (ssi >= 0.2) {
+                return {
+                    level: 'Low Semantic Stability',
+                    meaning: 'The texts have limited semantic similarity and express different concepts.',
+                    color: '#fd7e14'
+                };
+            } else {
+                return {
+                    level: 'Very Low Semantic Stability',
+                    meaning: 'The texts are semantically distinct with minimal conceptual overlap.',
+                    color: '#dc3545'
+                };
+            }
+        }
+
+        async function calculateSSI() {
+            try {
+                // Get all text inputs
+                const textareas = document.querySelectorAll('.text-input');
+                const texts = Array.from(textareas)
+                    .map(ta => ta.value.trim())
+                    .filter(text => text.length > 0);
+
+                if (texts.length < 2) {
+                    document.getElementById('result').innerHTML = '<p class="error">Please enter at least 2 texts.</p>';
+                    return;
+                }
+
+                document.getElementById('result').innerHTML = '<p class="loading">Calculating SSI...</p>';
+
+                // Send request to Python backend
+                const response = await fetch('http://localhost:5000/calculate_ssi', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json',
+                    },
+                    body: JSON.stringify({ texts: texts })
+                });
+
+                if (!response.ok) {
+                    throw new Error('Backend server error. Make sure Python server is running on localhost:5000');
+                }
+
+                const data = await response.json();
+                const ssi = data.ssi;
+                const n = texts.length;
+                const pairCount = (n * (n - 1)) / 2;
+                const similarities = data.pairwise_similarities || [];
+                const stdDev = data.std_dev || 0;
+
+                // Calculate statistics
+                const simScores = similarities.map(s => s.similarity);
+                const avgSim = simScores.length > 0 ? simScores.reduce((a, b) => a + b, 0) / simScores.length : 0;
+                const minSim = simScores.length > 0 ? Math.min(...simScores) : 0;
+                const maxSim = simScores.length > 0 ? Math.max(...simScores) : 0;
+
+                // Get interpretation
+                const interp = getInterpretation(ssi);
+
+                // Build detailed pairwise table with text previews
+                let matrixHTML = '';
+                if (similarities.length > 0) {
+                    matrixHTML = `
+                        <div class="similarity-matrix">
+                            <h3>Detailed Pairwise Comparisons</h3>
+                            <table>
+                                <tr>
+                                    <th>#</th>
+                                    <th>Text A (Preview)</th>
+                                    <th>Text B (Preview)</th>
+                                    <th>Cosine Similarity</th>
+                                </tr>
+                    `;
+                    similarities.forEach((sim, idx) => {
+                        const textA = texts[sim.i].substring(0, 50) + (texts[sim.i].length > 50 ? '...' : '');
+                        const textB = texts[sim.j].substring(0, 50) + (texts[sim.j].length > 50 ? '...' : '');
+                        const simClass = getSimilarityClass(sim.similarity);
+                        
+                        matrixHTML += `
+                            <tr>
+                                <td>${idx + 1}</td>
+                                <td class="text-preview" title="${texts[sim.i].replace(/"/g, '&quot;')}">${textA}</td>
+                                <td class="text-preview" title="${texts[sim.j].replace(/"/g, '&quot;')}">${textB}</td>
+                                <td class="${simClass}">${sim.similarity.toFixed(6)}</td>
+                            </tr>
+                        `;
+                    });
+                    matrixHTML += `
+                            </table>
+                            <p style="font-size: 12px; color: #666; margin-top: 10px;">
+                                <strong>Color Guide:</strong> 
+                                <span style="color: #155724;">■ Green (≥0.7): High similarity</span> | 
+                                <span style="color: #856404;">■ Orange (0.4-0.7): Medium similarity</span> | 
+                                <span style="color: #721c24;">■ Red (<0.4): Low similarity</span>
+                            </p>
+                        </div>
+                    `;
+                }
+
+                document.getElementById('result').innerHTML = `
+                    <div class="result">
+                        <strong>SSI Score: ${ssi.toFixed(6)}</strong>
+                        <br><small>(Based on ${n} texts, ${pairCount} pairwise comparisons)</small>
+                    </div>
+                    
+                    <div class="details-section">
+                        <h3>Statistical Summary</h3>
+                        <div class="stats-grid">
+                            <div class="stat-card">
+                                <div class="stat-value">${n}</div>
+                                <div class="stat-label">Total Texts</div>
+                            </div>
+                            <div class="stat-card">
+                                <div class="stat-value">${pairCount}</div>
+                                <div class="stat-label">Pairwise Comparisons</div>
+                            </div>
+                            <div class="stat-card">
+                                <div class="stat-value">${avgSim.toFixed(4)}</div>
+                                <div class="stat-label">Average Similarity</div>
+                            </div>
+                            <div class="stat-card">
+                                <div class="stat-value">${minSim.toFixed(4)}</div>
+                                <div class="stat-label">Minimum Similarity</div>
+                            </div>
+                            <div class="stat-card">
+                                <div class="stat-value">${maxSim.toFixed(4)}</div>
+                                <div class="stat-label">Maximum Similarity</div>
+                            </div>
+                            <div class="stat-card">
+                                <div class="stat-value">${stdDev.toFixed(4)}</div>
+                                <div class="stat-label">Standard Deviation</div>
+                            </div>
+                        </div>
+                        ${matrixHTML}
+                    </div>
+
+                    <div class="interpretation">
+                        <h3 style="color: ${interp.color};">📊 Interpretation: ${interp.level}</h3>
+                        <p><strong>What this means:</strong> ${interp.meaning}</p>
+                        <p><strong>Understanding SSI Scores:</strong></p>
+                        <ul>
+                            <li><strong>0.8 - 1.0:</strong> Very high semantic stability - texts are nearly identical in meaning</li>
+                            <li><strong>0.6 - 0.8:</strong> High semantic stability - texts convey similar core concepts</li>
+                            <li><strong>0.4 - 0.6:</strong> Moderate semantic stability - texts share some common themes</li>
+                            <li><strong>0.2 - 0.4:</strong> Low semantic stability - texts have limited semantic overlap</li>
+                            <li><strong>0.0 - 0.2:</strong> Very low semantic stability - texts are semantically distinct</li>
+                        </ul>
+                        <p><strong>Use Cases:</strong></p>
+                        <ul>
+                            <li>Measure consistency across multiple responses or documents</li>
+                            <li>Evaluate semantic coherence in generated text variations</li>
+                            <li>Assess agreement between different sources or perspectives</li>
+                            <li>Quality control for content generation systems</li>
+                        </ul>
+                    </div>
+                `;
+
+            } catch (error) {
+                document.getElementById('result').innerHTML = `
+                    <p class="error">Error: ${error.message}</p>
+                    <p class="error">Make sure the Python backend is running on localhost:5000</p>
+                `;
+                console.error(error);
+            }
+        }
+    </script>
+</body>
+</html>
