@@ -70,3 +70,19 @@ PASTE THE PREVIOUS QUESTION SET HERE
 
 After receiving all sets, **copy and paste** the final A–E question sets into the `.txt` files within each question-type folder.
 
+
+
+After getting the questions, open a new instance of the LLM and paste in a single question set, Telling it to reply in this exact format do not reuse an instance
+
+```
+Question set over here 
+
+Reply to these questions in this exact format without additional words
+A1a)
+A2a)
+A3a)
+A4a)
+Changing only the letter in front from Q for question to A for answer
+
+```
+
