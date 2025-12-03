@@ -61,6 +61,9 @@ Q30e
 Where Q1a), Q1b), Q1c), Q1d), Q1e) All are semantically identical, just rephrased. 
 You are not to change the fundemental question type or underlying meaning at all. 
 Return in this exact format with no filler or excessive text. 
+
+
+PASTE THE PREVIOUS QUESTION SET HERE
 ```
 
 ---
