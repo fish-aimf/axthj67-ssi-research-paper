@@ -60,13 +60,13 @@ h1 {
     margin: 5px 0;
 }
 
-.answer-sets-container {
+.input-sets-container {
     display: grid;
     gap: 20px;
     margin-bottom: 25px;
 }
 
-.answer-set-box {
+.input-set-box {
     background: white;
     border: 2px solid #000000;
     border-radius: 0;
@@ -75,7 +75,7 @@ h1 {
     box-shadow: none;
 }
 
-.answer-set-header {
+.input-set-header {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -84,7 +84,7 @@ h1 {
     padding-bottom: 10px;
 }
 
-.answer-set-label {
+.input-set-label {
     font-size: 18px;
     font-weight: bold;
     color: #000000;
@@ -401,107 +401,114 @@ td.number {
 </head>
 <body>
     <h1>📊 Research SSI Calculator</h1>
-    <p class="subtitle">Advanced Semantic Stability Analysis for Multi-Answer Research Questions</p>
+    <p class="subtitle">Advanced Semantic Stability Analysis for Multi-Input Text Comparison</p>
     
     <div class="info-box">
         <strong>📋 How to use:</strong>
         <ul>
-            <li>Add 2 or more answer sets (A, B, C, D, etc.)</li>
-            <li>Each answer set should contain answers with each answer on a new line</li>
-            <li><strong>Format option 1:</strong> Number your answers: <code>A1x) answer text</code> or <code>Question 1: answer</code></li>
-            <li><strong>Format option 2:</strong> Just list answers on separate lines (line position = question number)</li>
-            <li>The calculator will automatically extract and group answers by question number</li>
-            <li>SSI will be calculated for each question individually and across all questions</li>
+            <li>Add 2 or more input sets (A, B, C, D, etc.)</li>
+            <li>Each input set should contain texts with each text on a new line</li>
+            <li>Each line will be treated as one input (Input 1, Input 2, etc.)</li>
+            <li>SSI will be calculated for each input position individually and across all inputs</li>
+            <li>Enable "Strip prefixes" option to remove question numbers/labels (Q1a:, A1b:, etc.)</li>
         </ul>
         <strong>⚠️ Backend Required:</strong> Python backend must be running on <code>localhost:5000</code>
     </div>
     
-    <div id="answerSetsContainer" class="answer-sets-container"></div>
+    <div id="inputSetsContainer" class="input-sets-container"></div>
+    
+    <div class="options-container" style="background: #f9f9f9; border: 1px solid #000000; padding: 15px; margin-bottom: 20px;">
+        <label style="display: flex; align-items: center; cursor: pointer;">
+            <input type="checkbox" id="stripPrefixes" style="margin-right: 10px; width: auto;">
+            <strong>Strip prefixes (Q1a:, A1b:, Question 1:, etc.) from each line before processing</strong>
+        </label>
+    </div>
     
     <div class="button-container">
-        <button class="btn-primary" onclick="addAnswerSet()">➕ Add Answer Set</button>
+        <button class="btn-primary" onclick="addInputSet()">➕ Add Input Set</button>
         <button class="btn-success" onclick="calculateResearchSSI()">🔬 Calculate SSI Analysis</button>
+        <button class="btn-primary" onclick="copyResultsToClipboard()" id="copyBtn" style="display: none;">📋 Copy Results to Clipboard</button>
     </div>
     
     <div id="results"></div>
 
     <script>
-        let answerSetCount = 0;
+        let inputSetCount = 0;
         const setLabels = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'.split('');
 
-        function initializeAnswerSets() {
-            addAnswerSet();
-            addAnswerSet();
+        function initializeInputSets() {
+            addInputSet();
+            addInputSet();
         }
 
-        function addAnswerSet() {
-            const container = document.getElementById('answerSetsContainer');
-            const label = setLabels[answerSetCount] || `Set${answerSetCount + 1}`;
-            answerSetCount++;
+        function addInputSet() {
+            const container = document.getElementById('inputSetsContainer');
+            const label = setLabels[inputSetCount] || `Set${inputSetCount + 1}`;
+            inputSetCount++;
 
             const setBox = document.createElement('div');
-            setBox.className = 'answer-set-box';
-            setBox.dataset.setId = answerSetCount;
+            setBox.className = 'input-set-box';
+            setBox.dataset.setId = inputSetCount;
             
             setBox.innerHTML = `
-                <div class="answer-set-header">
-                    <div class="answer-set-label">Answer Set ${label}</div>
-                    <button class="delete-btn" onclick="deleteAnswerSet(this)">✕ Delete</button>
+                <div class="input-set-header">
+                    <div class="input-set-label">Input Set ${label}</div>
+                    <button class="delete-btn" onclick="deleteInputSet(this)">✕ Delete</button>
                 </div>
-                <textarea class="answer-input" placeholder="Enter answers (each on a new line):
+                <textarea class="input-textarea" placeholder="Enter inputs (each on a new line):
 
-Option 1 - With numbering:
-A1${label.toLowerCase()}) First answer here
-A2${label.toLowerCase()}) Second answer here
-A3${label.toLowerCase()}) Third answer here
+Example:
+Q1a: First text here
+Q2a: Second text here
+Q3a: Third text here
 
-Option 2 - Just list answers:
-First answer here
-Second answer here
-Third answer here
+Or without prefixes:
+First text here
+Second text here
+Third text here
 
-Each line = one question"></textarea>
+Each line = one input"></textarea>
             `;
             
             container.appendChild(setBox);
         }
 
-        function deleteAnswerSet(btn) {
-            const container = document.getElementById('answerSetsContainer');
-            const boxes = container.querySelectorAll('.answer-set-box');
+        function deleteInputSet(btn) {
+            const container = document.getElementById('inputSetsContainer');
+            const boxes = container.querySelectorAll('.input-set-box');
             
             if (boxes.length <= 2) {
-                alert('You must have at least 2 answer sets for comparison.');
+                alert('You must have at least 2 input sets for comparison.');
                 return;
             }
             
-            btn.closest('.answer-set-box').remove();
+            btn.closest('.input-set-box').remove();
         }
 
-        function parseAnswers(text) {
+        function parseInputs(text, stripPrefixes) {
             // Split by newlines and filter empty lines
-            const lines = text.split('\n').map(l => l.trim()).filter(l => l.length > 0);
-            const answers = {};
+            const lines = text.split('\n')
+                .map(l => l.trim())
+                .filter(l => l.length > 0);
+            
+            const inputs = {};
             
             lines.forEach((line, index) => {
-                // Try to extract question number from various formats
-                // Matches: A1a), A1.), Question 1:, 1), 1., etc.
-                const match = line.match(/^(?:[A-Z])?(\d+)(?:[a-z])?[\)\.\:]?\s*(.+)/i);
+                let processedLine = line;
                 
-                if (match) {
-                    const questionNum = parseInt(match[1]);
-                    const answerText = match[2].trim();
-                    
-                    if (answerText) {
-                        answers[questionNum] = answerText;
-                    }
-                } else {
-                    // If no number pattern found, use line index as question number (1-based)
-                    answers[index + 1] = line.trim();
+                // Strip prefixes if option is enabled
+                if (stripPrefixes) {
+                    // Remove patterns like Q1a:, A1b:, Question 1:, 1), 1., etc.
+                    processedLine = line.replace(/^(?:[A-Z])?(?:question\s*)?\d+[a-z]?[\)\.\:]\s*/i, '').trim();
+                }
+                
+                if (processedLine) {
+                    // Use line position as input number (1-based)
+                    inputs[index + 1] = processedLine;
                 }
             });
             
-            return answers;
+            return inputs;
         }
 
         function getSSIClass(score) {
@@ -540,76 +547,79 @@ Each line = one question"></textarea>
 
         async function calculateResearchSSI() {
             try {
-                const textareas = document.querySelectorAll('.answer-input');
+                const textareas = document.querySelectorAll('.input-textarea');
                 
                 if (textareas.length < 2) {
-                    document.getElementById('results').innerHTML = '<p class="error">Please add at least 2 answer sets.</p>';
+                    document.getElementById('results').innerHTML = '<p class="error">Please add at least 2 input sets.</p>';
                     return;
                 }
 
-                document.getElementById('results').innerHTML = '<p class="loading">🔄 Parsing answers and calculating SSI for each question...</p>';
+                document.getElementById('results').innerHTML = '<p class="loading">🔄 Processing inputs and calculating SSI for each position...</p>';
 
-                // Parse all answer sets
-                const answerSets = [];
+                // Get strip prefixes option
+                const stripPrefixes = document.getElementById('stripPrefixes').checked;
+
+                // Parse all input sets
+                const inputSets = [];
                 textareas.forEach((textarea, idx) => {
                     const text = textarea.value.trim();
                     if (text) {
-                        const parsed = parseAnswers(text);
-                        answerSets.push({
+                        const parsed = parseInputs(text, stripPrefixes);
+                        inputSets.push({
                             label: setLabels[idx] || `Set${idx + 1}`,
-                            answers: parsed
+                            inputs: parsed
                         });
                     }
                 });
 
-                if (answerSets.length < 2) {
-                    document.getElementById('results').innerHTML = '<p class="error">Please enter content in at least 2 answer sets.</p>';
+                if (inputSets.length < 2) {
+                    document.getElementById('results').innerHTML = '<p class="error">Please enter content in at least 2 input sets.</p>';
                     return;
                 }
 
-                // Find all unique question numbers
-                const allQuestionNums = new Set();
-                answerSets.forEach(set => {
-                    Object.keys(set.answers).forEach(num => allQuestionNums.add(parseInt(num)));
+                // Find all unique input numbers
+                const allInputNums = new Set();
+                inputSets.forEach(set => {
+                    Object.keys(set.inputs).forEach(num => allInputNums.add(parseInt(num)));
                 });
 
-                const questionNums = Array.from(allQuestionNums).sort((a, b) => a - b);
+                const inputNums = Array.from(allInputNums).sort((a, b) => a - b);
 
-                if (questionNums.length === 0) {
-                    document.getElementById('results').innerHTML = '<p class="error">No valid questions found. Please check your answer format.</p>';
+                if (inputNums.length === 0) {
+                    document.getElementById('results').innerHTML = '<p class="error">No valid inputs found. Please check your format.</p>';
                     return;
                 }
 
-                // Calculate SSI for each question
-                const questionResults = [];
+                // Calculate SSI for each input
+                const inputResults = [];
                 
-                for (const qNum of questionNums) {
-                    const textsForQuestion = [];
-                    const setsWithAnswer = [];
+                for (const inputNum of inputNums) {
+                    const textsForInput = [];
+                    const setsWithInput = [];
                     
-                    answerSets.forEach(set => {
-                        if (set.answers[qNum]) {
-                            textsForQuestion.push(set.answers[qNum]);
-                            setsWithAnswer.push(set.label);
+                    inputSets.forEach(set => {
+                        if (set.inputs[inputNum]) {
+                            textsForInput.push(set.inputs[inputNum]);
+                            setsWithInput.push(set.label);
                         }
                     });
 
-                    if (textsForQuestion.length >= 2) {
-                        const ssiData = await calculateSSIForTexts(textsForQuestion);
-                        questionResults.push({
-                            questionNum: qNum,
+                    if (textsForInput.length >= 2) {
+                        const ssiData = await calculateSSIForTexts(textsForInput);
+                        inputResults.push({
+                            inputNum: inputNum,
                             ssi: ssiData.ssi,
                             stdDev: ssiData.std_dev || 0,
                             pairwiseSimilarities: ssiData.pairwise_similarities || [],
-                            texts: textsForQuestion,
-                            sets: setsWithAnswer,
-                            numComparisons: textsForQuestion.length
+                            texts: textsForInput,
+                            sets: setsWithInput,
+                            numComparisons: textsForInput.length
                         });
                     }
                 }
 
                 // Calculate overall statistics
-                const ssiScores = questionResults.map(r => r.ssi);
+                const ssiScores = inputResults.map(r => r.ssi);
                 const avgSSI = ssiScores.reduce((a, b) => a + b, 0) / ssiScores.length;
                 const minSSI = Math.min(...ssiScores);
                 const maxSSI = Math.max(...ssiScores);
@@ -619,14 +629,14 @@ Each line = one question"></textarea>
                 const zScores = calculateZScores(ssiScores);
 
                 // Add Z-scores to results
-                questionResults.forEach((result, idx) => {
+                inputResults.forEach((result, idx) => {
                     result.zScore = zScores[idx];
                 });
 
                 // Generate results HTML
-                displayResults(questionResults, {
-                    totalQuestions: questionNums.length,
-                    totalAnswerSets: answerSets.length,
+                displayResults(inputResults, {
+                    totalInputs: inputNums.length,
+                    totalInputSets: inputSets.length,
                     avgSSI,
                     minSSI,
                     maxSSI,
@@ -644,19 +654,26 @@ Each line = one question"></textarea>
             }
         }
 
-        function displayResults(questionResults, overallStats) {
+        function displayResults(inputResults, overallStats) {
+            // Store for clipboard function
+            window.lastInputResults = inputResults;
+            window.lastOverallStats = overallStats;
+            
+            // Show copy button
+            document.getElementById('copyBtn').style.display = 'inline-block';
+            
             let html = `
                 <div class="results-container">
                     <div class="summary-section">
                         <h2>📈 Overall Summary</h2>
                         <div class="stats-grid">
                             <div class="stat-card">
-                                <div class="stat-value">${overallStats.totalQuestions}</div>
-                                <div class="stat-label">Total Questions</div>
+                                <div class="stat-value">${overallStats.totalInputs}</div>
+                                <div class="stat-label">Total Inputs</div>
                             </div>
                             <div class="stat-card">
-                                <div class="stat-value">${overallStats.totalAnswerSets}</div>
-                                <div class="stat-label">Answer Sets</div>
+                                <div class="stat-value">${overallStats.totalInputSets}</div>
+                                <div class="stat-label">Input Sets</div>
                             </div>
                             <div class="stat-card">
                                 <div class="stat-value">${overallStats.avgSSI.toFixed(4)}</div>
@@ -676,11 +693,11 @@ Each line = one question"></textarea>
                             </div>
                         </div>
 
-                        <h3 style="margin-top: 30px; margin-bottom: 15px; color: #2c3e50;">📊 Master Summary Table</h3>
+                        <h3 style="margin-top: 30px; margin-bottom: 15px; color: #000000;">📊 Master Summary Table</h3>
                         <table>
                             <thead>
                                 <tr>
-                                    <th>Question #</th>
+                                    <th>Input #</th>
                                     <th>SSI Score</th>
                                     <th>Std Dev</th>
                                     <th>Z-Score</th>
@@ -691,14 +708,14 @@ Each line = one question"></textarea>
                             <tbody>
             `;
 
-            questionResults.forEach(result => {
+            inputResults.forEach(result => {
                 const ssiClass = getSSIClass(result.ssi);
                 const zScoreClass = getZScoreClass(result.zScore);
                 const status = result.ssi >= 0.7 ? '✓ High' : result.ssi >= 0.4 ? '⚠ Medium' : '✗ Low';
                 
                 html += `
                     <tr>
-                        <td class="number">Q${result.questionNum}</td>
+                        <td class="number">Input ${result.inputNum}</td>
                         <td class="number ${ssiClass}">${result.ssi.toFixed(6)}</td>
                         <td class="number">${result.stdDev.toFixed(6)}</td>
                         <td class="number ${zScoreClass}">${result.zScore.toFixed(3)}</td>
@@ -714,14 +731,14 @@ Each line = one question"></textarea>
                     </div>
 
                     <div class="summary-section">
-                        <h2>🔍 Detailed Question Analysis</h2>
+                        <h2>🔍 Detailed Input Analysis</h2>
             `;
 
-            questionResults.forEach((result, idx) => {
+            inputResults.forEach((result, idx) => {
                 const ssiClass = getSSIClass(result.ssi);
                 html += `
                     <div class="question-section">
-                        <h3 class="collapsible" onclick="toggleCollapsible(this)">Question ${result.questionNum} - SSI: ${result.ssi.toFixed(6)}</h3>
+                        <h3 class="collapsible" onclick="toggleCollapsible(this)">Input ${result.inputNum} - SSI: ${result.ssi.toFixed(6)}</h3>
                         <div class="collapsible-content">
                             <div class="question-details">
                                 <div class="detail-row">
@@ -737,7 +754,7 @@ Each line = one question"></textarea>
                                     <span class="detail-value ${getZScoreClass(result.zScore)}">${result.zScore.toFixed(3)}</span>
                                 </div>
                                 <div class="detail-row">
-                                    <span class="detail-label">Answer Sets:</span>
+                                    <span class="detail-label">Input Sets:</span>
                                     <span class="detail-value">${result.sets.join(', ')}</span>
                                 </div>
                                 <div class="detail-row">
@@ -746,7 +763,7 @@ Each line = one question"></textarea>
                                 </div>
                             </div>
 
-                            <h4 style="margin: 20px 0 10px 0; color: #34495e;">Answer Previews:</h4>
+                            <h4 style="margin: 20px 0 10px 0; color: #000000;">Text Previews:</h4>
                 `;
 
                 result.texts.forEach((text, idx) => {
@@ -760,7 +777,7 @@ Each line = one question"></textarea>
 
                 if (result.pairwiseSimilarities.length > 0) {
                     html += `
-                        <h4 style="margin: 20px 0 10px 0; color: #34495e;">Pairwise Similarity Matrix:</h4>
+                        <h4 style="margin: 20px 0 10px 0; color: #000000;">Pairwise Similarity Matrix:</h4>
                         <table>
                             <thead>
                                 <tr>
@@ -809,8 +826,60 @@ Each line = one question"></textarea>
             content.classList.toggle('hidden');
         }
 
-        // Initialize with 2 answer sets on load
-        window.onload = initializeAnswerSets;
+        function copyResultsToClipboard() {
+            const inputResults = window.lastInputResults;
+            const stats = window.lastOverallStats;
+            
+            if (!inputResults || !stats) {
+                alert('No results to copy. Please calculate SSI first.');
+                return;
+            }
+            
+            let output = `RESEARCH SSI CALCULATION RESULTS\n`;
+            output += `${'='.repeat(80)}\n\n`;
+            
+            output += `OVERALL STATISTICS\n`;
+            output += `${'-'.repeat(80)}\n`;
+            output += `Total Inputs: ${stats.totalInputs}\n`;
+            output += `Input Sets Compared: ${stats.totalInputSets}\n`;
+            output += `Average SSI: ${stats.avgSSI.toFixed(6)}\n`;
+            output += `Minimum SSI: ${stats.minSSI.toFixed(6)}\n`;
+            output += `Maximum SSI: ${stats.maxSSI.toFixed(6)}\n`;
+            output += `Overall Standard Deviation: ${stats.overallStdDev.toFixed(6)}\n\n`;
+            
+            output += `DETAILED RESULTS BY INPUT\n`;
+            output += `${'-'.repeat(80)}\n\n`;
+            
+            inputResults.forEach(result => {
+                output += `Input ${result.inputNum}\n`;
+                output += `  SSI Score: ${result.ssi.toFixed(6)}\n`;
+                output += `  Standard Deviation: ${result.stdDev.toFixed(6)}\n`;
+                output += `  Z-Score: ${result.zScore.toFixed(3)}\n`;
+                output += `  Sets Compared: ${result.sets.join(', ')}\n`;
+                output += `  Number of Comparisons: ${result.numComparisons}\n`;
+                
+                if (result.pairwiseSimilarities.length > 0) {
+                    output += `  Pairwise Similarities:\n`;
+                    result.pairwiseSimilarities.forEach(sim => {
+                        output += `    ${result.sets[sim.i]} ↔ ${result.sets[sim.j]}: ${sim.similarity.toFixed(6)}\n`;
+                    });
+                }
+                output += `\n`;
+            });
+            
+            output += `${'-'.repeat(80)}\n`;
+            output += `Generated: ${new Date().toLocaleString()}\n`;
+            
+            navigator.clipboard.writeText(output).then(() => {
+                alert('✓ Results copied to clipboard!');
+            }).catch(err => {
+                alert('Failed to copy to clipboard. Please try again.');
+                console.error(err);
+            });
+        }
+
+        // Initialize with 2 input sets on load
+        window.onload = initializeInputSets;
     </script>
 </body>
 </html>
