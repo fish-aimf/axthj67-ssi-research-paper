@@ -1,0 +1,702 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Semantic Stability Outlier Detector</title>
+    <style>
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 30px 20px;
+    background-color: #ffffff;
+    color: #000000;
+    line-height: 1.6;
+}
+
+h1 {
+    color: #000000;
+    margin-bottom: 10px;
+    font-size: 32px;
+    font-weight: bold;
+    text-align: center;
+    border-bottom: 2px solid #000000;
+    padding-bottom: 15px;
+}
+
+.subtitle {
+    color: #000000;
+    margin-bottom: 25px;
+    font-size: 14px;
+    text-align: center;
+    font-style: italic;
+}
+
+.info-box {
+    background-color: #f9f9f9;
+    border: 1px solid #000000;
+    padding: 15px;
+    margin-bottom: 25px;
+}
+
+.info-box strong {
+    color: #000000;
+}
+
+.info-box ul {
+    margin: 10px 0 0 20px;
+    color: #000000;
+}
+
+.info-box li {
+    margin: 5px 0;
+}
+
+textarea {
+    width: 100%;
+    min-height: 300px;
+    padding: 12px;
+    font-size: 14px;
+    font-family: 'Courier New', monospace;
+    border: 2px solid #000000;
+    resize: vertical;
+    background-color: #ffffff;
+}
+
+textarea:focus {
+    outline: none;
+    border: 3px solid #000000;
+}
+
+.button-container {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 30px;
+    flex-wrap: wrap;
+}
+
+button {
+    padding: 12px 24px;
+    font-size: 14px;
+    cursor: pointer;
+    border: 1px solid #000000;
+    transition: all 0.2s;
+    font-weight: 500;
+    background-color: #ffffff;
+    color: #000000;
+}
+
+.btn-primary {
+    background-color: #ffffff;
+    color: #000000;
+    border: 1px solid #000000;
+}
+
+.btn-primary:hover {
+    background-color: #000000;
+    color: #ffffff;
+}
+
+.btn-success {
+    background-color: #000000;
+    color: #ffffff;
+    font-size: 16px;
+    padding: 14px 28px;
+    border: 1px solid #000000;
+}
+
+.btn-success:hover {
+    background-color: #333333;
+}
+
+.loading {
+    color: #000000;
+    font-style: italic;
+    padding: 20px;
+    text-align: center;
+    background: white;
+    border: 1px solid #000000;
+}
+
+.error {
+    color: #000000;
+    background-color: #f9f9f9;
+    padding: 15px;
+    margin: 20px 0;
+    border: 2px solid #000000;
+    font-weight: bold;
+}
+
+.results-container {
+    margin-top: 30px;
+}
+
+.summary-section {
+    background: white;
+    padding: 25px;
+    border: 1px solid #000000;
+    margin-bottom: 25px;
+}
+
+.summary-section h2 {
+    color: #000000;
+    margin-bottom: 20px;
+    font-size: 24px;
+    border-bottom: 2px solid #000000;
+    padding-bottom: 10px;
+    font-weight: bold;
+}
+
+.stats-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 15px;
+    margin: 20px 0;
+}
+
+.stat-card {
+    background: #ffffff;
+    color: #000000;
+    padding: 20px;
+    border: 2px solid #000000;
+    text-align: center;
+}
+
+.stat-value {
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #000000;
+}
+
+.stat-label {
+    font-size: 13px;
+    color: #000000;
+    font-weight: normal;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    background: white;
+    border: 2px solid #000000;
+}
+
+th, td {
+    padding: 12px;
+    text-align: left;
+    border: 1px solid #000000;
+}
+
+th {
+    background-color: #000000;
+    color: #ffffff;
+    font-weight: 600;
+}
+
+tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+tr:hover {
+    background-color: #e0e0e0;
+}
+
+td.number {
+    text-align: center;
+    font-family: 'Courier New', monospace;
+}
+
+.ssi-high {
+    background-color: #e8f5e9 !important;
+    color: #2e7d32;
+    font-weight: bold;
+}
+
+.ssi-fail {
+    background-color: #ffcdd2 !important;
+    color: #c62828;
+    font-weight: bold;
+    border: 2px solid #c62828 !important;
+}
+
+.question-section {
+    background: white;
+    padding: 25px;
+    border: 1px solid #000000;
+    margin-bottom: 25px;
+    border-left: 5px solid #000000;
+}
+
+.question-section h3 {
+    color: #000000;
+    margin-bottom: 15px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.question-details {
+    background: #f9f9f9;
+    padding: 15px;
+    border: 1px solid #000000;
+    margin-bottom: 15px;
+}
+
+.detail-row {
+    display: flex;
+    justify-content: space-between;
+    padding: 8px 0;
+    border-bottom: 1px solid #000000;
+}
+
+.detail-row:last-child {
+    border-bottom: none;
+}
+
+.detail-label {
+    font-weight: 600;
+    color: #000000;
+}
+
+.detail-value {
+    color: #000000;
+    font-family: 'Courier New', monospace;
+}
+
+.outlier-text {
+    background-color: #fff3cd;
+    border: 2px solid #ff6f00;
+    padding: 12px;
+    margin: 8px 0;
+    position: relative;
+}
+
+.outlier-text::before {
+    content: '⚠️ OUTLIER - REPLACE THIS';
+    position: absolute;
+    top: -12px;
+    right: 10px;
+    background: #ff6f00;
+    color: white;
+    padding: 3px 10px;
+    font-size: 11px;
+    font-weight: bold;
+}
+
+.normal-text {
+    background-color: #f9f9f9;
+    border: 1px solid #e0e0e0;
+    padding: 12px;
+    margin: 8px 0;
+}
+    </style>
+</head>
+<body>
+    <h1>🎯 Semantic Stability Outlier Detector</h1>
+    <p class="subtitle">Quickly identify variations that break semantic consistency (target: SSI ≥ 0.95)</p>
+    
+    <div class="info-box">
+        <strong>📋 How to use:</strong>
+        <ul>
+            <li>Paste your question variations - one variation per line</li>
+            <li>Each question group should be labeled (Q1a:, Q1b:, Q2a:, Q2b:, etc.)</li>
+            <li>The tool groups by question number and checks stability within each group</li>
+            <li>Target: SSI ≥ 0.95 (rows below this threshold highlighted in RED)</li>
+            <li>Outlier variations that hurt stability are marked for replacement</li>
+        </ul>
+        <strong>Example format:</strong><br>
+        Q1a: Mary would like to go to the park<br>
+        Q1b: Mary wants to go to the park<br>
+        Q1c: Mary wishes to visit the park<br>
+        Q1d: Mark ate bananas<br><br>
+        <strong>⚠️ Backend Required:</strong> Python backend must be running on <code>localhost:5000</code>
+    </div>
+    
+    <div style="margin-bottom: 20px;">
+        <label style="display: block; font-weight: bold; margin-bottom: 10px; color: #000000;">
+            Paste your question variations here:
+        </label>
+        <textarea id="mainInput" placeholder="Q1a: Mary would like to go to the park
+Q1b: Mary wants to go to the park
+Q1c: Mary wishes to visit the park
+Q1d: Mark ate bananas
+Q2a: The sky is blue today
+Q2b: Today the sky appears blue
+Q2c: The sky looks blue right now"></textarea>
+    </div>
+    
+    <div class="button-container">
+        <button class="btn-success" onclick="analyzeStability()">🔍 Detect Outliers</button>
+        <button class="btn-primary" onclick="copyResultsToClipboard()" id="copyBtn" style="display: none;">📋 Copy Results</button>
+    </div>
+    
+    <div id="results"></div>
+
+    <script>
+        const SSI_THRESHOLD = 0.95;
+
+        function parseQuestions(text) {
+            const lines = text.split('\n')
+                .map(l => l.trim())
+                .filter(l => l.length > 0);
+            
+            const questions = {};
+            
+            lines.forEach(line => {
+                const match = line.match(/^(?:Q|Question)\s*(\d+)([a-z])?\s*:\s*(.+)$/i);
+                
+                if (match) {
+                    const questionNum = match[1];
+                    const variant = match[2] || 'a';
+                    const text = match[3].trim();
+                    
+                    if (!questions[questionNum]) {
+                        questions[questionNum] = [];
+                    }
+                    
+                    questions[questionNum].push({
+                        variant: variant,
+                        text: text,
+                        fullLabel: `Q${questionNum}${variant}`
+                    });
+                }
+            });
+            
+            return questions;
+        }
+
+        async function calculateSSIForTexts(texts) {
+            const response = await fetch('http://localhost:5000/calculate_ssi', {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify({ texts: texts })
+            });
+
+            if (!response.ok) {
+                throw new Error('Backend server error');
+            }
+
+            return await response.json();
+        }
+
+        function findOutliers(variations, pairwiseSimilarities) {
+            const avgSimilarities = variations.map((v, idx) => {
+                const similarities = [];
+                pairwiseSimilarities.forEach(sim => {
+                    if (sim.i === idx) {
+                        similarities.push(sim.similarity);
+                    } else if (sim.j === idx) {
+                        similarities.push(sim.similarity);
+                    }
+                });
+                
+                const avg = similarities.length > 0 
+                    ? similarities.reduce((a, b) => a + b, 0) / similarities.length 
+                    : 1.0;
+                
+                return { idx, avg };
+            });
+            
+            avgSimilarities.sort((a, b) => a.avg - b.avg);
+            
+            const outlierIndices = [];
+            if (avgSimilarities.length > 2) {
+                const lowest = avgSimilarities[0].avg;
+                const secondLowest = avgSimilarities[1].avg;
+                
+                if (secondLowest - lowest > 0.1) {
+                    outlierIndices.push(avgSimilarities[0].idx);
+                }
+            }
+            
+            return outlierIndices;
+        }
+
+        async function analyzeStability() {
+            try {
+                const input = document.getElementById('mainInput').value.trim();
+                
+                if (!input) {
+                    document.getElementById('results').innerHTML = '<p class="error">Please enter some question variations.</p>';
+                    return;
+                }
+
+                document.getElementById('results').innerHTML = '<p class="loading">🔄 Analyzing semantic stability and detecting outliers...</p>';
+
+                const questions = parseQuestions(input);
+                const questionNums = Object.keys(questions).sort((a, b) => parseInt(a) - parseInt(b));
+
+                if (questionNums.length === 0) {
+                    document.getElementById('results').innerHTML = '<p class="error">No valid questions found. Please use format like "Q1a: text here"</p>';
+                    return;
+                }
+
+                const results = [];
+                
+                for (const qNum of questionNums) {
+                    const variations = questions[qNum];
+                    
+                    if (variations.length < 2) {
+                        results.push({
+                            questionNum: qNum,
+                            ssi: null,
+                            variations: variations,
+                            error: 'Need at least 2 variations'
+                        });
+                        continue;
+                    }
+
+                    const texts = variations.map(v => v.text);
+                    const ssiData = await calculateSSIForTexts(texts);
+                    
+                    const outlierIndices = findOutliers(variations, ssiData.pairwise_similarities || []);
+                    
+                    results.push({
+                        questionNum: qNum,
+                        ssi: ssiData.ssi,
+                        stdDev: ssiData.std_dev || 0,
+                        pairwiseSimilarities: ssiData.pairwise_similarities || [],
+                        variations: variations,
+                        outlierIndices: outlierIndices,
+                        passed: ssiData.ssi >= SSI_THRESHOLD
+                    });
+                }
+
+                displayResults(results);
+
+            } catch (error) {
+                document.getElementById('results').innerHTML = `
+                    <div class="error">
+                        <strong>Error:</strong> ${error.message}<br>
+                        Make sure the Python backend is running on localhost:5000
+                    </div>
+                `;
+                console.error(error);
+            }
+        }
+
+        function displayResults(results) {
+            window.lastResults = results;
+            document.getElementById('copyBtn').style.display = 'inline-block';
+            
+            const passedCount = results.filter(r => r.passed).length;
+            const failedCount = results.filter(r => !r.passed && r.ssi !== null).length;
+            
+            let html = `
+                <div class="results-container">
+                    <div class="summary-section">
+                        <h2>📊 Stability Overview</h2>
+                        <div class="stats-grid">
+                            <div class="stat-card">
+                                <div class="stat-value">${results.length}</div>
+                                <div class="stat-label">Total Questions</div>
+                            </div>
+                            <div class="stat-card" style="background: #e8f5e9;">
+                                <div class="stat-value">${passedCount}</div>
+                                <div class="stat-label">Passed (≥0.95)</div>
+                            </div>
+                            <div class="stat-card" style="background: #ffcdd2;">
+                                <div class="stat-value">${failedCount}</div>
+                                <div class="stat-label">Failed (<0.95)</div>
+                            </div>
+                            <div class="stat-card">
+                                <div class="stat-value">${SSI_THRESHOLD}</div>
+                                <div class="stat-label">Target Threshold</div>
+                            </div>
+                        </div>
+
+                        <h3 style="margin-top: 30px; margin-bottom: 15px; color: #000000;">🎯 Stability Report</h3>
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th>Question</th>
+                                    <th>Variations</th>
+                                    <th>SSI Score</th>
+                                    <th>Status</th>
+                                    <th>Outliers Detected</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+            `;
+
+            results.forEach(result => {
+                if (result.error) {
+                    html += `
+                        <tr>
+                            <td class="number">Q${result.questionNum}</td>
+                            <td class="number">${result.variations.length}</td>
+                            <td class="number">-</td>
+                            <td class="number">⚠️ ${result.error}</td>
+                            <td class="number">-</td>
+                        </tr>
+                    `;
+                    return;
+                }
+
+                const ssiClass = result.passed ? 'ssi-high' : 'ssi-fail';
+                const status = result.passed ? '✓ PASS' : '✗ FAIL';
+                const outlierCount = result.outlierIndices.length;
+                
+                html += `
+                    <tr>
+                        <td class="number">Q${result.questionNum}</td>
+                        <td class="number">${result.variations.length}</td>
+                        <td class="number ${ssiClass}">${result.ssi.toFixed(6)}</td>
+                        <td class="number ${ssiClass}">${status}</td>
+                        <td class="number">${outlierCount > 0 ? outlierCount : 'None'}</td>
+                    </tr>
+                `;
+            });
+
+            html += `
+                            </tbody>
+                        </table>
+                    </div>
+
+                    <div class="summary-section">
+                        <h2>🔍 Detailed Analysis with Outliers</h2>
+            `;
+
+            results.forEach(result => {
+                if (result.error) return;
+
+                const ssiClass = result.passed ? 'ssi-high' : 'ssi-fail';
+                const headerStyle = result.passed ? '' : 'color: #c62828;';
+                
+                html += `
+                    <div class="question-section">
+                        <h3 style="${headerStyle}">
+                            Question ${result.questionNum} - SSI: ${result.ssi.toFixed(6)} 
+                            ${result.passed ? '✓' : '✗ NEEDS REVIEW'}
+                        </h3>
+                        
+                        <div class="question-details">
+                            <div class="detail-row">
+                                <span class="detail-label">SSI Score:</span>
+                                <span class="detail-value ${ssiClass}">${result.ssi.toFixed(6)}</span>
+                            </div>
+                            <div class="detail-row">
+                                <span class="detail-label">Target:</span>
+                                <span class="detail-value">≥ ${SSI_THRESHOLD}</span>
+                            </div>
+                            <div class="detail-row">
+                                <span class="detail-label">Status:</span>
+                                <span class="detail-value ${ssiClass}">${result.passed ? 'PASSED' : 'FAILED - Review outliers below'}</span>
+                            </div>
+                            <div class="detail-row">
+                                <span class="detail-label">Standard Deviation:</span>
+                                <span class="detail-value">${result.stdDev.toFixed(6)}</span>
+                            </div>
+                        </div>
+
+                        <h4 style="margin: 20px 0 10px 0; color: #000000;">Variations Analysis:</h4>
+                `;
+
+                result.variations.forEach((variation, idx) => {
+                    const isOutlier = result.outlierIndices.includes(idx);
+                    const className = isOutlier ? 'outlier-text' : 'normal-text';
+                    
+                    html += `
+                        <div class="${className}">
+                            <strong>${variation.fullLabel}:</strong> ${variation.text}
+                        </div>
+                    `;
+                });
+
+                if (result.pairwiseSimilarities.length > 0) {
+                    html += `
+                        <h4 style="margin: 20px 0 10px 0; color: #000000;">Pairwise Similarity Matrix:</h4>
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th>Variation A</th>
+                                    <th>Variation B</th>
+                                    <th>Similarity Score</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                    `;
+
+                    result.pairwiseSimilarities.forEach(sim => {
+                        const simClass = sim.similarity >= 0.95 ? 'ssi-high' : sim.similarity >= 0.85 ? '' : 'ssi-fail';
+                        html += `
+                            <tr>
+                                <td class="number">${result.variations[sim.i].fullLabel}</td>
+                                <td class="number">${result.variations[sim.j].fullLabel}</td>
+                                <td class="number ${simClass}">${sim.similarity.toFixed(6)}</td>
+                            </tr>
+                        `;
+                    });
+
+                    html += `
+                            </tbody>
+                        </table>
+                    `;
+                }
+
+                html += `
+                    </div>
+                `;
+            });
+
+            html += `
+                    </div>
+                </div>
+            `;
+
+            document.getElementById('results').innerHTML = html;
+        }
+
+        function copyResultsToClipboard() {
+            const results = window.lastResults;
+            
+            if (!results) {
+                alert('No results to copy. Please analyze questions first.');
+                return;
+            }
+            
+            let output = `SEMANTIC STABILITY OUTLIER DETECTION RESULTS\n`;
+            output += `${'='.repeat(80)}\n`;
+            output += `Target Threshold: SSI ≥ ${SSI_THRESHOLD}\n`;
+            output += `${'-'.repeat(80)}\n\n`;
+            
+            results.forEach(result => {
+                if (result.error) {
+                    output += `Question ${result.questionNum}: ${result.error}\n\n`;
+                    return;
+                }
+
+                output += `Question ${result.questionNum}\n`;
+                output += `  SSI Score: ${result.ssi.toFixed(6)} ${result.passed ? '✓ PASS' : '✗ FAIL'}\n`;
+                output += `  Standard Deviation: ${result.stdDev.toFixed(6)}\n`;
+                output += `  Variations:\n`;
+                
+                result.variations.forEach((v, idx) => {
+                    const marker = result.outlierIndices.includes(idx) ? '⚠️ OUTLIER - REPLACE' : '';
+                    output += `    ${v.fullLabel}: ${v.text} ${marker}\n`;
+                });
+                
+                output += `\n`;
+            });
+            
+            output += `${'-'.repeat(80)}\n`;
+            output += `Generated: ${new Date().toLocaleString()}\n`;
+            
+            navigator.clipboard.writeText(output).then(() => {
+                alert('✓ Results copied to clipboard!');
+            }).catch(err => {
+                alert('Failed to copy. Please try again.');
+                console.error(err);
+            });
+        }
+    </script>
+</body>
+</html>
