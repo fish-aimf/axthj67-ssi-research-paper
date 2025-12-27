@@ -27,7 +27,6 @@
 
    Across 8 question types:  
    **5 sets × 30 questions × 8 types = 1200 questions**  
-   (Your text said 1350; adjust depending on final count.)
 
 2. **Ensuring High Question SSI**  
    - Each generated question is scored for semantic similarity (Question SSI).  
