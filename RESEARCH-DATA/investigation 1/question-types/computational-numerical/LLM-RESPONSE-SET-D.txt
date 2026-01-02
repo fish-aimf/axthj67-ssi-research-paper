@@ -1,30 +1,34 @@
-Q1d) Compute factorial of 7.
-Q2d) Solve for x: 3x - 5 = 16.
-Q3d) Determine √625.
-Q4d) A car accelerates 0 to 20 m/s in 5 s. Find acceleration.
-Q5d) 10 N acts on 2 kg mass. Compute acceleration.
-Q6d) Work done when a 50 N force moves 10 meters in force direction. Calculate it.
-Q7d) Molar mass of H2SO4—calculate.
-Q8d) Find moles in 36 g of water.
-Q9d) Gas at 4 L, 2 atm. Volume at 1 atm? Temp constant.
-Q10d) Cell with 46 chromosomes. How many per daughter cell after mitosis?
-Q11d) Bacteria double every 3 hours. Population after 12 hours from 100?
-Q12d) BMI of 70 kg, 1.75 m tall person?
-Q13d) Write program to find factorial of 6 and print result.
-Q14d) Python: sum the list [2, 4, 6, 8].
-Q15d) Numbers 1–10 in array. Find average.
-Q16d) Years between 1492 and 2026?
-Q17d) World War I duration in days (1914–1918)?
-Q18d) Population grows 1M→2M in 50 years. Find annual growth rate.
-Q19d) Philosopher born 1724, died 1804. Calculate age at death.
-Q20d) 4-year course starting 2020. Graduation year?
-Q21d) GDP increases 500B→550B. Percentage growth?
-Q22d) Price +10% → demand -5%. Elasticity?
-Q23d) Profit 200 on 1000 sales. Profit margin %?
-Q24d) 1200 words, read at 200 wpm. Reading time?
-Q25d) Sentence 12 words, 5 letters each. Total letters?
-Q26d) Type 1800 words at 60 wpm. Time?
-Q27d) 500 mg every 8 hours for 3 days. Total dose?
-Q28d) Probability 0.2. Odds in favor?
-Q29d) Flip coin 10 times. Expected heads?
-Q30d) Sample n=25, mean 50, SD 8. 95% confidence interval?
+A1d) 5040
+A2d) x = 7
+A3d) 25
+A4d) 4 m/s²
+A5d) 5 m/s²
+A6d) 500 J
+A7d) 98.08 g/mol
+A8d) 2 moles
+A9d) 8 L
+A10d) 46 chromosomes
+A11d) 1600
+A12d) 22.86
+A13d) 
+factorial = 1
+for i in range(1, 7+1):
+    factorial *= i
+print(factorial)
+A14d) 20
+A15d) 5.5
+A16d) 534 years
+A17d) 1461 days
+A18d) ~1.4% per year
+A19d) 80 years
+A20d) 2024
+A21d) 10%
+A22d) -0.5
+A23d) 20%
+A24d) 6 minutes
+A25d) 60 letters
+A26d) 30 minutes
+A27d) 4500 mg
+A28d) 1:4
+A29d) 5
+A30d) 50 ± 3.136
