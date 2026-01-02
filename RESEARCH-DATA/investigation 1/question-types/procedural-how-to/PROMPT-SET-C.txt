@@ -1,0 +1,30 @@
+Q1c) Explain the stepwise method for solving a system of linear equations via Gaussian elimination.  
+Q2c) Outline how to find a derivative from first principles step by step.  
+Q3c) Describe how to determine the area under a curve using definite integration.  
+Q4c) List the steps to calculate acceleration from experimental data using Newton’s second law.  
+Q5c) Explain the procedure for measuring friction on an inclined plane using a block.  
+Q6c) Describe the steps to experimentally test Ohm’s law.  
+Q7c) Outline the steps for performing a titration to determine the concentration of an acid solution.  
+Q8c) List the procedure for preparing a standard solution in the lab.  
+Q9c) Describe the stepwise method to perform simple distillation for separating liquids.  
+Q10c) Explain the steps for observing osmosis in plant cells under a microscope.  
+Q11c) Outline the procedure for Gram staining bacterial cells.  
+Q12c) Describe the steps to extract DNA from fruit samples.  
+Q13c) Explain the procedure to create a Python program that inputs, processes, and outputs data.  
+Q14c) List the steps to sort an array using bubble sort.  
+Q15c) Describe the procedure for setting up a relational database and inserting initial data.  
+Q16c) Outline the stepwise approach for archival research to collect primary historical documents.  
+Q17c) Explain the steps to analyze a historical text for bias and reliability.  
+Q18c) Describe the procedure for compiling a historical timeline from multiple sources.  
+Q19c) List the steps to formulate a logical argument using Socratic questioning.  
+Q20c) Explain how to identify logical fallacies in philosophical writing.  
+Q21c) Outline the steps to compare two ethical theories in a given moral situation.  
+Q22c) Describe the step-by-step method for calculating GDP via the expenditure method.  
+Q23c) Explain the procedure for finding equilibrium price using supply and demand curves.  
+Q24c) List the steps to conduct a cost-benefit evaluation for a small project.  
+Q25c) Outline the stepwise procedure to write a coherent analytical essay in English.  
+Q26c) Describe the steps for a close reading of a poem.  
+Q27c) Explain step-by-step how to carry out a peer review of an English essay.  
+Q28c) List the steps to apply the principle of double effect in an ethical case.  
+Q29c) Describe the procedure to evaluate a case study using the four bioethical principles.  
+Q30c) Outline the steps to construct an ethical decision-making framework for business.  
