@@ -1,0 +1,30 @@
+A1e) 5040
+A2e) 12
+A3e) 2
+A4e) 9.8
+A5e) Electron
+A6e) Ohm
+A7e) NaCl
+A8e) 7
+A9e) 8
+A10e) DNA
+A11e) Nephron
+A12e) Mitochondrion
+A13e) Central Processing Unit
+A14e) 0
+A15e) O(log n)
+A16e) 1945
+A17e) George Washington
+A18e) 1989
+A19e) Plato
+A20e) René Descartes
+A21e) Epistemology
+A22e) Inflation
+A23e) Gross Domestic Product
+A24e) Monopoly
+A25e) Antonym
+A26e) Went
+A27e) Apostrophe
+A28e) Consequentialism
+A29e) Non-maleficence
+A30e) Immanuel Kant
