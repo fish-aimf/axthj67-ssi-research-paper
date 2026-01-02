@@ -1,0 +1,59 @@
+A1e) The vertex of a quadratic function indicates the maximum (if the parabola opens downward) or minimum (if it opens upward) value of the function. The axis of symmetry shows the line along which the parabola is mirrored, passing through the vertex, highlighting where the extremum occurs.
+
+A2e) Increasing the initial speed generally increases both the maximum height and the horizontal range. Changing the launch angle affects the trajectory: an angle of 45° typically maximizes range, while larger angles increase height but reduce horizontal distance.
+
+A3e) The sequence follows a specific rule or pattern, such as arithmetic (adding a constant), geometric (multiplying by a constant), or more complex functions. Each term can be predicted based on the rule governing progression.
+
+A4e) Increasing amplitude increases the oscillator’s energy, as energy is proportional to the square of amplitude. Increasing frequency affects energy differently depending on whether the system is mass-spring (kinetic and potential energy cycles faster) or a wave system.
+
+A5e) Increasing the incline angle increases the component of gravitational force along the plane, thus increasing the object’s acceleration. Decreasing the angle reduces acceleration.
+
+A6e) The area under a velocity-time graph represents displacement. Positive areas indicate motion in one direction, negative areas indicate motion in the opposite direction, and total area gives net displacement.
+
+A7e) Molecular shape determines how molecules interact: geometries can create polarity, steric hindrance, or active sites that increase or decrease reactivity in chemical reactions.
+
+A8e) Intermediates are transient species formed during a reaction, and transition states represent energy peaks along the reaction path. Both influence reaction rate and mechanism understanding.
+
+A9e) Atomic radius generally decreases across a period and increases down a group. Electronegativity increases across a period and decreases down a group. Ionization energy increases across a period and decreases down a group.
+
+A10e) Organelles visible under a microscope, such as the nucleus, mitochondria, and chloroplasts, perform specific functions like storing genetic material, producing energy, or conducting photosynthesis.
+
+A11e) Removing a species can cause cascading effects: prey populations may increase, predators may starve, and overall ecosystem stability can be disrupted.
+
+A12e) Gene expression changes in response to environmental conditions: stress, nutrient availability, or temperature can upregulate or downregulate protein synthesis, affecting cellular function.
+
+A13e) The code’s logical flow determines the sequence of operations. Understanding control structures, loops, and conditions allows prediction of the expected output.
+
+A14e) Traversal of the data structure follows a defined order (e.g., in-order, pre-order, post-order for trees). This impacts applications like searching, sorting, or data manipulation.
+
+A15e) The flowchart shows decision points and operations. Different inputs may follow different paths, producing varied outputs or outcomes.
+
+A16e) The cartoon uses symbolism, exaggeration, or satire to comment on social or political issues, revealing public opinion or critique of the period.
+
+A17e) The letter reflects the author’s perspective, purpose, and intent, offering insight into personal or historical viewpoints.
+
+A18e) The timeline shows sequential events, allowing identification of causal relationships, influences, and patterns over time.
+
+A19e) The philosophical excerpt presents arguments that can be analyzed for validity and implications, informing moral reasoning or ethical conclusions.
+
+A20e) The thought experiment illustrates a philosophical principle by imagining hypothetical scenarios, helping to clarify concepts or test intuitions.
+
+A21e) Different ethical theories (e.g., utilitarianism, deontology, virtue ethics) provide distinct approaches to resolving the same moral dilemma, highlighting varied decision-making criteria.
+
+A22e) The economic chart shows trends such as rising or falling supply, demand shifts, or market fluctuations, allowing interpretation of economic behavior.
+
+A23e) The financial crisis case study identifies contributing factors (e.g., mismanagement, policy failures) and their economic consequences, such as inflation, unemployment, or market instability.
+
+A24e) The infographic compares indicators like GDP, income, or growth rate, highlighting disparities or differences in economic performance across countries.
+
+A25e) The poem’s central theme is expressed through literary techniques such as imagery, metaphor, rhyme, and tone, which enhance meaning and emotional impact.
+
+A26e) The passage shows a character’s inner conflict through thoughts, dialogue, or actions, revealing development and motivations over time.
+
+A27e) The metaphor conveys symbolic meaning, enriching the text’s themes and providing deeper insight into ideas or emotions.
+
+A28e) The medical ethics scenario involves conflicting principles (e.g., autonomy vs. beneficence). Interpretation considers potential resolutions that balance these moral obligations.
+
+A29e) The public health policy affects different populations differently; ethical interpretation examines fairness, equity, and potential benefits or harms.
+
+A30e) The research misconduct case highlights ethical breaches, teaching lessons about integrity, transparency, and responsible scientific practice.
