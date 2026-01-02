@@ -1,0 +1,30 @@
+Q1d) Plan a study to compare two high school calculus teaching methods. Specify variables, controls, and criteria for evaluation.  
+Q2d) Design an experiment to investigate how the incidence angle affects mirror light reflection. Include necessary equipment, procedure, and data analysis.  
+Q3d) Propose a lab experiment to measure reaction rates of a chemical under different temperatures. Justify controls and measurement techniques.  
+Q4d) Develop a controlled study to examine how various fertilizers influence plant growth. Include design, replication, and data collection plan.  
+Q5d) Design a randomized trial to assess an AI-driven tutoring system’s impact on physics student performance. Specify outcomes and allocation method.  
+Q6d) Propose a methodology to evaluate how procedural versus object-oriented programming affects code efficiency. Include metrics and control measures.  
+Q7d) Design an experiment to study the impact of classroom lighting on student concentration. Specify experimental groups, controls, and measurements.  
+Q8d) Propose a method to assess how exercise duration affects adult memory retention. Include randomization, controls, and analysis.  
+Q9d) Design a study comparing efficiency and longevity of two battery types in mobile devices. Specify testing conditions and trade-offs.  
+Q10d) Propose a controlled experiment to test how variations in internet speed influence collaborative work accuracy. Include rationale and evaluation metrics.  
+Q11d) Design a survey-based experiment to evaluate how presentation styles affect historical comprehension. Include sampling, controls, and analysis approach.  
+Q12d) Propose a methodology to study how teaching aids influence philosophy learning outcomes. Include design rationale and assessment measures.  
+Q13d) Design an experiment to evaluate how different pricing strategies affect consumer decisions in a simulated market. Specify independent and dependent variables.  
+Q14d) Propose a study to compare peer review and instructor feedback effectiveness on student writing. Include controls and outcome metrics.  
+Q15d) Design an experiment to examine how lighting changes in workspaces affect typing speed and accuracy. Include trade-offs between control and realism.  
+Q16d) Propose a method to study screen time effects on short-term cognition. Include sampling, controls, and ethical considerations.  
+Q17d) Design an experiment to assess how different learning management systems impact engagement. Include evaluation framework and justification.  
+Q18d) Propose a study to evaluate the effect of color-coding on math problem-solving efficiency. Include design, controls, and measurement methods.  
+Q19d) Design a trial comparing two methods for industrial carbon reduction. Specify metrics, controls, and trade-offs.  
+Q20d) Propose a methodology to test whether collaborative versus individual coding improves problem-solving in CS students. Include design and outcome measures.  
+Q21d) Design an experiment to test how varying sleep affects athlete reaction times. Include controls and ethics.  
+Q22d) Propose a study comparing digital versus physical flashcards for vocabulary retention. Include design, measurement, and control measures.  
+Q23d) Design a controlled experiment to assess water pH impact on plant germination. Include replication, measurements, and control strategy.  
+Q24d) Propose a methodology to evaluate AI-assisted versus traditional grading. Include trade-offs and metrics.  
+Q25d) Design an experiment to investigate how music genres affect concentration in complex problem-solving tasks. Include design and measurements.  
+Q26d) Propose a study to test different ethical frameworks on decision-making in simulated dilemmas. Include design justification and controls.  
+Q27d) Design an experiment to compare two sorting algorithms for large datasets. Include evaluation criteria and speed-accuracy considerations.  
+Q28d) Propose a study to examine how varying physical activity levels affect biology learning retention. Include design and controls.  
+Q29d) Design a methodology to test whether interactive simulations enhance understanding of chemical reaction processes. Include control groups and metrics.  
+Q30d) Propose a study to compare feedback frequency effects on motivation and learning in online ethics courses. Include design rationale and justification.  
