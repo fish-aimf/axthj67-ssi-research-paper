@@ -1,0 +1,39 @@
+Q1d) How would you describe a prime number?  
+Q2d) Explain the meaning of a function in mathematics.  
+Q3d) What is the definition of "derivative" in calculus?  
+
+Q4d) Describe Newton's first law of motion.  
+Q5d) What does electric current mean?  
+Q6d) Define gravitational potential energy.  
+
+Q7d) What constitutes an acid under the Brønsted-Lowry definition?  
+Q8d) What is a chemical catalyst?  
+Q9d) Explain what oxidation is in chemistry.  
+
+Q10d) How is photosynthesis defined?  
+Q11d) What does natural selection refer to?  
+Q12d) Describe the process of DNA replication.  
+
+Q13d) Define a computer algorithm.  
+Q14d) What is object-oriented programming?  
+Q15d) Explain what a database is in computer science.  
+
+Q16d) How is feudalism defined historically?  
+Q17d) What does the Renaissance refer to?  
+Q18d) Define the industrial revolution.  
+
+Q19d) Explain utilitarianism in philosophy.  
+Q20d) Define epistemology.  
+Q21d) What is meant by existentialism?  
+
+Q22d) Describe supply and demand in economics.  
+Q23d) What is inflation?  
+Q24d) Explain the concept of opportunity cost.  
+
+Q25d) What does metaphor mean in English?  
+Q26d) What is meant by syntax in grammar?  
+Q27d) Define narrative point of view.  
+
+Q28d) What is informed consent in the context of ethics?  
+Q29d) What does beneficence mean?  
+Q30d) Define moral relativism.  
