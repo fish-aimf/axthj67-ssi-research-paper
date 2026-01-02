@@ -1,0 +1,30 @@
+Q1d) What value do you get when computing 7! (seven factorial)?
+Q2d) Which number is equal to √144?
+Q3d) What is x in the equation 2x + 3 = 7?
+Q4d) What is the accepted gravitational acceleration on Earth measured in m/s²?
+Q5d) Which subatomic particle bears a negative electric charge?
+Q6d) What is the SI unit for measuring resistance in electricity?
+Q7d) What chemical formula represents table salt (sodium chloride)?
+Q8d) What pH reading corresponds to neutrality at 25°C?
+Q9d) What number represents the atomic number of oxygen?
+Q10d) What molecule holds genetic information in most living organisms?
+Q11d) What is the functional unit of the kidney known as?
+Q12d) Which organelle primarily performs cellular respiration in eukaryotes?
+Q13d) In computing terminology, what does CPU stand for?
+Q14d) What output does the Boolean expression 1 AND 0 produce?
+Q15d) What is the time complexity classification of binary search on a sorted array?
+Q16d) In which year was the end of the Second World War?
+Q17d) Who was the first individual to hold the office of U.S. President?
+Q18d) In which year did the fall of the Berlin Wall take place?
+Q19d) Who wrote the philosophical classic “The Republic”?
+Q20d) Who authored the philosophical work “Meditations on First Philosophy”?
+Q21d) What is the philosophical field devoted to the study of knowledge called?
+Q22d) What is the economic term for a persistent increase in general price levels?
+Q23d) GDP is an acronym for what economic term?
+Q24d) What is the name of the market structure with a single seller and no close substitutes?
+Q25d) What do we call a word that carries the opposite meaning of another?
+Q26d) What is the past tense version of “go”?
+Q27d) What punctuation mark is used to indicate possession in English?
+Q28d) What ethical framework judges actions according to their consequences?
+Q29d) What principle in medical ethics translates to “do no harm”?
+Q30d) Who is the writer of “Groundwork of the Metaphysics of Morals”?
