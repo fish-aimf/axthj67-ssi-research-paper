@@ -22,4 +22,9 @@ Q21e) Design an experiment to study how varying sleep durations affect athlete r
 Q22e) Propose a study comparing digital versus physical flashcards for vocabulary memorization. Include design, measurements, and control variables.  
 Q23e) Design a controlled experiment to assess the effect of water pH on plant germination. Include replication, measurement, and control strategy.  
 Q24e) Propose a methodology to evaluate AI-assisted grading against traditional grading. Include trade-offs and outcome metrics.  
-Q25e) Design
+Q25e) Design an experiment to investigate how music types affect concentration in complex problem-solving. Include design and measurement criteria.  
+Q26e) Propose a study to test how different ethical frameworks influence decision-making in simulated moral dilemmas. Include design and control measures.  
+Q27e) Design an experiment comparing two sorting algorithms for large datasets. Include evaluation criteria and speed-accuracy trade-offs.  
+Q28e) Propose a study to examine how physical activity levels affect biology learning retention. Include design and controls.  
+Q29e) Design a methodology to test whether interactive simulations improve understanding of chemical reaction mechanisms. Include control groups and metrics.  
+Q30e) Propose a study to compare how feedback frequency impacts motivation and learning in online ethics courses. Include design rationale and justification.  
