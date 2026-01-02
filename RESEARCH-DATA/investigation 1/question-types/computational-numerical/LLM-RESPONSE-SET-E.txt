@@ -1,30 +1,30 @@
-Q1e) Calculate 7!.
-Q2e) Solve 3x - 5 = 16 for x.
-Q3e) Find √625.
-Q4e) Car accelerates from 0 to 20 m/s in 5 s. Compute acceleration.
-Q5e) 2 kg mass under 10 N force. Find acceleration.
-Q6e) Work done by 50 N moving object 10 m along force. Calculate.
-Q7e) Compute molar mass of H2SO4.
-Q8e) Calculate moles in 36 g H2O.
-Q9e) Gas 4 L, 2 atm. Find volume at 1 atm, constant temperature.
-Q10e) Cell 46 chromosomes. Chromosomes per daughter cell after mitosis?
-Q11e) Bacteria double every 3 h. Population after 12 h from 100?
-Q12e) BMI of person 70 kg, 1.75 m tall.
-Q13e) Program to compute factorial of n=6 and output result.
-Q14e) Sum list [2,4,6,8] in Python.
-Q15e) Array with numbers 1–10. Find average.
-Q16e) Calculate years between 1492 and 2026.
-Q17e) Duration in days of WWI, 1914–1918.
-Q18e) Population grows 1M→2M over 50 years. Annual growth rate?
-Q19e) Philosopher born 1724, died 1804. Age at death?
-Q20e) 4-year course starting 2020. Graduation year?
-Q21e) GDP 500B→550B. Percent growth?
-Q22e) Price +10% → demand -5%. Compute elasticity.
-Q23e) Profit 200 on 1000 sales. Profit margin?
-Q24e) Text 1200 words, reading at 200 wpm. Time needed?
-Q25e) Sentence 12 words, avg 5 letters each. Total letters?
-Q26e) Typing 1800 words at 60 wpm. Time?
-Q27e) 500 mg every 8 h for 3 days. Total dose?
-Q28e) Event probability 0.2. Odds in favor?
-Q29e) Flip coin 10 times. Expected heads?
-Q30e) Sample n=25, mean 50, SD 8. 95% confidence interval?
+A1e) 5040
+A2e) 7
+A3e) 25
+A4e) 4
+A5e) 5
+A6e) 500
+A7e) 98.08
+A8e) 2
+A9e) 8
+A10e) 46
+A11e) 1600
+A12e) 22.86
+A13e) 720
+A14e) 20
+A15e) 5.5
+A16e) 534
+A17e) 1556
+A18e) 1.4%
+A19e) 80
+A20e) 2024
+A21e) 10%
+A22e) -0.5
+A23e) 20%
+A24e) 6
+A25e) 60
+A26e) 30
+A27e) 4500
+A28e) 1:4
+A29e) 5
+A30e) 48.72 to 51.28
