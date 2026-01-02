@@ -1,0 +1,59 @@
+A1b) The vertex represents the maximum or minimum value of the quadratic function, with the axis of symmetry showing the vertical line that divides the parabola into two mirror-image halves. If the parabola opens upwards, the vertex is the minimum; if it opens downwards, the vertex is the maximum.
+
+A2b) Increasing the initial speed generally increases both the maximum height and horizontal distance, while changing the launch angle shifts the balance: angles closer to 45° maximize distance, higher angles increase height but reduce range.
+
+A3b) The underlying rule can be identified by observing differences or ratios between consecutive terms, such as arithmetic (constant difference) or geometric (constant ratio) patterns.
+
+A4b) Increasing amplitude raises the total energy of the oscillator, while increasing frequency increases the rate of oscillation but does not affect energy directly if amplitude remains constant.
+
+A5b) Increasing the incline angle increases the component of gravitational force along the plane, thus increasing the acceleration of the object; decreasing the angle reduces acceleration.
+
+A6b) The area under a velocity-time graph represents the displacement of the object; positive areas indicate movement in the positive direction, negative areas indicate movement in the opposite direction.
+
+A7b) Molecular geometry determines how atoms are spatially arranged, influencing bond angles, polarity, and accessibility of reactive sites, which affects chemical reactivity and interaction with other molecules.
+
+A8b) Intermediates indicate temporary species formed during the reaction, and transition states represent high-energy configurations; both are critical for understanding the reaction pathway and activation energy.
+
+A9b) Moving across periods, atomic radius decreases and ionization energy and electronegativity generally increase; moving down groups, atomic radius increases while ionization energy and electronegativity decrease.
+
+A10b) Visible organelles can be linked to their functions: the nucleus controls genetic information, mitochondria produce energy, chloroplasts enable photosynthesis, and the endoplasmic reticulum and Golgi apparatus are involved in protein and lipid processing.
+
+A11b) Removing a species disrupts the food web, potentially causing population imbalances, trophic cascades, or extinction of dependent species, highlighting the interconnectedness of the ecosystem.
+
+A12b) Changes in the environment can upregulate or downregulate gene expression, altering protein production and affecting cellular response to external conditions.
+
+A13b) The code’s logical structure dictates the sequence of operations and conditions; interpreting it reveals the intended output and how inputs are processed to produce results.
+
+A14b) The traversal method (e.g., pre-order, in-order, post-order, breadth-first) dictates the order in which nodes are accessed, affecting search, insertion, or data processing tasks.
+
+A15b) The flowchart shows decision points and process sequences; different inputs may follow distinct paths, leading to variable outcomes depending on conditional logic.
+
+A16b) The cartoon uses symbolism, exaggeration, or satire to comment on societal or political issues, reflecting public opinion or critiquing policies and behaviors.
+
+A17b) The author’s viewpoint is inferred from tone, word choice, and argument; objectives may include persuasion, documentation, or advocacy on particular historical issues.
+
+A18b) The timeline allows tracing cause-and-effect relationships, showing how earlier events lead to subsequent developments and highlighting historical patterns or consequences.
+
+A19b) The main points convey the central argument or perspective; assessing moral reasoning involves evaluating principles, consistency, and implications for ethical decisions.
+
+A20b) The thought experiment illustrates abstract philosophical concepts by creating hypothetical scenarios that reveal underlying principles or challenge assumptions.
+
+A21b) Different ethical approaches may prioritize outcomes, duties, or virtues; the diagram shows how each framework addresses the same moral question, highlighting contrasts and similarities.
+
+A22b) Charts reveal trends such as increasing or decreasing supply and demand, price fluctuations, and market equilibrium changes, enabling interpretation of economic behavior.
+
+A23b) Contributing factors may include policy decisions, market failures, or external shocks; outcomes may involve recession, inflation, unemployment, or recovery patterns.
+
+A24b) Economic indicators show disparities in wealth, growth rates, and productivity between nations, illustrating differences in development, resource allocation, and economic policies.
+
+A25b) The poem’s theme emerges from recurring ideas and imagery; literary techniques like metaphor, rhyme, and structure enhance the expression and emotional impact of the theme.
+
+A26b) The passage reflects the character’s internal struggles, choices, and evolution over time, revealing psychological depth and narrative development.
+
+A27b) The metaphor conveys meaning beyond literal words, linking concepts symbolically to express larger truths, emotions, or philosophical ideas.
+
+A28b) Conflicting ethical principles (e.g., autonomy vs. beneficence) require balancing; potential resolutions involve prioritizing principles, compromise, or context-specific judgment.
+
+A29b) Policies may benefit some populations while disadvantaging others; interpreting ethical effects involves considering equity, justice, and overall societal impact.
+
+A30b) The case illustrates consequences of research misconduct, emphasizing the importance of integrity, transparency, and adherence to ethical standards in science.
