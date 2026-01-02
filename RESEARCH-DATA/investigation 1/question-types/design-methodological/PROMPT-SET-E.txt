@@ -1,0 +1,25 @@
+Q1e) Create a study comparing the effectiveness of two methods for teaching high school calculus. Specify variables, controls, and evaluation criteria.  
+Q2e) Propose an experiment to examine how incidence angle affects light reflection on mirrors. Include procedure, equipment, and analysis method.  
+Q3e) Design a laboratory experiment to measure chemical reaction rates under different temperatures. Justify control variables and measurement methods.  
+Q4e) Develop a controlled experiment to study the effects of different fertilizers on plant growth. Include replication, data collection, and design plan.  
+Q5e) Design a randomized trial to evaluate an AI online tutoring system’s impact on physics student performance. Specify outcomes and allocation strategy.  
+Q6e) Propose a method to test how programming paradigms (procedural vs. object-oriented) influence code efficiency. Include metrics and controls.  
+Q7e) Design an experiment to assess the influence of classroom lighting on student concentration. Specify experimental groups, controls, and measurements.  
+Q8e) Propose a methodology to examine the effect of exercise duration on memory retention in adults. Include randomization, controls, and data analysis plan.  
+Q9e) Design a study comparing efficiency and lifespan of two types of batteries in mobile devices. Specify testing conditions and trade-offs.  
+Q10e) Propose a controlled experiment to test how internet speed variations affect collaborative work accuracy. Include rationale and evaluation metrics.  
+Q11e) Design a survey-based experiment to study the effect of presentation styles on historical comprehension. Include sampling, controls, and analysis methods.  
+Q12e) Propose a methodology to test the effect of different teaching aids on philosophy learning outcomes. Include design justification and assessment criteria.  
+Q13e) Design an experiment to examine how different pricing models affect consumer choices in a simulated market. Specify independent and dependent variables.  
+Q14e) Propose a study to compare peer review and instructor feedback on student writing improvement. Include controls and outcome measures.  
+Q15e) Design an experiment to examine how lighting variations affect typing speed and accuracy. Include trade-offs between realism and experimental control.  
+Q16e) Propose a method to test the impact of screen time on short-term cognitive performance. Include sampling, controls, and ethical considerations.  
+Q17e) Design an experiment to evaluate how various learning management systems affect student engagement. Include evaluation framework and justification.  
+Q18e) Propose a study to assess how color-coding influences math problem-solving efficiency. Include design, controls, and measurement approach.  
+Q19e) Design a trial comparing two methods for industrial carbon emission reduction. Specify metrics, controls, and trade-offs.  
+Q20e) Propose a methodology to test whether collaborative versus individual coding improves computer science problem-solving. Include outcomes and design justification.  
+Q21e) Design an experiment to study how varying sleep durations affect athlete reaction times. Include controls and ethics.  
+Q22e) Propose a study comparing digital versus physical flashcards for vocabulary memorization. Include design, measurements, and control variables.  
+Q23e) Design a controlled experiment to assess the effect of water pH on plant germination. Include replication, measurement, and control strategy.  
+Q24e) Propose a methodology to evaluate AI-assisted grading against traditional grading. Include trade-offs and outcome metrics.  
+Q25e) Design
