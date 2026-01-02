@@ -1,0 +1,59 @@
+A1a) A prime number is a natural number greater than 1 that has no positive divisors other than 1 and itself.  
+
+A2a) A function in mathematics is a relation that assigns each input exactly one output.  
+
+A3a) In calculus, a derivative represents the rate at which a function's value changes with respect to a change in its input.  
+
+A4a) Newton's first law of motion states that an object will remain at rest or in uniform motion unless acted upon by an external force.  
+
+A5a) Electric current is the flow of electric charge, typically measured in amperes (A).  
+
+A6a) Gravitational potential energy is the energy an object possesses due to its position in a gravitational field, usually relative to the Earth.  
+
+A7a) According to the Brønsted-Lowry definition, an acid is a substance that donates a proton (H⁺) to another substance.  
+
+A8a) A catalyst is a substance that increases the rate of a chemical reaction without being consumed in the process.  
+
+A9a) Oxidation is the loss of electrons by a substance during a chemical reaction.  
+
+A10a) Photosynthesis is the process by which green plants convert sunlight, carbon dioxide, and water into glucose and oxygen.  
+
+A11a) Natural selection is the process by which organisms better adapted to their environment tend to survive and reproduce, passing on advantageous traits.  
+
+A12a) DNA replication is the process by which a cell makes an exact copy of its DNA before cell division.  
+
+A13a) A computer algorithm is a step-by-step procedure or set of rules for solving a problem or performing a computation.  
+
+A14a) Object-oriented programming is a programming paradigm based on the concept of "objects," which contain data and methods to manipulate that data.  
+
+A15a) A database is an organized collection of data that can be accessed, managed, and updated efficiently.  
+
+A16a) Feudalism is a historical social system in which land was held by lords in exchange for service and labor from vassals or serfs.  
+
+A17a) The Renaissance was a period of cultural, artistic, and intellectual revival in Europe, roughly from the 14th to the 17th century, emphasizing humanism and learning.  
+
+A18a) The Industrial Revolution was a period of major technological, economic, and social change in the 18th and 19th centuries, marked by the shift from agrarian to industrial societies.  
+
+A19a) Utilitarianism is a philosophical theory that holds that the best action is the one that maximizes overall happiness or utility.  
+
+A20a) Epistemology is the branch of philosophy concerned with the nature, scope, and sources of knowledge.  
+
+A21a) Existentialism is a philosophical movement that emphasizes individual freedom, choice, and responsibility in creating meaning in an otherwise indifferent or meaningless world.  
+
+A22a) Supply and demand is an economic model describing how the quantity of a good supplied and the quantity demanded interact to determine price.  
+
+A23a) Inflation is the rate at which the general level of prices for goods and services rises, reducing purchasing power.  
+
+A24a) Opportunity cost is the value of the next best alternative foregone when making a choice.  
+
+A25a) A metaphor is a figure of speech in which one thing is described as if it were another to suggest a similarity.  
+
+A26a) Syntax is the set of rules that govern the structure and arrangement of words and phrases in a language.  
+
+A27a) Narrative point of view refers to the perspective from which a story is told, such as first-person, third-person, or omniscient.  
+
+A28a) Informed consent is the ethical practice of ensuring that a person fully understands and agrees to a procedure or action before it is carried out.  
+
+A29a) Beneficence is the ethical principle that obligates individuals to act in ways that promote the well-being of others.  
+
+A30a) Moral relativism is the view that moral judgments and ethical standards are not absolute but are shaped by cultural, societal, or personal circumstances.  
