@@ -1,0 +1,59 @@
+A1c) Identify the vertex by fitting a quadratic function \(y = ax^2 + bx + c\) to the three given points and using \(x_\text{vertex} = -b/(2a)\); if the vertex occurs at higher revenue than the current quarter, consider increasing production, otherwise reduce it.
+
+A2c) Solve the three linear equations to find intersection points forming the feasible region; evaluate the profit function at vertices of this region to determine the optimal production plan within labor, material, and cost limits.
+
+A3c) Express the recursive sequence explicitly or analyze characteristic roots; if the absolute values of the roots are less than 1, the sequence converges; if any root has absolute value greater than 1, it diverges, indicating long-term capital growth or instability.
+
+A4c) Use energy conservation \(mgh = \frac{1}{2}kx^2 + \frac{1}{2}mv^2\) and Newton’s laws to find maximum spring compression; if friction dissipates all kinetic energy before spring reversal, the block comes to rest.
+
+A5c) Apply vis-viva equation and energy conservation; at apogee, kinetic energy is minimal and potential energy maximal; at perigee, kinetic energy is maximal and potential energy minimal; velocity variations affect orbital period but not total energy, maintaining orbital stability.
+
+A6c) Resolve tangential \(a_t\) and centripetal \(a_c\) accelerations; compute net acceleration \(a = \sqrt{a_t^2 + a_c^2}\) and compare with frictional traction to assess risk of skidding and safe curve speed.
+
+A7c) Identify the rate-limiting step via activation energies; increasing temperature or adding a catalyst lowers energy barrier of slowest step, increasing overall reaction rate, while relative changes may shift which intermediate limits the reaction.
+
+A8c) Use the Henderson–Hasselbalch equation \(pH = pK_a + \log([A^-]/[HA])\) and consider dilution; buffer capacity moderates pH change, with final pH dependent on acid/base ratios and equilibrium constants.
+
+A9c) Compare standard electrode potentials and formation constants; the reaction with higher reduction potential or more stable complex predominates, predicting whether oxidation or complexation dominates.
+
+A10c) Evaluate selection pressures, migration, and mutation; divergent selection occurs with different pressures in each environment, stabilizing selection maintains intermediate traits, and directional selection shifts trait mean toward advantage.
+
+A11c) Model regulatory inhibition and substrate flow; feedback or inhibition reduces flux through a pathway, while alternative routes and substrate availability affect ATP yield efficiency.
+
+A12c) Apply compartmental or network epidemiology models; transmission rate, incubation period, and immunity level dictate epidemic size, peak timing, and spread across age-stratified populations.
+
+A13c) Analyze complexity: best-case improves with favorable partitions, average-case depends on random distribution, worst-case occurs with highly skewed partitions; partition preprocessing benefits distributions reducing comparisons.
+
+A14c) Examine consistency models (eventual, strong), latency, and potential failures; select conflict-resolution approach balancing data correctness, system responsiveness, and tolerance for partitioning.
+
+A15c) Compare memoization (higher memory, avoids recomputation) versus iterative tabulation (lower memory, sequential computation); choose based on input size, memory limits, and risk of repeated calculations.
+
+A16c) Assess economic decline, foreign influence, and ideological mobilization; combined intensity and timing determine whether revolution occurs, and whether it is rapid, gradual, or factional.
+
+A17c) Analyze treaty formation through power balances, economic needs, and security priorities; territorial and trade outcomes reflect competing national interests and post-war conditions.
+
+A18c) Evaluate innovation adoption considering social influence, resource allocation, and institutional readiness; early adopters, infrastructure, and regulation affect timing and spread.
+
+A19c) Compare utilitarian and rights-based reasoning; resolution depends on weighting consequences versus entitlements; logical validity requires consistency and non-contradiction in applied principles.
+
+A20c) Examine memory-transfer scenarios through continuity of consciousness and metaphysical theories; conclusions on identity and moral responsibility vary with theory applied (psychological, bodily, or narrative).
+
+A21c) Analyze historical counterexamples to induction; assess defenses such as probabilistic reasoning, modified induction rules, or principle of uniformity of nature to justify continued use.
+
+A22c) Evaluate short-term measures (spending cuts, targeted taxes) versus long-term reforms (pension restructuring, demographic planning); optimize debt management while balancing growth and inequality considerations.
+
+A23c) Implement combined monetary tightening, fiscal stimulus adjustments, and labor-market interventions; monitor inflation expectations to stabilize prices without deepening recession.
+
+A24c) Assess immediate employment losses, price changes, and sectoral shocks; model long-term adjustments in production, trade patterns, and competitiveness.
+
+A25c) Compare chapter accounts, analyze narrator reliability, and infer context to deduce the most coherent interpretation of events.
+
+A26c) Trace poetic devices (metaphor, enjambment) and tonal shifts; determine how they guide readers’ perception from admiration to irony, revealing thematic development.
+
+A27c) Examine dialogue and symbolic elements; identify moral positions implied through coded language and character interactions.
+
+A28c) Apply utilitarian (maximize overall benefit), fairness (equal access), and duty-based (obligation to treat) frameworks; justify ICU allocation through weighted ethical reasoning.
+
+A29c) Analyze privacy risks, stakeholder impact, and trust implications; ethical strategy balances monitoring objectives with employee rights and organizational transparency.
+
+A30c) Evaluate environmental benefits, justice for affected communities, and participatory decision-making; recommend renewable energy deployment that optimally balances ecological and social outcomes.
