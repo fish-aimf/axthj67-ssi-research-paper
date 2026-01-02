@@ -1,0 +1,39 @@
+A1a) Identify the quadratic function using the three revenue points, solve for the vertex using the formula \(x = -b/2a\), then compare the current quarter to the vertex to decide whether increasing or decreasing production will approach the profit peak.
+A2a) Solve the three linear equations to define the feasible region, then use graphical or simplex methods to locate the point within the region that maximizes profit while satisfying labor, material, and cost constraints.
+A3a) Formulate the recursive relation, compute successive terms or use characteristic equations to determine convergence, divergence, or stability of reinvested capital over time.
+
+A4a) Apply conservation of energy to relate gravitational, kinetic, and spring potential energies, then use Newton’s second law along the incline to calculate maximum spring compression and determine if the block stops.
+A5a) Compute gravitational potential and kinetic energy at apogee and perigee, then analyze orbital mechanics to assess how speed adjustments affect orbital stability.
+A6a) Decompose acceleration into tangential and centripetal components, then evaluate forces to check if traction limits are exceeded, indicating potential skidding.
+
+A7a) Compare activation energies to identify the rate-determining step, then analyze how temperature changes or catalysts alter the step and overall reaction rate.
+A8a) Use the Henderson–Hasselbalch equation with the weak acid and buffer concentrations, consider dilution effects, and calculate the resulting equilibrium pH.
+A9a) Evaluate standard electrode potentials and complex ion formation constants to determine which redox or complexation reaction predominates in solution.
+
+A10a) Assess selection pressures, gene flow, and mutation rates to predict whether the population experiences divergent, stabilizing, or directional selection.
+A11a) Examine feedback inhibition, substrate accumulation, and alternate pathways to predict how ATP production responds to enzyme inhibition.
+A12a) Model disease spread using transmission probabilities, incubation periods, and immunity levels to generate the epidemic curve and assess outbreak dynamics.
+
+A13a) Analyze the algorithm’s best-, average-, and worst-case complexities with the pre-processing step and determine which input distributions benefit from the modification.
+A14a) Evaluate asynchronous replication with respect to consistency, latency, and failure modes to select the most reliable conflict-resolution method.
+A15a) Compare memoization and iterative tabulation for memory consumption, recomputation, and scalability to choose the optimal dynamic programming implementation.
+
+A16a) Examine economic decline, foreign influence, and ideological movements to understand their combined effect on the timing and nature of the revolution.
+A17a) Analyze how national interests, economic pressures, and security considerations shaped treaty terms and post-war border arrangements.
+A18a) Assess social structures, resource access, and institutional resistance to predict differential adoption rates of technological innovations across regions.
+
+A19a) Identify conflicts between utilitarian and rights-based reasoning, evaluate resolution strategies, and check if the conclusion maintains logical consistency.
+A20a) Analyze memory transfer thought experiments using competing metaphysical theories to determine which best explains personal identity and moral responsibility.
+A21a) Examine philosophical defenses of induction, evaluate counterexamples, and determine how induction remains justified or modified.
+
+A22a) Compare short- and long-term budget policies, weighing spending cuts, tax reforms, and debt financing against economic growth, inequality, and demographic trends.
+A23a) Analyze monetary, fiscal, and labor policy measures to stabilize inflation while minimizing negative impacts on productivity and recession risks.
+A24a) Evaluate immediate employment impacts and long-term structural adjustments from export shocks and domestic price changes.
+
+A25a) Assess narrative reliability by analyzing conflicting accounts, perspective, and contextual clues to interpret the most plausible storyline.
+A26a) Examine tonal shifts, metaphor, and enjambment to understand thematic development in the poem.
+A27a) Analyze dialogue structure, implicit assumptions, and symbolism to infer the author’s stance on the moral dilemma.
+
+A28a) Apply utilitarian, fairness, and duty-based ethical frameworks to prioritize ICU bed allocation during a healthcare crisis.
+A29a) Assess privacy concerns, stakeholder interests, and trust implications to determine an ethical approach to employee-monitoring AI.
+A30a) Evaluate environmental benefits, distributive justice, and participatory processes to provide a recommendation on the renewable energy project.
