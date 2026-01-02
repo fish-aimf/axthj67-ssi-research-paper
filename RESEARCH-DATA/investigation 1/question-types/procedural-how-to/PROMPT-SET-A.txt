@@ -1,0 +1,30 @@
+Q1a) Describe the step-by-step process to solve a system of linear equations using Gaussian elimination.  
+Q2a) Outline the method to calculate a function's derivative from first principles.  
+Q3a) Explain how to compute the area under a curve using definite integration, step by step.  
+Q4a) List the steps required to find an object's acceleration using Newton’s second law with experimental measurements.  
+Q5a) Describe the procedure for measuring the coefficient of friction with a block on an inclined plane.  
+Q6a) Explain the stepwise method to verify Ohm’s law in a laboratory experiment.  
+Q7a) List the steps to conduct a titration to determine an acid's concentration.  
+Q8a) Outline how to prepare a standard solution in a chemistry lab, step by step.  
+Q9a) Describe the procedure for performing a simple distillation to separate liquid components.  
+Q10a) List the stepwise method for observing osmosis in plant cells under a microscope.  
+Q11a) Explain the steps to perform a Gram stain on bacterial samples.  
+Q12a) Outline how to extract DNA from a fruit sample in a step-by-step manner.  
+Q13a) Describe the procedure to write a Python program that takes input, processes it, and outputs results.  
+Q14a) List the steps to sort a list using the bubble sort algorithm.  
+Q15a) Explain the step-by-step procedure for creating a relational database and adding initial data.  
+Q16a) Outline how to conduct archival research to collect primary historical sources.  
+Q17a) Describe the steps to analyze a historical document for reliability and bias.  
+Q18a) List the procedure to construct a historical timeline from multiple sources.  
+Q19a) Explain the stepwise method to build a logical argument using Socratic questioning.  
+Q20a) Describe the procedure for identifying logical fallacies in a philosophical text.  
+Q21a) Outline the steps to compare two ethical theories regarding a moral dilemma.  
+Q22a) List the procedure for calculating GDP using the expenditure method.  
+Q23a) Describe step-by-step how to analyze supply and demand curves to find the equilibrium price.  
+Q24a) Outline the steps to perform a cost-benefit analysis for a small-scale project.  
+Q25a) Explain the stepwise procedure for writing an analytical essay in English.  
+Q26a) List the steps to conduct a close reading of a poem.  
+Q27a) Describe the procedure for performing a peer review on an English essay.  
+Q28a) Outline the steps for applying the principle of double effect to an ethical scenario.  
+Q29a) Describe the stepwise method to evaluate a case study using the four principles of bioethics.  
+Q30a) List the procedure for creating an ethical decision-making framework for a business scenario.  
