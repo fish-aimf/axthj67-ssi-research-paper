@@ -1,0 +1,59 @@
+A1c) Arrange the system in augmented matrix form, use row operations to create zeros below the leading 1s (forward elimination), then perform back-substitution to find the variable values.
+
+A2c) Define the derivative as the limit of [f(x+h) - f(x)]/h as h → 0, substitute f(x+h) and f(x), simplify the difference quotient, then take the limit to obtain f'(x).
+
+A3c) Identify the function f(x) and the interval [a, b], set up the definite integral ∫[a to b] f(x) dx, calculate the antiderivative F(x), and evaluate F(b) - F(a) to find the area.
+
+A4c) Measure the mass of the object, apply known forces, record displacement over time, calculate acceleration as a = F/m, or from velocity-time data using a = Δv/Δt.
+
+A5c) Place the block on the inclined plane, gradually increase the angle until the block slides, measure the angle θ, calculate the coefficient of friction μ = tan(θ).
+
+A6c) Set up a circuit with a resistor and a variable voltage source, measure current I and voltage V across the resistor, record multiple values, plot V vs I, verify V = IR.
+
+A7c) Fill a burette with standard solution, pipette a known volume of analyte into a conical flask, add indicator, slowly add titrant until endpoint is reached, record volume used, calculate concentration.
+
+A8c) Weigh the solute accurately, dissolve it in a small amount of solvent, transfer to a volumetric flask, make up to the mark with solvent, mix thoroughly to obtain a standard solution.
+
+A9c) Pour the liquid mixture into a distillation flask, heat gently, collect vapors in a condenser, cool to condense liquid, collect distillate in a receiving flask, separate components based on boiling points.
+
+A10c) Prepare thin plant tissue sections, place on a slide with water, observe under a microscope, add hypertonic or hypotonic solution, note cell changes due to water movement to observe osmosis.
+
+A11c) Prepare a bacterial smear, heat-fix, apply crystal violet for 1 min, rinse, apply iodine for 1 min, rinse, decolorize with alcohol briefly, rinse, counterstain with safranin, rinse and observe under microscope.
+
+A12c) Mash fruit sample, add detergent and salt solution, filter mixture, add alcohol to precipitate DNA, spool DNA with a rod or glass, observe DNA strands.
+
+A13c) Define program requirements, plan input and output, write code to accept input, process data using appropriate algorithms, output results, test program, debug as needed.
+
+A14c) Compare adjacent elements in the array, swap if in wrong order, repeat for all elements (one pass), repeat passes until no swaps occur, array is sorted.
+
+A15c) Install or open database software, create a new database, define tables and fields with appropriate data types, insert initial data using SQL INSERT statements, verify data integrity.
+
+A16c) Identify relevant archives, obtain access, define research questions, locate and retrieve primary documents, analyze and record information, organize findings systematically.
+
+A17c) Select historical text, examine authorship and context, identify bias and perspective, check against other sources, evaluate reliability, draw conclusions supported by evidence.
+
+A18c) Collect dates and events from multiple sources, verify accuracy, arrange chronologically, note relevant details, create visual or written timeline, cross-check for consistency.
+
+A19c) Identify claim or question, break down into premises and conclusions, ask probing questions to clarify assumptions, evaluate evidence, refine argument, present logically.
+
+A20c) Read philosophical writing carefully, identify arguments, check for reasoning errors, classify fallacies (e.g., ad hominem, strawman, false cause), explain why each is incorrect.
+
+A21c) Identify the moral situation, summarize the two ethical theories, apply each theory to the situation step by step, compare outcomes and reasoning, evaluate strengths and weaknesses.
+
+A22c) Identify total consumption, investment, government spending, exports, and imports, sum C + I + G + (X-M), use data to calculate GDP, analyze results for consistency.
+
+A23c) Obtain supply and demand curves, plot on the same graph, identify intersection point, read corresponding price (equilibrium price) and quantity, verify by checking market behavior.
+
+A24c) Define project scope, list costs and benefits, assign monetary values, calculate net benefit or ratio, consider non-monetary factors, make recommendation based on analysis.
+
+A25c) Understand the essay question, research and gather evidence, outline introduction, body, and conclusion, write coherent paragraphs with topic sentences and analysis, revise for clarity and coherence.
+
+A26c) Read the poem multiple times, annotate language, imagery, and structure, identify themes and literary devices, interpret meaning line by line, summarize overall significance.
+
+A27c) Read essay thoroughly, evaluate clarity, argument structure, evidence, and style, provide constructive feedback, suggest improvements, check for grammar and coherence.
+
+A28c) Identify the intended action, determine good and bad effects, assess moral permissibility, ensure bad effect is not means to good, confirm intention is good, check proportionality of effects.
+
+A29c) Read case study, identify relevant facts, analyze according to autonomy, beneficence, non-maleficence, and justice, weigh conflicts, make reasoned ethical evaluation.
+
+A30c) Identify decision context, gather relevant facts and stakeholders, list possible actions, apply ethical principles or framework, evaluate consequences, choose most ethically justifiable action.
