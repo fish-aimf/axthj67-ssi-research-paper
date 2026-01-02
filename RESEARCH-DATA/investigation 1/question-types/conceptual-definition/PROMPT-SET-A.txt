@@ -1,0 +1,39 @@
+Q1a) What is a prime number and how is it defined?  
+Q2a) Explain the concept of a function in mathematics.  
+Q3a) What is the meaning of the term "derivative" in calculus?  
+
+Q4a) Define Newton's first law of motion.  
+Q5a) What is meant by the term "electric current"?  
+Q6a) Explain the concept of gravitational potential energy.  
+
+Q7a) What is an acid according to the Brønsted-Lowry definition?  
+Q8a) Define the term "catalyst" in chemistry.  
+Q9a) What is the meaning of "oxidation" in a chemical reaction?  
+
+Q10a) Define the process of photosynthesis in plants.  
+Q11a) What is meant by the term "natural selection"?  
+Q12a) Explain the concept of DNA replication.  
+
+Q13a) What is a computer algorithm?  
+Q14a) Define the concept of object-oriented programming.  
+Q15a) Explain the meaning of a database in computer science.  
+
+Q16a) What is the definition of feudalism in history?  
+Q17a) Explain the concept of the Renaissance.  
+Q18a) Define the term "industrial revolution."  
+
+Q19a) What is utilitarianism in philosophy?  
+Q20a) Define the concept of epistemology.  
+Q21a) Explain the meaning of existentialism.  
+
+Q22a) What is meant by supply and demand in economics?  
+Q23a) Define the concept of inflation.  
+Q24a) Explain the term "opportunity cost."  
+
+Q25a) What is a metaphor in English language?  
+Q26a) Define the term "syntax" in grammar.  
+Q27a) Explain the concept of a narrative point of view.  
+
+Q28a) What is meant by informed consent in ethics?  
+Q29a) Define the principle of beneficence.  
+Q30a) Explain the concept of moral relativism.  
