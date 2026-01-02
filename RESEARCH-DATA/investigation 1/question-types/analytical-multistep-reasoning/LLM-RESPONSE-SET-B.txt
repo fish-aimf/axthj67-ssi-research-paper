@@ -1,0 +1,59 @@
+A1b) To locate the vertex of a quadratic profit graph, use the three given points to derive the quadratic equation in the form P(x) = ax^2 + bx + c. Solve for coefficients a, b, c using simultaneous equations. The vertex occurs at x = -b/(2a); if the vertex is above current production, increase production next quarter; if below, reduce it.
+
+A2b) Solve the three linear equations to define the feasible region in the production space. Identify corner points of the region and calculate profit at each. The production plan corresponding to the maximum profit within all constraints is optimal.
+
+A3b) Express the recursive sequence explicitly if possible or analyze via characteristic equation. Check eigenvalues for magnitude <1 to assess convergence. Evaluate long-term behavior: stable (convergent), oscillatory, or diverging based on these values.
+
+A4b) Apply energy conservation: initial potential energy minus work done by friction equals kinetic energy plus spring potential at maximum compression. Use Newton’s second law along the incline to find acceleration and stopping condition. Maximum compression occurs when velocity momentarily reaches zero.
+
+A5b) Gravitational potential energy is highest at apogee, kinetic energy lowest; reverse at perigee. Increasing speed at perigee raises orbit, decreasing at apogee lowers it. Analyze total energy conservation and angular momentum to assess orbital stability.
+
+A6b) Decompose total acceleration into tangential and centripetal components. Use vector addition to compute net acceleration. Compare with frictional force limits to assess tire grip; if net acceleration exceeds traction, skidding occurs.
+
+A7b) Identify the step with the highest activation energy as rate-limiting. Increasing temperature increases reaction rates exponentially (Arrhenius), while catalysts lower activation barriers. Evaluate how these changes shift overall kinetics and intermediate accumulation.
+
+A8b) Use the Henderson–Hasselbalch equation to calculate buffer pH after adding weak acid. Account for changes in concentrations and dilution. Evaluate equilibrium shifts using Ka to determine final hydrogen ion concentration and pH.
+
+A9b) Compare standard electrode potentials for competing oxidation/reduction reactions. Include complex formation stability (ligand constants). The reaction with higher potential and stable complex formation dominates at equilibrium.
+
+A10b) Calculate fitness variations across environments. Consider selection pressures, migration (gene flow), and mutation rates. Use population genetics models to predict if the trait will undergo stabilizing, directional, or disruptive selection.
+
+A11b) Identify points of inhibition and analyze feedback loops. Evaluate substrate levels and compensatory pathways. Determine net ATP output considering enzyme kinetics and regulatory effects.
+
+A12b) Model age-structured disease transmission using contact matrices and immunity. Incorporate incubation periods and recovery rates to predict epidemic peaks and spread dynamics.
+
+A13b) Analyze modified sorting algorithm by counting operations for best-, average-, and worst-case input distributions. Determine which data types (e.g., nearly sorted, random, reversed) benefit from pre-processing partition.
+
+A14b) Examine replication protocol under asynchronous conditions. Evaluate trade-offs between consistency, latency, and failure tolerance. Select conflict-resolution strategies minimizing data loss while maintaining availability.
+
+A15b) Compare recursive memoization versus iterative tabulation. Assess memory usage, recomputation overhead, and input size scaling. Choose the approach optimizing efficiency for given problem constraints.
+
+A16b) Evaluate how economic stress, foreign influence, and ideology interact to trigger revolution. Consider timing of events, population readiness, and intensity of pressures to predict revolutionary outcomes.
+
+A17b) Analyze treaty provisions considering national economic needs, security priorities, and diplomatic leverage. Examine how compromises and enforcement mechanisms shape post-war arrangements.
+
+A18b) Assess diffusion patterns of new technology. Analyze social networks, resource availability, and institutional support. Predict adoption rates and identify bottlenecks for implementation.
+
+A19b) Compare utilitarian outcomes versus rights-based constraints. Identify conflicts and reconcile through prioritization or compromise. Evaluate logical consistency of final moral judgment.
+
+A20b) Examine memory-based personal identity criteria versus bodily or psychological continuity. Analyze how different metaphysical perspectives assign responsibility after memory transfer scenarios.
+
+A21b) Evaluate historical examples of failed induction. Assess philosophical defenses such as probabilistic reasoning, counterfactual support, or refined inductive principles to address skepticism.
+
+A22b) Model fiscal effects of declining taxes and rising pensions. Analyze immediate spending cuts, tax reforms, or debt adjustments. Evaluate long-term sustainability against growth, inequality, and demographic trends.
+
+A23b) Examine policy options under high inflation and slowing productivity. Model interactions of monetary, fiscal, and labor interventions. Identify strategies that stabilize prices without exacerbating recessionary effects.
+
+A24b) Assess short-term labor impacts versus long-term industry structure after trade disruption. Analyze price changes, employment shifts, and potential for economic adjustment or structural transformation.
+
+A25b) Compare narrator accounts across chapters. Analyze reliability via perspective consistency, textual clues, and subtext. Determine the most credible narrative interpretation.
+
+A26b) Examine tonal shifts using figurative language, meter, and line structure. Analyze how metaphors and enjambment create irony and guide thematic understanding.
+
+A27b) Deconstruct dialogue for moral argumentation, coded messages, and hidden assumptions. Analyze symbolism and infer the author’s intended position on ethical issues.
+
+A28b) Apply ethical frameworks to ICU bed allocation: utilitarian (maximize lives saved), fairness (equal treatment), duty-based (professional obligations). Evaluate and justify choices under crisis conditions.
+
+A29b) Assess ethical implications of AI monitoring. Consider privacy, stakeholder interests, potential harms, and transparency. Recommend deployment strategies that balance efficiency with ethical obligations.
+
+A30b) Evaluate renewable energy project impacts on environment and livelihoods. Apply principles of environmental justice, cost-benefit analysis, and participatory decision-making to form recommendations.
