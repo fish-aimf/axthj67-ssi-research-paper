@@ -1,0 +1,59 @@
+A1c) Conduct a quasi-experimental study with two groups of high school students: one taught using Method A and the other using Method B. Independent variable: teaching method. Dependent variable: calculus test scores. Control variables: prior math ability, class size, instructor experience. Evaluation criteria: pre- and post-test score improvements, retention after 4 weeks. Random assignment or matched pairing ensures comparability.
+
+A2c) Use a plane mirror on a rotatable stand and a protractor to vary the angle of incidence. Equipment: laser pointer, mirror, protractor, ruler, white screen. Procedure: Shine laser at mirror at different angles (e.g., 10°, 20°, 30°), measure reflected angle. Independent variable: angle of incidence. Dependent variable: angle of reflection. Controls: mirror surface, room lighting. Analysis: Plot incidence vs. reflection angles; confirm the law of reflection.
+
+A3c) Prepare a reaction mixture and perform experiments at multiple temperatures (e.g., 20°C, 30°C, 40°C, 50°C). Control variables: reactant concentration, catalyst presence, volume. Measure reaction rate via product formation using spectroscopy or titration. Analysis: Plot reaction rate vs. temperature to determine the effect of temperature on kinetics.
+
+A4c) Randomly assign identical plants to different fertilizer treatments (Fertilizer A, B, C, Control). Control variables: light, water, soil type, pot size. Replicate each treatment 5–10 times. Data collection: Measure plant height, leaf count, biomass weekly. Analysis: Compare mean growth across treatments using ANOVA to determine significant differences.
+
+A5c) Randomly assign students to AI-tutored and control groups. Independent variable: tutoring method. Dependent variable: physics test scores. Controls: prior academic performance, study duration. Outcome measures: post-intervention test scores, improvement from baseline. Allocation: computer-generated randomization. Analysis: Use t-tests or ANCOVA to assess AI impact.
+
+A6c) Assign programming tasks to two groups using procedural and object-oriented paradigms. Independent variable: programming paradigm. Dependent variables: execution time, memory usage, code readability. Controls: task complexity, hardware, programmer experience. Measure performance metrics via benchmarking and code review. Analysis: Compare efficiency and maintainability using statistical tests.
+
+A7c) Divide classrooms into two lighting conditions (standard vs. enhanced). Independent variable: lighting level. Dependent variable: student concentration measured via attention tasks or error rates. Controls: class size, time of day, teaching method. Analysis: Compare average concentration scores between groups using t-tests.
+
+A8c) Randomly assign adults to exercise durations (e.g., 10, 20, 30 minutes). Independent variable: exercise duration. Dependent variable: memory retention via recall tests. Controls: age, baseline fitness, time of day. Analysis: Use ANOVA to assess differences in memory scores across durations.
+
+A9c) Test two battery types under identical device usage conditions. Independent variable: battery type. Dependent variables: device performance (power output), lifespan (charge cycles). Controls: device model, usage pattern, temperature. Analysis: Compare mean lifespan and performance trade-offs, using survival curves and performance graphs.
+
+A10c) Assign participants to high-speed and low-speed internet conditions during collaborative tasks. Independent variable: internet speed. Dependent variable: task accuracy and completion time. Controls: task complexity, team size, environment. Metrics: error rates, task completion time. Analysis: Compare group performance using t-tests.
+
+A11c) Randomly assign participants to presentation styles (visual-heavy, text-heavy, or mixed). Control variables: prior knowledge, age, presentation length. Outcome measures: comprehension scores on post-presentation tests. Sampling: stratified random sampling. Analysis: ANOVA to detect differences in comprehension.
+
+A12c) Assign students to lessons with or without teaching aids. Independent variable: presence/type of teaching aid. Dependent variable: assessment scores. Controls: instructor, lesson content, time of day. Design justification: isolates impact of aids. Analysis: Compare mean scores using t-tests or ANOVA.
+
+A13c) Simulate a market environment with participants exposed to different pricing models (fixed vs. dynamic). Independent variable: pricing model. Dependent variable: choice frequency or spending. Controls: product type, starting capital, information availability. Analysis: Compare consumer choices using chi-square tests.
+
+A14c) Randomly assign students to peer review or instructor feedback groups. Independent variable: feedback source. Dependent variable: writing quality improvement measured via rubric scores. Controls: baseline writing skill, assignment type, word count. Analysis: Compare pre- and post-intervention improvements using paired t-tests.
+
+A15c) Expose participants to different lighting conditions while typing standard text passages. Independent variable: lighting level. Dependent variables: typing speed, error rate. Controls: keyboard type, time of day, text content. Trade-offs: strict lighting control vs. naturalistic setting. Analysis: Compare speed and accuracy across conditions using ANOVA.
+
+A16c) Randomly assign adults to varying screen-time durations. Independent variable: screen-time length. Dependent variable: short-term cognitive performance via standardized tests. Controls: age, baseline cognition, task type. Ethics: informed consent, breaks, monitor eye strain. Analysis: Compare scores across groups using ANOVA.
+
+A17c) Assign students to different LMS platforms (e.g., LMS A vs. LMS B) for a course. Independent variable: LMS type. Dependent variable: engagement metrics (login frequency, assignment submission rates). Controls: course content, instructor. Design framework: randomized crossover or parallel-group. Analysis: Compare engagement statistics using t-tests.
+
+A18c) Assign participants to color-coded vs. standard math problems. Independent variable: color-coding. Dependent variable: problem-solving speed and accuracy. Controls: problem difficulty, participant math skill. Measurement: timed problem sets, error counts. Analysis: Compare mean completion times and accuracy using t-tests.
+
+A19c) Implement industrial methods A and B for carbon reduction under controlled pilot conditions. Independent variable: method type. Dependent variables: emission reduction efficiency, cost. Controls: facility size, input materials, operational conditions. Trade-offs: cost vs. reduction efficiency. Analysis: Compare performance metrics via paired experiments or ANOVA.
+
+A20c) Randomly assign students to collaborative or individual coding sessions. Independent variable: coding mode. Dependent variable: problem-solving success (completion time, correctness). Controls: problem complexity, prior coding experience. Design justification: isolates collaboration effect. Analysis: Compare outcomes using t-tests.
+
+A21c) Assign athletes to varying sleep durations (e.g., 5, 7, 9 hours). Independent variable: sleep duration. Dependent variable: reaction time via standardized tests. Controls: diet, training, caffeine intake. Ethics: ensure safety, monitor well-being. Analysis: ANOVA to determine effect of sleep on reaction time.
+
+A22c) Randomly assign students to digital or physical flashcard groups. Independent variable: flashcard format. Dependent variable: vocabulary retention via recall tests. Controls: study time, word difficulty, prior knowledge. Design rationale: isolates format effect. Analysis: Compare recall scores using t-tests.
+
+A23c) Plant seeds in identical soil conditions with different water pH levels. Independent variable: water pH. Dependent variable: germination rate. Controls: seed type, temperature, light. Replicate each condition 5–10 times. Data collection: daily germination counts. Analysis: Compare germination percentages using chi-square or ANOVA.
+
+A24c) Assign graded assignments to AI-assisted vs. traditional grading. Independent variable: grading method. Dependent variables: accuracy, time efficiency, student satisfaction. Controls: assignment type, rubric. Trade-offs: speed vs. qualitative feedback. Analysis: Compare grading consistency and efficiency using t-tests.
+
+A25c) Randomly assign participants to music types (classical, pop, no music) during problem-solving tasks. Independent variable: music type. Dependent variable: problem-solving accuracy and time. Controls: problem difficulty, environment. Measurement: timed task completion, error count. Analysis: ANOVA to assess effects.
+
+A26c) Assign participants to decision-making tasks framed with different ethical frameworks (utilitarian vs. deontological). Independent variable: ethical framework. Dependent variable: choices in moral dilemmas. Controls: scenario content, participant demographics. Analysis: Compare decision patterns using chi-square tests.
+
+A27c) Implement two sorting algorithms on large datasets of equal size and type. Independent variable: algorithm type. Dependent variables: execution time, memory usage. Controls: hardware, dataset properties. Evaluation criteria: speed vs. accuracy trade-off. Analysis: Benchmark and statistically compare metrics.
+
+A28c) Randomly assign students to low, medium, or high physical activity regimens. Independent variable: activity level. Dependent variable: biology retention via post-tests. Controls: instruction content, prior knowledge, study time. Design considerations: ensure safety, monitor adherence. Analysis: Compare retention scores using ANOVA.
+
+A29c) Assign students to interactive simulation or traditional lecture groups for chemical reactions. Independent variable: teaching method. Dependent variable: understanding assessed via quizzes and problem-solving. Controls: instructor, content, time. Analysis: Compare test performance using t-tests or ANOVA.
+
+A30c) Randomly assign students to different feedback frequency groups (daily, weekly, monthly). Independent variable: feedback frequency. Dependent variable: motivation (survey) and learning outcomes (assessment scores). Controls: course content, instructor. Design justification: isolates feedback effect. Analysis: Compare motivation and learning outcomes using ANOVA.
