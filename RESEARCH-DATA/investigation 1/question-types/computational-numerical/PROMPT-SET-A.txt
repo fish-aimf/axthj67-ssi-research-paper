@@ -1,0 +1,30 @@
+Q1a) Calculate the value of 7 factorial (7!).
+Q2a) Solve for x in the equation 3x - 5 = 16.
+Q3a) Find the square root of 625.
+Q4a) A car accelerates from 0 to 20 m/s in 5 seconds. Determine its acceleration.
+Q5a) A force of 10 N is applied to a 2 kg mass. Find the resulting acceleration.
+Q6a) Calculate the work done when a 50 N force moves an object 10 meters in the direction of the force.
+Q7a) Determine the molar mass of H2SO4.
+Q8a) Calculate the number of moles in 36 g of water (H2O).
+Q9a) A gas occupies 4 L at 2 atm. Find the new volume if the pressure drops to 1 atm at constant temperature.
+Q10a) A cell contains 46 chromosomes. How many chromosomes will each daughter cell have after mitosis?
+Q11a) If a bacterial population doubles every 3 hours, find the population after 12 hours starting from 100.
+Q12a) Calculate the BMI of a person weighing 70 kg and 1.75 m tall.
+Q13a) Write a program to compute the factorial of n = 6 and display the result.
+Q14a) A list is [2, 4, 6, 8]. Compute the sum using a Python function.
+Q15a) An array stores numbers 1 to 10. Calculate the average.
+Q16a) Find the number of years between 1492 and 2026.
+Q17a) If World War I lasted from 1914 to 1918, calculate its duration in days.
+Q18a) A population grows from 1 million to 2 million in 50 years. Calculate the average annual growth rate.
+Q19a) A philosopher lived from 1724 to 1804. Determine his age at death.
+Q20a) A student begins a 4-year course in 2020. Calculate the graduation year.
+Q21a) GDP rises from 500 billion to 550 billion. Calculate the percentage increase.
+Q22a) If a 10% price increase reduces demand by 5%, calculate the elasticity of demand.
+Q23a) A firm earns 200 profit on 1000 sales. Determine the profit margin percentage.
+Q24a) A text contains 1200 words. If you read at 200 words per minute, calculate the reading time.
+Q25a) A sentence has 12 words, each averaging 5 letters. Calculate the total letters.
+Q26a) Typing at 60 words per minute, calculate the time to type 1800 words.
+Q27a) A patient takes 500 mg of a drug every 8 hours for 3 days. Find the total dose.
+Q28a) If the probability of an event is 0.2, calculate the odds in favor.
+Q29a) A coin is flipped 10 times. Calculate the expected number of heads.
+Q30a) A sample of 25 people has a mean of 50 and SD of 8. Calculate the 95% confidence interval.
