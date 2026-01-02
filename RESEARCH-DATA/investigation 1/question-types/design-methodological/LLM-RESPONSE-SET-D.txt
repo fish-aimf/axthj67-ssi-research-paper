@@ -1,0 +1,59 @@
+A1d) Conduct a study with two high school calculus classes: one using traditional lecture-based teaching and the other using problem-based learning. Independent variable: teaching method. Dependent variable: student performance on standardized calculus tests. Controls: same curriculum content, teacher experience, class duration, and student demographics. Evaluation: pre- and post-test scores, improvement rates, and student engagement surveys.
+
+A2d) Set up a flat mirror on a protractor-marked board. Equipment: laser pointer, protractor, ruler, screen. Procedure: shine laser at mirror at various incidence angles (e.g., 10°–80°), measure reflected angle each time. Independent variable: incidence angle. Dependent variable: reflection angle. Controls: same mirror, laser intensity, measurement distance. Analysis: plot incidence vs. reflection angles to confirm the law of reflection.
+
+A3d) Select a chemical reaction (e.g., sodium thiosulfate with hydrochloric acid). Vary temperature (e.g., 20°C, 30°C, 40°C, 50°C). Measure reaction rate by time to precipitate formation or using spectrophotometry. Controls: same concentrations, volumes, and stirring rate. Replicate each condition thrice. Analysis: graph reaction rate vs. temperature and calculate activation energy.
+
+A4d) Use identical plants divided into groups, each receiving a different fertilizer type. Independent variable: fertilizer type. Dependent variable: plant growth (height, biomass). Controls: same plant species, soil type, water, light, and pot size. Replication: minimum 5 plants per group. Data collection: measure height weekly, weigh biomass at study end. Analysis: compare mean growth across fertilizers using ANOVA.
+
+A5d) Randomly assign high school physics students to either an AI-driven tutoring group or traditional instruction group. Independent variable: tutoring method. Dependent variable: physics test scores. Controls: same test, teacher oversight, and study duration. Randomization ensures unbiased allocation. Evaluation: pre- and post-test comparison, improvement magnitude, and user engagement metrics.
+
+A6d) Assign equivalent programming tasks to two groups: one using procedural programming, the other object-oriented. Metrics: execution time, memory usage, code readability (scored), and bug count. Controls: same problem set, development environment, and time allocation. Analysis: compare efficiency metrics and code quality scores across groups.
+
+A7d) Randomly assign classrooms to different lighting levels (e.g., low, medium, high). Independent variable: lighting intensity. Dependent variable: student concentration measured via attention tests or task completion rates. Controls: same class size, subject, time of day, and teacher. Replicate across multiple classrooms. Analysis: use ANOVA to compare concentration scores across lighting levels.
+
+A8d) Recruit adult participants and randomly assign them to different exercise durations (e.g., 10, 20, 30 minutes). Independent variable: exercise duration. Dependent variable: memory retention assessed via recall or recognition tasks. Controls: same time of day, diet, and rest prior. Analysis: compare memory performance using repeated-measures ANOVA to account for individual baseline differences.
+
+A9d) Test two battery types under identical mobile device usage scenarios. Independent variable: battery type. Dependent variables: device runtime and number of charge cycles until capacity drops. Controls: same device model, usage pattern, temperature, and charging method. Analysis: evaluate efficiency (runtime per charge) and longevity (number of cycles) with trade-offs noted between performance and lifespan.
+
+A10d) Assign groups of participants to varying internet speeds (e.g., low, medium, high) while performing collaborative tasks. Independent variable: internet speed. Dependent variable: task accuracy and completion time. Controls: same tasks, group size, and collaboration platform. Analysis: compare error rates and completion times across speed conditions.
+
+A11d) Randomly assign participants to different presentation styles (e.g., lecture, video, interactive). Independent variable: presentation style. Dependent variable: historical comprehension measured via quiz scores. Controls: same content, test difficulty, and study duration. Sampling: stratified by age and prior knowledge. Analysis: compare mean comprehension scores across groups.
+
+A12d) Divide students into groups receiving different teaching aids (e.g., diagrams, analogies, interactive models). Independent variable: teaching aid. Dependent variable: philosophy learning outcomes measured via essays and quizzes. Controls: same lesson plan, instructor, and class duration. Analysis: use comparative statistics to assess performance differences.
+
+A13d) Simulate a market environment and present consumers with different pricing strategies (e.g., discount, bundle, premium). Independent variable: pricing strategy. Dependent variable: purchase decisions (frequency, amount). Controls: same product quality, brand, and marketing context. Analysis: statistical comparison of purchase patterns under different pricing.
+
+A14d) Assign students to either peer review or instructor feedback on writing assignments. Independent variable: feedback type. Dependent variable: improvement in writing quality scored via rubric. Controls: same writing prompts, deadlines, and rubric. Analysis: compare pre- and post-feedback scores to assess effectiveness.
+
+A15d) Randomly assign participants to workspaces with different lighting conditions (e.g., fluorescent, natural, dim). Independent variable: lighting type. Dependent variables: typing speed and accuracy. Controls: same keyboard, text to type, and time of day. Analysis: evaluate trade-offs between realistic workspace setup and experimental control.
+
+A16d) Recruit participants and assign to screen time durations (e.g., 0, 1, 2 hours) before performing cognitive tasks. Independent variable: screen time. Dependent variable: short-term cognition measured via memory and attention tests. Controls: age, sleep, and prior cognitive baseline. Ethics: informed consent, limit exposure to prevent harm. Analysis: compare cognitive scores across screen time levels.
+
+A17d) Randomly assign students to different learning management systems (e.g., LMS A vs. LMS B). Independent variable: LMS platform. Dependent variable: engagement metrics such as login frequency, task completion, and forum participation. Controls: same course content, instructor, and duration. Analysis: compare engagement metrics across systems.
+
+A18d) Assign students to math problems with or without color-coded elements. Independent variable: presence of color-coding. Dependent variable: problem-solving efficiency (time to solve, accuracy). Controls: same problem difficulty, instructions, and environment. Analysis: compare performance metrics between groups.
+
+A19d) Implement two carbon reduction methods in separate industrial units. Independent variable: carbon reduction strategy. Dependent variables: CO₂ output, cost per unit reduction. Controls: same production volume, raw materials, and monitoring equipment. Analysis: compare reduction efficiency and cost-effectiveness, noting trade-offs.
+
+A20d) Assign CS students to either collaborative or individual coding tasks. Independent variable: coding approach. Dependent variable: problem-solving success measured by correctness, time, and code quality. Controls: same problem complexity, environment, and tools. Analysis: compare performance metrics across groups.
+
+A21d) Randomly assign athletes to varying sleep durations (e.g., 5, 7, 9 hours) before reaction time tests. Independent variable: sleep duration. Dependent variable: reaction times measured via standardized tests. Controls: same diet, exercise, and testing conditions. Ethics: ensure participant safety and consent. Analysis: compare reaction times across sleep conditions.
+
+A22d) Randomly assign participants to digital or physical flashcard study groups. Independent variable: flashcard format. Dependent variable: vocabulary retention measured via recall tests. Controls: same words, study time, and testing environment. Analysis: compare retention scores between groups.
+
+A23d) Grow seeds in water of varying pH levels (e.g., acidic, neutral, basic). Independent variable: water pH. Dependent variable: germination rate and seedling growth. Controls: same seed type, temperature, light, and container. Replication: multiple seeds per pH level. Analysis: compare germination percentages and growth metrics.
+
+A24d) Assign grading tasks to either AI-assisted or traditional grading methods. Independent variable: grading method. Dependent variables: grading accuracy, speed, and consistency. Controls: same assignments, rubric, and evaluator experience. Analysis: compare grading metrics and note trade-offs in reliability and efficiency.
+
+A25d) Assign participants to work on problem-solving tasks with different music genres playing (e.g., classical, rock, silence). Independent variable: music genre. Dependent variables: task completion time and accuracy. Controls: same task difficulty, environment, and participant baseline ability. Analysis: compare performance across music conditions.
+
+A26d) Present participants with simulated ethical dilemmas and assign decision-making frameworks (e.g., utilitarian, deontological). Independent variable: ethical framework. Dependent variable: decisions made scored for alignment with framework. Controls: same scenarios and instructions. Analysis: compare decision patterns between frameworks.
+
+A27d) Assign datasets to be sorted by two algorithms (e.g., QuickSort vs. MergeSort). Independent variable: algorithm. Dependent variables: runtime, memory usage, and correctness. Controls: same datasets, hardware, and programming language. Analysis: compare performance metrics considering speed and accuracy trade-offs.
+
+A28d) Assign students to different physical activity levels before biology learning sessions. Independent variable: activity level. Dependent variable: learning retention assessed via tests. Controls: same teaching material, duration, and environment. Analysis: compare retention scores across activity levels.
+
+A29d) Randomly assign students to interactive simulation or traditional instruction for chemical reactions. Independent variable: instructional method. Dependent variables: understanding measured via quizzes and practical tasks. Controls: same content and time. Analysis: compare performance to assess simulation effectiveness.
+
+A30d) Assign students to high-frequency or low-frequency feedback in an online ethics course. Independent variable: feedback frequency. Dependent variables: motivation measured via surveys and learning outcomes via assessments. Controls: same content, instructor, and course duration. Analysis: compare motivation and performance metrics between groups.
