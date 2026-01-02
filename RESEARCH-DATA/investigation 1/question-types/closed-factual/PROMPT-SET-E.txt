@@ -1,0 +1,30 @@
+Q1e) What number is produced when you evaluate seven factorial (7!)?
+Q2e) What value represents the square root of 144?
+Q3e) Solve the equation 2x + 3 = 7 for x.
+Q4e) What is the recognised value of Earth’s gravitational acceleration in m/s²?
+Q5e) Which subatomic particle is negatively charged?
+Q6e) What SI unit denotes electrical resistance?
+Q7e) What is the formula for the compound sodium chloride?
+Q8e) What pH indicates a neutral solution at 25°C?
+Q9e) What atomic number corresponds to oxygen?
+Q10e) What molecule carries hereditary genetic information in most organisms?
+Q11e) What is the primary functional unit within the kidney called?
+Q12e) Which organelle is the main location of cellular respiration in eukaryotic cells?
+Q13e) In computing, CPU is an abbreviation for what term?
+Q14e) What is the Boolean result when evaluating 1 AND 0?
+Q15e) What is the big-O time complexity of binary search on a sorted array?
+Q16e) The Second World War ended in which year?
+Q17e) Who was the first President to lead the United States?
+Q18e) The Berlin Wall fell in which year?
+Q19e) Who authored the philosophical dialogue “The Republic”?
+Q20e) Who wrote the philosophical text “Meditations on First Philosophy”?
+Q21e) What is the name for the branch of philosophy concerned with knowledge?
+Q22e) What term is used for a continuous rise in overall price levels?
+Q23e) GDP stands for what in economics?
+Q24e) What is the term for a market structure with one seller and no close substitutes?
+Q25e) What is a term for a word whose meaning is the opposite of another word?
+Q26e) What is the past tense form of “to go”?
+Q27e) What punctuation symbol is used to mark possession in English nouns?
+Q28e) What ethical theory bases evaluation of actions on their outcomes?
+Q29e) What medical ethics doctrine is summarized as “do no harm”?
+Q30e) Who penned “Groundwork of the Metaphysics of Morals”?
