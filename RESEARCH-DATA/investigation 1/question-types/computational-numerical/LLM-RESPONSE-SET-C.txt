@@ -1,30 +1,30 @@
-Q1c) Find 7 factorial (7!).
-Q2c) Solve 3x - 5 = 16 for x.
-Q3c) Compute the square root of 625.
-Q4c) A car accelerates from rest to 20 m/s in 5 seconds. Calculate acceleration.
-Q5c) A 2 kg object has a 10 N force applied. Determine its acceleration.
-Q6c) Work done by a 50 N force moving an object 10 meters along the force’s line. Calculate it.
-Q7c) Find the molar mass of H2SO4.
-Q8c) Compute the moles in 36 g of water.
-Q9c) A gas occupies 4 L at 2 atm. Find the volume at 1 atm, constant temperature.
-Q10c) A cell has 46 chromosomes. How many chromosomes per daughter cell after mitosis?
-Q11c) If bacteria double every 3 hours, compute the population after 12 hours from 100.
-Q12c) Calculate BMI of a 70 kg, 1.75 m tall person.
-Q13c) Write code to calculate the factorial of n = 6 and display the result.
-Q14c) Calculate the sum of the list [2, 4, 6, 8] in Python.
-Q15c) Compute the average of numbers 1 to 10 in an array.
-Q16c) How many years pass between 1492 and 2026?
-Q17c) Calculate the number of days World War I lasted (1914–1918).
-Q18c) Population grows from 1 million to 2 million over 50 years. Compute annual growth rate.
-Q19c) Philosopher lived 1724–1804. Calculate age at death.
-Q20c) Student starts a 4-year course in 2020. Find graduation year.
-Q21c) GDP rises from 500B to 550B. Determine percentage increase.
-Q22c) Price up 10% reduces demand 5%. Calculate elasticity.
-Q23c) Firm earns 200 on 1000 in sales. Compute profit margin percentage.
-Q24c) Reading 1200 words at 200 wpm. Calculate time required.
-Q25c) Sentence has 12 words averaging 5 letters each. Compute total letters.
-Q26c) Typing at 60 wpm, find time to type 1800 words.
-Q27c) Patient takes 500 mg every 8 hours for 3 days. Find total dose.
-Q28c) Probability 0.2. Compute odds in favor.
-Q29c) Flip coin 10 times. Find expected number of heads.
-Q30c) Sample size 25, mean 50, SD 8. Compute 95% confidence interval.
+A1c) 5040
+A2c) x = 7
+A3c) 25
+A4c) 4 m/s²
+A5c) 5 m/s²
+A6c) 500 J
+A7c) 98.08 g/mol
+A8c) 2 moles
+A9c) 8 L
+A10c) 46
+A11c) 1600
+A12c) 22.86
+A13c) import math; print(math.factorial(6))
+A14c) 20
+A15c) 5.5
+A16c) 534
+A17c) 1461
+A18c) 1.4% per year
+A19c) 80
+A20c) 2024
+A21c) 10%
+A22c) 0.5
+A23c) 20%
+A24c) 6 minutes
+A25c) 60
+A26c) 30 minutes
+A27c) 4500 mg
+A28c) 1:4
+A29c) 5
+A30c) 50 ± 3.136
