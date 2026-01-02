@@ -1,0 +1,39 @@
+Q1c) Consider a quadratic function graph and interpret how the vertex and symmetry axis indicate its peak or trough.  
+Q2c) In a projectile motion example, interpret how modifying initial velocity and angle influences maximum height and range.  
+Q3c) Review a numerical sequence and interpret the underlying rule that generates its pattern.  
+
+Q4c) Observe a simple harmonic oscillator diagram and interpret how amplitude or frequency variations affect energy levels.  
+Q5c) Given an inclined plane setup, interpret how changing the slope alters object acceleration.  
+Q6c) Interpret a velocity versus time diagram to explain the meaning of the areas under the curve.  
+
+Q7c) Examine a molecule’s geometry and interpret how it affects chemical reactivity.  
+Q8c) Given a reaction pathway diagram, interpret the significance of intermediates and transition states.  
+Q9c) Look at a periodic table excerpt and interpret trends in atomic size, ionization energy, and electronegativity.  
+
+Q10c) Examine a cell photograph and interpret the functions of the visible organelles.  
+Q11c) Given a food web, interpret how the removal of a species impacts the ecosystem.  
+Q12c) Analyze gene expression data and interpret how environmental factors affect protein production.  
+
+Q13c) Review a code screenshot and interpret its logical sequence and expected output.  
+Q14c) Given a data structure diagram, interpret traversal methods and possible applications.  
+Q15c) Examine a flowchart and interpret how changes in input may affect algorithm execution and results.  
+
+Q16c) Interpret a political cartoon from history and explain its commentary on the social or political issues of the time.  
+Q17c) Review a historical letter and interpret the writer’s perspective and purpose.  
+Q18c) Examine a timeline and interpret the causal links between key events.  
+
+Q19c) Given a philosophy passage, interpret the main arguments and their implications for ethics.  
+Q20c) Consider a thought experiment and interpret its role in demonstrating a philosophical principle.  
+Q21c) Review a diagram of ethical frameworks and interpret how they address identical moral dilemmas differently.  
+
+Q22c) Examine economic charts and interpret trends relating to supply, demand, and market behavior.  
+Q23c) Given a financial crisis case, interpret the main causes and economic consequences.  
+Q24c) Analyze an infographic comparing economic measures across countries and interpret the disparities.  
+
+Q25c) Given a poem, interpret the central message and how literary devices support it.  
+Q26c) Examine a novel excerpt and interpret how a character’s inner conflict develops.  
+Q27c) Analyze a metaphor and interpret its significance within the context of the work.  
+
+Q28c) Given a medical ethics case, interpret conflicting moral principles and suggest possible resolutions.  
+Q29c) Review a public health policy document and interpret its ethical implications for different communities.  
+Q30c) Analyze a research misconduct incident and interpret the ethical lessons it illustrates for science.  
