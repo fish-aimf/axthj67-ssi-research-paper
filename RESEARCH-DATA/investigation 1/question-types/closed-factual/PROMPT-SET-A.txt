@@ -1,0 +1,39 @@
+Q1) What is the value of 7 factorial (7!)?
+Q2) What is the square root of 144?
+Q3) What is the value of x in the equation 2x + 3 = 7?
+
+Q4) What is the standard acceleration due to gravity on Earth in metres per second squared?
+Q5) What subatomic particle carries a negative electric charge?
+Q6) What is the SI unit of electrical resistance?
+
+Q7) What is the chemical formula of sodium chloride?
+Q8) What is the pH value of a neutral aqueous solution at 25°C?
+Q9) What is the atomic number of oxygen?
+
+Q10) What molecule carries genetic information in most organisms?
+Q11) What is the basic functional unit of the kidney called?
+Q12) What organelle is the primary site of cellular respiration in eukaryotic cells?
+
+Q13) What does the abbreviation CPU stand for in computing?
+Q14) What is the output of the Boolean expression 1 AND 0?
+Q15) What is the time complexity of binary search in a sorted array?
+
+Q16) In which year did World War II end?
+Q17) Who was the first President of the United States?
+Q18) In which year did the Berlin Wall fall?
+
+Q19) Who wrote the philosophical work “The Republic”?
+Q20) Who is the author of “Meditations on First Philosophy”?
+Q21) What is the philosophical term for the study of knowledge?
+
+Q22) What is the term for a sustained increase in the general price level of goods and services?
+Q23) What does the acronym GDP stand for?
+Q24) What market structure consists of a single seller with no close substitutes?
+
+Q25) What is the term for a word that has the opposite meaning of another word?
+Q26) What is the past tense of the verb “go”?
+Q27) What punctuation mark is used to indicate possession in English nouns?
+
+Q28) What is the ethical theory that judges actions by their consequences called?
+Q29) What is the medical ethics principle meaning “do no harm” called?
+Q30) Who wrote “Groundwork of the Metaphysics of Morals”?
