@@ -1,0 +1,59 @@
+A1a) Arrange the system of equations in augmented matrix form. Use row operations to create zeros below the pivot in the first column. Move to the next column and repeat until the matrix is in upper triangular form. Perform back-substitution to solve for the variables.  
+
+A2a) Start with the definition of the derivative: f'(x) = lim(h→0) [(f(x+h) - f(x))/h]. Substitute the function into the formula. Simplify the numerator. Divide by h. Take the limit as h approaches zero to find the derivative.  
+
+A3a) Identify the function f(x) and the interval [a, b]. Set up the definite integral ∫ from a to b of f(x) dx. Find the antiderivative F(x) of f(x). Evaluate F(b) - F(a) to obtain the area under the curve.  
+
+A4a) Measure the net force F acting on the object. Measure the mass m of the object. Use Newton’s second law: a = F/m. Calculate the acceleration from the measured values. Repeat for multiple trials to ensure accuracy.  
+
+A5a) Place the block on the inclined plane. Measure the angle of inclination θ. Gradually increase the incline until the block begins to slide. Record the angle θ at motion onset. Calculate the coefficient of friction μ = tan(θ).  
+
+A6a) Connect a resistor in a circuit with a variable voltage source and an ammeter. Vary the voltage and record the current I for each setting. Plot V against I. Verify Ohm’s law by checking if the graph is linear and V/I is constant.  
+
+A7a) Prepare the acid solution in a flask. Fill a burette with a standard base solution. Record the initial burette reading. Add the base to the acid gradually while swirling until the endpoint is reached. Record the final burette reading. Calculate the acid concentration using the titration formula.  
+
+A8a) Calculate the required amount of solute for the desired molarity. Weigh the solute accurately. Dissolve the solute in a portion of solvent. Transfer the solution to a volumetric flask. Add solvent up to the calibration mark and mix thoroughly.  
+
+A9a) Set up the distillation apparatus with a flask, condenser, and receiver. Pour the liquid mixture into the distillation flask. Heat the mixture slowly. Collect the distilled component as it condenses in the receiver. Continue until separation is complete.  
+
+A10a) Prepare thin slices of plant tissue. Place the tissue on a microscope slide. Add a drop of solution (e.g., sugar solution) to observe osmosis. Cover with a coverslip. Observe the cells under the microscope and record changes in cell size or turgor.  
+
+A11a) Prepare a bacterial smear on a slide and heat-fix it. Flood the smear with crystal violet and wait. Rinse and add iodine solution as a mordant. Decolorize with alcohol or acetone. Counterstain with safranin. Rinse, dry, and observe under a microscope.  
+
+A12a) Mash the fruit sample to release cells. Add a detergent or buffer to break cell membranes. Filter the mixture to remove solids. Add alcohol to precipitate DNA. Spool or collect the DNA for observation.  
+
+A13a) Define the problem and plan the program logic. Write code to take input from the user. Process the input according to the desired algorithm. Output the results. Test and debug the program.  
+
+A14a) Compare each pair of adjacent elements in the list. Swap them if they are in the wrong order. Repeat for all elements, completing one full pass. Repeat passes until no swaps are needed, indicating the list is sorted.  
+
+A15a) Define the database schema with tables and fields. Create the database using a DBMS. Create tables according to the schema. Insert initial data using SQL commands or forms. Test queries to ensure correctness.  
+
+A16a) Define the research topic. Identify relevant archives and repositories. Search for primary sources using catalogs or finding aids. Examine and record the sources. Analyze the content and context of the documents.  
+
+A17a) Read the historical document carefully. Identify the author, date, and purpose. Check for internal consistency and factual accuracy. Compare with other sources. Evaluate potential biases and reliability.  
+
+A18a) Collect information from multiple sources. Note the dates and key events. Arrange events chronologically. Verify the accuracy of dates and details. Present the timeline in a clear format.  
+
+A19a) Identify the question or problem. Ask a series of probing questions. Examine assumptions and evidence. Consider counterexamples. Draw reasoned conclusions.  
+
+A20a) Read the text carefully. Identify arguments and claims. Check for errors in reasoning or unsupported conclusions. Classify the logical fallacies. Document and explain each fallacy found.  
+
+A21a) Identify the moral dilemma. Describe the first ethical theory and apply it to the dilemma. Describe the second ethical theory and apply it. Compare outcomes and reasoning. Evaluate which theory provides a more compelling solution.  
+
+A22a) Collect data on consumption, investment, government spending, and net exports. Sum all expenditures: GDP = C + I + G + (X-M). Check for accuracy and consistency in data.  
+
+A23a) Draw the supply and demand curves. Identify equilibrium where supply equals demand. Solve algebraically if equations are given. Analyze how shifts in curves affect equilibrium price and quantity.  
+
+A24a) Identify all costs and benefits of the project. Quantify each item in monetary terms. Sum total costs and total benefits. Compare totals to evaluate if benefits outweigh costs. Make a recommendation.  
+
+A25a) Choose a topic and formulate a thesis statement. Conduct research and gather evidence. Organize ideas into an outline. Write an introduction, body paragraphs with analysis, and a conclusion. Revise and proofread the essay.  
+
+A26a) Read the poem carefully multiple times. Identify literary devices, themes, and structure. Annotate important lines and words. Analyze meanings and interpretations. Summarize findings and draw conclusions.  
+
+A27a) Read the essay thoroughly. Evaluate clarity, argument structure, evidence, and style. Identify strengths and weaknesses. Provide constructive feedback with examples. Suggest improvements and summarize recommendations.  
+
+A28a) Identify the intended action and its consequences. Determine if the action is morally good or neutral. Assess whether the bad effect is intended or merely foreseen. Evaluate proportionality between good and bad effects. Decide if the action meets the double effect criteria.  
+
+A29a) Read the case study carefully. Identify the ethical issues. Apply the four principles: autonomy, beneficence, non-maleficence, and justice. Analyze each principle in context. Make a reasoned ethical judgment based on the principles.  
+
+A30a) Identify the ethical problem in the business scenario. List possible actions. Evaluate each action using ethical criteria. Apply a decision-making framework to weigh consequences, rights, and duties. Select the most ethically justified course of action.
