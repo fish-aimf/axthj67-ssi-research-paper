@@ -79,11 +79,12 @@ After getting the questions, open a new instance of the LLM and paste in a singl
 Question set over here 
 
 Reply to these questions in this exact format without additional words
-A1a)
-A2a)
-A3a)
-A4a)
-Changing only the letter in front from Q for question to A for answer
+A1x)
+A2x)
+A3x)
+A4x)
+Changing only the letter in front from Q for question to A for answer where x depends on the question number
+Give your answer in a text box for easy copying and pasting ``
 
 ```
 
