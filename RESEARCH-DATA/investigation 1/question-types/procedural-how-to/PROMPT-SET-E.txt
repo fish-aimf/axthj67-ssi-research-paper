@@ -1,0 +1,30 @@
+Q1e) Explain the sequential steps to solve a system of linear equations with Gaussian elimination.  
+Q2e) Outline how to compute a derivative of a function using first principles.  
+Q3e) Describe the step-by-step process to calculate the area under a curve using definite integration.  
+Q4e) List the steps to determine an object's acceleration experimentally using Newton’s second law.  
+Q5e) Describe the procedure to measure the coefficient of friction with a block on an inclined plane.  
+Q6e) Explain the stepwise method to test Ohm’s law in the laboratory.  
+Q7e) Outline the steps to perform a titration to determine an acid solution’s concentration.  
+Q8e) Describe the procedure for preparing a standard solution in a lab setting.  
+Q9e) Explain how to perform simple distillation to separate a liquid mixture step by step.  
+Q10e) List the steps to observe osmosis in plant cells under a microscope.  
+Q11e) Describe step-by-step how to carry out a Gram stain on bacterial samples.  
+Q12e) Outline the procedure to extract DNA from fruit in a laboratory.  
+Q13e) Explain the steps to create a Python program that reads, processes, and outputs data.  
+Q14e) List the steps to sort an array using bubble sort.  
+Q15e) Describe the procedure for creating a relational database and entering initial records.  
+Q16e) Outline the stepwise method to conduct archival research to obtain primary historical sources.  
+Q17e) Explain the steps for analyzing a historical document for bias and credibility.  
+Q18e) Describe how to construct a historical timeline from multiple sources step by step.  
+Q19e) List the procedure to develop a logical argument using Socratic questioning.  
+Q20e) Explain the steps to identify fallacies in a philosophical text.  
+Q21e) Outline the step-by-step method to compare two ethical theories in a moral scenario.  
+Q22e) Describe the steps to calculate GDP using the expenditure method.  
+Q23e) List the procedure to find equilibrium price using supply and demand curves.  
+Q24e) Explain step-by-step how to conduct a cost-benefit analysis for a small project.  
+Q25e) Outline the procedure for writing a coherent analytical essay in English.  
+Q26e) Describe the steps to perform a close reading of a poem.  
+Q27e) Explain the procedure for conducting a peer review of an English essay.  
+Q28e) List the steps to apply the principle of double effect to an ethical case.  
+Q29e) Describe step-by-step how to evaluate a case study using the four bioethical principles.  
+Q30e) Outline the steps to develop an ethical decision-making framework for a business scenario.  
