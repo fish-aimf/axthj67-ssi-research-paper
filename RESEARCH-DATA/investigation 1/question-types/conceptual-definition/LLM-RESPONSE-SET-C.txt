@@ -1,39 +1,39 @@
-Q1c) Define a prime number.  
-Q2c) What does the term "function" mean in mathematics?  
-Q3c) Explain the term "derivative" in calculus.  
+A1c) A prime number is a natural number greater than 1 that has no positive divisors other than 1 and itself.  
+A2c) In mathematics, a function is a relation that assigns exactly one output to each input from a given set.  
+A3c) In calculus, a derivative represents the rate at which a function's value changes with respect to a change in its input.  
 
-Q4c) What is Newton's first law of motion?  
-Q5c) Define electric current.  
-Q6c) What is meant by gravitational potential energy?  
+A4c) Newton's first law of motion states that an object will remain at rest or in uniform motion unless acted upon by a net external force.  
+A5c) Electric current is the flow of electric charge, usually measured in amperes (A).  
+A6c) Gravitational potential energy is the energy possessed by an object due to its position in a gravitational field, usually relative to the Earth.  
 
-Q7c) According to Brønsted-Lowry, what is an acid?  
-Q8c) Explain the term "catalyst" in chemistry.  
-Q9c) What does "oxidation" mean in chemistry?  
+A7c) According to Brønsted-Lowry, an acid is a substance that can donate a proton (H⁺) to another substance.  
+A8c) A catalyst is a substance that increases the rate of a chemical reaction without being consumed in the process.  
+A9c) Oxidation is a chemical process in which a substance loses electrons, often involving the addition of oxygen or removal of hydrogen.  
 
-Q10c) What is photosynthesis in plants?  
-Q11c) Define natural selection.  
-Q12c) What does DNA replication mean?  
+A10c) Photosynthesis is the process by which green plants use sunlight to convert carbon dioxide and water into glucose and oxygen.  
+A11c) Natural selection is the process by which organisms better adapted to their environment tend to survive and produce more offspring.  
+A12c) DNA replication is the biological process of producing two identical copies of DNA from one original DNA molecule.  
 
-Q13c) What is meant by a computer algorithm?  
-Q14c) Define object-oriented programming.  
-Q15c) What does the term database mean in computer science?  
+A13c) A computer algorithm is a step-by-step procedure or set of rules for solving a problem or performing a task.  
+A14c) Object-oriented programming is a programming paradigm based on the concept of objects, which contain data and methods.  
+A15c) A database is an organized collection of structured information or data, typically stored and accessed electronically.  
 
-Q16c) What is feudalism in history?  
-Q17c) Define the Renaissance.  
-Q18c) What is meant by the industrial revolution?  
+A16c) Feudalism was a social, economic, and political system in medieval Europe where land was exchanged for military service and labor.  
+A17c) The Renaissance was a period of cultural, artistic, and intellectual revival in Europe, roughly from the 14th to 17th century.  
+A18c) The Industrial Revolution was the transition to new manufacturing processes in the 18th and 19th centuries, including mechanization and mass production.  
 
-Q19c) Define utilitarianism in philosophy.  
-Q20c) What is epistemology?  
-Q21c) Explain existentialism.  
+A19c) Utilitarianism is a philosophical theory that holds that the best action is the one that maximizes overall happiness or well-being.  
+A20c) Epistemology is the branch of philosophy concerned with the nature, sources, and limits of knowledge.  
+A21c) Existentialism is a philosophical movement emphasizing individual freedom, choice, and the search for meaning in an often meaningless world.  
 
-Q22c) Define supply and demand in economics.  
-Q23c) What does inflation mean?  
-Q24c) Explain opportunity cost.  
+A22c) Supply and demand is an economic model where the price and quantity of goods are determined by the availability of supply and the desire for them (demand).  
+A23c) Inflation is the rate at which the general level of prices for goods and services rises, reducing purchasing power.  
+A24c) Opportunity cost is the value of the next best alternative that must be forgone when a choice is made.  
 
-Q25c) What is the definition of a metaphor?  
-Q26c) Define syntax in grammar.  
-Q27c) Explain narrative point of view.  
+A25c) A metaphor is a figure of speech that describes an object or action by referring to something else, implying a symbolic similarity.  
+A26c) Syntax in grammar refers to the set of rules that govern the structure of sentences in a language.  
+A27c) Narrative point of view is the perspective from which a story is told, such as first person, second person, or third person.  
 
-Q28c) What is the definition of informed consent in ethics?  
-Q29c) Explain the principle of beneficence.  
-Q30c) What does moral relativism mean?  
+A28c) Informed consent is the process by which a person voluntarily agrees to a procedure or action after understanding its risks, benefits, and alternatives.  
+A29c) The principle of beneficence in ethics refers to the obligation to act in ways that promote the well-being of others.  
+A30c) Moral relativism is the view that moral judgments and ethical standards are not absolute but vary according to culture, context, or individual perspective.
