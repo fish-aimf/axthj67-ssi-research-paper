@@ -1,0 +1,30 @@
+A1) 5040
+A2) 12
+A3) 2
+A4) 9.8
+A5) Electron
+A6) Ohm
+A7) NaCl
+A8) 7
+A9) 8
+A10) DNA
+A11) Nephron
+A12) Mitochondrion
+A13) Central Processing Unit
+A14) 0
+A15) O(log n)
+A16) 1945
+A17) George Washington
+A18) 1989
+A19) Plato
+A20) René Descartes
+A21) Epistemology
+A22) Inflation
+A23) Gross Domestic Product
+A24) Monopoly
+A25) Antonym
+A26) Went
+A27) Apostrophe
+A28) Consequentialism
+A29) Non-maleficence
+A30) Immanuel Kant
