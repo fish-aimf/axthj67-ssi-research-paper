@@ -1,0 +1,39 @@
+Q1d) Look at the graph of a quadratic function and interpret how its vertex and axis of symmetry show maximum or minimum values.  
+Q2d) In a projectile scenario, interpret how changes to initial velocity and angle affect the object’s trajectory and height.  
+Q3d) Examine a number sequence and interpret the pattern that governs its progression.  
+
+Q4d) Review a simple harmonic oscillator diagram and interpret how variations in amplitude or frequency affect energy.  
+Q5d) Given an inclined plane experiment, interpret how adjusting the angle modifies the object’s acceleration.  
+Q6d) Interpret a velocity-time graph to understand the physical significance of areas under the curve.  
+
+Q7d) Analyze a molecular structure and interpret how its geometry affects reactivity.  
+Q8d) Given a reaction mechanism, interpret the roles of intermediates and transition states in the reaction.  
+Q9d) Examine a periodic table excerpt and interpret trends in size, ionization energy, and electronegativity.  
+
+Q10d) Observe a cell under a microscope and interpret the functions of the visible organelles.  
+Q11d) Given a food web, interpret the ecosystem impact of removing a species.  
+Q12d) Analyze a gene expression chart and interpret how environmental conditions influence protein production.  
+
+Q13d) Examine a code snippet and interpret its logic and expected outcome.  
+Q14d) Given a data structure diagram, interpret traversal methods and applications.  
+Q15d) Analyze a flowchart and interpret how varying inputs could affect algorithm results.  
+
+Q16d) Interpret a historical political cartoon and explain its social or political commentary.  
+Q17d) Examine a historical letter and interpret the author’s viewpoint and intention.  
+Q18d) Analyze a timeline and interpret causal relationships between events.  
+
+Q19d) Given a philosophical excerpt, interpret the main arguments and their ethical implications.  
+Q20d) Review a thought experiment and interpret its significance in illustrating a philosophical idea.  
+Q21d) Analyze a diagram of ethical theories and interpret how different approaches address the same moral problem.  
+
+Q22d) Examine economic data charts and interpret trends in supply, demand, or market behavior.  
+Q23d) Given a financial crisis case study, interpret the contributing factors and economic consequences.  
+Q24d) Analyze an infographic of economic indicators and interpret disparities in wealth or growth.  
+
+Q25d) Given a poem, interpret its main theme and how literary devices convey meaning.  
+Q26d) Examine a novel passage and interpret the development of a character’s internal conflict.  
+Q27d) Analyze a metaphor and interpret its broader meaning in the context of the text.  
+
+Q28d) Given a medical ethics case, interpret conflicting moral principles and propose resolutions.  
+Q29d) Examine a public health policy document and interpret its ethical implications for various groups.  
+Q30d) Analyze a research misconduct case and interpret lessons for ethical scientific practice.  
