@@ -1,0 +1,59 @@
+A1e) Write the system of equations in augmented matrix form → Use row operations to form an upper triangular matrix (forward elimination) → Solve for variables starting from the last row upwards (back-substitution).
+
+A2e) Start with the definition: f'(x) = lim(h→0) [f(x+h) - f(x)] / h → Substitute the function into the formula → Simplify the difference quotient → Take the limit as h approaches 0 → Express the result as the derivative.
+
+A3e) Identify the function f(x) and the interval [a, b] → Find the indefinite integral F(x) of f(x) → Apply the Fundamental Theorem of Calculus: ∫_a^b f(x) dx = F(b) - F(a) → Calculate F(b) - F(a) → Interpret the result as the area under the curve.
+
+A4e) Set up the experiment with a known force and measure the mass of the object → Apply Newton’s second law: F = ma → Measure the force and acceleration → Calculate acceleration: a = F / m → Record and analyze results.
+
+A5e) Place the block on the inclined plane → Gradually increase the angle until the block starts sliding → Measure the angle θ → Calculate coefficient of friction: μ = tan(θ) → Repeat to verify accuracy.
+
+A6e) Connect the circuit with a known resistor and voltage source → Measure current for different voltages → Record voltage (V) and current (I) readings → Plot V against I → Verify Ohm’s law by checking linearity (V = IR).
+
+A7e) Prepare the burette with standard solution → Pipette a measured volume of acid into a conical flask → Add indicator → Slowly titrate the acid with the base until the endpoint (color change) → Record the volume used → Calculate concentration using titration formula.
+
+A8e) Weigh the exact mass of solute → Dissolve solute in a small amount of solvent → Transfer solution to a volumetric flask → Add solvent up to the calibration mark → Mix thoroughly → Label the standard solution.
+
+A9e) Pour the liquid mixture into a distillation flask → Heat the mixture gradually → Vapor rises and passes into the condenser → Condense vapor into a separate container → Collect distillate → Stop heating when separation is complete.
+
+A10e) Cut thin slices of plant tissue → Mount on a microscope slide → Add appropriate solution (e.g., water or sugar solution) → Place coverslip → Observe under microscope → Note changes in cell shape and movement of water.
+
+A11e) Prepare a bacterial smear on a slide → Air-dry and heat-fix → Stain with crystal violet → Rinse and apply iodine → Decolorize with alcohol → Counterstain with safranin → Rinse, dry, and observe under microscope.
+
+A12e) Mash the fruit to release cells → Add extraction buffer → Filter the mixture to remove solids → Add alcohol to precipitate DNA → Observe DNA strands → Collect and store DNA for analysis.
+
+A13e) Define the problem and data requirements → Write code to read input data → Process or manipulate data as required → Perform calculations or analysis → Output results to console or file → Test and debug the program.
+
+A14e) Compare adjacent elements in the array → Swap if they are in the wrong order → Repeat for all elements in the array → After each pass, the largest unsorted element moves to correct position → Repeat passes until no swaps occur → Array is sorted.
+
+A15e) Define database schema (tables, fields, relationships) → Use database software to create tables → Specify primary keys and constraints → Enter initial records manually or via import → Save and verify the database structure.
+
+A16e) Define research question → Identify archives and sources → Locate primary documents → Obtain permission or access → Examine and record relevant information → Organize and catalog findings.
+
+A17e) Read the historical document carefully → Identify the author, context, and purpose → Analyze language and content for bias → Cross-check facts with other sources → Evaluate credibility and reliability.
+
+A18e) Collect events and dates from multiple sources → Verify chronological accuracy → Decide on scale and intervals → Arrange events sequentially → Draw timeline visually → Annotate with brief descriptions or images.
+
+A19e) Identify the topic or claim → Ask probing questions about assumptions, evidence, and implications → Clarify definitions and reasoning → Test conclusions through logical questioning → Refine argument iteratively.
+
+A20e) Read the text carefully → Identify claims and arguments → Look for errors in reasoning or unsupported statements → Classify fallacies (e.g., ad hominem, strawman) → Explain why each fallacy weakens the argument.
+
+A21e) Define the moral scenario → Describe both ethical theories clearly → Apply each theory to the scenario → Compare outcomes, principles, and reasoning → Evaluate which theory better resolves the moral dilemma.
+
+A22e) Identify consumption, investment, government spending, exports, and imports → Use formula GDP = C + I + G + (X - M) → Collect data for each component → Sum components → Interpret result as total GDP.
+
+A23e) Plot supply and demand curves → Identify equilibrium point where quantity supplied equals quantity demanded → Read off corresponding price and quantity → Verify graphically and numerically → Report equilibrium price.
+
+A24e) Define the project and objectives → List all costs and benefits → Quantify each cost and benefit → Discount future values if necessary → Sum total costs and benefits → Compare totals → Make a decision based on net benefit.
+
+A25e) Analyze essay prompt → Conduct research and gather evidence → Plan structure (introduction, body, conclusion) → Write draft with clear thesis and arguments → Revise for clarity, coherence, and grammar → Proofread and finalize.
+
+A26e) Read the poem carefully → Note literary devices, structure, and theme → Examine language, rhythm, and imagery → Interpret meaning line by line → Synthesize insights to understand overall message → Record analysis.
+
+A27e) Read the essay thoroughly → Evaluate clarity, coherence, and argument strength → Check for grammar and style → Provide constructive feedback → Suggest improvements → Summarize evaluation for the author.
+
+A28e) Identify the action and intended outcome → Determine if action has both good and bad effects → Ensure the good effect is intended, the bad effect is not directly intended → Assess proportionality → Decide if action is morally permissible.
+
+A29e) Identify ethical issues in the case → Apply autonomy: consider choice and consent → Apply beneficence: assess benefits → Apply non-maleficence: assess harm → Apply justice: consider fairness → Balance principles and draw conclusion.
+
+A30e) Identify ethical issues in business scenario → Gather relevant facts → List possible actions → Evaluate actions using ethical principles → Consider stakeholders and consequences → Make a reasoned decision → Document framework and reasoning.
