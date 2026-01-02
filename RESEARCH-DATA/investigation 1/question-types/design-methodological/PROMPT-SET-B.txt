@@ -1,0 +1,30 @@
+Q1b) Create a study to compare two different methods of teaching high school calculus. Specify variables, control measures, and evaluation criteria.  
+Q2b) Design an experiment to investigate how the angle of incidence influences light reflection from a mirror. Include necessary equipment, procedure, and analysis.  
+Q3b) Plan a lab experiment to determine chemical reaction rates at various temperatures. Justify chosen control variables and measurement techniques.  
+Q4b) Develop an experiment to study the effects of different fertilizers on plant growth. Detail design, replication, and data collection methods.  
+Q5b) Design a randomized trial evaluating the effectiveness of an AI tutoring system on students’ physics performance. Specify outcome measures and group allocation.  
+Q6b) Propose a method to test how procedural versus object-oriented programming paradigms influence code efficiency. Include metrics and controls.  
+Q7b) Design an experiment to examine how classroom lighting affects student concentration. Specify experimental groups, controls, and measurement methods.  
+Q8b) Propose a method to study the impact of exercise duration on adult memory retention. Include randomization, controls, and data analysis.  
+Q9b) Create a study comparing two types of batteries for efficiency and lifespan in mobile devices. Specify testing conditions and trade-offs.  
+Q10b) Design a controlled experiment to examine how different internet speeds affect collaborative work accuracy. Include rationale and evaluation metrics.  
+Q11b) Plan a survey-based experiment to study how presentation styles influence historical comprehension. Include sampling, controls, and analysis methods.  
+Q12b) Propose a methodology to assess how different teaching aids affect learning outcomes in philosophy. Include justification and assessment criteria.  
+Q13b) Design an experiment to test how varying pricing models influence consumer choice in a simulated market. Specify independent and dependent variables.  
+Q14b) Propose a study to compare peer review and instructor feedback in improving writing. Include controls and outcome measures.  
+Q15b) Design an experiment to test how lighting variations impact typing speed and accuracy in a workspace. Include trade-offs between control and realism.  
+Q16b) Propose a study to examine the effect of screen time on short-term cognitive performance. Include sampling, controls, and ethical considerations.  
+Q17b) Design an experiment to assess how different learning management systems affect engagement. Include evaluation framework and justification.  
+Q18b) Propose a study to evaluate color-coding effects on efficiency in solving math problems. Include experimental design, controls, and measurements.  
+Q19b) Design a trial comparing two industrial carbon reduction methods. Specify metrics, controls, and trade-offs.  
+Q20b) Propose a methodology to test whether collaborative coding versus individual coding improves problem-solving skills. Include design justification and outcomes.  
+Q21b) Design an experiment to study how sleep duration affects athletes’ reaction time. Include controls and ethical considerations.  
+Q22b) Propose a study comparing digital and physical flashcards for memorizing vocabulary. Include design, measurement methods, and controls.  
+Q23b) Design a controlled experiment to assess the effect of water pH on plant germination. Include replication, measurement, and control strategies.  
+Q24b) Propose a methodology to compare AI-assisted grading with traditional grading. Include trade-offs and outcome measures.  
+Q25b) Design an experiment to investigate how different music types affect concentration during complex tasks. Specify experimental design and measurement criteria.  
+Q26b) Propose a study to assess how ethical frameworks influence decision-making in moral dilemmas. Include design justification and controls.  
+Q27b) Design an experiment comparing two algorithms for sorting large datasets. Include evaluation criteria and speed-accuracy trade-offs.  
+Q28b) Propose a study to examine how varying physical activity levels impact learning retention in biology students. Include controls and experimental design.  
+Q29b) Design a methodology to test whether interactive simulations improve understanding of chemical reaction mechanisms. Include controls and metrics.  
+Q30b) Propose a study to compare how feedback frequency affects student motivation and learning in online ethics courses. Include design rationale.  
