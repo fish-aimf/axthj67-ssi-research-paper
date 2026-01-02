@@ -1,0 +1,59 @@
+A1e) To locate the vertex of the quadratic profit curve, fit a parabola using the three given revenue points to determine coefficients. The vertex represents maximum profit. Compare current revenue to the vertex: if below the vertex, increasing production may raise profit; if above, reducing production avoids losses.
+
+A2e) Solve the three linear equations simultaneously to find intersection points. Plot the feasible region considering inequalities from labor, material, and cost limits. Evaluate the objective (profit) at vertices of the feasible region to identify the optimal production plan.
+
+A3e) Express the recursive sequence explicitly if possible or analyze the characteristic equation. Determine stability by checking whether the absolute values of roots are ≤1. If convergent, capital stabilizes; if divergent, it grows without bound or oscillates.
+
+A4e) Apply conservation of energy accounting for friction: initial potential energy minus work done by friction equals spring potential energy at maximum compression. Use Newton’s second law along the incline to confirm acceleration. If kinetic energy fully converts into spring energy, the block stops; otherwise, it rebounds.
+
+A5e) Compute gravitational potential and kinetic energy at apogee and perigee. Total mechanical energy remains constant. Increasing speed at perigee raises orbit energy, possibly making it more elliptical or escape. Stability requires velocity adjustments maintaining orbit shape.
+
+A6e) Decompose acceleration into tangential (along path) and centripetal (toward center). Use Newton’s second law to find frictional/traction limits. If required centripetal force exceeds traction, skidding occurs; otherwise, the car safely follows the curve.
+
+A7e) Identify the rate-limiting step by comparing activation energies. Temperature increase exponentially accelerates steps with higher activation energy. Catalysts lower activation energy selectively, enhancing overall reaction rate, particularly at the slowest step.
+
+A8e) Use the Henderson–Hasselbalch equation: pH = pKa + log([A⁻]/[HA]). Calculate the buffer ratio after dilution. Weak acid addition shifts equilibrium slightly; buffer capacity resists large pH change. Determine final pH by applying the adjusted ratio.
+
+A9e) Compare standard electrode potentials and ligand formation constants. Oxidation occurs if E° is positive enough; complexation depends on ligand stability constants. Dominance is determined by which reaction has the stronger thermodynamic driving force under given conditions.
+
+A10e) Examine trait distribution across environments. Strong directional pressures shift traits, stabilizing pressures reduce variance, gene flow homogenizes populations, and mutations introduce novelty. Predict whether divergent, stabilizing, or directional selection dominates.
+
+A11e) Identify inhibited steps and examine substrate accumulation, feedback loops, and alternative pathways. Quantify effects on ATP yield: blocked enzymes reduce throughput, compensatory pathways may partially restore flux. Overall energy output depends on system redundancy.
+
+A12e) Model transmission across age-structured contacts. Consider probabilities of infection per contact, incubation periods, recovery, and immunity. These factors shape epidemic curves: peak height, duration, and age-specific attack rates.
+
+A13e) Analyze algorithm complexity: preprocessing may add O(n) cost. Best-case may improve if partitions reduce comparisons; average-case depends on distribution; worst-case may remain O(n²) unless partitions are balanced. The modification helps uneven or partially sorted data.
+
+A14e) Evaluate asynchronous replication: consistency may lag, latency increases, and node failures affect availability. Apply CAP principles to choose resolution: prioritize consistency or availability depending on reliability and application tolerance.
+
+A15e) Compare memoization and tabulation. Memoization reduces recomputation but may incur call stack overhead; tabulation uses iterative storage but can increase memory footprint. Optimal choice depends on problem size, recursion depth, and memory constraints.
+
+A16e) Analyze timing and nature of revolution via economic decline, external influence, and ideological readiness. Economic stress accelerates unrest; foreign influence can destabilize or support factions; ideological cohesion shapes revolutionary character.
+
+A17e) Examine negotiation factors: territorial claims, trade interests, security needs, and economic pressure. Analyze compromises, concessions, and strategic balancing to explain treaty outcomes and alignment shifts.
+
+A18e) Study social networks, resource availability, and institutional structures. Early adopters, peer influence, and infrastructure facilitate spread; resistance or inequality slows adoption. Adoption timing depends on these interacting factors.
+
+A19e) Compare utilitarian outcomes versus rights-based protections. Identify conflicts where maximizing utility violates rights, and assess logical consistency. Evaluate which framework better supports the moral argument in context.
+
+A20e) Examine metaphysical theories of personal identity: memory continuity, psychological connectedness, and bodily continuity. Determine how each interprets identity persistence and responsibility in the thought experiment scenario.
+
+A21e) Assess induction critiques by the skeptic. Review counterexamples and probability limitations. Consider philosophical responses: justification through uniformity of nature, probabilistic reasoning, or modified inductive rules.
+
+A22e) Short-term options: cut spending, increase taxes, borrow. Long-term: reform pensions, adjust tax base, encourage growth. Weigh trade-offs: fiscal sustainability vs. economic growth, intergenerational equity, and inequality impacts.
+
+A23e) Evaluate policy responses: monetary tightening to control inflation, fiscal stimulus or restraint, labor reforms to boost productivity. Balance stabilizing prices without deepening recession; timing and coordination are critical.
+
+A24e) Model immediate impact on employment and output: exports decline reduces demand, lowering domestic prices. Long-term: adjust production structure, retrain labor, and diversify markets to restore competitiveness.
+
+A25e) Analyze narratorial reliability: compare conflicting accounts, contextual cues, and character bias. Infer the most plausible events using subtext, cross-chapter evidence, and narrative consistency.
+
+A26e) Examine metaphors and enjambment shifts from admiration to irony. Track tone progression and language cues to connect stylistic choices to thematic development.
+
+A27e) Decode character dialogue for symbolic meaning, ethical positions, and implied judgments. Infer authorial stance by contextualizing moral debate within narrative structure and subtext.
+
+A28e) Apply utilitarian framework: maximize lives saved. Apply fairness: equal chance for all. Apply duty-based ethics: treat obligations to patients. Prioritize ICU allocation by weighing these principles against each other.
+
+A29e) Assess privacy implications, transparency, and consent. Weigh benefits of monitoring for productivity against trust erosion and legal risks. Recommend deployment strategies that respect ethical standards and stakeholder interests.
+
+A30e) Evaluate environmental benefits versus local livelihood impacts. Apply justice principles: fair compensation, equitable decision-making. Encourage participatory processes to balance sustainability with community rights.
