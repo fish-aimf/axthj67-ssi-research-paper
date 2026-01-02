@@ -1,0 +1,30 @@
+Q1b) Compute 7 factorial (7!).
+Q2b) Find x in 3x - 5 = 16.
+Q3b) Determine the square root of 625.
+Q4b) A car goes from 0 to 20 m/s in 5 seconds. Compute its acceleration.
+Q5b) A 2 kg mass is subjected to a 10 N force. Calculate its acceleration.
+Q6b) Find the work done when a 50 N force moves an object 10 meters along its direction.
+Q7b) Compute the molar mass of H2SO4.
+Q8b) Determine the moles present in 36 g of H2O.
+Q9b) A gas has a volume of 4 L at 2 atm. Calculate its volume if pressure drops to 1 atm, temperature constant.
+Q10b) A cell contains 46 chromosomes. Calculate how many chromosomes each daughter cell will have post-mitosis.
+Q11b) Starting with 100 bacteria, which double every 3 hours, calculate the population after 12 hours.
+Q12b) Calculate the BMI for a person weighing 70 kg and 1.75 m in height.
+Q13b) Write a program that calculates the factorial of n = 6 and outputs it.
+Q14b) Given the list [2, 4, 6, 8], compute its sum using Python.
+Q15b) Numbers 1 through 10 are in an array. Find their average.
+Q16b) Calculate the total years between 1492 and 2026.
+Q17b) Calculate the duration in days of World War I, from 1914 to 1918.
+Q18b) A population grows from 1,000,000 to 2,000,000 in 50 years. Compute the yearly growth rate.
+Q19b) Determine the age at death of a philosopher born in 1724 and died in 1804.
+Q20b) A student starts a 4-year program in 2020. Compute the year of graduation.
+Q21b) GDP rises from 500 billion to 550 billion. Determine the percent growth.
+Q22b) Price rises by 10%, demand drops 5%. Calculate demand elasticity.
+Q23b) Profit of 200 on sales of 1000. Compute the profit margin as a percentage.
+Q24b) Reading a 1200-word text at 200 words per minute, calculate the time needed.
+Q25b) A sentence has 12 words with 5 letters each. Find the total letters.
+Q26b) At 60 words per minute, calculate the time to type 1800 words.
+Q27b) A patient takes 500 mg of a drug every 8 hours for 3 days. Find the total dose.
+Q28b) Event probability is 0.2. Calculate the odds in favor.
+Q29b) Flip a coin 10 times. Determine the expected heads.
+Q30b) Sample of 25 with mean 50 and SD 8. Calculate 95% confidence interval.
