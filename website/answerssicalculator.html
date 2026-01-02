@@ -1,0 +1,770 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Answer SSI Calculator</title>
+    <style>
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+    max-width: 1600px;
+    margin: 0 auto;
+    padding: 30px 20px;
+    background-color: #ffffff;
+    color: #000000;
+    line-height: 1.6;
+}
+
+h1 {
+    color: #000000;
+    margin-bottom: 10px;
+    font-size: 32px;
+    font-weight: bold;
+    text-align: center;
+    border-bottom: 2px solid #000000;
+    padding-bottom: 15px;
+}
+
+.subtitle {
+    color: #000000;
+    margin-bottom: 25px;
+    font-size: 14px;
+    text-align: center;
+    font-style: italic;
+}
+
+.info-box {
+    background-color: #f9f9f9;
+    border: 1px solid #000000;
+    padding: 15px;
+    margin-bottom: 25px;
+}
+
+.info-box strong {
+    color: #000000;
+}
+
+.info-box ul {
+    margin: 10px 0 0 20px;
+    color: #000000;
+}
+
+.info-box li {
+    margin: 5px 0;
+}
+
+.sets-grid {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 15px;
+    margin-bottom: 30px;
+}
+
+.set-input-box {
+    background: #ffffff;
+    border: 2px solid #000000;
+    padding: 15px;
+}
+
+.set-label {
+    display: block;
+    font-weight: bold;
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: #000000;
+    text-align: center;
+}
+
+.set-input {
+    width: 100%;
+    min-height: 400px;
+    padding: 10px;
+    font-size: 12px;
+    font-family: 'Courier New', monospace;
+    border: 2px solid #000000;
+    resize: vertical;
+    background-color: #ffffff;
+    margin-bottom: 10px;
+}
+
+.set-input:focus {
+    outline: none;
+    border: 3px solid #000000;
+}
+
+.button-container {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 30px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+button {
+    padding: 12px 24px;
+    font-size: 14px;
+    cursor: pointer;
+    border: 1px solid #000000;
+    transition: all 0.2s;
+    font-weight: 500;
+    background-color: #ffffff;
+    color: #000000;
+}
+
+.btn-primary {
+    background-color: #ffffff;
+    color: #000000;
+    border: 1px solid #000000;
+}
+
+.btn-primary:hover {
+    background-color: #000000;
+    color: #ffffff;
+}
+
+.btn-success {
+    background-color: #000000;
+    color: #ffffff;
+    font-size: 16px;
+    padding: 14px 28px;
+    border: 1px solid #000000;
+}
+
+.btn-success:hover {
+    background-color: #333333;
+}
+
+.loading {
+    color: #000000;
+    font-style: italic;
+    padding: 20px;
+    text-align: center;
+    background: white;
+    border: 1px solid #000000;
+}
+
+.error {
+    color: #000000;
+    background-color: #f9f9f9;
+    padding: 15px;
+    margin: 20px 0;
+    border: 2px solid #000000;
+    font-weight: bold;
+}
+
+.results-container {
+    margin-top: 30px;
+}
+
+.summary-section {
+    background: white;
+    padding: 25px;
+    border: 1px solid #000000;
+    margin-bottom: 25px;
+}
+
+.summary-section h2 {
+    color: #000000;
+    margin-bottom: 20px;
+    font-size: 24px;
+    border-bottom: 2px solid #000000;
+    padding-bottom: 10px;
+    font-weight: bold;
+}
+
+.stats-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 15px;
+    margin: 20px 0;
+}
+
+.stat-card {
+    background: #ffffff;
+    color: #000000;
+    padding: 20px;
+    border: 2px solid #000000;
+    text-align: center;
+}
+
+.stat-value {
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #000000;
+}
+
+.stat-label {
+    font-size: 13px;
+    color: #000000;
+    font-weight: normal;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    background: white;
+    border: 2px solid #000000;
+}
+
+th, td {
+    padding: 12px;
+    text-align: left;
+    border: 1px solid #000000;
+}
+
+th {
+    background-color: #000000;
+    color: #ffffff;
+    font-weight: 600;
+}
+
+tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+tr:hover {
+    background-color: #e0e0e0;
+}
+
+td.number {
+    text-align: center;
+    font-family: 'Courier New', monospace;
+}
+
+.ssi-high {
+    background-color: #e8f5e9 !important;
+    color: #2e7d32;
+    font-weight: bold;
+}
+
+.ssi-fail {
+    background-color: #ffcdd2 !important;
+    color: #c62828;
+    font-weight: bold;
+    border: 2px solid #c62828 !important;
+}
+
+.answer-section {
+    background: white;
+    padding: 25px;
+    border: 1px solid #000000;
+    margin-bottom: 25px;
+    border-left: 5px solid #000000;
+}
+
+.answer-section h3 {
+    color: #000000;
+    margin-bottom: 15px;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    user-select: none;
+}
+
+.answer-section h3:hover {
+    background-color: #f0f0f0;
+}
+
+.answer-section h3::before {
+    content: '▼ ';
+    display: inline-block;
+    margin-right: 8px;
+    transition: transform 0.2s;
+}
+
+.answer-section h3.collapsed::before {
+    transform: rotate(-90deg);
+}
+
+.answer-details {
+    background: #f9f9f9;
+    padding: 15px;
+    border: 1px solid #000000;
+    margin-bottom: 15px;
+}
+
+.detail-row {
+    display: flex;
+    justify-content: space-between;
+    padding: 8px 0;
+    border-bottom: 1px solid #000000;
+}
+
+.detail-row:last-child {
+    border-bottom: none;
+}
+
+.detail-label {
+    font-weight: 600;
+    color: #000000;
+}
+
+.detail-value {
+    color: #000000;
+    font-family: 'Courier New', monospace;
+}
+
+.collapsible-content {
+    max-height: 2000px;
+    overflow: hidden;
+    transition: max-height 0.3s ease-out;
+}
+
+.collapsible-content.hidden {
+    max-height: 0;
+}
+
+.answer-text {
+    background-color: #f9f9f9;
+    border: 1px solid #e0e0e0;
+    padding: 12px;
+    margin: 8px 0;
+}
+    </style>
+</head>
+<body>
+    <h1>🎯 Answer SSI Calculator</h1>
+    <p class="subtitle">Test answer stability across different sets (A, B, C, D, E) - Target: SSI ≥ 0.90</p>
+    
+    <div class="info-box">
+        <strong>📋 How to use:</strong>
+        <ul>
+            <li><strong>Set A</strong> contains A1a, A2a, A3a, A15a, A28a... (answers for questions 1, 2, 3, 15, 28...)</li>
+            <li><strong>Set B</strong> contains A1b, A2b, A3b, A15b, A28b...</li>
+            <li><strong>Works with ANY format:</strong> A1a: text | A1a) text | A1a. text | A1a text</li>
+            <li>The tool will group by answer number (A1, A2, A15, A28, etc.)</li>
+            <li>SSI is calculated for each answer across all sets</li>
+            <li><strong>Answers with SSI < 0.90 are highlighted in RED for manual review</strong></li>
+        </ul>
+        <strong>Example formats (all work!):</strong><br>
+        <strong>Set A:</strong> A1a: The answer is 42 | A2a) Blue is the color<br>
+        <strong>Set B:</strong> A1b. Answer is forty-two | A2b The color is blue<br>
+        <strong>Set C:</strong> A1c) It's 42 | A2c: Blue<br><br>
+        <strong>⚠️ Backend Required:</strong> Python backend must be running on <code>localhost:5000</code>
+    </div>
+
+    <div class="sets-grid">
+        <div class="set-input-box">
+            <label class="set-label">SET A</label>
+            <textarea class="set-input" id="setA" placeholder="A1a: answer here
+A2a) answer here
+A15a. answer here
+A28a answer here"></textarea>
+        </div>
+
+        <div class="set-input-box">
+            <label class="set-label">SET B</label>
+            <textarea class="set-input" id="setB" placeholder="A1b: answer here
+A2b) answer here
+A15b. answer here
+A28b answer here"></textarea>
+        </div>
+
+        <div class="set-input-box">
+            <label class="set-label">SET C</label>
+            <textarea class="set-input" id="setC" placeholder="A1c: answer here
+A2c) answer here
+A15c. answer here
+A28c answer here"></textarea>
+        </div>
+
+        <div class="set-input-box">
+            <label class="set-label">SET D</label>
+            <textarea class="set-input" id="setD" placeholder="A1d: answer here
+A2d) answer here
+A15d. answer here
+A28d answer here"></textarea>
+        </div>
+
+        <div class="set-input-box">
+            <label class="set-label">SET E</label>
+            <textarea class="set-input" id="setE" placeholder="A1e: answer here
+A2e) answer here
+A15e. answer here
+A28e answer here"></textarea>
+        </div>
+    </div>
+    
+    <div class="button-container">
+        <button class="btn-success" onclick="analyzeAllAnswers()">🔍 Analyze All Answers</button>
+        <button class="btn-primary" onclick="copyResultsJSON()" id="copyBtn" style="display: none;">📋 Copy JSON Results</button>
+        <button class="btn-primary" onclick="clearAll()">🗑️ Clear All</button>
+    </div>
+    
+    <div id="results"></div>
+
+    <script>
+        const SSI_THRESHOLD = 0.90;
+
+        function parseSetAnswers(text, setLetter) {
+            const lines = text.split('\n').map(l => l.trim()).filter(l => l.length > 0);
+            const answers = {};
+            
+            lines.forEach(line => {
+                // Ultra flexible regex: matches A1a: A1a) A1a. A1a or even just A1a
+                const match = line.match(/^A(\d+)[a-z]?[\s:).]*(.+)$/i);
+                if (match) {
+                    const answerNum = match[1];
+                    const text = match[2].trim();
+                    
+                    if (!answers[answerNum]) {
+                        answers[answerNum] = {};
+                    }
+                    answers[answerNum][setLetter] = text;
+                }
+            });
+            
+            return answers;
+        }
+
+        function mergeAllSets() {
+            const allAnswers = {};
+            const sets = ['A', 'B', 'C', 'D', 'E'];
+            
+            sets.forEach(setLetter => {
+                const input = document.getElementById(`set${setLetter}`).value.trim();
+                if (!input) return;
+                
+                const setAnswers = parseSetAnswers(input, setLetter);
+                
+                Object.keys(setAnswers).forEach(aNum => {
+                    if (!allAnswers[aNum]) {
+                        allAnswers[aNum] = {};
+                    }
+                    Object.assign(allAnswers[aNum], setAnswers[aNum]);
+                });
+            });
+            
+            return allAnswers;
+        }
+
+        async function calculateSSIForTexts(texts) {
+            const response = await fetch('http://localhost:5000/calculate_ssi', {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify({ texts: texts })
+            });
+
+            if (!response.ok) {
+                throw new Error('Backend server error');
+            }
+
+            return await response.json();
+        }
+
+        function findOutliers(variations, pairwiseSimilarities) {
+            const avgSimilarities = variations.map((v, idx) => {
+                const similarities = [];
+                pairwiseSimilarities.forEach(sim => {
+                    if (sim.i === idx) {
+                        similarities.push(sim.similarity);
+                    } else if (sim.j === idx) {
+                        similarities.push(sim.similarity);
+                    }
+                });
+                
+                const avg = similarities.length > 0 
+                    ? similarities.reduce((a, b) => a + b, 0) / similarities.length 
+                    : 1.0;
+                
+                return { idx, avg };
+            });
+            
+            avgSimilarities.sort((a, b) => a.avg - b.avg);
+            
+            const outlierIndices = [];
+            if (avgSimilarities.length > 2) {
+                const lowest = avgSimilarities[0].avg;
+                const secondLowest = avgSimilarities[1].avg;
+                
+                if (secondLowest - lowest > 0.1) {
+                    outlierIndices.push(avgSimilarities[0].idx);
+                }
+            }
+            
+            return outlierIndices;
+        }
+
+        async function analyzeAllAnswers() {
+            try {
+                const allAnswers = mergeAllSets();
+                const answerNumbers = Object.keys(allAnswers).sort((a, b) => parseInt(a) - parseInt(b));
+                
+                if (answerNumbers.length === 0) {
+                    document.getElementById('results').innerHTML = '<p class="error">No valid answers found. Please enter answers in format "A1a: text here"</p>';
+                    return;
+                }
+
+                document.getElementById('results').innerHTML = '<p class="loading">🔄 Analyzing answer semantic stability across all sets...</p>';
+
+                const results = [];
+                
+                for (const aNum of answerNumbers) {
+                    const setVariations = allAnswers[aNum];
+                    const setLetters = Object.keys(setVariations).sort();
+                    
+                    if (setLetters.length < 2) {
+                        results.push({
+                            answerNum: aNum,
+                            ssi: null,
+                            error: 'Need at least 2 variations',
+                            variations: setVariations
+                        });
+                        continue;
+                    }
+
+                    const texts = setLetters.map(letter => setVariations[letter]);
+                    const ssiData = await calculateSSIForTexts(texts);
+                    
+                    const variationsArray = setLetters.map((letter, idx) => ({
+                        set: letter,
+                        text: setVariations[letter],
+                        label: `A${aNum}${letter.toLowerCase()}`
+                    }));
+                    
+                    const outlierIndices = findOutliers(variationsArray, ssiData.pairwise_similarities || []);
+                    
+                    results.push({
+                        answerNum: aNum,
+                        ssi: ssiData.ssi,
+                        stdDev: ssiData.std_dev || 0,
+                        pairwiseSimilarities: ssiData.pairwise_similarities || [],
+                        variations: variationsArray,
+                        outlierIndices: outlierIndices,
+                        passed: ssiData.ssi >= SSI_THRESHOLD
+                    });
+                }
+
+                displayResults(results);
+                document.getElementById('copyBtn').style.display = 'inline-block';
+
+            } catch (error) {
+                document.getElementById('results').innerHTML = `
+                    <div class="error">
+                        <strong>Error:</strong> ${error.message}<br>
+                        Make sure the Python backend is running on localhost:5000
+                    </div>
+                `;
+                console.error(error);
+            }
+        }
+
+        function displayResults(results) {
+            window.lastResults = results;
+            
+            const passedCount = results.filter(r => r.passed).length;
+            const failedCount = results.filter(r => !r.passed && r.ssi !== null).length;
+            
+            let html = `
+                <div class="results-container">
+                    <div class="summary-section">
+                        <h2>📊 Stability Overview</h2>
+                        <div class="stats-grid">
+                            <div class="stat-card">
+                                <div class="stat-value">${results.length}</div>
+                                <div class="stat-label">Total Answers</div>
+                            </div>
+                            <div class="stat-card" style="background: #e8f5e9;">
+                                <div class="stat-value">${passedCount}</div>
+                                <div class="stat-label">Passed (≥0.90)</div>
+                            </div>
+                            <div class="stat-card" style="background: #ffcdd2;">
+                                <div class="stat-value">${failedCount}</div>
+                                <div class="stat-label">Failed (<0.90) - REVIEW</div>
+                            </div>
+                            <div class="stat-card">
+                                <div class="stat-value">${SSI_THRESHOLD}</div>
+                                <div class="stat-label">Target Threshold</div>
+                            </div>
+                        </div>
+
+                        <h3 style="margin-top: 30px; margin-bottom: 15px; color: #000000;">🎯 Stability Report</h3>
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th>Answer</th>
+                                    <th>Sets</th>
+                                    <th>SSI Score</th>
+                                    <th>Status</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+            `;
+
+            results.forEach(result => {
+                if (result.error) {
+                    html += `
+                        <tr>
+                            <td class="number">A${result.answerNum}</td>
+                            <td class="number">${Object.keys(result.variations).length}</td>
+                            <td class="number">-</td>
+                            <td class="number">⚠️ ${result.error}</td>
+                        </tr>
+                    `;
+                    return;
+                }
+
+                const ssiClass = result.passed ? 'ssi-high' : 'ssi-fail';
+                const status = result.passed ? '✓ PASS' : '✗ REVIEW';
+                
+                html += `
+                    <tr>
+                        <td class="number">A${result.answerNum}</td>
+                        <td class="number">${result.variations.length}</td>
+                        <td class="number ${ssiClass}">${result.ssi.toFixed(6)}</td>
+                        <td class="number ${ssiClass}">${status}</td>
+                    </tr>
+                `;
+            });
+
+            html += `
+                            </tbody>
+                        </table>
+                    </div>
+
+                    <div class="summary-section">
+                        <h2>🔍 Detailed Analysis (Click to Expand)</h2>
+            `;
+
+            results.forEach(result => {
+                if (result.error) return;
+
+                const ssiClass = result.passed ? 'ssi-high' : 'ssi-fail';
+                const headerStyle = result.passed ? '' : 'color: #c62828;';
+                
+                html += `
+                    <div class="answer-section">
+                        <h3 class="collapsed" onclick="toggleCollapsible(this)" style="${headerStyle}">
+                            A${result.answerNum} - SSI: ${result.ssi.toFixed(6)} 
+                            ${result.passed ? '✓' : '✗ NEEDS MANUAL REVIEW'}
+                        </h3>
+                        
+                        <div class="collapsible-content hidden">
+                            <div class="answer-details">
+                                <div class="detail-row">
+                                    <span class="detail-label">SSI Score:</span>
+                                    <span class="detail-value ${ssiClass}">${result.ssi.toFixed(6)}</span>
+                                </div>
+                                <div class="detail-row">
+                                    <span class="detail-label">Target:</span>
+                                    <span class="detail-value">≥ ${SSI_THRESHOLD}</span>
+                                </div>
+                                <div class="detail-row">
+                                    <span class="detail-label">Status:</span>
+                                    <span class="detail-value ${ssiClass}">${result.passed ? 'PASSED' : 'FAILED - Manual review needed'}</span>
+                                </div>
+                                <div class="detail-row">
+                                    <span class="detail-label">Standard Deviation:</span>
+                                    <span class="detail-value">${result.stdDev.toFixed(6)}</span>
+                                </div>
+                            </div>
+
+                            <h4 style="margin: 20px 0 10px 0; color: #000000;">Answers Across Sets:</h4>
+                `;
+
+                result.variations.forEach((variation, idx) => {
+                    const isOutlier = result.outlierIndices.includes(idx);
+                    const style = isOutlier ? 'background-color: #fff3cd; border: 2px solid #ff6f00;' : '';
+                    
+                    html += `
+                        <div class="answer-text" style="${style}">
+                            <strong>${variation.label}:</strong> ${variation.text}
+                        </div>
+                    `;
+                });
+
+                if (result.pairwiseSimilarities.length > 0) {
+                    html += `
+                        <h4 style="margin: 20px 0 10px 0; color: #000000;">Pairwise Similarity Matrix:</h4>
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th>Variation A</th>
+                                    <th>Variation B</th>
+                                    <th>Similarity Score</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                    `;
+
+                    result.pairwiseSimilarities.forEach(sim => {
+                        const simClass = sim.similarity >= 0.90 ? 'ssi-high' : sim.similarity >= 0.80 ? '' : 'ssi-fail';
+                        html += `
+                            <tr>
+                                <td class="number">${result.variations[sim.i].label}</td>
+                                <td class="number">${result.variations[sim.j].label}</td>
+                                <td class="number ${simClass}">${sim.similarity.toFixed(6)}</td>
+                            </tr>
+                        `;
+                    });
+
+                    html += `
+                            </tbody>
+                        </table>
+                    `;
+                }
+
+                html += `
+                        </div>
+                    </div>
+                `;
+            });
+
+            html += `
+                    </div>
+                </div>
+            `;
+
+            document.getElementById('results').innerHTML = html;
+        }
+
+        function toggleCollapsible(element) {
+            element.classList.toggle('collapsed');
+            const content = element.nextElementSibling;
+            content.classList.toggle('hidden');
+        }
+
+        function copyResultsJSON() {
+            const results = window.lastResults;
+            
+            if (!results) {
+                alert('No results to copy. Please analyze answers first.');
+                return;
+            }
+            
+            const jsonOutput = {};
+            
+            results.forEach(result => {
+                if (!result.error && result.ssi !== null) {
+                    jsonOutput[`A${result.answerNum}`] = parseFloat(result.ssi.toFixed(6));
+                }
+            });
+            
+            const jsonString = JSON.stringify(jsonOutput, null, 2);
+            
+            navigator.clipboard.writeText(jsonString).then(() => {
+                alert('✓ JSON copied to clipboard!');
+            }).catch(err => {
+                alert('Failed to copy. Please try again.');
+                console.error(err);
+            });
+        }
+
+        function clearAll() {
+            ['A', 'B', 'C', 'D', 'E'].forEach(letter => {
+                document.getElementById(`set${letter}`).value = '';
+            });
+            document.getElementById('results').innerHTML = '';
+            document.getElementById('copyBtn').style.display = 'none';
+        }
+    </script>
+</body>
+</html>
