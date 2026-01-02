@@ -1,0 +1,30 @@
+Q1b) Should government funding prioritize pure mathematics over applied mathematics research? Provide justification.  
+Q2b) Is it ethically defensible to implement standardized math tests in schools? Explain your reasoning.  
+Q3b) Should all university students be required to take advanced mathematics courses regardless of major? Argue for or against.  
+Q4b) Should physicists focus on renewable energy research rather than fundamental particle physics? Provide reasoning.  
+Q5b) Is it justifiable to fund space exploration more than climate change initiatives? Explain your stance.  
+Q6b) Should governments restrict nuclear research due to risks even if it hinders scientific advancement? Argue your view.  
+Q7b) Should chemical firms be mandated by law to adopt fully eco-friendly production? Justify your answer.  
+Q8b) Is it acceptable to use animals in chemical safety testing if alternatives are costly? Provide reasoning.  
+Q9b) Should governments subsidize the development of new drugs despite very high initial costs? Explain your stance.  
+Q10b) Should crop genetic modification be promoted to alleviate hunger even with ecological risks? Argue your position.  
+Q11b) Is it ethically acceptable to conduct human subject research in biology with informed consent? Justify your answer.  
+Q12b) Should funding prioritize biomedical research over ecological studies? Provide reasons.  
+Q13b) Should AI research be strictly regulated to prevent societal risks? Argue for or against.  
+Q14b) Is it morally acceptable for software companies to profit from user data if consent is given? Provide reasoning.  
+Q15b) Should digital literacy education be compulsory in all schools? Justify your answer.  
+Q16b) Should monuments linked to controversial historical figures be preserved or removed? Explain your reasoning.  
+Q17b) Is it defensible to revise history textbooks to match current ethical standards? Provide your position.  
+Q18b) Should governments support museums that show multiple historical perspectives? Argue your stance.  
+Q19b) Should schools teach philosophies that conflict with religious beliefs? Justify your position.  
+Q20b) Is it ethically permissible to prioritize utilitarianism over deontology in public policy? Explain reasoning.  
+Q21b) Should moral education be a mandatory part of school curricula? Argue for or against.  
+Q22b) Should universal basic income be used to combat economic inequality? Justify your answer.  
+Q23b) Is imposing tariffs to protect domestic industries justified even if it affects global trade? Explain your stance.  
+Q24b) Should wealth taxes be raised to support social welfare programs? Argue for or against.  
+Q25b) Should teaching advanced grammar take precedence over creative writing in schools? Provide reasons.  
+Q26b) Is it justifiable to enforce strict public language standards to maintain cultural identity? Explain your stance.  
+Q27b) Should controversial books be restricted in educational settings? Argue your position.  
+Q28b) Should ethical regulations be imposed on new medical technologies even at the cost of slower innovation? Justify your answer.  
+Q29b) Is it morally permissible to distribute limited medical resources based on social utility instead of need? Explain your reasoning.  
+Q30b) Should the law require individuals to participate in organ donation programs to save lives? Argue for or against.  
