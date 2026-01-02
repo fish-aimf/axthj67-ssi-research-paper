@@ -1,0 +1,39 @@
+Q1e) How is a prime number described?  
+Q2e) What is the meaning of a mathematical function?  
+Q3e) Explain what a derivative is in calculus.  
+
+Q4e) What does Newton's first law state?  
+Q5e) How would you define electric current?  
+Q6e) What is gravitational potential energy?  
+
+Q7e) According to Brønsted-Lowry, how is an acid defined?  
+Q8e) Explain what a catalyst is in chemistry.  
+Q9e) How is oxidation defined in chemical reactions?  
+
+Q10e) Define the photosynthesis process in plants.  
+Q11e) What is natural selection?  
+Q12e) Explain DNA replication.  
+
+Q13e) How is a computer algorithm defined?  
+Q14e) What is the concept of object-oriented programming?  
+Q15e) Define a database in computer science.  
+
+Q16e) What is feudalism?  
+Q17e) Explain the Renaissance.  
+Q18e) What does the industrial revolution refer to?  
+
+Q19e) Define utilitarianism.  
+Q20e) What does epistemology mean?  
+Q21e) Explain existentialism.  
+
+Q22e) What does supply and demand mean in economics?  
+Q23e) Define inflation.  
+Q24e) What is opportunity cost?  
+
+Q25e) Define metaphor in English.  
+Q26e) Explain syntax in grammar.  
+Q27e) What is narrative point of view?  
+
+Q28e) What is meant by informed consent?  
+Q29e) Define beneficence.  
+Q30e) Explain moral relativism.  
