@@ -59,22 +59,6 @@ h1 {
     margin: 5px 0;
 }
 
-textarea {
-    width: 100%;
-    min-height: 300px;
-    padding: 12px;
-    font-size: 14px;
-    font-family: 'Courier New', monospace;
-    border: 2px solid #000000;
-    resize: vertical;
-    background-color: #ffffff;
-}
-
-textarea:focus {
-    outline: none;
-    border: 3px solid #000000;
-}
-
 .button-container {
     display: flex;
     gap: 10px;
@@ -297,80 +281,122 @@ td.number {
     padding: 12px;
     margin: 8px 0;
 }
+
+.set-input-box {
+    background: #ffffff;
+    border: 2px solid #000000;
+    padding: 15px;
+}
+
+.set-label {
+    display: block;
+    font-weight: bold;
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: #000000;
+}
+
+.set-input {
+    width: 100%;
+    min-height: 150px;
+    padding: 10px;
+    font-size: 13px;
+    font-family: 'Courier New', monospace;
+    border: 2px solid #000000;
+    resize: vertical;
+    background-color: #ffffff;
+    margin-bottom: 10px;
+}
+
+.set-input:focus {
+    outline: none;
+    border: 3px solid #000000;
+}
+
+.set-input-box button {
+    width: 100%;
+}
     </style>
 </head>
 <body>
     <h1>🎯 Semantic Stability Outlier Detector</h1>
-    <p class="subtitle">Quickly identify variations that break semantic consistency (target: SSI ≥ 0.95)</p>
+    <p class="subtitle">Analyze each set individually (target: SSI ≥ 0.95)</p>
     
     <div class="info-box">
         <strong>📋 How to use:</strong>
         <ul>
-            <li>Paste your question variations - one variation per line</li>
-            <li>Each question group should be labeled (Q1a:, Q1b:, Q2a:, Q2b:, etc.)</li>
-            <li>The tool groups by question number and checks stability within each group</li>
-            <li>Target: SSI ≥ 0.95 (rows below this threshold highlighted in RED)</li>
-            <li>Outlier variations that hurt stability are marked for replacement</li>
+            <li>Paste variations for each set (A, B, C, D, E) - one variation per line</li>
+            <li>No labels needed - just paste the raw text variations</li>
+            <li>Click "Analyze Set" for each set individually</li>
+            <li>Target: SSI ≥ 0.95 (failing sets highlighted in RED)</li>
+            <li>Outlier variations are marked for replacement</li>
         </ul>
-        <strong>Example format:</strong><br>
-        Q1a: Mary would like to go to the park<br>
-        Q1b: Mary wants to go to the park<br>
-        Q1c: Mary wishes to visit the park<br>
-        Q1d: Mark ate bananas<br><br>
+        <strong>Example format (no labels needed):</strong><br>
+        Mary would like to go to the park<br>
+        Mary wants to go to the park<br>
+        Mary wishes to visit the park<br>
+        Mark ate bananas<br><br>
         <strong>⚠️ Backend Required:</strong> Python backend must be running on <code>localhost:5000</code>
     </div>
-    
-    <div style="margin-bottom: 20px;">
-        <label style="display: block; font-weight: bold; margin-bottom: 10px; color: #000000;">
-            Paste your question variations here:
-        </label>
-        <textarea id="mainInput" placeholder="Q1a: Mary would like to go to the park
-Q1b: Mary wants to go to the park
-Q1c: Mary wishes to visit the park
-Q1d: Mark ate bananas
-Q2a: The sky is blue today
-Q2b: Today the sky appears blue
-Q2c: The sky looks blue right now"></textarea>
+
+    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 20px; margin-bottom: 30px;">
+        <div class="set-input-box">
+            <label class="set-label">Set A</label>
+            <textarea class="set-input" id="setA" placeholder="Paste Set A variations here...
+One per line"></textarea>
+            <button class="btn-primary" onclick="analyzeSet('A')">🔍 Analyze Set A</button>
+        </div>
+
+        <div class="set-input-box">
+            <label class="set-label">Set B</label>
+            <textarea class="set-input" id="setB" placeholder="Paste Set B variations here...
+One per line"></textarea>
+            <button class="btn-primary" onclick="analyzeSet('B')">🔍 Analyze Set B</button>
+        </div>
+
+        <div class="set-input-box">
+            <label class="set-label">Set C</label>
+            <textarea class="set-input" id="setC" placeholder="Paste Set C variations here...
+One per line"></textarea>
+            <button class="btn-primary" onclick="analyzeSet('C')">🔍 Analyze Set C</button>
+        </div>
+
+        <div class="set-input-box">
+            <label class="set-label">Set D</label>
+            <textarea class="set-input" id="setD" placeholder="Paste Set D variations here...
+One per line"></textarea>
+            <button class="btn-primary" onclick="analyzeSet('D')">🔍 Analyze Set D</button>
+        </div>
+
+        <div class="set-input-box">
+            <label class="set-label">Set E</label>
+            <textarea class="set-input" id="setE" placeholder="Paste Set E variations here...
+One per line"></textarea>
+            <button class="btn-primary" onclick="analyzeSet('E')">🔍 Analyze Set E</button>
+        </div>
     </div>
     
     <div class="button-container">
-        <button class="btn-success" onclick="analyzeStability()">🔍 Detect Outliers</button>
-        <button class="btn-primary" onclick="copyResultsToClipboard()" id="copyBtn" style="display: none;">📋 Copy Results</button>
+        <button class="btn-primary" onclick="copyAllResultsJSON()" id="copyBtn" style="display: none;">📋 Copy All Results as JSON</button>
+        <button class="btn-primary" onclick="clearAll()">🗑️ Clear All</button>
     </div>
     
     <div id="results"></div>
 
     <script>
         const SSI_THRESHOLD = 0.95;
+        const setResults = {
+            A: null,
+            B: null,
+            C: null,
+            D: null,
+            E: null
+        };
 
-        function parseQuestions(text) {
-            const lines = text.split('\n')
+        function parseVariations(text) {
+            return text.split('\n')
                 .map(l => l.trim())
                 .filter(l => l.length > 0);
-            
-            const questions = {};
-            
-            lines.forEach(line => {
-                const match = line.match(/^(?:Q|Question)\s*(\d+)([a-z])?\s*:\s*(.+)$/i);
-                
-                if (match) {
-                    const questionNum = match[1];
-                    const variant = match[2] || 'a';
-                    const text = match[3].trim();
-                    
-                    if (!questions[questionNum]) {
-                        questions[questionNum] = [];
-                    }
-                    
-                    questions[questionNum].push({
-                        variant: variant,
-                        text: text,
-                        fullLabel: `Q${questionNum}${variant}`
-                    });
-                }
-            });
-            
-            return questions;
         }
 
         async function calculateSSIForTexts(texts) {
@@ -420,57 +446,43 @@ Q2c: The sky looks blue right now"></textarea>
             return outlierIndices;
         }
 
-        async function analyzeStability() {
+        async function analyzeSet(setLetter) {
             try {
-                const input = document.getElementById('mainInput').value.trim();
+                const input = document.getElementById(`set${setLetter}`).value.trim();
                 
                 if (!input) {
-                    document.getElementById('results').innerHTML = '<p class="error">Please enter some question variations.</p>';
+                    alert(`Please enter variations for Set ${setLetter}`);
                     return;
                 }
 
-                document.getElementById('results').innerHTML = '<p class="loading">🔄 Analyzing semantic stability and detecting outliers...</p>';
+                const resultsDiv = document.getElementById('results');
+                resultsDiv.innerHTML = '<p class="loading">🔄 Analyzing Set ' + setLetter + '...</p>';
 
-                const questions = parseQuestions(input);
-                const questionNums = Object.keys(questions).sort((a, b) => parseInt(a) - parseInt(b));
+                const variations = parseVariations(input);
 
-                if (questionNums.length === 0) {
-                    document.getElementById('results').innerHTML = '<p class="error">No valid questions found. Please use format like "Q1a: text here"</p>';
+                if (variations.length < 2) {
+                    alert('Need at least 2 variations to calculate SSI');
                     return;
                 }
 
-                const results = [];
+                const ssiData = await calculateSSIForTexts(variations);
+                const outlierIndices = findOutliers(variations, ssiData.pairwise_similarities || []);
                 
-                for (const qNum of questionNums) {
-                    const variations = questions[qNum];
-                    
-                    if (variations.length < 2) {
-                        results.push({
-                            questionNum: qNum,
-                            ssi: null,
-                            variations: variations,
-                            error: 'Need at least 2 variations'
-                        });
-                        continue;
-                    }
+                setResults[setLetter] = {
+                    setLetter: setLetter,
+                    ssi: ssiData.ssi,
+                    stdDev: ssiData.std_dev || 0,
+                    pairwiseSimilarities: ssiData.pairwise_similarities || [],
+                    variations: variations.map((text, idx) => ({
+                        index: idx,
+                        text: text
+                    })),
+                    outlierIndices: outlierIndices,
+                    passed: ssiData.ssi >= SSI_THRESHOLD
+                };
 
-                    const texts = variations.map(v => v.text);
-                    const ssiData = await calculateSSIForTexts(texts);
-                    
-                    const outlierIndices = findOutliers(variations, ssiData.pairwise_similarities || []);
-                    
-                    results.push({
-                        questionNum: qNum,
-                        ssi: ssiData.ssi,
-                        stdDev: ssiData.std_dev || 0,
-                        pairwiseSimilarities: ssiData.pairwise_similarities || [],
-                        variations: variations,
-                        outlierIndices: outlierIndices,
-                        passed: ssiData.ssi >= SSI_THRESHOLD
-                    });
-                }
-
-                displayResults(results);
+                displayAllResults();
+                document.getElementById('copyBtn').style.display = 'inline-block';
 
             } catch (error) {
                 document.getElementById('results').innerHTML = `
@@ -483,12 +495,16 @@ Q2c: The sky looks blue right now"></textarea>
             }
         }
 
-        function displayResults(results) {
-            window.lastResults = results;
-            document.getElementById('copyBtn').style.display = 'inline-block';
+        function displayAllResults() {
+            const analyzedSets = Object.keys(setResults).filter(key => setResults[key] !== null);
             
-            const passedCount = results.filter(r => r.passed).length;
-            const failedCount = results.filter(r => !r.passed && r.ssi !== null).length;
+            if (analyzedSets.length === 0) {
+                document.getElementById('results').innerHTML = '<p class="loading">No results yet. Analyze a set to see results.</p>';
+                return;
+            }
+
+            const passedCount = analyzedSets.filter(key => setResults[key].passed).length;
+            const failedCount = analyzedSets.length - passedCount;
             
             let html = `
                 <div class="results-container">
@@ -496,8 +512,8 @@ Q2c: The sky looks blue right now"></textarea>
                         <h2>📊 Stability Overview</h2>
                         <div class="stats-grid">
                             <div class="stat-card">
-                                <div class="stat-value">${results.length}</div>
-                                <div class="stat-label">Total Questions</div>
+                                <div class="stat-value">${analyzedSets.length}</div>
+                                <div class="stat-label">Sets Analyzed</div>
                             </div>
                             <div class="stat-card" style="background: #e8f5e9;">
                                 <div class="stat-value">${passedCount}</div>
@@ -517,37 +533,25 @@ Q2c: The sky looks blue right now"></textarea>
                         <table>
                             <thead>
                                 <tr>
-                                    <th>Question</th>
+                                    <th>Set</th>
                                     <th>Variations</th>
                                     <th>SSI Score</th>
                                     <th>Status</th>
-                                    <th>Outliers Detected</th>
+                                    <th>Outliers</th>
                                 </tr>
                             </thead>
                             <tbody>
             `;
 
-            results.forEach(result => {
-                if (result.error) {
-                    html += `
-                        <tr>
-                            <td class="number">Q${result.questionNum}</td>
-                            <td class="number">${result.variations.length}</td>
-                            <td class="number">-</td>
-                            <td class="number">⚠️ ${result.error}</td>
-                            <td class="number">-</td>
-                        </tr>
-                    `;
-                    return;
-                }
-
+            analyzedSets.forEach(key => {
+                const result = setResults[key];
                 const ssiClass = result.passed ? 'ssi-high' : 'ssi-fail';
                 const status = result.passed ? '✓ PASS' : '✗ FAIL';
                 const outlierCount = result.outlierIndices.length;
                 
                 html += `
                     <tr>
-                        <td class="number">Q${result.questionNum}</td>
+                        <td class="number">Set ${result.setLetter}</td>
                         <td class="number">${result.variations.length}</td>
                         <td class="number ${ssiClass}">${result.ssi.toFixed(6)}</td>
                         <td class="number ${ssiClass}">${status}</td>
@@ -562,19 +566,18 @@ Q2c: The sky looks blue right now"></textarea>
                     </div>
 
                     <div class="summary-section">
-                        <h2>🔍 Detailed Analysis with Outliers</h2>
+                        <h2>🔍 Detailed Analysis</h2>
             `;
 
-            results.forEach(result => {
-                if (result.error) return;
-
+            analyzedSets.forEach(key => {
+                const result = setResults[key];
                 const ssiClass = result.passed ? 'ssi-high' : 'ssi-fail';
                 const headerStyle = result.passed ? '' : 'color: #c62828;';
                 
                 html += `
                     <div class="question-section">
                         <h3 style="${headerStyle}">
-                            Question ${result.questionNum} - SSI: ${result.ssi.toFixed(6)} 
+                            Set ${result.setLetter} - SSI: ${result.ssi.toFixed(6)} 
                             ${result.passed ? '✓' : '✗ NEEDS REVIEW'}
                         </h3>
                         
@@ -606,7 +609,7 @@ Q2c: The sky looks blue right now"></textarea>
                     
                     html += `
                         <div class="${className}">
-                            <strong>${variation.fullLabel}:</strong> ${variation.text}
+                            <strong>Variation ${idx + 1}:</strong> ${variation.text}
                         </div>
                     `;
                 });
@@ -629,8 +632,8 @@ Q2c: The sky looks blue right now"></textarea>
                         const simClass = sim.similarity >= 0.95 ? 'ssi-high' : sim.similarity >= 0.85 ? '' : 'ssi-fail';
                         html += `
                             <tr>
-                                <td class="number">${result.variations[sim.i].fullLabel}</td>
-                                <td class="number">${result.variations[sim.j].fullLabel}</td>
+                                <td class="number">Variation ${sim.i + 1}</td>
+                                <td class="number">Variation ${sim.j + 1}</td>
                                 <td class="number ${simClass}">${sim.similarity.toFixed(6)}</td>
                             </tr>
                         `;
@@ -655,32 +658,39 @@ Q2c: The sky looks blue right now"></textarea>
             document.getElementById('results').innerHTML = html;
         }
 
-        function copyResultsToClipboard() {
-    const results = window.lastResults;
-    
-    if (!results) {
-        alert('No results to copy. Please analyze questions first.');
-        return;
-    }
-    
-    // Create JSON with simple format: {"Q1": 0.923, "Q2": 0.967, ...}
-    const jsonOutput = {};
-    
-    results.forEach(result => {
-        if (!result.error && result.ssi !== null) {
-            jsonOutput[`Q${result.questionNum}`] = parseFloat(result.ssi.toFixed(6));
+        function copyAllResultsJSON() {
+            const analyzedSets = Object.keys(setResults).filter(key => setResults[key] !== null);
+            
+            if (analyzedSets.length === 0) {
+                alert('No results to copy. Please analyze at least one set first.');
+                return;
+            }
+            
+            const jsonOutput = {};
+            
+            analyzedSets.forEach(key => {
+                const result = setResults[key];
+                jsonOutput[`Set_${result.setLetter}`] = parseFloat(result.ssi.toFixed(6));
+            });
+            
+            const jsonString = JSON.stringify(jsonOutput, null, 2);
+            
+            navigator.clipboard.writeText(jsonString).then(() => {
+                alert('✓ JSON copied to clipboard!');
+            }).catch(err => {
+                alert('Failed to copy. Please try again.');
+                console.error(err);
+            });
         }
-    });
-    
-    const jsonString = JSON.stringify(jsonOutput, null, 2);
-    
-    navigator.clipboard.writeText(jsonString).then(() => {
-        alert('✓ JSON copied to clipboard!');
-    }).catch(err => {
-        alert('Failed to copy. Please try again.');
-        console.error(err);
-    });
-}
+
+        function clearAll() {
+            ['A', 'B', 'C', 'D', 'E'].forEach(letter => {
+                document.getElementById(`set${letter}`).value = '';
+                setResults[letter] = null;
+            });
+            document.getElementById('results').innerHTML = '';
+            document.getElementById('copyBtn').style.display = 'none';
+        }
     </script>
 </body>
 </html>
