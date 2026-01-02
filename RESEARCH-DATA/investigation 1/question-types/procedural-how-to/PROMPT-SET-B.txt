@@ -1,0 +1,30 @@
+Q1b) Outline the procedure to solve a set of linear equations using Gaussian elimination.  
+Q2b) Describe how to determine the derivative of a function using first principles.  
+Q3b) Explain step-by-step how to calculate the area beneath a curve with definite integration.  
+Q4b) List the steps to measure an object's acceleration using Newton’s second law in an experiment.  
+Q5b) Describe the sequence to measure the coefficient of friction with a block on a slope.  
+Q6b) Explain the steps to experimentally confirm Ohm’s law.  
+Q7b) Outline the stepwise procedure for titrating to find an acid’s concentration.  
+Q8b) Describe the steps to make a standard solution in a chemistry laboratory.  
+Q9b) Explain how to carry out simple distillation to separate a liquid mixture.  
+Q10b) List the steps for observing osmosis in plant cells under a microscope.  
+Q11b) Describe the procedure for performing a Gram stain on bacteria.  
+Q12b) Outline step-by-step how to extract DNA from a piece of fruit.  
+Q13b) Explain how to write a Python program that reads inputs, processes them, and prints results.  
+Q14b) List the steps to arrange an array using the bubble sort technique.  
+Q15b) Describe the procedure for creating a relational database and entering initial data.  
+Q16b) Outline the steps for conducting archival research to obtain primary sources.  
+Q17b) Explain the stepwise method for evaluating a historical document for bias and credibility.  
+Q18b) List the steps to assemble a historical timeline from various sources.  
+Q19b) Describe the procedure to construct a logical argument using Socratic questioning.  
+Q20b) Outline how to identify fallacies in philosophical texts.  
+Q21b) List the steps to analyze and compare two ethical theories regarding a moral issue.  
+Q22b) Describe the stepwise procedure for calculating GDP using the expenditure approach.  
+Q23b) Explain the steps to determine the equilibrium price using supply and demand curves.  
+Q24b) Outline the steps to conduct a cost-benefit analysis for a project.  
+Q25b) List the procedure for writing an analytical essay in English.  
+Q26b) Describe step-by-step how to perform a close reading of a poem.  
+Q27b) Explain the sequence of steps to review a peer’s English essay.  
+Q28b) Outline how to apply the principle of double effect to an ethical problem.  
+Q29b) Describe the steps to assess a case study using the four bioethical principles.  
+Q30b) List the procedure to develop a business ethical decision-making framework.  
