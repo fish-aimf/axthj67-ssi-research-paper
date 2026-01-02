@@ -656,47 +656,31 @@ Q2c: The sky looks blue right now"></textarea>
         }
 
         function copyResultsToClipboard() {
-            const results = window.lastResults;
-            
-            if (!results) {
-                alert('No results to copy. Please analyze questions first.');
-                return;
-            }
-            
-            let output = `SEMANTIC STABILITY OUTLIER DETECTION RESULTS\n`;
-            output += `${'='.repeat(80)}\n`;
-            output += `Target Threshold: SSI ≥ ${SSI_THRESHOLD}\n`;
-            output += `${'-'.repeat(80)}\n\n`;
-            
-            results.forEach(result => {
-                if (result.error) {
-                    output += `Question ${result.questionNum}: ${result.error}\n\n`;
-                    return;
-                }
-
-                output += `Question ${result.questionNum}\n`;
-                output += `  SSI Score: ${result.ssi.toFixed(6)} ${result.passed ? '✓ PASS' : '✗ FAIL'}\n`;
-                output += `  Standard Deviation: ${result.stdDev.toFixed(6)}\n`;
-                output += `  Variations:\n`;
-                
-                result.variations.forEach((v, idx) => {
-                    const marker = result.outlierIndices.includes(idx) ? '⚠️ OUTLIER - REPLACE' : '';
-                    output += `    ${v.fullLabel}: ${v.text} ${marker}\n`;
-                });
-                
-                output += `\n`;
-            });
-            
-            output += `${'-'.repeat(80)}\n`;
-            output += `Generated: ${new Date().toLocaleString()}\n`;
-            
-            navigator.clipboard.writeText(output).then(() => {
-                alert('✓ Results copied to clipboard!');
-            }).catch(err => {
-                alert('Failed to copy. Please try again.');
-                console.error(err);
-            });
+    const results = window.lastResults;
+    
+    if (!results) {
+        alert('No results to copy. Please analyze questions first.');
+        return;
+    }
+    
+    // Create JSON with simple format: {"Q1": 0.923, "Q2": 0.967, ...}
+    const jsonOutput = {};
+    
+    results.forEach(result => {
+        if (!result.error && result.ssi !== null) {
+            jsonOutput[`Q${result.questionNum}`] = parseFloat(result.ssi.toFixed(6));
         }
+    });
+    
+    const jsonString = JSON.stringify(jsonOutput, null, 2);
+    
+    navigator.clipboard.writeText(jsonString).then(() => {
+        alert('✓ JSON copied to clipboard!');
+    }).catch(err => {
+        alert('Failed to copy. Please try again.');
+        console.error(err);
+    });
+}
     </script>
 </body>
 </html>
