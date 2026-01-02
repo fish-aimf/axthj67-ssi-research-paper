@@ -1,0 +1,39 @@
+A1d) A prime number is a natural number greater than 1 that has no positive divisors other than 1 and itself.  
+A2d) In mathematics, a function is a relation that assigns exactly one output to each input from a given set.  
+A3d) A derivative in calculus represents the rate at which a function changes with respect to a variable; it is the slope of the tangent line at a point on a curve.  
+
+A4d) Newton's first law of motion states that an object will remain at rest or in uniform motion in a straight line unless acted upon by an external force.  
+A5d) Electric current is the flow of electric charge, typically measured in amperes (A).  
+A6d) Gravitational potential energy is the energy possessed by an object due to its position in a gravitational field, typically relative to the Earth's surface.  
+
+A7d) An acid, according to the Brønsted-Lowry definition, is a substance that donates a proton (H⁺ ion) to another substance.  
+A8d) A chemical catalyst is a substance that increases the rate of a chemical reaction without being consumed in the process.  
+A9d) Oxidation is the loss of electrons by a substance during a chemical reaction, often associated with gaining oxygen or losing hydrogen.  
+
+A10d) Photosynthesis is the process by which green plants, algae, and some bacteria convert light energy into chemical energy, producing glucose and oxygen from carbon dioxide and water.  
+A11d) Natural selection is the process by which organisms better adapted to their environment tend to survive and produce more offspring.  
+A12d) DNA replication is the biological process of producing two identical copies of DNA from one original DNA molecule.  
+
+A13d) A computer algorithm is a step-by-step procedure or set of rules for solving a specific problem or performing a computation.  
+A14d) Object-oriented programming is a programming paradigm that uses objects, which contain data and methods, to design and organize software.  
+A15d) A database is an organized collection of data that can be easily accessed, managed, and updated.  
+
+A16d) Feudalism is a historical social and economic system in which land was held by lords in exchange for military service, and peasants worked the land for the lord.  
+A17d) The Renaissance refers to the cultural, artistic, and intellectual revival in Europe between the 14th and 17th centuries, marking the transition from the Middle Ages to modernity.  
+A18d) The Industrial Revolution was a period of major industrialization during the 18th and 19th centuries characterized by the development of machinery, factories, and mass production.  
+
+A19d) Utilitarianism is a philosophical theory that advocates actions that maximize overall happiness or well-being for the greatest number of people.  
+A20d) Epistemology is the branch of philosophy concerned with the nature, origin, and limits of knowledge.  
+A21d) Existentialism is a philosophical movement that emphasizes individual freedom, choice, and responsibility, often focusing on the meaning of human existence.  
+
+A22d) Supply and demand is an economic model that describes how the price and quantity of goods are determined by the availability of supply and the desire of consumers.  
+A23d) Inflation is the rate at which the general level of prices for goods and services rises, reducing purchasing power.  
+A24d) Opportunity cost is the value of the next best alternative foregone when making a choice.  
+
+A25d) A metaphor is a figure of speech in which a word or phrase is applied to an object or action to which it is not literally applicable, implying a symbolic resemblance.  
+A26d) Syntax refers to the set of rules that governs the structure and arrangement of words in sentences.  
+A27d) Narrative point of view is the perspective from which a story is told, such as first person, second person, or third person.  
+
+A28d) Informed consent is the ethical process by which a person voluntarily agrees to participate in an activity or treatment after being informed of all relevant facts, risks, and benefits.  
+A29d) Beneficence is the ethical principle of acting in ways that promote the well-being and welfare of others.  
+A30d) Moral relativism is the philosophical view that moral judgments and ethical standards are not absolute but are shaped by cultural, societal, or individual perspectives.  
