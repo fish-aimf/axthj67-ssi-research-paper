@@ -25,7 +25,7 @@ Q30) Question content
 Your given question type is:
 INSERT THE GIVEN QUESTION TYPE OVER HERE (BOLDED)
 You are to generate 30 questions of only such a question type unless of such a question is impossible, then you are allowed to skip.
- Give your response in a copy paste text box such that it would be easy to copy your reponse
+ Give your response in a copy paste text box such that it would be easy to copy your response
 
 ```
 
@@ -61,7 +61,7 @@ Q30e
 
 Where Q1a), Q1b), Q1c), Q1d), Q1e) All are semantically identical, just rephrased. 
 You are not to change the fundemental question type or underlying meaning at all. 
-Return in this exact format with no filler or excessive text. Ensure you seperate each question set with seperate text boxes for easy copying. ` \`
+Return in this exact format with no filler or excessive text. Ensure you seperate each question set with seperate text boxes for easy copying. ` ` Also do not include the Set X: Inside the text box. 
 
 
 PASTE THE PREVIOUS QUESTION SET HERE
