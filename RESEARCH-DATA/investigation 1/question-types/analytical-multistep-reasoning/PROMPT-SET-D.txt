@@ -1,0 +1,39 @@
+Q1d) Quarterly profits are modeled quadratically with one peak and two intercepts; given three non-consecutive revenue points, analyze how to find the vertex and advise whether to increase or decrease production.
+Q2d) Labor, material, and cost constraints form three linear equations; analyze how solving them and evaluating the feasible region identifies the optimal production plan.
+Q3d) A recursive sequence relies on the previous two terms and represents reinvested capital with interest; analyze its long-term stability and convergence.
+
+Q4d) A friction-affected block slides down an incline attached to a spring; analyze energy and Newtonian mechanics to determine maximum compression and if the block halts.
+Q5d) A satellite moves in an elliptical orbit; analyze gravitational and kinetic energy variations between apogee and perigee and the effect of speed changes on orbit stability.
+Q6d) A car accelerates along a curved track with tangential and centripetal components; analyze vectors to predict traction limits and skidding risk.
+
+Q7d) A reaction progresses via two intermediates with differing activation energies; analyze temperature and catalyst effects on the rate-limiting step and overall rate.
+Q8d) A weak acid is combined with a buffer; analyze how equilibrium constants, Henderson–Hasselbalch calculations, and dilution determine final pH.
+Q9d) A metal undergoes oxidation and forms complexes; analyze electrode potentials and ligand constants to identify the dominant reaction.
+
+Q10d) A trait varies in a population across three environments; analyze selection pressures, gene flow, and mutation to predict divergent, stabilizing, or directional selection.
+Q11d) Two enzymes inhibit a metabolic pathway; analyze feedback, substrate levels, and alternative pathways affecting ATP production.
+Q12d) Disease spreads through networks differentiated by age; analyze transmission, incubation, and immunity to model epidemic curves.
+
+Q13d) A sorting algorithm adds a partition preprocessing step; analyze best-, average-, and worst-case complexities and which data types benefit.
+Q14d) A distributed system asynchronously replicates data; analyze consistency, latency, and failures to select the most reliable resolution method.
+Q15d) Dynamic programming can use memoization or tabulation; analyze memory, recomputation, and input scale to choose the most suitable method.
+
+Q16d) A revolution arises from economic decline, foreign influence, and ideological movements; analyze how these contribute to timing and nature.
+Q17d) A post-war treaty alters borders and trade; analyze national interests, economic pressures, and security factors affecting its terms.
+Q18d) A technological innovation spreads unevenly; analyze social, resource, and institutional factors affecting adoption speed.
+
+Q19d) A moral argument appeals to utilitarian and rights-based ethics; analyze resolution of conflicts and logical consistency of conclusions.
+Q20d) A thought experiment addresses identity via memory transfer; analyze metaphysical interpretations of continuity and responsibility.
+Q21d) A skeptic challenges induction with historical examples; analyze philosophical defenses or modifications of inductive reasoning.
+
+Q22d) Declining taxes and rising pensions require analysis of short- and long-term budgets, weighing spending cuts, tax reforms, and debt versus growth, inequality, and demographics.
+Q23d) High inflation and slower productivity coincide; analyze monetary, fiscal, and labor-market responses to stabilize prices without worsening recession.
+Q24d) A trade shock impacts exports and lowers domestic prices; analyze immediate employment effects and long-term sector adjustments.
+
+Q25d) A narrator gives conflicting accounts; analyze perspective, subtext, and context to deduce the most plausible story.
+Q26d) A poem shifts from admiration to irony with metaphor and enjambment; analyze stylistic devices guiding theme interpretation.
+Q27d) Characters debate a moral issue with coded assumptions; analyze dialogue and symbolism to infer authorial stance.
+
+Q28d) ICU beds are limited in a crisis; analyze utilitarian, fairness, and duty-based principles to prioritize allocation.
+Q29d) A company plans employee-monitoring AI; analyze privacy, stakeholder, and trust issues for ethical implementation.
+Q30d) A renewable energy project affects livelihoods; analyze environmental, justice, and participatory considerations to guide decisions.
