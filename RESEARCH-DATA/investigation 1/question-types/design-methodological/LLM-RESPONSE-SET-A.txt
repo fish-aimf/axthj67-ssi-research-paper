@@ -1,0 +1,59 @@
+A1a) Conduct a randomized controlled study with two groups of high school students, one taught using traditional lectures and the other using interactive problem-solving sessions. Independent variable: teaching approach; Dependent variable: calculus performance measured via standardized tests. Controls: same instructor experience, class duration, and student baseline knowledge. Evaluation: pre- and post-test scores, statistical comparison using t-tests or ANOVA.
+
+A2a) Use a plane mirror, protractor, laser pointer, and white screen. Vary the angle of incidence in 10° increments from 0° to 80°. Measure the reflected angle for each incidence angle. Controls: same mirror, stable light source, fixed screen distance. Data analysis: plot incident vs. reflected angles; verify reflection law.
+
+A3a) Mix reactants in a controlled vessel at temperatures: 10°C, 20°C, 30°C, 40°C. Measure reaction rate using color change or gas evolution. Controls: same reactant concentration, volume, and stirring rate. Replicate each condition 3 times. Analyze rates using rate constants and Arrhenius plot to observe temperature effect.
+
+A4a) Assign equal numbers of identical plants to different fertilizer types including a control with no fertilizer. Apply fertilizers per manufacturer’s instructions. Measure plant height and leaf count weekly. Replicate 5–10 times per treatment. Controls: same soil, water, light, and pot size. Analyze growth differences using ANOVA.
+
+A5a) Randomly assign physics students to AI-tutored group or conventional instruction group. Independent variable: tutoring type; Dependent variable: physics exam scores. Controls: same curriculum, assessment difficulty. Evaluation: pre- and post-tests, compare mean improvement using t-tests. Allocation: simple randomization.
+
+A6a) Program identical tasks in procedural and object-oriented paradigms. Metrics: execution time, memory usage, code complexity (lines, readability). Controls: same hardware, compiler, and task specifications. Replicate tasks 3–5 times and analyze differences using paired t-tests.
+
+A7a) Divide students into classrooms with varying lighting levels: dim, normal, bright. Measure concentration via attention tasks and error rates. Controls: same class duration, instructor, and subject matter. Randomly assign students to groups. Analyze using ANOVA to compare performance.
+
+A8a) Recruit adult participants and randomly assign to exercise durations: 10, 20, 30 minutes. Independent variable: exercise duration; Dependent variable: memory retention measured with recall tests. Controls: same exercise type, environment, and test difficulty. Analyze using repeated measures ANOVA.
+
+A9a) Test two battery types under identical discharge conditions in mobile devices. Measure time until depletion and total cycles until capacity drops below 80%. Controls: same device model, usage patterns, and temperature. Analyze efficiency and lifespan with statistical comparison; discuss trade-offs between energy density and longevity.
+
+A10a) Simulate collaborative tasks online at different internet speeds (e.g., 5, 50, 100 Mbps). Measure accuracy and task completion time. Controls: same software, task difficulty, and participant skill. Analyze correlation between speed and accuracy; consider latency effects.
+
+A11a) Randomly assign participants to different presentation styles (visual-heavy, text-heavy, mixed). Dependent variable: comprehension measured via quizzes. Controls: same historical content, test format. Sampling: stratified to represent different age groups. Analyze using ANOVA or chi-square tests.
+
+A12a) Assign students to groups using different teaching aids (slides, videos, interactive modules). Measure learning outcomes with exams and assignments. Controls: same instructor, content, and duration. Justification: isolates effect of teaching aids on comprehension. Analyze differences using t-tests or ANOVA.
+
+A13a) Simulate a market with two pricing models: fixed and dynamic. Independent variable: pricing model; Dependent variable: consumer choice measured by purchase frequency. Controls: same product quality, participant demographics. Analyze choice patterns using chi-square tests.
+
+A14a) Randomly assign students to peer review or instructor feedback for writing tasks. Dependent variable: writing improvement scored by blind assessors. Controls: same task prompts, initial skill levels. Compare improvement using paired t-tests or ANCOVA.
+
+A15a) Assign participants to workstations with different lighting (dim, neutral, bright). Measure typing speed and error rates. Controls: same keyboard, computer, and typing task. Trade-off: tight lighting control vs. realistic office conditions. Analyze differences using ANOVA.
+
+A16a) Randomly assign adults to screen time durations (0, 30, 60, 90 minutes). Measure short-term cognitive performance using standardized tests. Controls: time of day, environment, and prior cognitive state. Ethics: ensure rest breaks and informed consent. Analyze via ANOVA.
+
+A17a) Assign students to courses using different LMS platforms. Measure engagement via login frequency, participation, and assignment completion. Controls: same course content, instructor, and class size. Evaluation framework: engagement metrics compared using ANOVA.
+
+A18a) Randomly assign math problems with or without color-coding to students. Measure problem-solving efficiency via completion time and accuracy. Controls: same difficulty, student background. Analyze effects using paired t-tests or ANOVA.
+
+A19a) Implement two carbon emission reduction methods in controlled industrial simulations. Metrics: CO₂ reduction, cost, and energy consumption. Controls: same production scale, raw materials. Trade-offs: environmental impact vs. economic feasibility. Analyze with comparative statistics.
+
+A20a) Randomly assign computer science students to collaborative or individual coding tasks. Dependent variable: problem-solving success rate and code quality. Controls: same problem set, time, and tools. Justification: isolates collaboration effect. Analyze using t-tests or ANOVA.
+
+A21a) Assign athletes to varying sleep durations (5, 7, 9 hours). Measure reaction time with standardized tests. Controls: diet, exercise, and testing environment. Ethics: avoid harmful sleep deprivation, obtain consent. Analyze using ANOVA.
+
+A22a) Randomly assign students to digital or physical flashcards. Dependent variable: vocabulary recall after 1 week. Controls: same word sets, study time. Measure via recall tests and analyze using t-tests.
+
+A23a) Grow plants with water at pH levels 4, 6, 7, 8. Measure germination rate over 2 weeks. Controls: same soil, temperature, light, and seed batch. Replicate each condition 5 times. Analyze using ANOVA to identify pH effect.
+
+A24a) Assign grading tasks randomly to AI-assisted or traditional grading. Dependent variable: grading accuracy and time taken. Controls: same assignments and rubrics. Trade-offs: efficiency vs. nuanced assessment. Analyze using paired comparison tests.
+
+A25a) Assign participants to tasks with different music types (classical, pop, silence). Measure concentration via problem-solving accuracy and time. Controls: same task difficulty, environment. Analyze using ANOVA.
+
+A26a) Present simulated moral dilemmas to participants assigned to different ethical frameworks (utilitarian, deontological, virtue ethics). Measure decisions consistency and reasoning. Controls: same dilemmas, participant demographics. Analyze using chi-square or ANOVA.
+
+A27a) Implement two sorting algorithms on identical large datasets. Metrics: execution time and memory usage. Controls: same hardware, dataset. Trade-offs: speed vs. memory efficiency. Analyze using comparative statistics.
+
+A28a) Assign students to varying physical activity levels before study sessions (none, low, moderate, high). Measure retention via biology quizzes. Controls: same content, environment, and duration. Randomize assignment and analyze via ANOVA.
+
+A29a) Assign students to interactive simulation or traditional lecture groups. Dependent variable: understanding of reaction mechanisms measured via tests. Controls: same instructor, content, and time. Analyze using t-tests or ANOVA.
+
+A30a) Randomly assign students to frequent vs. infrequent feedback conditions in an online ethics course. Measure motivation via surveys and learning via assessments. Controls: same course content and instructor. Justification: isolates feedback frequency effect. Analyze using t-tests or repeated measures ANOVA.
