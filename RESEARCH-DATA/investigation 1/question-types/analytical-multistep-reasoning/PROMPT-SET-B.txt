@@ -1,0 +1,39 @@
+Q1b) A company’s quarterly profit graph is quadratic with a single peak and two intercepts; given three non-sequential revenue points, analyze how to locate the vertex and decide whether to increase or reduce production next quarter.
+Q2b) Three linear constraints define labor, material, and cost limits; analyze how solving them and inspecting the feasible region identifies the most profitable production plan within restrictions.
+Q3b) Each term of a recursive sequence depends on the prior two and represents reinvested capital plus interest; analyze how to evaluate long-term stability and convergence.
+
+Q4b) A friction-affected block slides on an incline while attached to a spring; analyze how energy conservation and Newtonian laws predict maximum spring compression and whether the block stops.
+Q5b) A satellite travels in an elliptical orbit; analyze how gravitational and kinetic energies vary between apogee and perigee and the effect of speed adjustments on orbit stability.
+Q6b) A car moves along a curved path with tangential and centripetal accelerations; analyze how vector combinations affect tire grip and the chance of skidding.
+
+Q7b) A reaction passes through two intermediates with distinct activation energies; analyze how temperature and catalysts influence the rate-limiting step and overall rate.
+Q8b) A weak acid is added to a buffer solution; analyze how equilibrium constants, Henderson–Hasselbalch calculations, and dilution influence final pH.
+Q9b) A metal experiences oxidation and forms complex ions; analyze how electrode potentials and ligand stability determine which reaction dominates at equilibrium.
+
+Q10b) A trait varies in a population across three environments; analyze how selection, gene flow, and mutation interact to predict divergent, stabilizing, or directional selection.
+Q11b) A metabolic pathway faces inhibition at two regulatory enzymes; analyze how feedback, substrate availability, and compensatory routes affect ATP output.
+Q12b) A disease spreads through diverse age-specific networks; analyze how transmission, incubation, and immunity shape epidemic progression.
+
+Q13b) A sorting algorithm is enhanced with a pre-processing partition; analyze best-, average-, and worst-case complexities and infer for which data types the change is advantageous.
+Q14b) A distributed system asynchronously replicates data; analyze consistency, latency, and failure scenarios to select the most reliable conflict-resolution strategy.
+Q15b) A dynamic programming problem allows memoization or iterative tabulation; analyze memory demands, recomputation, and input size to choose the better approach.
+
+Q16b) A revolution occurs after economic downturn, foreign influence, and ideological pressures; analyze how these factors together influence timing and nature of the uprising.
+Q17b) A treaty after war modifies borders and trade relations; analyze how competing national interests, economics, and security shaped the terms.
+Q18b) A new technology spreads unevenly across areas; analyze how social, resource, and institutional factors affect adoption speed.
+
+Q19b) A moral argument uses utilitarian and rights-based reasoning; analyze how tensions between these approaches are resolved and whether the conclusion holds logically.
+Q20b) A thought experiment explores personal identity through memory transfer; analyze how different metaphysical views interpret continuity and assign responsibility.
+Q21b) A skeptic critiques inductive reasoning with historical examples; analyze philosophical defenses or adjustments to induction.
+
+Q22b) With declining taxes and increasing pensions, analyze short- and long-term fiscal options, considering spending reductions, tax reforms, and debt against growth, inequality, and demographic trends.
+Q23b) High inflation coincides with slowing productivity; analyze how monetary, fiscal, and labor-market policies interact to stabilize prices without deepening recession.
+Q24b) A trade disruption impacts exports and lowers domestic prices; analyze short-term jobs and long-term structural industry effects.
+
+Q25b) A narrator offers contradictory accounts across chapters; analyze how perspective, subtext, and context suggest the most credible version.
+Q26b) A poem’s tone moves from praise to irony via metaphor and enjambment; analyze how these stylistic features guide thematic interpretation.
+Q27b) Two characters debate a moral issue with coded language and hidden assumptions; analyze dialogue and symbolism to infer the author’s stance.
+
+Q28b) A hospital must ration ICU beds in a crisis; analyze utilitarian, fairness, and duty-based perspectives to justify choices.
+Q29b) A company considers implementing monitoring AI; analyze privacy, stakeholder concerns, and trust to determine ethical deployment.
+Q30b) A community debates a renewable energy project affecting livelihoods; analyze environmental benefits, justice, and participatory input to form a recommendation.
