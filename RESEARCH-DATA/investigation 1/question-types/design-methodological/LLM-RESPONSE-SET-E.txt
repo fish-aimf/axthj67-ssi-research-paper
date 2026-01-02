@@ -1,0 +1,59 @@
+A1e) Conduct a randomized controlled trial with two groups of high school students, each learning calculus via a different teaching method. Independent variable: teaching method; dependent variable: test scores. Controls: same teacher experience, classroom environment, and curriculum. Evaluation: pre- and post-tests, student surveys, and concept mastery analysis.
+
+A2e) Set up a flat mirror on a protractor platform and shine a laser at varying incidence angles. Equipment: laser pointer, protractor, ruler, mirror. Procedure: measure reflected angles for each incidence angle. Analysis: plot incidence vs. reflection angles to verify the law of reflection. Control: same mirror and room conditions.
+
+A3e) Prepare identical reaction mixtures and expose them to different temperatures using water baths. Independent variable: temperature; dependent variable: reaction rate measured via concentration changes over time. Controls: reactant volumes, concentrations, and pH. Measurement: spectrophotometry or titration at regular intervals. Analysis: plot reaction rate vs. temperature.
+
+A4e) Plant identical seeds in separate pots with different fertilizers. Independent variable: fertilizer type; dependent variable: plant growth (height, leaf count, biomass). Controls: soil type, sunlight, watering schedule. Replicate each group multiple times. Data collection: weekly measurements and growth charts. Analysis: ANOVA to compare growth differences.
+
+A5e) Randomly assign physics students to either the AI tutoring system or traditional study group. Independent variable: tutoring method; dependent variable: exam scores and problem-solving accuracy. Controls: baseline knowledge, study time, and resources. Analysis: compare mean scores between groups using statistical tests.
+
+A6e) Implement identical coding tasks in both procedural and object-oriented paradigms. Independent variable: programming paradigm; dependent variables: execution time, memory usage, and lines of code. Controls: same algorithm, programming language, and hardware. Analysis: compare efficiency metrics using paired statistical tests.
+
+A7e) Divide students into classrooms with different lighting conditions (bright, dim, natural). Independent variable: lighting type; dependent variable: concentration measured via task completion speed and accuracy. Controls: same instructor, lesson content, and time of day. Analysis: ANOVA to determine effects of lighting.
+
+A8e) Randomly assign adult participants to exercise sessions of varying duration (e.g., 10, 20, 40 minutes). Independent variable: exercise duration; dependent variable: memory retention via recall tests. Controls: participant age, baseline cognitive ability, and exercise type. Analysis: compare retention scores across groups using statistical tests.
+
+A9e) Test two battery types under identical device usage patterns. Independent variables: battery type; dependent variables: runtime and total charge cycles before failure. Controls: device model, usage intensity, and environmental conditions. Trade-offs: lifespan vs. cost and performance consistency. Analysis: compare performance curves and degradation rates.
+
+A10e) Assign teams to collaborate using different internet speeds simulated via bandwidth throttling. Independent variable: internet speed; dependent variable: work accuracy and completion time. Controls: same tasks, team size, and experience. Evaluation: task completion metrics and error rates analysis.
+
+A11e) Randomly present historical content in different styles (text, slides, video) to survey participants. Independent variable: presentation style; dependent variable: comprehension scores. Controls: content complexity, time allocated, and participant background. Analysis: compare comprehension using statistical methods like ANOVA.
+
+A12e) Assign students to different teaching aids (e.g., diagrams, interactive tools, text-based). Independent variable: teaching aid; dependent variable: learning outcomes measured by test scores and concept application. Controls: lesson duration, teacher, and prior knowledge. Justification: ensures direct assessment of teaching aid impact.
+
+A13e) Simulate a market and assign consumers to different pricing models (fixed, dynamic, subscription). Independent variable: pricing model; dependent variable: choice frequency and purchase amount. Controls: product characteristics, consumer demographics, and market information. Analysis: statistical comparison of purchase behavior.
+
+A14e) Assign student writing tasks to receive either peer review or instructor feedback. Independent variable: feedback type; dependent variable: writing improvement measured by rubric scores. Controls: writing topic, assignment length, and baseline skill. Analysis: pre- and post-assessment comparison.
+
+A15e) Assign participants to typing tasks under different lighting conditions (bright, dim, colored). Independent variable: lighting; dependent variables: typing speed and error rate. Controls: keyboard type, text content, and participant skill. Trade-offs: experimental realism vs. lighting control. Analysis: compare performance metrics across conditions.
+
+A16e) Randomly assign participants to varying screen time durations. Independent variable: screen time; dependent variable: short-term cognitive performance measured via memory and attention tests. Controls: age, baseline cognitive level, and task difficulty. Ethical considerations: limit exposure to safe durations. Analysis: statistical comparison of test scores.
+
+A17e) Assign students to use different learning management systems (LMS) for a course module. Independent variable: LMS type; dependent variables: engagement measured via login frequency, participation, and assignment completion. Controls: course content, instructor, and duration. Evaluation: compare engagement metrics across platforms.
+
+A18e) Randomly assign math problems to color-coded or non-color-coded presentations. Independent variable: color-coding; dependent variable: problem-solving efficiency measured by time and accuracy. Controls: problem difficulty, student skill level, and environment. Analysis: compare efficiency metrics between groups.
+
+A19e) Implement two carbon reduction methods in controlled industrial simulations. Independent variable: reduction method; dependent variables: emission levels, cost, and energy consumption. Controls: production scale, raw materials, and equipment. Trade-offs: reduction efficiency vs. operational cost. Analysis: compare metrics across methods.
+
+A20e) Randomly assign coding tasks to collaborative or individual groups. Independent variable: work mode; dependent variables: problem-solving accuracy, speed, and code quality. Controls: task difficulty, programming language, and environment. Design justification: isolates collaboration effect. Analysis: compare performance metrics.
+
+A21e) Randomly assign athletes to varying sleep durations (e.g., 4, 6, 8 hours). Independent variable: sleep duration; dependent variable: reaction time measured via standard tests. Controls: training, nutrition, and prior sleep. Ethical considerations: ensure safe sleep ranges. Analysis: statistical comparison of reaction times.
+
+A22e) Randomly assign students to digital or physical flashcards for vocabulary study. Independent variable: flashcard type; dependent variable: memorization efficiency measured by recall tests. Controls: number of terms, study time, and baseline knowledge. Analysis: compare retention scores.
+
+A23e) Plant identical seeds in water with varying pH levels. Independent variable: water pH; dependent variable: germination rate and growth. Controls: seed type, temperature, light, and soil. Replication: multiple seeds per pH level. Measurement: daily germination count and growth metrics. Analysis: compare rates across pH conditions.
+
+A24e) Randomly assign assignments to AI-assisted grading or traditional grading. Independent variable: grading method; dependent variables: grading consistency, speed, and accuracy. Controls: assignment type and difficulty. Trade-offs: efficiency vs. human judgment. Analysis: statistical comparison of grading metrics.
+
+A25e) Assign participants to solve complex problems while listening to different music types (classical, pop, none). Independent variable: music type; dependent variables: problem-solving speed and accuracy. Controls: problem difficulty, participant skill, and environment. Analysis: compare performance across music conditions.
+
+A26e) Present participants with moral dilemmas and randomly assign them to consider them using different ethical frameworks (utilitarianism, deontology, virtue ethics). Independent variable: ethical framework; dependent variable: decision outcomes and justification quality. Controls: dilemma type and complexity. Analysis: compare choices and reasoning across frameworks.
+
+A27e) Implement two sorting algorithms on identical large datasets. Independent variable: algorithm type; dependent variables: execution time and accuracy. Controls: dataset size, hardware, and programming language. Trade-offs: speed vs. resource usage. Analysis: benchmark performance metrics.
+
+A28e) Assign students to different physical activity levels (low, moderate, high) before biology lessons. Independent variable: activity level; dependent variable: retention measured by quizzes. Controls: lesson content, duration, and prior knowledge. Analysis: compare retention scores across activity levels.
+
+A29e) Randomly assign students to interactive simulations or traditional learning for chemical reaction mechanisms. Independent variable: learning method; dependent variable: comprehension and problem-solving accuracy. Controls: content, instruction time, and prior knowledge. Metrics: test scores and application tasks. Analysis: compare performance.
+
+A30e) Assign online ethics course students to varying feedback frequencies (daily, weekly, none). Independent variable: feedback frequency; dependent variables: motivation measured by engagement and learning outcomes. Controls: course content and duration. Design rationale: isolates effect of feedback frequency. Analysis: compare metrics across groups.
