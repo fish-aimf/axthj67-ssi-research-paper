@@ -1,0 +1,39 @@
+Q1c) Define a prime number.  
+Q2c) What does the term "function" mean in mathematics?  
+Q3c) Explain the term "derivative" in calculus.  
+
+Q4c) What is Newton's first law of motion?  
+Q5c) Define electric current.  
+Q6c) What is meant by gravitational potential energy?  
+
+Q7c) According to Brønsted-Lowry, what is an acid?  
+Q8c) Explain the term "catalyst" in chemistry.  
+Q9c) What does "oxidation" mean in chemistry?  
+
+Q10c) What is photosynthesis in plants?  
+Q11c) Define natural selection.  
+Q12c) What does DNA replication mean?  
+
+Q13c) What is meant by a computer algorithm?  
+Q14c) Define object-oriented programming.  
+Q15c) What does the term database mean in computer science?  
+
+Q16c) What is feudalism in history?  
+Q17c) Define the Renaissance.  
+Q18c) What is meant by the industrial revolution?  
+
+Q19c) Define utilitarianism in philosophy.  
+Q20c) What is epistemology?  
+Q21c) Explain existentialism.  
+
+Q22c) Define supply and demand in economics.  
+Q23c) What does inflation mean?  
+Q24c) Explain opportunity cost.  
+
+Q25c) What is the definition of a metaphor?  
+Q26c) Define syntax in grammar.  
+Q27c) Explain narrative point of view.  
+
+Q28c) What is the definition of informed consent in ethics?  
+Q29c) Explain the principle of beneficence.  
+Q30c) What does moral relativism mean?  
