@@ -1,0 +1,30 @@
+Q1b) What is the value obtained when calculating seven factorial (7!)?
+Q2b) What value is equal to the square root of 144?
+Q3b) Find the value of x in the equation 2x + 3 = 7.
+Q4b) What is the commonly accepted acceleration due to gravity on Earth in m/s²?
+Q5b) Which type of subatomic particle carries a negative charge?
+Q6b) What SI unit is used to quantify electrical resistance?
+Q7b) What is the molecular formula of sodium chloride?
+Q8b) What pH corresponds to a neutral aqueous solution at 25°C?
+Q9b) What atomic number does oxygen have?
+Q10b) What molecule contains genetic information in most organisms?
+Q11b) What is the basic working unit of the kidney called?
+Q12b) Which organelle serves as the main site of cellular respiration in eukaryotes?
+Q13b) In computer science, what does CPU stand for?
+Q14b) What output is produced by the Boolean expression 1 AND 0?
+Q15b) What is the computational time complexity of binary search on a sorted array?
+Q16b) In which year was World War II concluded?
+Q17b) Who was the inaugural President of the United States?
+Q18b) In which year was the Berlin Wall dismantled?
+Q19b) Who authored the philosophical work “The Republic”?
+Q20b) Who is the writer of “Meditations on First Philosophy”?
+Q21b) What term in philosophy refers to the study of knowledge?
+Q22b) What is the term for a general and persistent increase in price levels?
+Q23b) What does GDP stand for in economics?
+Q24b) Which market structure is characterized by a single seller and no close substitutes?
+Q25b) What do we call a word that has the opposite meaning of another word?
+Q26b) What is the past tense of the verb “to go”?
+Q27b) What punctuation mark indicates possession in English nouns?
+Q28b) What is the ethical viewpoint that judges actions based on their consequences?
+Q29b) What is the medical ethics principle that signifies “do no harm”?
+Q30b) Who wrote “Groundwork of the Metaphysics of Morals”?
