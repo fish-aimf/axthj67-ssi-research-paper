@@ -1,0 +1,30 @@
+A1b) Arrange the system of linear equations in augmented matrix form; use row operations to form a triangular matrix; perform back-substitution to find the values of the variables.  
+A2b) Use the definition of derivative: compute the limit as h approaches 0 of [f(x+h) - f(x)] / h; simplify the expression and take the limit.  
+A3b) Determine the function f(x) for the curve; choose the limits of integration a and b; calculate the definite integral ∫[a to b] f(x) dx using antiderivatives; evaluate the integral at the bounds and subtract.  
+A4b) Measure the force applied and the mass of the object; record the acceleration using a motion sensor or timing device; calculate acceleration using a = F/m; repeat for accuracy.  
+A5b) Place the block on the inclined plane; gradually increase the angle until the block starts to slide; measure the angle; calculate the coefficient of friction μ = tan(θ).  
+A6b) Set up a circuit with a resistor, ammeter, and voltmeter; vary the applied voltage; record current for each voltage; plot V vs I; confirm Ohm’s law if the graph is linear.  
+A7b) Prepare the burette with titrant; measure a known volume of analyte in a flask; add indicator; gradually add titrant until the end point is reached; record the volume used; calculate concentration.  
+A8b) Weigh the solute accurately; dissolve it in a small amount of solvent; transfer to a volumetric flask; add solvent up to the mark; mix thoroughly to ensure uniform concentration.  
+A9b) Pour the liquid mixture into a distillation flask; heat gently; collect the vapors in a condenser; cool and collect the distillate in a separate container; repeat if needed.  
+A10b) Prepare thin slices of plant tissue; place on a microscope slide; add solution (hypertonic, hypotonic, or isotonic); cover with coverslip; observe changes in cell structure under the microscope.  
+A11b) Prepare a bacterial smear on a slide; heat-fix the smear; stain with crystal violet; apply iodine; decolorize with alcohol; counterstain with safranin; observe under a microscope.  
+A12b) Mash the fruit; add a lysis buffer to break cell walls; filter or strain the mixture; add alcohol to precipitate DNA; spool or collect DNA with a rod or hook.  
+A13b) Define variables and input statements; process the inputs using calculations or logical operations; use print statements to display results; test the program for correctness.  
+A14b) Compare adjacent elements in the array; swap them if they are in the wrong order; repeat the process for each element until the array is sorted; continue until no swaps are needed.  
+A15b) Define database schema and tables; use database software to create the database; enter initial data manually or import from a file; ensure data integrity and save changes.  
+A16b) Identify the research topic; locate relevant archives; request or access primary source materials; examine documents carefully; record and organize information for analysis.  
+A17b) Read the document carefully; identify the author, date, and context; check for factual accuracy and supporting evidence; look for biases, assumptions, and perspective; evaluate reliability and credibility.  
+A18b) Gather events and dates from multiple sources; verify chronological order; place events on a timeline; annotate with key information and sources; review for completeness and accuracy.  
+A19b) Identify the issue or claim; ask clear, probing questions; examine assumptions and evidence; evaluate responses critically; construct a coherent argument based on reasoned answers.  
+A20b) Read the text carefully; identify claims and supporting arguments; compare reasoning to common fallacy types; highlight errors in logic; explain why each fallacy is present.  
+A21b) Identify the ethical issue; summarize each theory; apply each theory to the issue; compare conclusions and reasoning; discuss strengths, weaknesses, and implications of each theory.  
+A22b) Identify components: consumption, investment, government spending, net exports; collect data for each component; sum all components to compute GDP = C + I + G + (X - M); verify calculations.  
+A23b) Determine supply and demand equations; plot or analyze curves; find the price where quantity supplied equals quantity demanded; solve algebraically or graphically for equilibrium price.  
+A24b) Identify costs and benefits of the project; assign monetary or quantitative values; calculate total costs and benefits; compare to determine net benefit; consider qualitative factors before making a decision.  
+A25b) Analyze the essay prompt; research and gather evidence; create an outline with thesis and supporting points; write draft paragraphs; revise for clarity, coherence, and correctness.  
+A26b) Read the poem carefully; annotate literary devices, themes, and structure; interpret meaning line by line; summarize insights; support interpretations with textual evidence.  
+A27b) Read the essay thoroughly; check structure, argument, and clarity; provide constructive feedback on content, style, and grammar; suggest improvements; summarize strengths and weaknesses.  
+A28b) Identify the action and its effects; distinguish between intended and unintended effects; evaluate the moral permissibility; ensure the principle of double effect conditions are satisfied; justify the conclusion.  
+A29b) Identify relevant facts of the case; apply each bioethical principle (autonomy, beneficence, non-maleficence, justice) to the case; weigh conflicts between principles; reach an ethically justified decision.  
+A30b) Identify ethical issues in business decision-making; gather relevant information; establish guiding ethical principles; create a structured framework to analyze decisions; apply framework to make informed, ethical choices.
