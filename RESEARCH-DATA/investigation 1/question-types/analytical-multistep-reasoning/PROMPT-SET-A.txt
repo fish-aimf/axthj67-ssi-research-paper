@@ -1,0 +1,39 @@
+Q1a) A company’s quarterly profits follow a quadratic model with one peak and two intercepts; given three non-consecutive revenue points, analyze how to find the vertex and determine whether production should be increased or decreased next quarter.
+Q2a) Three linear equations define limits on labor, materials, and costs; analyze how solving them and examining the feasible region can identify the production plan that maximizes profit while staying within constraints.
+Q3a) A recursive sequence depends on its two preceding terms and represents reinvested capital with interest; analyze how to assess long-term stability and whether the sequence converges or diverges.
+
+Q4a) A block slides down an inclined plane with friction while connected to a spring; analyze how to combine energy conservation and Newtonian mechanics to find maximum spring compression and whether the block comes to rest.
+Q5a) A satellite orbits Earth elliptically; analyze how gravitational and kinetic energies change between apogee and perigee and how orbital speed adjustments influence stability.
+Q6a) A car accelerates on a curved path experiencing tangential and centripetal forces; analyze how vector components determine traction limits and the risk of skidding.
+
+Q7a) A reaction occurs via two intermediates with different activation energies; analyze how temperature changes and catalysts affect the rate-determining step and overall reaction speed.
+Q8a) A weak acid is mixed with a buffer in solution; analyze how equilibrium constants, the Henderson–Hasselbalch equation, and dilution effects combine to predict final pH.
+Q9a) A metal undergoes oxidation and complex ion formation in solution; analyze how electrode potentials and ligand stability constants dictate which reaction dominates.
+
+Q10a) A population shows trait variation across three environments; analyze how selection pressures, gene flow, and mutation rates interact to predict divergent, stabilizing, or directional selection.
+Q11a) A metabolic pathway is inhibited at two key enzymes; analyze how feedback inhibition, substrate levels, and alternative pathways affect ATP production.
+Q12a) A disease spreads in a community with differing contact networks; analyze how transmission probability, incubation period, and immunity patterns shape the epidemic curve.
+
+Q13a) A sorting algorithm is modified with a pre-processing partition; analyze its best-, average-, and worst-case complexities and determine for which data distributions the modification is beneficial.
+Q14a) A distributed system replicates data asynchronously across nodes; analyze consistency, latency, and potential failures to decide the most reliable conflict-resolution method.
+Q15a) A dynamic programming task can use memoization or iterative tabulation; analyze memory usage, recomputation risk, and input scale to select the best implementation.
+
+Q16a) A political revolution occurs after economic decline, foreign influence, and ideological movements; analyze how these factors interact to shape timing and character of the uprising.
+Q17a) A post-war treaty redefines borders and trade alliances; analyze how national interests, economic pressures, and security concerns influenced the treaty terms.
+Q18a) A technological innovation spreads unevenly across regions; analyze how social structures, resource availability, and institutional resistance affect adoption rates.
+
+Q19a) A moral argument appeals to utilitarian and rights-based principles; analyze how conflicts between these frameworks are resolved and whether the conclusion is logically consistent.
+Q20a) A thought experiment considers personal identity over time via memory transfer; analyze how metaphysical theories interpret continuity and which best explains responsibility.
+Q21a) A skeptic challenges induction using historical counterexamples; analyze how philosophical responses defend or adjust the role of induction in knowledge.
+
+Q22a) With falling tax revenues and rising pensions, analyze short- and long-term budget policies by weighing spending cuts, tax reforms, and debt financing against growth, inequality, and demographics.
+Q23a) A nation experiences high inflation and slowing productivity; analyze how monetary tightening, fiscal measures, and labor reforms interact to stabilize prices without worsening recession.
+Q24a) A trade shock impacts exports while lowering domestic prices; analyze short-term employment effects and long-term structural sector adjustments.
+
+Q25a) A narrator provides conflicting accounts across chapters; analyze how perspective, subtext, and context guide the most plausible interpretation.
+Q26a) A poem shifts tone from admiration to irony using metaphor and enjambment; analyze how these choices direct readers to a deeper theme.
+Q27a) Two characters debate a moral dilemma with implicit assumptions and coded speech; analyze dialogue structure and symbolism to infer the author’s view.
+
+Q28a) A hospital must allocate limited ICU beds during a crisis; analyze utilitarian, fairness, and duty-based frameworks to justify prioritization.
+Q29a) A company considers employee-monitoring AI; analyze privacy, stakeholder interests, and trust implications to determine an ethical approach.
+Q30a) A community debates a renewable energy project that disrupts livelihoods; analyze environmental benefits, distributive justice, and participatory decision-making to reach a recommendation.
