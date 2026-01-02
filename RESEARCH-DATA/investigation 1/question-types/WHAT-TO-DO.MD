@@ -23,7 +23,7 @@ Q30) Question content
 
 
 Your given question type is:
-INSERT THE GIVEN QUESTION TYPE OVER HERE (BOLDED)
+INSERT THE GIVEN QUESTION TYPE OVER HERE WITH THE NAME DESCRIPTION, AND AN EXAMPLE FROM RESEARCH-DATA/investigation 1/README.md
 You are to generate 30 questions of only such a question type unless of such a question is impossible, then you are allowed to skip.
  Give your response in a copy paste text box such that it would be easy to copy your response
 
