@@ -1,0 +1,39 @@
+Q1c) A company’s quarterly profits are modeled quadratically with one maximum and two roots; given three separate revenue points, analyze how to identify the vertex and whether production should rise or fall next quarter.
+Q2c) Constraints on labor, material, and cost are expressed as three linear equations; analyze how solving them and examining the feasible region reveals the optimal production plan.
+Q3c) A recursive sequence depends on the two preceding terms representing reinvested capital and interest; analyze long-term growth and determine if the sequence converges or diverges.
+
+Q4c) A block slides down a frictional incline attached to a spring; analyze how energy conservation and Newton’s laws predict maximum spring compression and if the block comes to rest.
+Q5c) A satellite follows an elliptical orbit; analyze how gravitational and kinetic energy vary at apogee and perigee and how speed changes affect orbital stability.
+Q6c) A car accelerates around a curve experiencing both tangential and centripetal acceleration; analyze how these vectors determine traction limits and skidding risk.
+
+Q7c) A reaction involves two intermediates with different activation energies; analyze how temperature variation and catalysts affect the rate-limiting step and overall reaction speed.
+Q8c) A weak acid mixes with a buffer; analyze how equilibrium constants, Henderson–Hasselbalch reasoning, and dilution impact final pH.
+Q9c) A metal undergoes oxidation and forms complexes; analyze how electrode potentials and ligand stability constants dictate which reaction predominates.
+
+Q10c) A population exhibits a trait across three environments; analyze how selection pressures, gene flow, and mutation rates predict divergent, stabilizing, or directional selection.
+Q11c) A metabolic pathway has two regulatory enzyme inhibitions; analyze how feedback, substrate, and alternative routes affect ATP yield.
+Q12c) A disease spreads across age-differentiated networks; analyze how transmission, incubation, and immunity shape epidemic dynamics.
+
+Q13c) A sorting algorithm is modified with a partition preprocessing step; analyze best-, average-, and worst-case complexities and infer which data distributions benefit most.
+Q14c) A distributed system replicates data asynchronously; analyze consistency, latency, and failure modes to determine the best conflict-resolution approach.
+Q15c) A dynamic programming task allows memoization or iterative tabulation; analyze memory, recomputation risk, and input size to select the optimal approach.
+
+Q16c) A political revolution occurs after economic decline, foreign influence, and ideological activity; analyze how these factors together determine timing and character.
+Q17c) A post-war treaty changes borders and trade; analyze how competing interests, economic conditions, and security needs influenced the treaty.
+Q18c) A technological innovation spreads unevenly; analyze how social, resource, and institutional factors influence adoption timing.
+
+Q19c) A moral argument invokes utilitarian and rights-based reasoning; analyze how conflicts between the two are resolved and whether the conclusion is logically valid.
+Q20c) A thought experiment examines identity over time through memory transfer; analyze how metaphysical theories interpret continuity and responsibility.
+Q21c) A skeptic challenges induction with historical counterexamples; analyze philosophical defenses or modifications of induction.
+
+Q22c) With falling revenues and rising pensions, analyze short- and long-term fiscal strategies considering spending cuts, tax reform, and debt alongside growth, inequality, and demographics.
+Q23c) High inflation and slowing productivity occur simultaneously; analyze how monetary, fiscal, and labor-market measures stabilize prices without worsening recession.
+Q24c) A trade shock affects exports and reduces domestic prices; analyze short-term employment impacts and long-term sectoral adjustments.
+
+Q25c) A narrator provides conflicting chapter accounts; analyze perspective, subtext, and context to infer the most plausible interpretation.
+Q26c) A poem transitions from admiration to irony using metaphor and enjambment; analyze how these devices guide readers to the theme.
+Q27c) Two characters discuss a moral dilemma with coded language; analyze dialogue and symbolism to deduce the author’s position.
+
+Q28c) A hospital must ration ICU beds; analyze utilitarian, fairness, and duty-based frameworks to justify allocation.
+Q29c) A company plans to deploy employee-monitoring AI; analyze privacy, stakeholder, and trust implications to determine an ethical strategy.
+Q30c) A community debates a renewable energy project affecting livelihoods; analyze environmental, justice, and participatory considerations to reach a recommendation.
