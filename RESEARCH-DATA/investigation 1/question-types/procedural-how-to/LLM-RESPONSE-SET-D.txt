@@ -1,0 +1,30 @@
+A1d) Write augmented matrix → use row operations to get upper triangular → back-substitute to solve variables.  
+A2d) Use f'(x) = lim(h→0)[f(x+h)-f(x)]/h → simplify → take limit to find derivative.  
+A3d) Set up ∫[a to b] f(x)dx → find antiderivative → evaluate F(b)-F(a).  
+A4d) Measure mass and applied force → record acceleration → calculate a = F/m.  
+A5d) Place block on incline → increase angle until sliding → measure θ → μ = tan(θ).  
+A6d) Set up circuit → vary voltage → measure current → plot V-I → verify V = IR.  
+A7d) Rinse burette → fill titrant → pipette acid → add indicator → titrate to endpoint → calculate concentration.  
+A8d) Weigh solute → dissolve in water → transfer to volumetric flask → fill to mark → mix.  
+A9d) Set up distillation → pour mixture → heat → collect distillate → continue until separation complete.  
+A10d) Prepare plant slices → mount on slide → cover → observe under microscope → note osmosis.  
+A11d) Prepare smear → crystal violet → iodine → decolorize → safranin → observe Gram reaction.  
+A12d) Mash fruit → add buffer → filter → add alcohol → collect DNA.  
+A13d) Plan program → read input → process data → manipulate/store → print output.  
+A14d) Compare adjacent elements → swap if needed → repeat passes until sorted.  
+A15d) Install DBMS → create database → define tables → set keys → insert data → verify.  
+A16d) Define topic → locate archives → access documents → record info → analyze.  
+A17d) Check author/context → identify bias → cross-check sources → evaluate trustworthiness.  
+A18d) Collect events → verify → order chronologically → add details → present timeline.  
+A19d) State argument → ask probing questions → examine evidence → identify inconsistencies → refine argument.  
+A20d) Identify claims → analyze reasoning → detect fallacies → compare with logic standards → document.  
+A21d) Identify dilemma → choose ethical theories → apply each → compare outcomes → conclude.  
+A22d) Gather C, I, G, NX → apply GDP = C+I+G+NX → sum components.  
+A23d) Obtain supply/demand → set Qd=Qs → solve for equilibrium price → find quantity.  
+A24d) List costs/benefits → quantify → compare → calculate net gain/loss → decide feasibility.  
+A25d) Choose topic → research → plan essay → write draft → revise → finalize.  
+A26d) Read poem → identify devices → analyze meaning → note patterns → interpret overall.  
+A27d) Read essay → check arguments → evaluate evidence → suggest improvements → summarize.  
+A28d) Identify act → assess intention/consequence → check double effect criteria → decide moral permissibility.  
+A29d) Identify case → apply autonomy, beneficence, non-maleficence, justice → analyze conflict → reach ethical judgment.  
+A30d) Identify issue → gather facts → apply ethical principles → generate options → evaluate → choose action.  
