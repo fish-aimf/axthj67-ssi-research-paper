@@ -1,0 +1,30 @@
+Q1c) What number results from evaluating 7 factorial (7!)?
+Q2c) What is the numerical value of the square root of 144?
+Q3c) Determine x from the equation 2x + 3 = 7.
+Q4c) What is the standard Earth gravitational acceleration expressed in m/s²?
+Q5c) Which subatomic particle possesses a negative electric charge?
+Q6c) What SI unit measures electrical resistance?
+Q7c) What is the formula representing sodium chloride?
+Q8c) What pH value indicates neutrality at 25°C?
+Q9c) What is oxygen’s atomic number?
+Q10c) What molecule is responsible for carrying genetic information in most organisms?
+Q11c) What is the term for the smallest functional unit of the kidney?
+Q12c) Which organelle is chiefly responsible for cellular respiration in eukaryotic cells?
+Q13c) What does the acronym CPU denote in computing?
+Q14c) What is the Boolean result of 1 AND 0?
+Q15c) What is the algorithmic time complexity of binary search in a sorted list?
+Q16c) In what year did the end of World War II occur?
+Q17c) Who served as the first President of the United States?
+Q18c) In what year did the Berlin Wall collapse?
+Q19c) Who composed the philosophical text “The Republic”?
+Q20c) Who authored the work “Meditations on First Philosophy”?
+Q21c) What is the name of the philosophical discipline that studies knowledge?
+Q22c) What term describes a long-term increase in overall price levels?
+Q23c) What does GDP expand to in economics?
+Q24c) What is the market structure with only one seller and no close substitutes called?
+Q25c) What is the term for a word meaning the opposite of another word?
+Q26c) What is the simple past form of “go”?
+Q27c) Which punctuation mark denotes possession in English nouns?
+Q28c) Which ethical theory bases moral judgment on consequences?
+Q29c) What medical ethics principle is expressed by the phrase “do no harm”?
+Q30c) Who is the author of “Groundwork of the Metaphysics of Morals”?
