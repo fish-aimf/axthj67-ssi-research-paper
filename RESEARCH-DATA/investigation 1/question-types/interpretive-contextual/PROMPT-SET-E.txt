@@ -1,0 +1,39 @@
+Q1e) Examine a quadratic function graph and interpret how its vertex and axis of symmetry determine maxima or minima.  
+Q2e) Given a projectile motion scenario, interpret how changes in initial speed and launch angle influence range and peak height.  
+Q3e) Study a sequence of numbers and interpret the rule underlying its progression.  
+
+Q4e) Observe a simple harmonic oscillator diagram and interpret how amplitude or frequency changes affect the system’s energy.  
+Q5e) Given an inclined plane setup, interpret how adjusting the angle alters the acceleration of the object.  
+Q6e) Interpret a velocity-time graph and explain the meaning of areas under the curve in physical terms.  
+
+Q7e) Analyze a molecular structure and interpret how its shape impacts chemical reactivity.  
+Q8e) Given a reaction mechanism diagram, interpret the role of intermediates and transition states in the reaction.  
+Q9e) Examine a section of the periodic table and interpret trends in atomic radius, electronegativity, and ionization energy.  
+
+Q10e) Observe a microscope image of a cell and interpret the function of the visible organelles.  
+Q11e) Given a food web diagram, interpret the effects of removing a species on the overall ecosystem.  
+Q12e) Analyze a gene expression chart and interpret how environmental conditions affect protein synthesis.  
+
+Q13e) Examine a screenshot of code and interpret the logical flow and expected output.  
+Q14e) Given a data structure diagram, interpret its traversal and potential applications.  
+Q15e) Analyze a flowchart and interpret how different inputs might change the algorithm’s execution or results.  
+
+Q16e) Interpret a historical political cartoon and explain the commentary on social or political events of its period.  
+Q17e) Examine a primary source letter and interpret the author’s viewpoint and intent.  
+Q18e) Analyze a timeline of events and interpret cause-and-effect connections.  
+
+Q19e) Given a philosophical excerpt, interpret the key arguments and their implications for moral reasoning.  
+Q20e) Examine a thought experiment and interpret its importance in illustrating a philosophical principle.  
+Q21e) Analyze a diagram of ethical theories and interpret how differing approaches might resolve the same moral dilemma.  
+
+Q22e) Examine an economic chart and interpret trends concerning supply, demand, or market behavior.  
+Q23e) Given a financial crisis case study, interpret the factors involved and the resulting economic impact.  
+Q24e) Analyze an infographic comparing economic indicators and interpret differences in growth or wealth across countries.  
+
+Q25e) Given a poem, interpret its central theme and how literary techniques contribute to meaning.  
+Q26e) Examine a novel passage and interpret how a character’s inner conflict develops.  
+Q27e) Analyze a metaphor in a text and interpret its wider significance within the work.  
+
+Q28e) Given a medical ethics scenario, interpret the conflicting moral principles and suggest potential resolutions.  
+Q29e) Examine a public health policy and interpret its ethical implications for different populations.  
+Q30e) Analyze a case of research misconduct and interpret the lessons it provides for ethical scientific practice.  
