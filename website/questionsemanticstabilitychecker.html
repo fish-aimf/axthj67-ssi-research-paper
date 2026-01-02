@@ -332,15 +332,15 @@ td.number {
         <ul>
             <li><strong>Set A</strong> contains Q1a, Q2a, Q3a, Q15a, Q28a...</li>
             <li><strong>Set B</strong> contains Q1b, Q2b, Q3b, Q15b, Q28b...</li>
-            <li>Format: <code>Q1a: text here</code> or <code>Q15b: text here</code></li>
+            <li><strong>Works with ANY format:</strong> Q1a: text | Q1a) text | Q1a. text | Q1a text</li>
             <li>The tool will group by question number (Q1, Q2, Q15, Q28, etc.)</li>
             <li>SSI is calculated for each question across all sets</li>
             <li><strong>Questions with SSI < 0.90 are highlighted in RED for manual review</strong></li>
         </ul>
-        <strong>Example:</strong><br>
-        <strong>Set A:</strong> Q1a: Mary likes parks | Q2a: The sky is blue<br>
-        <strong>Set B:</strong> Q1b: Mary wants parks | Q2b: Sky appears blue<br>
-        <strong>Set C:</strong> Q1c: Mary visits parks | Q2c: The sky looks blue<br><br>
+        <strong>Example formats (all work!):</strong><br>
+        <strong>Set A:</strong> Q1a: Mary likes parks | Q2a) The sky is blue<br>
+        <strong>Set B:</strong> Q1b. Mary wants parks | Q2b The sky appears blue<br>
+        <strong>Set C:</strong> Q1c) Mary visits parks | Q2c: Sky looks blue<br><br>
         <strong>⚠️ Backend Required:</strong> Python backend must be running on <code>localhost:5000</code>
     </div>
 
@@ -348,9 +348,9 @@ td.number {
         <div class="set-input-box">
             <label class="set-label">SET A</label>
             <textarea class="set-input" id="setA" placeholder="Q1a: text here
-Q2a: text here
-Q15a: text here
-Q28a: text here"></textarea>
+Q2a) text here
+Q15a. text here
+Q28a text here"></textarea>
         </div>
 
         <div class="set-input-box">
@@ -402,7 +402,9 @@ Q28e: text here"></textarea>
             const questions = {};
             
             lines.forEach(line => {
-                const match = line.match(/^Q(\d+)[a-z]?\s*:\s*(.+)$/i);
+                // Ultra flexible regex: matches Q1a: Q1a) Q1a. Q1a or even just Q1a
+                // Handles Q1a, Q1b, Q15a, Q28e, etc.
+                const match = line.match(/^Q(\d+)[a-z]?[\s:).]*(.+)$/i);
                 if (match) {
                     const questionNum = match[1];
                     const text = match[2].trim();
