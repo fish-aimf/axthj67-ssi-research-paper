@@ -1,0 +1,39 @@
+A1e) A prime number is a natural number greater than 1 that has no positive divisors other than 1 and itself.  
+A2e) A mathematical function is a relation that assigns exactly one output value to each input value from a given set.  
+A3e) A derivative in calculus represents the rate at which a function changes with respect to its variable; it is the slope of the tangent line at a point on the function.  
+
+A4e) Newton's first law states that an object will remain at rest or in uniform motion unless acted upon by an external force.  
+A5e) Electric current is the flow of electric charge, typically measured in amperes, through a conductor.  
+A6e) Gravitational potential energy is the energy an object possesses due to its position in a gravitational field, usually relative to the Earth's surface.  
+
+A7e) According to Brønsted-Lowry, an acid is a substance that can donate a proton (H⁺ ion) to another substance.  
+A8e) A catalyst is a substance that speeds up a chemical reaction without being consumed or permanently altered.  
+A9e) Oxidation is the process in which an atom, ion, or molecule loses electrons, often associated with gaining oxygen or losing hydrogen.  
+
+A10e) Photosynthesis is the process by which green plants and some other organisms use sunlight, carbon dioxide, and water to produce glucose and oxygen.  
+A11e) Natural selection is the process by which organisms better adapted to their environment tend to survive and produce more offspring.  
+A12e) DNA replication is the process by which a cell makes an identical copy of its DNA before cell division.  
+
+A13e) A computer algorithm is a step-by-step set of instructions designed to perform a specific task or solve a problem.  
+A14e) Object-oriented programming is a programming paradigm that organizes data and behavior into objects, which can interact with one another.  
+A15e) A database is an organized collection of structured information or data that can be easily accessed, managed, and updated.  
+
+A16e) Feudalism is a social and economic system in medieval Europe in which land was held in exchange for service or labor.  
+A17e) The Renaissance was a cultural, artistic, and intellectual revival in Europe between the 14th and 17th centuries, emphasizing humanism and classical learning.  
+A18e) The Industrial Revolution refers to the period of rapid industrial growth and technological innovation that began in the late 18th century, transforming economies and societies.  
+
+A19e) Utilitarianism is an ethical theory that suggests the best action is the one that maximizes overall happiness or well-being.  
+A20e) Epistemology is the branch of philosophy concerned with the nature, origin, and scope of knowledge.  
+A21e) Existentialism is a philosophical movement emphasizing individual freedom, choice, and responsibility in creating meaning in life.  
+
+A22e) Supply and demand is an economic model describing how the price and quantity of goods are determined by the relationship between availability (supply) and desire (demand).  
+A23e) Inflation is the rate at which the general level of prices for goods and services rises, reducing purchasing power.  
+A24e) Opportunity cost is the value of the next best alternative that must be forgone when a choice is made.  
+
+A25e) A metaphor is a figure of speech in which a word or phrase is applied to an object or action to which it is not literally applicable, suggesting a comparison.  
+A26e) Syntax is the set of rules that governs the structure of sentences and the arrangement of words in a language.  
+A27e) Narrative point of view refers to the perspective from which a story is told, such as first person, second person, or third person.  
+
+A28e) Informed consent is the process by which a person voluntarily agrees to a proposed action or treatment after being informed of its risks, benefits, and alternatives.  
+A29e) Beneficence is the ethical principle of promoting good and acting in ways that benefit others.  
+A30e) Moral relativism is the philosophical view that moral judgments and ethical standards are not absolute but vary based on culture, context, or individual perspective.
