@@ -1,309 +1,329 @@
-import React, { useState, useEffect } from 'react';
-import { BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, Legend, ResponsiveContainer } from 'recharts';
-
-const SSIAnalyzer = () => {
-  const [loading, setLoading] = useState(true);
-  const [error, setError] = useState(null);
-  const [showCalculations, setShowCalculations] = useState({});
-  const [questionTypeData, setQuestionTypeData] = useState({});
-
-  const questionTypes = [
-    'analytical-multistep-reasoning',
-    'closed-factual',
-    'computational-numerical',
-    'conceptual-definition',
-    'design-methodological',
-    'evaluative-normative',
-    'interpretive-contextual',
-    'procedural-how-to'
-  ];
-
-  useEffect(() => {
-    const fetchAllData = async () => {
-      setLoading(true);
-      const baseUrl = 'https://raw.githubusercontent.com/fish-aimf/axthj67-ssi-research-paper/main/RESEARCH-DATA/investigation%201/question-types';
-      
-      try {
-        const results = {};
-        
-        for (const qt of questionTypes) {
-          const questionsUrl = `${baseUrl}/${qt}/ssi_of_questions`;
-          const answersUrl = `${baseUrl}/${qt}/ssi_of_answers`;
-          
-          try {
-            const [questionsRes, answersRes] = await Promise.all([
-              fetch(questionsUrl),
-              fetch(answersUrl)
-            ]);
-            
-            if (questionsRes.ok && answersRes.ok) {
-              const questions = await questionsRes.json();
-              const answers = await answersRes.json();
-              
-              results[qt] = { questions, answers };
-            }
-          } catch (err) {
-            console.error(`Error fetching ${qt}:`, err);
-          }
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SSI Data Analyzer</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
         }
-        
-        setQuestionTypeData(results);
-        setLoading(false);
-      } catch (err) {
-        setError(err.message);
-        setLoading(false);
-      }
-    };
-
-    fetchAllData();
-  }, []);
-
-  const calculateStats = (values) => {
-    const n = values.length;
-    const mean = values.reduce((a, b) => a + b, 0) / n;
-    const variance = values.reduce((a, b) => a + Math.pow(b - mean, 2), 0) / n;
-    const stdDev = Math.sqrt(variance);
-    const min = Math.min(...values);
-    const max = Math.max(...values);
+        body {
+            font-family: Arial, sans-serif;
+            padding: 20px;
+            max-width: 1400px;
+            margin: 0 auto;
+        }
+        h1 {
+            font-size: 24px;
+            margin-bottom: 20px;
+        }
+        h2 {
+            font-size: 20px;
+            margin-bottom: 15px;
+        }
+        h3 {
+            font-size: 16px;
+            margin-bottom: 10px;
+        }
+        .info {
+            color: #666;
+            font-size: 14px;
+            margin-bottom: 20px;
+        }
+        .loading {
+            text-align: center;
+            padding: 50px;
+            font-size: 18px;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 30px;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: left;
+        }
+        th {
+            background-color: #f5f5f5;
+        }
+        .text-right {
+            text-align: right;
+        }
+        .section {
+            margin-bottom: 40px;
+            border: 1px solid #ddd;
+            padding: 20px;
+            border-radius: 4px;
+        }
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 15px;
+            margin-bottom: 20px;
+        }
+        .stat-box {
+            border: 1px solid #ddd;
+            padding: 15px;
+            border-radius: 4px;
+        }
+        .stat-box div {
+            font-size: 14px;
+            margin-bottom: 5px;
+        }
+        button {
+            padding: 8px 16px;
+            border: 1px solid #ddd;
+            background: white;
+            cursor: pointer;
+            border-radius: 4px;
+        }
+        button:hover {
+            background: #f5f5f5;
+        }
+        .section-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+        .calculations {
+            margin-top: 20px;
+        }
+        .hidden {
+            display: none;
+        }
+        .font-medium {
+            font-weight: 500;
+        }
+        .bg-gray {
+            background-color: #f9f9f9;
+        }
+    </style>
+</head>
+<body>
+    <h1>SSI Data Analyzer</h1>
+    <div class="info">Data loaded from: fish-aimf/axthj67-ssi-research-paper</div>
     
-    return { mean, stdDev, min, max, n };
-  };
+    <div id="loading" class="loading">Loading data from GitHub...</div>
+    <div id="content" class="hidden"></div>
 
-  const analyzeQuestionType = (questions, answers) => {
-    const questionKeys = Object.keys(questions).sort((a, b) => {
-      const numA = parseInt(a.substring(1));
-      const numB = parseInt(b.substring(1));
-      return numA - numB;
-    });
-    
-    const answerKeys = Object.keys(answers).sort((a, b) => {
-      const numA = parseInt(a.substring(1));
-      const numB = parseInt(b.substring(1));
-      return numA - numB;
-    });
+    <script>
+        var questionTypes = [
+            'analytical-multistep-reasoning',
+            'closed-factual',
+            'computational-numerical',
+            'conceptual-definition',
+            'design-methodological',
+            'evaluative-normative',
+            'interpretive-contextual',
+            'procedural-how-to'
+        ];
 
-    const ratios = [];
-    const calculations = [];
+        function calculateStats(values) {
+            var n = values.length;
+            var mean = values.reduce(function(a, b) { return a + b; }, 0) / n;
+            var variance = values.reduce(function(a, b) { return a + Math.pow(b - mean, 2); }, 0) / n;
+            var stdDev = Math.sqrt(variance);
+            var min = Math.min.apply(null, values);
+            var max = Math.max.apply(null, values);
+            
+            return { mean: mean, stdDev: stdDev, min: min, max: max, n: n };
+        }
 
-    questionKeys.forEach((qKey, index) => {
-      const aKey = answerKeys[index];
-      const qValue = questions[qKey];
-      const aValue = answers[aKey];
-      const ratio = aValue / qValue;
-      
-      ratios.push(ratio);
-      calculations.push({
-        question: qKey,
-        answer: aKey,
-        questionSSI: qValue,
-        answerSSI: aValue,
-        ratio: ratio
-      });
-    });
+        function analyzeQuestionType(questions, answers) {
+            var questionKeys = Object.keys(questions).sort(function(a, b) {
+                var numA = parseInt(a.substring(1));
+                var numB = parseInt(b.substring(1));
+                return numA - numB;
+            });
+            
+            var answerKeys = Object.keys(answers).sort(function(a, b) {
+                var numA = parseInt(a.substring(1));
+                var numB = parseInt(b.substring(1));
+                return numA - numB;
+            });
 
-    const avgQuestionSSI = Object.values(questions).reduce((a, b) => a + b, 0) / Object.values(questions).length;
-    const avgAnswerSSI = Object.values(answers).reduce((a, b) => a + b, 0) / Object.values(answers).length;
-    const avgRatio = ratios.reduce((a, b) => a + b, 0) / ratios.length;
-    
-    const ratioStats = calculateStats(ratios);
-    const questionStats = calculateStats(Object.values(questions));
-    const answerStats = calculateStats(Object.values(answers));
+            var ratios = [];
+            var calculations = [];
 
-    return {
-      calculations,
-      avgQuestionSSI,
-      avgAnswerSSI,
-      avgRatio,
-      ratioStats,
-      questionStats,
-      answerStats
-    };
-  };
+            questionKeys.forEach(function(qKey, index) {
+                var aKey = answerKeys[index];
+                var qValue = questions[qKey];
+                var aValue = answers[aKey];
+                var ratio = aValue / qValue;
+                
+                ratios.push(ratio);
+                calculations.push({
+                    question: qKey,
+                    answer: aKey,
+                    questionSSI: qValue,
+                    answerSSI: aValue,
+                    ratio: ratio
+                });
+            });
 
-  if (loading) {
-    return (
-      <div className="p-6 max-w-7xl mx-auto">
-        <h1 className="text-2xl font-bold mb-6">SSI Data Analyzer</h1>
-        <div className="text-center py-12">
-          <div className="text-lg">Loading data from GitHub...</div>
-        </div>
-      </div>
-    );
-  }
+            var questionValues = Object.keys(questions).map(function(k) { return questions[k]; });
+            var answerValues = Object.keys(answers).map(function(k) { return answers[k]; });
+            
+            var avgQuestionSSI = questionValues.reduce(function(a, b) { return a + b; }, 0) / questionValues.length;
+            var avgAnswerSSI = answerValues.reduce(function(a, b) { return a + b; }, 0) / answerValues.length;
+            var avgRatio = ratios.reduce(function(a, b) { return a + b; }, 0) / ratios.length;
+            
+            var ratioStats = calculateStats(ratios);
+            var questionStats = calculateStats(questionValues);
+            var answerStats = calculateStats(answerValues);
 
-  if (error) {
-    return (
-      <div className="p-6 max-w-7xl mx-auto">
-        <h1 className="text-2xl font-bold mb-6">SSI Data Analyzer</h1>
-        <div className="text-center py-12 text-red-600">
-          <div className="text-lg">Error: {error}</div>
-        </div>
-      </div>
-    );
-  }
+            return {
+                calculations: calculations,
+                avgQuestionSSI: avgQuestionSSI,
+                avgAnswerSSI: avgAnswerSSI,
+                avgRatio: avgRatio,
+                ratioStats: ratioStats,
+                questionStats: questionStats,
+                answerStats: answerStats
+            };
+        }
 
-  const results = {};
-  Object.keys(questionTypeData).forEach(qt => {
-    if (questionTypeData[qt].questions && questionTypeData[qt].answers) {
-      results[qt] = analyzeQuestionType(
-        questionTypeData[qt].questions,
-        questionTypeData[qt].answers
-      );
-    }
-  });
+        function toggleCalculations(id) {
+            var elem = document.getElementById(id);
+            elem.classList.toggle('hidden');
+            var button = document.querySelector('button[data-target="' + id + '"]');
+            button.textContent = elem.classList.contains('hidden') ? 'Show Detailed Calculations' : 'Hide Detailed Calculations';
+        }
 
-  const sortedResults = Object.entries(results).sort((a, b) => b[1].avgRatio - a[1].avgRatio);
+        function fetchAllData() {
+            var baseUrl = 'https://raw.githubusercontent.com/fish-aimf/axthj67-ssi-research-paper/main/RESEARCH-DATA/investigation%201/question-types';
+            var results = {};
+            var promises = [];
+            
+            questionTypes.forEach(function(qt) {
+                var questionsUrl = baseUrl + '/' + qt + '/ssi_of_questions';
+                var answersUrl = baseUrl + '/' + qt + '/ssi_of_answers';
+                
+                var promise = Promise.all([
+                    fetch(questionsUrl).then(function(r) { return r.json(); }),
+                    fetch(answersUrl).then(function(r) { return r.json(); })
+                ]).then(function(data) {
+                    results[qt] = analyzeQuestionType(data[0], data[1]);
+                }).catch(function(err) {
+                    console.error('Error fetching ' + qt + ':', err);
+                });
+                
+                promises.push(promise);
+            });
+            
+            Promise.all(promises).then(function() {
+                renderResults(results);
+            }).catch(function(err) {
+                document.getElementById('loading').innerHTML = '<div style="color: red;">Error: ' + err.message + '</div>';
+            });
+        }
 
-  const chartData = sortedResults.map(([name, data]) => ({
-    name: name.split('-').map(w => w.charAt(0).toUpperCase() + w.slice(1)).join(' '),
-    'Avg Question SSI': parseFloat(data.avgQuestionSSI.toFixed(4)),
-    'Avg Answer SSI': parseFloat(data.avgAnswerSSI.toFixed(4)),
-    'Avg SSI Ratio': parseFloat(data.avgRatio.toFixed(4))
-  }));
+        function renderResults(results) {
+            var sortedResults = Object.entries(results).sort(function(a, b) {
+                return b[1].avgRatio - a[1].avgRatio;
+            });
+            
+            var html = '<div><h2>Summary Rankings</h2><table><thead><tr class="bg-gray"><th>Rank</th><th>Question Type</th><th class="text-right">Avg Question SSI</th><th class="text-right">Avg Answer SSI</th><th class="text-right">Avg SSI Ratio</th><th class="text-right">Ratio Std Dev</th></tr></thead><tbody>';
+            
+            sortedResults.forEach(function(item, index) {
+                var name = item[0];
+                var data = item[1];
+                html += '<tr>' +
+                    '<td>' + (index + 1) + '</td>' +
+                    '<td>' + name + '</td>' +
+                    '<td class="text-right">' + data.avgQuestionSSI.toFixed(4) + '</td>' +
+                    '<td class="text-right">' + data.avgAnswerSSI.toFixed(4) + '</td>' +
+                    '<td class="text-right font-medium">' + data.avgRatio.toFixed(4) + '</td>' +
+                    '<td class="text-right">' + data.ratioStats.stdDev.toFixed(4) + '</td>' +
+                '</tr>';
+            });
+            
+            html += '</tbody></table></div>';
+            
+            sortedResults.forEach(function(item) {
+                var name = item[0];
+                var data = item[1];
+                var id = 'calc-' + name;
+                
+                html += '<div class="section">' +
+                    '<div class="section-header">' +
+                        '<h2>' + name + '</h2>' +
+                        '<button data-target="' + id + '" onclick="toggleCalculations(\'' + id + '\')">Show Detailed Calculations</button>' +
+                    '</div>' +
+                    '<div class="stats-grid">' +
+                        '<div class="stat-box">' +
+                            '<h3>Question SSI Statistics</h3>' +
+                            '<div>Mean: ' + data.questionStats.mean.toFixed(4) + '</div>' +
+                            '<div>Std Dev: ' + data.questionStats.stdDev.toFixed(4) + '</div>' +
+                            '<div>Min: ' + data.questionStats.min.toFixed(4) + '</div>' +
+                            '<div>Max: ' + data.questionStats.max.toFixed(4) + '</div>' +
+                            '<div>Count: ' + data.questionStats.n + '</div>' +
+                        '</div>' +
+                        '<div class="stat-box">' +
+                            '<h3>Answer SSI Statistics</h3>' +
+                            '<div>Mean: ' + data.answerStats.mean.toFixed(4) + '</div>' +
+                            '<div>Std Dev: ' + data.answerStats.stdDev.toFixed(4) + '</div>' +
+                            '<div>Min: ' + data.answerStats.min.toFixed(4) + '</div>' +
+                            '<div>Max: ' + data.answerStats.max.toFixed(4) + '</div>' +
+                            '<div>Count: ' + data.answerStats.n + '</div>' +
+                        '</div>' +
+                        '<div class="stat-box">' +
+                            '<h3>SSI Ratio Statistics</h3>' +
+                            '<div>Mean: ' + data.ratioStats.mean.toFixed(4) + '</div>' +
+                            '<div>Std Dev: ' + data.ratioStats.stdDev.toFixed(4) + '</div>' +
+                            '<div>Min: ' + data.ratioStats.min.toFixed(4) + '</div>' +
+                            '<div>Max: ' + data.ratioStats.max.toFixed(4) + '</div>' +
+                            '<div>Count: ' + data.ratioStats.n + '</div>' +
+                        '</div>' +
+                    '</div>' +
+                    '<div id="' + id + '" class="calculations hidden">' +
+                        '<h3>Individual Question Calculations</h3>' +
+                        '<table>' +
+                            '<thead>' +
+                                '<tr class="bg-gray">' +
+                                    '<th>Question</th>' +
+                                    '<th>Answer</th>' +
+                                    '<th>Question SSI</th>' +
+                                    '<th>Answer SSI</th>' +
+                                    '<th>Ratio (A/Q)</th>' +
+                                '</tr>' +
+                            '</thead>' +
+                            '<tbody>';
+                
+                data.calculations.forEach(function(calc) {
+                    html += '<tr>' +
+                        '<td>' + calc.question + '</td>' +
+                        '<td>' + calc.answer + '</td>' +
+                        '<td class="text-right">' + calc.questionSSI.toFixed(6) + '</td>' +
+                        '<td class="text-right">' + calc.answerSSI.toFixed(6) + '</td>' +
+                        '<td class="text-right font-medium">' + calc.ratio.toFixed(6) + '</td>' +
+                    '</tr>';
+                });
+                
+                html += '<tr class="bg-gray font-medium">' +
+                    '<td colspan="2">AVERAGE</td>' +
+                    '<td class="text-right">' + data.avgQuestionSSI.toFixed(6) + '</td>' +
+                    '<td class="text-right">' + data.avgAnswerSSI.toFixed(6) + '</td>' +
+                    '<td class="text-right">' + data.avgRatio.toFixed(6) + '</td>' +
+                '</tr>' +
+                            '</tbody>' +
+                        '</table>' +
+                    '</div>' +
+                '</div>';
+            });
+            
+            document.getElementById('loading').classList.add('hidden');
+            document.getElementById('content').innerHTML = html;
+            document.getElementById('content').classList.remove('hidden');
+        }
 
-  return (
-    <div className="p-6 max-w-7xl mx-auto">
-      <h1 className="text-2xl font-bold mb-6">SSI Data Analyzer</h1>
-      <div className="text-sm text-gray-600 mb-6">
-        Data loaded from: fish-aimf/axthj67-ssi-research-paper
-      </div>
-
-      {sortedResults.length > 0 && (
-        <>
-          <div className="mb-8">
-            <h2 className="text-xl font-semibold mb-4">Summary Rankings</h2>
-            <table className="w-full border-collapse border">
-              <thead>
-                <tr className="bg-gray-100">
-                  <th className="border p-2 text-left">Rank</th>
-                  <th className="border p-2 text-left">Question Type</th>
-                  <th className="border p-2 text-right">Avg Question SSI</th>
-                  <th className="border p-2 text-right">Avg Answer SSI</th>
-                  <th className="border p-2 text-right">Avg SSI Ratio</th>
-                  <th className="border p-2 text-right">Ratio Std Dev</th>
-                </tr>
-              </thead>
-              <tbody>
-                {sortedResults.map(([name, data], index) => (
-                  <tr key={name}>
-                    <td className="border p-2">{index + 1}</td>
-                    <td className="border p-2">{name}</td>
-                    <td className="border p-2 text-right">{data.avgQuestionSSI.toFixed(4)}</td>
-                    <td className="border p-2 text-right">{data.avgAnswerSSI.toFixed(4)}</td>
-                    <td className="border p-2 text-right font-medium">{data.avgRatio.toFixed(4)}</td>
-                    <td className="border p-2 text-right">{data.ratioStats.stdDev.toFixed(4)}</td>
-                  </tr>
-                ))}
-              </tbody>
-            </table>
-          </div>
-
-          <div className="mb-8">
-            <h2 className="text-xl font-semibold mb-4">Visual Comparison</h2>
-            <ResponsiveContainer width="100%" height={400}>
-              <BarChart data={chartData}>
-                <CartesianGrid strokeDasharray="3 3" />
-                <XAxis dataKey="name" angle={-45} textAnchor="end" height={120} />
-                <YAxis />
-                <Tooltip />
-                <Legend />
-                <Bar dataKey="Avg Question SSI" fill="#8884d8" />
-                <Bar dataKey="Avg Answer SSI" fill="#82ca9d" />
-                <Bar dataKey="Avg SSI Ratio" fill="#ffc658" />
-              </BarChart>
-            </ResponsiveContainer>
-          </div>
-
-          {sortedResults.map(([name, data]) => (
-            <div key={name} className="mb-8 border rounded p-4">
-              <div className="flex justify-between items-center mb-4">
-                <h2 className="text-xl font-semibold">{name}</h2>
-                <button
-                  onClick={() => setShowCalculations(prev => ({...prev, [name]: !prev[name]}))}
-                  className="px-4 py-2 border rounded hover:bg-gray-100"
-                >
-                  {showCalculations[name] ? 'Hide' : 'Show'} Detailed Calculations
-                </button>
-              </div>
-
-              <div className="grid grid-cols-3 gap-4 mb-4">
-                <div className="border p-3 rounded">
-                  <h3 className="font-medium mb-2">Question SSI Statistics</h3>
-                  <div className="text-sm space-y-1">
-                    <div>Mean: {data.questionStats.mean.toFixed(4)}</div>
-                    <div>Std Dev: {data.questionStats.stdDev.toFixed(4)}</div>
-                    <div>Min: {data.questionStats.min.toFixed(4)}</div>
-                    <div>Max: {data.questionStats.max.toFixed(4)}</div>
-                    <div>Count: {data.questionStats.n}</div>
-                  </div>
-                </div>
-
-                <div className="border p-3 rounded">
-                  <h3 className="font-medium mb-2">Answer SSI Statistics</h3>
-                  <div className="text-sm space-y-1">
-                    <div>Mean: {data.answerStats.mean.toFixed(4)}</div>
-                    <div>Std Dev: {data.answerStats.stdDev.toFixed(4)}</div>
-                    <div>Min: {data.answerStats.min.toFixed(4)}</div>
-                    <div>Max: {data.answerStats.max.toFixed(4)}</div>
-                    <div>Count: {data.answerStats.n}</div>
-                  </div>
-                </div>
-
-                <div className="border p-3 rounded">
-                  <h3 className="font-medium mb-2">SSI Ratio Statistics</h3>
-                  <div className="text-sm space-y-1">
-                    <div>Mean: {data.ratioStats.mean.toFixed(4)}</div>
-                    <div>Std Dev: {data.ratioStats.stdDev.toFixed(4)}</div>
-                    <div>Min: {data.ratioStats.min.toFixed(4)}</div>
-                    <div>Max: {data.ratioStats.max.toFixed(4)}</div>
-                    <div>Count: {data.ratioStats.n}</div>
-                  </div>
-                </div>
-              </div>
-
-              {showCalculations[name] && (
-                <div className="mt-4">
-                  <h3 className="font-medium mb-2">Individual Question Calculations</h3>
-                  <div className="overflow-x-auto">
-                    <table className="w-full border-collapse border text-sm">
-                      <thead>
-                        <tr className="bg-gray-100">
-                          <th className="border p-2">Question</th>
-                          <th className="border p-2">Answer</th>
-                          <th className="border p-2">Question SSI</th>
-                          <th className="border p-2">Answer SSI</th>
-                          <th className="border p-2">Ratio (A/Q)</th>
-                        </tr>
-                      </thead>
-                      <tbody>
-                        {data.calculations.map((calc) => (
-                          <tr key={calc.question}>
-                            <td className="border p-2">{calc.question}</td>
-                            <td className="border p-2">{calc.answer}</td>
-                            <td className="border p-2 text-right">{calc.questionSSI.toFixed(6)}</td>
-                            <td className="border p-2 text-right">{calc.answerSSI.toFixed(6)}</td>
-                            <td className="border p-2 text-right font-medium">
-                              {calc.ratio.toFixed(6)}
-                            </td>
-                          </tr>
-                        ))}
-                        <tr className="bg-gray-50 font-medium">
-                          <td className="border p-2" colSpan="2">AVERAGE</td>
-                          <td className="border p-2 text-right">{data.avgQuestionSSI.toFixed(6)}</td>
-                          <td className="border p-2 text-right">{data.avgAnswerSSI.toFixed(6)}</td>
-                          <td className="border p-2 text-right">{data.avgRatio.toFixed(6)}</td>
-                        </tr>
-                      </tbody>
-                    </table>
-                  </div>
-                </div>
-              )}
-            </div>
-          ))}
-        </>
-      )}
-    </div>
-  );
-};
-
-export default SSIAnalyzer;
+        fetchAllData();
+    </script>
+</body>
+</html>
