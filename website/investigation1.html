@@ -1,0 +1,309 @@
+import React, { useState, useEffect } from 'react';
+import { BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, Legend, ResponsiveContainer } from 'recharts';
+
+const SSIAnalyzer = () => {
+  const [loading, setLoading] = useState(true);
+  const [error, setError] = useState(null);
+  const [showCalculations, setShowCalculations] = useState({});
+  const [questionTypeData, setQuestionTypeData] = useState({});
+
+  const questionTypes = [
+    'analytical-multistep-reasoning',
+    'closed-factual',
+    'computational-numerical',
+    'conceptual-definition',
+    'design-methodological',
+    'evaluative-normative',
+    'interpretive-contextual',
+    'procedural-how-to'
+  ];
+
+  useEffect(() => {
+    const fetchAllData = async () => {
+      setLoading(true);
+      const baseUrl = 'https://raw.githubusercontent.com/fish-aimf/axthj67-ssi-research-paper/main/RESEARCH-DATA/investigation%201/question-types';
+      
+      try {
+        const results = {};
+        
+        for (const qt of questionTypes) {
+          const questionsUrl = `${baseUrl}/${qt}/ssi_of_questions`;
+          const answersUrl = `${baseUrl}/${qt}/ssi_of_answers`;
+          
+          try {
+            const [questionsRes, answersRes] = await Promise.all([
+              fetch(questionsUrl),
+              fetch(answersUrl)
+            ]);
+            
+            if (questionsRes.ok && answersRes.ok) {
+              const questions = await questionsRes.json();
+              const answers = await answersRes.json();
+              
+              results[qt] = { questions, answers };
+            }
+          } catch (err) {
+            console.error(`Error fetching ${qt}:`, err);
+          }
+        }
+        
+        setQuestionTypeData(results);
+        setLoading(false);
+      } catch (err) {
+        setError(err.message);
+        setLoading(false);
+      }
+    };
+
+    fetchAllData();
+  }, []);
+
+  const calculateStats = (values) => {
+    const n = values.length;
+    const mean = values.reduce((a, b) => a + b, 0) / n;
+    const variance = values.reduce((a, b) => a + Math.pow(b - mean, 2), 0) / n;
+    const stdDev = Math.sqrt(variance);
+    const min = Math.min(...values);
+    const max = Math.max(...values);
+    
+    return { mean, stdDev, min, max, n };
+  };
+
+  const analyzeQuestionType = (questions, answers) => {
+    const questionKeys = Object.keys(questions).sort((a, b) => {
+      const numA = parseInt(a.substring(1));
+      const numB = parseInt(b.substring(1));
+      return numA - numB;
+    });
+    
+    const answerKeys = Object.keys(answers).sort((a, b) => {
+      const numA = parseInt(a.substring(1));
+      const numB = parseInt(b.substring(1));
+      return numA - numB;
+    });
+
+    const ratios = [];
+    const calculations = [];
+
+    questionKeys.forEach((qKey, index) => {
+      const aKey = answerKeys[index];
+      const qValue = questions[qKey];
+      const aValue = answers[aKey];
+      const ratio = aValue / qValue;
+      
+      ratios.push(ratio);
+      calculations.push({
+        question: qKey,
+        answer: aKey,
+        questionSSI: qValue,
+        answerSSI: aValue,
+        ratio: ratio
+      });
+    });
+
+    const avgQuestionSSI = Object.values(questions).reduce((a, b) => a + b, 0) / Object.values(questions).length;
+    const avgAnswerSSI = Object.values(answers).reduce((a, b) => a + b, 0) / Object.values(answers).length;
+    const avgRatio = ratios.reduce((a, b) => a + b, 0) / ratios.length;
+    
+    const ratioStats = calculateStats(ratios);
+    const questionStats = calculateStats(Object.values(questions));
+    const answerStats = calculateStats(Object.values(answers));
+
+    return {
+      calculations,
+      avgQuestionSSI,
+      avgAnswerSSI,
+      avgRatio,
+      ratioStats,
+      questionStats,
+      answerStats
+    };
+  };
+
+  if (loading) {
+    return (
+      <div className="p-6 max-w-7xl mx-auto">
+        <h1 className="text-2xl font-bold mb-6">SSI Data Analyzer</h1>
+        <div className="text-center py-12">
+          <div className="text-lg">Loading data from GitHub...</div>
+        </div>
+      </div>
+    );
+  }
+
+  if (error) {
+    return (
+      <div className="p-6 max-w-7xl mx-auto">
+        <h1 className="text-2xl font-bold mb-6">SSI Data Analyzer</h1>
+        <div className="text-center py-12 text-red-600">
+          <div className="text-lg">Error: {error}</div>
+        </div>
+      </div>
+    );
+  }
+
+  const results = {};
+  Object.keys(questionTypeData).forEach(qt => {
+    if (questionTypeData[qt].questions && questionTypeData[qt].answers) {
+      results[qt] = analyzeQuestionType(
+        questionTypeData[qt].questions,
+        questionTypeData[qt].answers
+      );
+    }
+  });
+
+  const sortedResults = Object.entries(results).sort((a, b) => b[1].avgRatio - a[1].avgRatio);
+
+  const chartData = sortedResults.map(([name, data]) => ({
+    name: name.split('-').map(w => w.charAt(0).toUpperCase() + w.slice(1)).join(' '),
+    'Avg Question SSI': parseFloat(data.avgQuestionSSI.toFixed(4)),
+    'Avg Answer SSI': parseFloat(data.avgAnswerSSI.toFixed(4)),
+    'Avg SSI Ratio': parseFloat(data.avgRatio.toFixed(4))
+  }));
+
+  return (
+    <div className="p-6 max-w-7xl mx-auto">
+      <h1 className="text-2xl font-bold mb-6">SSI Data Analyzer</h1>
+      <div className="text-sm text-gray-600 mb-6">
+        Data loaded from: fish-aimf/axthj67-ssi-research-paper
+      </div>
+
+      {sortedResults.length > 0 && (
+        <>
+          <div className="mb-8">
+            <h2 className="text-xl font-semibold mb-4">Summary Rankings</h2>
+            <table className="w-full border-collapse border">
+              <thead>
+                <tr className="bg-gray-100">
+                  <th className="border p-2 text-left">Rank</th>
+                  <th className="border p-2 text-left">Question Type</th>
+                  <th className="border p-2 text-right">Avg Question SSI</th>
+                  <th className="border p-2 text-right">Avg Answer SSI</th>
+                  <th className="border p-2 text-right">Avg SSI Ratio</th>
+                  <th className="border p-2 text-right">Ratio Std Dev</th>
+                </tr>
+              </thead>
+              <tbody>
+                {sortedResults.map(([name, data], index) => (
+                  <tr key={name}>
+                    <td className="border p-2">{index + 1}</td>
+                    <td className="border p-2">{name}</td>
+                    <td className="border p-2 text-right">{data.avgQuestionSSI.toFixed(4)}</td>
+                    <td className="border p-2 text-right">{data.avgAnswerSSI.toFixed(4)}</td>
+                    <td className="border p-2 text-right font-medium">{data.avgRatio.toFixed(4)}</td>
+                    <td className="border p-2 text-right">{data.ratioStats.stdDev.toFixed(4)}</td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+
+          <div className="mb-8">
+            <h2 className="text-xl font-semibold mb-4">Visual Comparison</h2>
+            <ResponsiveContainer width="100%" height={400}>
+              <BarChart data={chartData}>
+                <CartesianGrid strokeDasharray="3 3" />
+                <XAxis dataKey="name" angle={-45} textAnchor="end" height={120} />
+                <YAxis />
+                <Tooltip />
+                <Legend />
+                <Bar dataKey="Avg Question SSI" fill="#8884d8" />
+                <Bar dataKey="Avg Answer SSI" fill="#82ca9d" />
+                <Bar dataKey="Avg SSI Ratio" fill="#ffc658" />
+              </BarChart>
+            </ResponsiveContainer>
+          </div>
+
+          {sortedResults.map(([name, data]) => (
+            <div key={name} className="mb-8 border rounded p-4">
+              <div className="flex justify-between items-center mb-4">
+                <h2 className="text-xl font-semibold">{name}</h2>
+                <button
+                  onClick={() => setShowCalculations(prev => ({...prev, [name]: !prev[name]}))}
+                  className="px-4 py-2 border rounded hover:bg-gray-100"
+                >
+                  {showCalculations[name] ? 'Hide' : 'Show'} Detailed Calculations
+                </button>
+              </div>
+
+              <div className="grid grid-cols-3 gap-4 mb-4">
+                <div className="border p-3 rounded">
+                  <h3 className="font-medium mb-2">Question SSI Statistics</h3>
+                  <div className="text-sm space-y-1">
+                    <div>Mean: {data.questionStats.mean.toFixed(4)}</div>
+                    <div>Std Dev: {data.questionStats.stdDev.toFixed(4)}</div>
+                    <div>Min: {data.questionStats.min.toFixed(4)}</div>
+                    <div>Max: {data.questionStats.max.toFixed(4)}</div>
+                    <div>Count: {data.questionStats.n}</div>
+                  </div>
+                </div>
+
+                <div className="border p-3 rounded">
+                  <h3 className="font-medium mb-2">Answer SSI Statistics</h3>
+                  <div className="text-sm space-y-1">
+                    <div>Mean: {data.answerStats.mean.toFixed(4)}</div>
+                    <div>Std Dev: {data.answerStats.stdDev.toFixed(4)}</div>
+                    <div>Min: {data.answerStats.min.toFixed(4)}</div>
+                    <div>Max: {data.answerStats.max.toFixed(4)}</div>
+                    <div>Count: {data.answerStats.n}</div>
+                  </div>
+                </div>
+
+                <div className="border p-3 rounded">
+                  <h3 className="font-medium mb-2">SSI Ratio Statistics</h3>
+                  <div className="text-sm space-y-1">
+                    <div>Mean: {data.ratioStats.mean.toFixed(4)}</div>
+                    <div>Std Dev: {data.ratioStats.stdDev.toFixed(4)}</div>
+                    <div>Min: {data.ratioStats.min.toFixed(4)}</div>
+                    <div>Max: {data.ratioStats.max.toFixed(4)}</div>
+                    <div>Count: {data.ratioStats.n}</div>
+                  </div>
+                </div>
+              </div>
+
+              {showCalculations[name] && (
+                <div className="mt-4">
+                  <h3 className="font-medium mb-2">Individual Question Calculations</h3>
+                  <div className="overflow-x-auto">
+                    <table className="w-full border-collapse border text-sm">
+                      <thead>
+                        <tr className="bg-gray-100">
+                          <th className="border p-2">Question</th>
+                          <th className="border p-2">Answer</th>
+                          <th className="border p-2">Question SSI</th>
+                          <th className="border p-2">Answer SSI</th>
+                          <th className="border p-2">Ratio (A/Q)</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        {data.calculations.map((calc) => (
+                          <tr key={calc.question}>
+                            <td className="border p-2">{calc.question}</td>
+                            <td className="border p-2">{calc.answer}</td>
+                            <td className="border p-2 text-right">{calc.questionSSI.toFixed(6)}</td>
+                            <td className="border p-2 text-right">{calc.answerSSI.toFixed(6)}</td>
+                            <td className="border p-2 text-right font-medium">
+                              {calc.ratio.toFixed(6)}
+                            </td>
+                          </tr>
+                        ))}
+                        <tr className="bg-gray-50 font-medium">
+                          <td className="border p-2" colSpan="2">AVERAGE</td>
+                          <td className="border p-2 text-right">{data.avgQuestionSSI.toFixed(6)}</td>
+                          <td className="border p-2 text-right">{data.avgAnswerSSI.toFixed(6)}</td>
+                          <td className="border p-2 text-right">{data.avgRatio.toFixed(6)}</td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </div>
+                </div>
+              )}
+            </div>
+          ))}
+        </>
+      )}
+    </div>
+  );
+};
+
+export default SSIAnalyzer;
