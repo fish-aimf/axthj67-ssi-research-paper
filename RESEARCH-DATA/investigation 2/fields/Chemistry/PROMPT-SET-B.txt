@@ -1,0 +1,40 @@
+Q1b) Calculate the pH corresponding to a hydrogen ion concentration of 2.5 × 10⁻⁴ mol L⁻¹.
+Q2b) Determine the amount (in moles) of CO₂ produced when 11.0 g of calcium carbonate fully decomposes.
+Q3b) Determine the empirical formula of a compound containing 40.0% C, 6.7% H, and 53.3% O by mass.
+Q4b) Find the enthalpy change for heating 50.0 g of water from 25 °C to 75 °C using a specific heat capacity of 4.18 J g⁻¹ K⁻¹.
+Q5b) Calculate the molar concentration of a solution formed by dissolving 5.85 g of NaCl to make 500 mL of solution.
+Q6b) Determine the rate of reaction when concentration decreases from 0.80 mol L⁻¹ to 0.20 mol L⁻¹ over 120 s.
+Q7b) Explain the detailed procedure for performing an acid–base titration with a burette and pipette.
+Q8b) Describe how sand, salt, and iron filings can be separated using laboratory techniques.
+Q9b) Describe how to prepare a standard solution from a weighed solid.
+Q10b) Explain how to safely heat a volatile organic liquid using a reflux apparatus.
+Q11b) Outline the procedure for separating ink pigments by paper chromatography.
+Q12b) Describe the steps involved in calibrating a pH meter prior to use.
+Q13b) Explain what electronegativity is and why it matters in bonding.
+Q14b) Define the term “limiting reagent” as used in stoichiometry.
+Q15b) Explain the concept of activation energy in chemical reactions.
+Q16b) Describe what is meant by dynamic equilibrium in reversible reactions.
+Q17b) Explain what intermolecular forces are and how they differ from covalent bonds.
+Q18b) Describe what a catalyst does and how it changes reaction rate.
+Q19b) Using propane combustion, analyze the effect of doubling oxygen on CO₂ production.
+Q20b) Explain how increasing temperature while lowering pressure affects equilibrium in an exothermic gaseous reaction.
+Q21b) Explain how metal surface area influences the rate of its reaction with acid.
+Q22b) From linear rate–concentration data, identify the reaction order and justify your answer.
+Q23b) Describe the qualitative analysis steps needed to identify an unknown salt.
+Q24b) Explain how differences in molecular structure lead to boiling point variations among isomers.
+Q25b) Explain the meaning of a color change in a redox indicator during titration.
+Q26b) Describe what happens at each flat section of a heating curve for a pure substance.
+Q27b) Interpret periodic trends to explain atomic radius changes across periods and down groups.
+Q28b) Use IR spectroscopy data to deduce which functional groups are present.
+Q29b) Interpret a solubility curve to choose suitable crystallization conditions.
+Q30b) Explain how precipitation reaction observations can be used to identify ions in solution.
+Q31b) Assess the proposal to replace all single-use plastics with biodegradable polymers.
+Q32b) Discuss whether using toxic heavy metals as catalysts is ethically acceptable when alternatives are less efficient.
+Q33b) Evaluate the role nuclear chemistry could play in addressing global energy demand.
+Q34b) Argue for or against global standardization of laboratory safety regulations.
+Q35b) Compare chemical pesticides and biological control methods in agriculture.
+Q36b) Evaluate whether green chemistry principles should be mandatory in industrial processes.
+Q37b) Plan an experiment to compare two catalysts in the decomposition of hydrogen peroxide.
+Q38b) Design a calorimetry experiment to measure the enthalpy change of a neutralization reaction.
+Q39b) Propose a chemical test procedure for determining water hardness.
+Q40b) Design an experiment to investigate how changing concentration affects reaction rate while controlling other factors.
