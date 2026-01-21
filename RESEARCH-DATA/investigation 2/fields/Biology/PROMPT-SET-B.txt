@@ -1,4 +1,3 @@
-Set B:
 Q1b) Calculate the percentage growth of a bacterial population increasing from 2.0 × 10^6 to 5.0 × 10^6 cells in 6 hours.
 Q2b) If a plant cell has a water potential of −0.8 MPa and is placed in a −0.3 MPa solution, determine the net movement of water.
 Q3b) With photosynthesis producing 12 µmol O₂ m⁻² s⁻¹ and respiration using 4 µmol O₂ m⁻² s⁻¹, find the net oxygen production.
@@ -47,3 +46,4 @@ Q45b) What is considered the fundamental unit of life?
 Q46b) Which gas is produced during photosynthesis?
 Q47b) Which cellular process converts glucose into usable energy?
 Q48b) To which biological kingdom do fungi belong?
+
