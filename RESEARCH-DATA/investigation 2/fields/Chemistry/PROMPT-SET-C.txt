@@ -1,41 +1,48 @@
-Q1c) What is the pH of a solution with [H⁺] = 2.5 × 10⁻⁴ mol L⁻¹?
-Q2c) How many moles of carbon dioxide are formed when 11.0 g of calcium carbonate decomposes completely?
-Q3c) Calculate the empirical formula for a compound made up of 40.0% carbon, 6.7% hydrogen, and 53.3% oxygen.
-Q4c) Determine the enthalpy change when 50.0 g of water is heated from 25 °C to 75 °C, given c = 4.18 J g⁻¹ K⁻¹.
-Q5c) What is the molarity of a solution containing 5.85 g of NaCl in 500 mL of solution?
-Q6c) What is the reaction rate if concentration falls from 0.80 to 0.20 mol L⁻¹ in 120 s?
-Q7c) Describe the stepwise method for conducting an acid–base titration using standard apparatus.
-Q8c) Explain how a mixture of sand, salt, and iron filings can be separated experimentally.
-Q9c) Explain the steps required to make a standard solution from a solid chemical.
-Q10c) Describe the correct and safe method for refluxing a volatile organic liquid.
-Q11c) Describe how paper chromatography is performed to separate ink components.
-Q12c) Explain how a pH meter is calibrated before measurements are taken.
-Q13c) What is electronegativity and why is it significant in bonding?
-Q14c) What does the term “limiting reagent” mean in a chemical reaction?
-Q15c) What is activation energy in relation to chemical reactions?
-Q16c) What is meant by dynamic equilibrium in reversible systems?
-Q17c) What are intermolecular forces and how do they differ from covalent bonds?
-Q18c) What is a catalyst and how does it affect reaction speed?
-Q19c) For propane combustion, analyze the impact of doubling oxygen on CO₂ yield.
-Q20c) Explain the effect of higher temperature and lower pressure on an exothermic gas equilibrium.
-Q21c) Explain how increasing metal surface area changes reaction rate with acid.
-Q22c) Using linear rate–concentration data, determine the reaction order.
-Q23c) Explain how qualitative analysis is used to identify an unknown salt.
-Q24c) Explain how molecular structure influences boiling point differences in isomers.
-Q25c) What does a redox indicator color change during titration indicate?
-Q26c) Explain the significance of flat regions on a heating curve.
-Q27c) Describe how atomic radius varies across a period and down a group.
-Q28c) Explain how IR spectra reveal functional groups in organic molecules.
-Q29c) Explain how to use a solubility curve to plan crystallization.
-Q30c) Explain how precipitation reactions can indicate which ions are present.
-Q31c) Evaluate the idea of fully replacing single-use plastics with biodegradable alternatives.
-Q32c) Evaluate the ethics of using toxic heavy metals as catalysts when no better alternatives exist.
-Q33c) Evaluate the potential expansion of nuclear chemistry in global energy production.
-Q34c) Evaluate whether laboratory safety rules should be globally unified.
-Q35c) Evaluate chemical pesticides compared to biological control strategies.
-Q36c) Should green chemistry principles be compulsory in industry? Evaluate.
-Q37c) Design an experiment to compare catalyst effectiveness in hydrogen peroxide decomposition.
-Q38c) Design a calorimetric method to measure neutralization enthalpy.
-Q39c) Design a chemical experiment to test water hardness.
-Q40c) Design an investigation into how concentration affects reaction rate with controlled variables.
-
+Q1c) Determine the molar mass of calcium phosphate, Ca3(PO4)2.
+Q2c) How many moles are in 25 g of NaOH?
+Q3c) Calculate the percent of hydrogen by mass in C2H6O.
+Q4c) For a 0.5 M HCl solution, calculate the volume needed to neutralize 0.25 moles of NaOH.
+Q5c) Find the energy released when 2 moles of hydrogen react with oxygen to make water.
+Q6c) Compute the empirical formula for a compound containing 40% C, 6.7% H, and 53.3% O.
+Q7c) Explain the steps to carry out a titration to find an unknown acid concentration.
+Q8c) Describe how to separate sand and salt in a mixture.
+Q9c) Outline the laboratory steps to synthesize aspirin.
+Q10c) How would you prepare a standard solution of sodium carbonate?
+Q11c) Describe the flame test procedure to identify metal ions.
+Q12c) Give the method to measure the reaction rate between magnesium and hydrochloric acid.
+Q13c) What is electronegativity and why is it important in chemical bonds?
+Q14c) Compare ionic and covalent bonds.
+Q15c) Define the term chemical equilibrium.
+Q16c) Describe oxidation and reduction with respect to electron transfer.
+Q17c) Define the concept of molarity in solution chemistry.
+Q18c) What are intermolecular forces? Provide examples.
+Q19c) Predict the products and balance the reaction of aluminum with HCl.
+Q20c) Calculate the reaction enthalpy for methane combustion using enthalpies of formation.
+Q21c) How does temperature affect the equilibrium position for N2 + 3H2 ⇌ 2NH3?
+Q22c) Find the limiting reagent when 5 g of sodium reacts with 10 g of chlorine.
+Q23c) Using a titration curve, identify the equivalence point and the concentration of the unknown.
+Q24c) Compare the acidity of HCl, H2SO4, and H3PO4 using pKa values.
+Q25c) Explain the trend in boiling points of halogens from fluorine to iodine.
+Q26c) Explain why increasing temperature reduces the solubility of gases.
+Q27c) Use IR spectral data to identify functional groups.
+Q28c) Examine how the presence of a catalyst affects reaction rate using a graph.
+Q29c) Discuss the environmental impact of acid rain based on chemical reactions.
+Q30c) Explain why molten ionic compounds conduct electricity while solid ones do not.
+Q31c) Analyze whether hydrogen fuel is more sustainable than using fossil fuels.
+Q32c) Should chemists focus on green chemistry in industrial processes? Explain.
+Q33c) Consider the risks and advantages of nanoparticles in consumer products.
+Q34c) Discuss the ethical issues of synthesizing new psychoactive compounds in the lab.
+Q35c) Should the use of plasticizers in polymers be more strictly controlled? Why?
+Q36c) Evaluate the health and safety aspects of using chlorine in water treatment.
+Q37c) Design a method to determine the rate law for the iodide-hydrogen peroxide reaction.
+Q38c) Suggest a distillation method to separate ethanol from water.
+Q39c) Propose a strategy for synthesizing a compound with two functional groups selectively.
+Q40c) Design a calorimetry experiment to determine the enthalpy change of a chemical reaction.
+Q41c) Suggest a technique to measure dissolved oxygen concentration in water.
+Q42c) Plan an experiment to test the effectiveness of various catalysts in esterification.
+Q43c) What is oxygen’s atomic number?
+Q44c) Provide the chemical symbol for potassium.
+Q45c) Identify the halogen in period 3.
+Q46c) What is the standard state of mercury at room temperature?
+Q47c) Which gas forms when zinc reacts with HCl?
+Q48c) Calculate the pH of a hydrochloric acid solution with concentration 0.01 M.
