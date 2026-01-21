@@ -1,0 +1,49 @@
+Set C:
+Q1c) Find the percentage increase when a bacterial population grows from 2.0 × 10^6 to 5.0 × 10^6 cells in 6 hours.
+Q2c) When a plant cell with −0.8 MPa water potential is placed in a −0.3 MPa solution, determine the net direction of water flow.
+Q3c) Calculate net oxygen production when photosynthesis occurs at 12 µmol O₂ m⁻² s⁻¹ and respiration at 4 µmol O₂ m⁻² s⁻¹.
+Q4c) Calculate the phenotypic ratio expected from an AaBb × AaBb dihybrid cross.
+Q5c) Calculate the length in nanometers of a 1200-base-pair DNA fragment assuming 0.34 nm per base pair.
+Q6c) Determine the enzyme reaction rate in mmol per minute if 90 mmol of substrate is converted in 30 minutes.
+Q7c) Explain the steps needed to prepare a wet mount of onion epidermal cells.
+Q8c) Outline a straightforward lab technique for extracting DNA from plant cells.
+Q9c) Name the phases of mitosis in sequence and describe each phase.
+Q10c) Explain how to conduct a controlled experiment to study light intensity effects on photosynthesis.
+Q11c) Describe the standard steps of the Gram staining technique.
+Q12c) Explain the use of a potometer in measuring transpiration rate.
+Q13c) Provide a definition of natural selection and describe its core components.
+Q14c) Define homeostasis in the context of biological systems.
+Q15c) Describe how enzyme specificity works.
+Q16c) Explain genetic drift and how it differs from natural selection.
+Q17c) Describe apoptosis and its significance in multicellular organisms.
+Q18c) Explain what carrying capacity means in ecology.
+Q19c) Analyze the impact of an enzyme gene mutation on a metabolic pathway.
+Q20c) Reason through the ecological consequences of a decrease in predator populations.
+Q21c) Explain the link between increased CO₂, ocean acidification, and marine ecosystem effects.
+Q22c) Analyze the consequences of sodium–potassium pump malfunction on nerve impulses.
+Q23c) Explain how meiotic errors can lead to chromosomal abnormalities.
+Q24c) Analyze how deforestation and climate change together affect tropical biodiversity.
+Q25c) Interpret the meaning of a population age-structure diagram with a broad base and narrow apex.
+Q26c) Interpret the significance of high mRNA levels accompanied by low protein levels.
+Q27c) Interpret evolutionary relatedness between two species using a phylogenetic tree.
+Q28c) Explain what a leveling-off phase in population growth represents.
+Q29c) Interpret enzyme activity results showing no increase despite added substrate.
+Q30c) Explain why plants in high-light environments may have increased stomatal density.
+Q31c) Discuss whether GMOs should be widely implemented in agriculture using biological reasoning.
+Q32c) Evaluate the need to limit antibiotic use in livestock to prevent resistance.
+Q33c) Discuss whether keystone species should be prioritized in conservation efforts.
+Q34c) Evaluate the ethical issues surrounding the cloning of endangered species.
+Q35c) Discuss whether eradication of invasive species is always ecologically justified.
+Q36c) Evaluate animal experimentation in biomedical research from ethical and biological viewpoints.
+Q37c) Design an experiment investigating how temperature influences enzyme activity.
+Q38c) Propose a way to study pollution impacts on freshwater species diversity.
+Q39c) Design a method to estimate the population size of a mobile forest animal.
+Q40c) Design an investigation comparing photosynthesis under different light wavelengths.
+Q41c) Suggest a method to examine gene expression differences in healthy and diseased tissue.
+Q42c) Design a study to investigate the effects of habitat fragmentation on biodiversity.
+Q43c) Identify the primary genetic material in most living organisms.
+Q44c) Identify the organelle responsible for most ATP synthesis in eukaryotes.
+Q45c) Identify the smallest unit of life.
+Q46c) Name the gas released during photosynthesis.
+Q47c) Identify the metabolic process that converts glucose into cellular energy.
+Q48c) State the biological kingdom that includes fungi.
