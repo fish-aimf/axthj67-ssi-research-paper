@@ -1,0 +1,49 @@
+Set B:
+Q1b) Calculate the percentage growth of a bacterial population increasing from 2.0 × 10^6 to 5.0 × 10^6 cells in 6 hours.
+Q2b) If a plant cell has a water potential of −0.8 MPa and is placed in a −0.3 MPa solution, determine the net movement of water.
+Q3b) With photosynthesis producing 12 µmol O₂ m⁻² s⁻¹ and respiration using 4 µmol O₂ m⁻² s⁻¹, find the net oxygen production.
+Q4b) What phenotypic ratio is expected from the dihybrid cross AaBb × AaBb?
+Q5b) Determine the length in nanometers of a DNA fragment with 1200 base pairs, given 0.34 nm per base pair.
+Q6b) An enzyme processes 90 mmol of substrate over 30 minutes; calculate its rate per minute.
+Q7b) Explain how to prepare a wet mount slide of onion epidermal cells for microscopic examination.
+Q8b) Describe a basic laboratory procedure for extracting DNA from plant material.
+Q9b) State the stages of mitosis in correct order and explain what happens in each.
+Q10b) Describe how to set up a controlled experiment to test the effect of light intensity on photosynthesis.
+Q11b) Outline the procedure used to carry out a Gram stain on bacterial samples.
+Q12b) Describe how transpiration rate can be measured using a potometer.
+Q13b) Define natural selection and outline its essential elements.
+Q14b) What does the term homeostasis mean in biology?
+Q15b) Explain what is meant by enzyme specificity.
+Q16b) Describe genetic drift and distinguish it from natural selection.
+Q17b) Define apoptosis and explain its role in multicellular organisms.
+Q18b) Explain the concept of carrying capacity within an ecosystem.
+Q19b) Discuss how a mutation affecting an enzyme gene could alter a metabolic pathway.
+Q20b) Explain the likely short- and long-term ecological effects of a reduced predator population.
+Q21b) Describe how increased atmospheric CO₂ leads to ocean acidification and affects marine life.
+Q22b) Explain how disruption of the sodium–potassium pump affects nerve signal transmission.
+Q23b) Describe how problems during meiosis can cause chromosomal abnormalities in offspring.
+Q24b) Discuss how deforestation combined with climate change impacts tropical biodiversity.
+Q25b) Interpret the meaning of an age-structure diagram with many young individuals and few old ones.
+Q26b) Explain what high mRNA levels but low protein levels reveal about gene regulation.
+Q27b) Interpret the evolutionary relationship between two closely related species using a phylogenetic tree.
+Q28b) Explain what a plateau in a population growth curve indicates biologically.
+Q29b) Interpret why enzyme activity no longer increases despite higher substrate concentrations.
+Q30b) Explain the significance of higher stomatal density in plants growing under intense light.
+Q31b) Argue for or against the widespread agricultural use of genetically modified organisms using biology.
+Q32b) Assess whether limiting antibiotic use in livestock is important for controlling resistance.
+Q33b) Evaluate whether conservation should prioritize keystone species over total species richness.
+Q34b) Discuss the ethical issues involved in cloning endangered species.
+Q35b) Evaluate whether invasive species should always be eliminated from ecosystems.
+Q36b) Discuss the biological value and ethical concerns of using animals in biomedical research.
+Q37b) Plan an experiment to examine the effect of temperature on enzyme activity, including controls.
+Q38b) Suggest a research approach to study how pollution affects freshwater biodiversity.
+Q39b) Propose a sampling strategy to estimate numbers of a mobile forest animal population.
+Q40b) Design an experiment to compare photosynthesis rates under different light wavelengths.
+Q41b) Propose a method to compare gene expression in healthy versus diseased tissues.
+Q42b) Design a study to assess how habitat fragmentation influences species diversity.
+Q43b) What molecule contains genetic information in most organisms?
+Q44b) Which eukaryotic organelle is mainly responsible for producing ATP?
+Q45b) What is considered the fundamental unit of life?
+Q46b) Which gas is produced during photosynthesis?
+Q47b) Which cellular process converts glucose into usable energy?
+Q48b) To which biological kingdom do fungi belong?
