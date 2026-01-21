@@ -86,7 +86,7 @@ For each subject, open a **new, separate instance** of GPT-5.1 and provide this 
 You are to review the following 40 questions and generate 5 different rephrased versions: Set A, Set B, Set C, Set D, and Set E.
 
 All sets must be semantically identical to the original questions while differing only in wording or phrasing. 
-ENSURE that the meaning of each question remains as close to semantically identical as possible.
+ENSURE that the semantic stability of each question remains as close to semantically identical as possible.
 
 Respond in the following strict format and do not include any additional dialogue:
 
