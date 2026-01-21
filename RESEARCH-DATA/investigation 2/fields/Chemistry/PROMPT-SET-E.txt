@@ -1,0 +1,40 @@
+Q1e) Calculate the pH for a solution with a hydrogen ion concentration of 2.5 × 10⁻⁴ mol L⁻¹.
+Q2e) Determine the moles of CO₂ formed when 11.0 g of calcium carbonate decomposes fully.
+Q3e) Identify the empirical formula of a compound with 40.0% C, 6.7% H, and 53.3% O.
+Q4e) Calculate the heat change when 50.0 g of water is warmed from 25 °C to 75 °C, given c = 4.18 J g⁻¹ K⁻¹.
+Q5e) Calculate the molarity of a solution prepared from 5.85 g of NaCl in 500 mL.
+Q6e) Find the reaction rate for a concentration change from 0.80 to 0.20 mol L⁻¹ over 120 s.
+Q7e) Describe the full procedure for conducting an acid–base titration.
+Q8e) Describe how to separate iron filings, sand, and salt in a lab.
+Q9e) Explain how to prepare a standard solution from a solid substance.
+Q10e) Explain the correct method for refluxing a volatile organic liquid safely.
+Q11e) Describe the procedure for paper chromatography of ink.
+Q12e) Explain how a pH meter is calibrated before use.
+Q13e) Explain electronegativity and its importance in bonding.
+Q14e) Define and explain the limiting reagent.
+Q15e) Explain the meaning of activation energy.
+Q16e) Explain dynamic equilibrium in reversible reactions.
+Q17e) Explain what intermolecular forces are and how they differ from covalent bonds.
+Q18e) Explain what a catalyst is and its effect on reaction rate.
+Q19e) Analyze the effect of doubling oxygen in the combustion of propane.
+Q20e) Explain how increased temperature and decreased pressure affect exothermic gas equilibria.
+Q21e) Analyze how metal surface area affects the rate of reaction with acid.
+Q22e) Identify the reaction order from linear rate versus concentration data.
+Q23e) Explain how qualitative analysis can identify an unknown salt.
+Q24e) Explain how molecular structure affects boiling points of isomers.
+Q25e) Explain what a redox indicator color change signifies during titration.
+Q26e) Explain the processes occurring at plateaus on a heating curve.
+Q27e) Explain trends in atomic radius across the periodic table.
+Q28e) Explain how IR spectra are used to identify functional groups.
+Q29e) Explain how solubility curves guide crystallization.
+Q30e) Explain how precipitation reactions help identify ions.
+Q31e) Evaluate replacing all single-use plastics with biodegradable polymers.
+Q32e) Evaluate the ethical implications of using toxic heavy-metal catalysts.
+Q33e) Evaluate expanding the role of nuclear chemistry in energy production.
+Q34e) Evaluate global standardization of laboratory safety regulations.
+Q35e) Evaluate chemical pesticides compared with biological control methods.
+Q36e) Evaluate making green chemistry principles mandatory in industry.
+Q37e) Design an experiment to compare two catalysts for hydrogen peroxide decomposition.
+Q38e) Propose a calorimetric method to measure neutralization enthalpy.
+Q39e) Propose a chemical procedure to test for water hardness.
+Q40e) Propose an experiment to study how concentration influences reaction rate.
