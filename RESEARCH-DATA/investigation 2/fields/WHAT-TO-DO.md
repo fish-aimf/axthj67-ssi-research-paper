@@ -39,20 +39,20 @@ You are required to generate a total of 40 questions for the given academic subj
 
 The questions must be generated in the following exact order of question types:
 
-1. 5 computational/numerical questions  
-2. 10 procedural/how-to questions  
-3. 8 conceptual-definition questions  
-4. 3 analytical/multistep-reasoning questions  
-5. 3 interpretive/contextual questions  
-6. 3 evaluative/normative questions  
-7. 3 design/methodological questions  
-8. 5 closed-factual questions  
+1. 6 computational-numerical questions  
+2. 6 procedural-how-to questions  
+3. 6 conceptual-definition questions  
+4. 6 analytical-multistep-reasoning questions  
+5. 6 interpretive-contextual questions  
+6. 6 evaluative-normative questions  
+7. 6 design-methodological questions  
+8. 6 closed-factual questions  
 
 If you determine that the subject cannot reasonably support a specific question type 
 (e.g., computational/numerical questions in English Language), 
-you must SKIP that question type and ADD the number of skipped questions to the NEXT question type in the list.
+you must SKIP that question type. 
 
-You must always generate exactly 40 questions in total.
+You can generate a variable number of questions. Based on which question types are acceptable. 
 
 Generate the questions in the following strict response format, with no extra dialogue:
 
@@ -65,7 +65,47 @@ Q40) Question content
 Your given academic subject is:
 **INSERT SUBJECT HERE (BOLDED)**
 
-Generate 40 questions following the rules above, applying the rollover rule when needed.
+Generate questions following the rules above.
+Please provide the questions inside a text box \`\` for easy copy and pasting reasons
+At the bottom, you should include which question type is ommited, if any. In this exact format including the name of the question type, and nothing else.
+
+
+ Explaination of question types:
+ Closed-Factual
+These questions ask for a single, specific fact with a clearly correct answer and little room for interpretation.
+Example: “What is the atomic number of carbon?”
+
+Computational / Numerical
+These questions require carrying out a calculation or applying a formula to given inputs to produce a numeric result.
+Example: “Calculate the 95% confidence interval for a mean given n = 25, mean = 50, sd = 8.”
+
+Procedural / How-to
+These questions ask for a sequence of steps or instructions to complete a task or process.
+Example: “List the steps to perform a two-sample t-test on independent data.”
+
+Conceptual-Definition
+These questions ask for an explanation or definition of a key concept, principle, or idea.
+Example: “Explain statistical power in simple terms.”
+
+Analytical / Multi-step Reasoning
+These questions require reasoning through multiple steps, connecting evidence or ideas to reach a conclusion.
+Example: “Given falling tax revenues and rising pensions, analyze short- and long-term budget policy options.”
+
+Interpretive / Contextual
+These questions involve interpreting meaning from texts, images, or situations where multiple reasonable interpretations are possible.
+Example: “Interpret the themes of alienation in this short passage.”
+
+Evaluative / Normative
+These questions ask for judgments, opinions, or recommendations, usually supported with reasons.
+Example: “Should governments subsidize electric vehicles? Argue for or against.”
+
+Design / Methodological (Trade-off)
+These questions ask you to design a system, experiment, or solution under constraints, often requiring justification of choices.
+Example: “Design a randomized trial to test an online math tutoring app.”
+
+
+
+
 ```
 
 ### After receiving the 40 questions:
