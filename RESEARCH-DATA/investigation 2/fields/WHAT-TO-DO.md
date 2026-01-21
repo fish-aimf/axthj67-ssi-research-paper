@@ -65,7 +65,7 @@ Your given academic subject is:
 **INSERT SUBJECT HERE (BOLDED)**
 
 Generate questions following the rules above.
-Please provide the questions inside a text box \`\` for easy copy and pasting reasons
+Please provide the questions inside a text box \`\` for easy copy and pasting reasons. The Set letter should be outside. 
 At the bottom, you should include which question type is ommited, if any. In this exact format including the name of the question type, and nothing else.
 
 
