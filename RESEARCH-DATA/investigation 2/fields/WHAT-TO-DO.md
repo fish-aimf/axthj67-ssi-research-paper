@@ -134,33 +134,33 @@ Q1a)
 Q2a)
 Q3a)
 ...
-Q40a)
+Qlast question numbera)
 
 Set B:
 Q1b)
 Q2b)
 Q3b)
 ...
-Q40b)
+Qlast question numberb)
 
 Set C:
 Q1c)
 ...
-Q40c)
+Qlast question numberc)
 
 Set D:
 Q1d)
 ...
-Q40d)
+Qlast question numberd)
 
 Set E:
 Q1e)
 ...
-Q40e)
+Qlast question numbere)
 
 Each group of corresponding questions (Q1a–Q1e, Q2a–Q2e, etc.) must be semantically identical. 
-You must not change the underlying meaning, question type, structure, or intent in any way.
-Return your response in this exact format with no filler or extra text.
+You must not change the underlying meaning, question type, structure, or intent in any way and rephrase it. 
+Return your response in this exact format with no filler or extra text with each individual set each inside its own text box for easy copy pasting \`\`
 ```
 
 ### After GPT-5.1 returns the five sets:
