@@ -1,0 +1,40 @@
+Q1d) Find the pH of a solution given a hydrogen ion concentration of 2.5 × 10⁻⁴ mol L⁻¹.
+Q2d) Calculate the number of moles of CO₂ released from the complete decomposition of 11.0 g of calcium carbonate.
+Q3d) Determine the empirical formula based on a composition of 40.0% C, 6.7% H, and 53.3% O.
+Q4d) Compute the enthalpy change for heating 50.0 g of water from 25 °C to 75 °C using c = 4.18 J g⁻¹ K⁻¹.
+Q5d) Determine the molarity when 5.85 g of NaCl is dissolved to form 500 mL of solution.
+Q6d) Calculate reaction rate given a concentration decrease from 0.80 to 0.20 mol L⁻¹ in 120 s.
+Q7d) Outline the step-by-step method for performing an acid–base titration.
+Q8d) Explain the laboratory separation of sand, salt, and iron filings.
+Q9d) Outline how a standard solution is prepared from a solid reagent.
+Q10d) Describe safe reflux heating of a volatile organic liquid.
+Q11d) Explain the method of separating ink pigments using paper chromatography.
+Q12d) Describe the calibration process for a pH meter.
+Q13d) Define electronegativity and explain its role in bonding.
+Q14d) Explain the concept of a limiting reagent.
+Q15d) Define activation energy within chemical reactions.
+Q16d) Describe dynamic equilibrium in reversible reactions.
+Q17d) Define intermolecular forces and contrast them with covalent bonds.
+Q18d) Describe how a catalyst affects the rate of a reaction.
+Q19d) Analyze how doubling oxygen affects CO₂ production in propane combustion.
+Q20d) Analyze equilibrium changes caused by higher temperature and lower pressure in an exothermic gas reaction.
+Q21d) Explain the effect of metal surface area on acid–metal reaction rate.
+Q22d) Determine reaction order from a linear rate–concentration relationship.
+Q23d) Analyze how qualitative tests are used to identify an unknown salt.
+Q24d) Explain how molecular structure leads to boiling point differences among isomers.
+Q25d) Interpret the meaning of a redox indicator color change during titration.
+Q26d) Interpret the flat regions of a heating curve for a pure substance.
+Q27d) Explain atomic radius trends across periods and down groups.
+Q28d) Interpret IR spectroscopy data to identify functional groups.
+Q29d) Use solubility curves to determine crystallization conditions.
+Q30d) Interpret precipitation reaction results to identify ions present.
+Q31d) Evaluate the complete replacement of single-use plastics with biodegradable polymers.
+Q32d) Argue the ethical case for or against using toxic heavy metals as catalysts.
+Q33d) Evaluate nuclear chemistry’s role in future energy supply.
+Q34d) Argue whether laboratory safety standards should be global.
+Q35d) Evaluate chemical pesticides versus biological control in farming.
+Q36d) Evaluate making green chemistry mandatory in industrial practice.
+Q37d) Design an experiment comparing two catalysts in hydrogen peroxide decomposition.
+Q38d) Propose a calorimetric experiment to measure neutralization enthalpy.
+Q39d) Propose a chemical test for water hardness.
+Q40d) Propose an experiment to study concentration effects on reaction rate.
