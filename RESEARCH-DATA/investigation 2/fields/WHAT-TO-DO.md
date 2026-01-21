@@ -4,9 +4,8 @@ Follow all steps exactly. Do not modify formatting or wording.)
 
 Investigation 2 differs from Investigation 1 in that:
 - Question sets are generated **per subject**, not per question type.
-- Each subject’s question set contains **40 questions** of mixed question types.
-- The question types must follow a fixed hierarchy.
-- Rollover rules must be applied if a subject cannot support a question type.
+- Each subject’s question set contains mixed question types.
+- Skips can be applied if a subject cannot support a question type.
 - Five semantically identical variations (Sets A–E) must be produced.
 - Each set must be fed into a fresh chatbot instance for response collection.
 
@@ -109,10 +108,10 @@ Example: “Design a randomized trial to test an online math tutoring app.”
 ```
 
 ### After receiving the 40 questions:
-- Verify you have **exactly 40 questions**.
-- Verify the **ordering of question types** is followed.
+- Verify you have the questions and run it through the question semantic stability checker.
+- create the ssi_of_questions file.
+- create a 
 - Verify rollover rules were correctly applied when necessary.
-- Verify no instructions or formatting rules were violated.
 
 Only after full verification may you proceed to Step 2.
 
