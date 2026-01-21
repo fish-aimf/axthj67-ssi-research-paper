@@ -1,4 +1,3 @@
-Set C:
 Q1c) Find the percentage increase when a bacterial population grows from 2.0 × 10^6 to 5.0 × 10^6 cells in 6 hours.
 Q2c) When a plant cell with −0.8 MPa water potential is placed in a −0.3 MPa solution, determine the net direction of water flow.
 Q3c) Calculate net oxygen production when photosynthesis occurs at 12 µmol O₂ m⁻² s⁻¹ and respiration at 4 µmol O₂ m⁻² s⁻¹.
@@ -47,3 +46,4 @@ Q45c) Identify the smallest unit of life.
 Q46c) Name the gas released during photosynthesis.
 Q47c) Identify the metabolic process that converts glucose into cellular energy.
 Q48c) State the biological kingdom that includes fungi.
+
