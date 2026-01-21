@@ -1,0 +1,48 @@
+Q1e) Compute the percentage increase of bacteria from 2.0 × 10^6 to 5.0 × 10^6 cells over 6 hours.
+Q2e) Identify the net direction of water movement when a −0.8 MPa cell is placed in a −0.3 MPa solution.
+Q3e) Calculate the net O₂ output when photosynthesis produces 12 and respiration consumes 4 µmol O₂ m⁻² s⁻¹.
+Q4e) Determine the expected phenotypic outcome of an AaBb × AaBb cross.
+Q5e) Determine the nanometer length of a 1200 bp DNA fragment.
+Q6e) Calculate the per-minute reaction rate if 90 mmol of substrate is converted in 30 minutes.
+Q7e) Explain how to make a wet mount slide of onion epidermal tissue.
+Q8e) Describe a basic method for isolating DNA from plant cells.
+Q9e) Identify the stages of mitosis and describe the events in each.
+Q10e) Explain how to experimentally test the effect of light intensity on photosynthesis under controlled conditions.
+Q11e) Describe how to carry out a Gram stain on bacteria.
+Q12e) Explain how transpiration rate can be measured using a potometer.
+Q13e) Define natural selection and explain its key features.
+Q14e) Explain the meaning of homeostasis in living organisms.
+Q15e) Explain the basis of enzyme specificity.
+Q16e) Define genetic drift and explain how it contrasts with natural selection.
+Q17e) Explain what apoptosis is and why it is biologically important.
+Q18e) Explain the ecological concept of carrying capacity.
+Q19e) Explain how a gene mutation affecting an enzyme could change a metabolic pathway.
+Q20e) Explain the ecological consequences of a reduction in predators.
+Q21e) Explain how rising CO₂ levels cause ocean acidification and affect marine systems.
+Q22e) Explain how disruption of the sodium–potassium pump affects nerve impulses.
+Q23e) Explain how meiotic disruption can produce chromosomal abnormalities.
+Q24e) Explain how deforestation and climate change together reduce tropical biodiversity.
+Q25e) Interpret what a population pyramid with many young individuals indicates.
+Q26e) Interpret the meaning of high transcription but low translation output.
+Q27e) Explain how to infer relatedness of two species from a phylogenetic tree.
+Q28e) Interpret the significance of a leveling-off in population growth.
+Q29e) Interpret why enzyme activity reaches a maximum despite increasing substrate.
+Q30e) Interpret the adaptive meaning of increased stomatal density in high-light plants.
+Q31e) Justify a position on widespread GMO use in agriculture using biological evidence.
+Q32e) Evaluate arguments for restricting antibiotic use in livestock.
+Q33e) Evaluate whether conservation should emphasize keystone species.
+Q34e) Assess the ethical implications of cloning endangered organisms.
+Q35e) Assess whether invasive species should always be removed from ecosystems.
+Q36e) Assess the scientific value and ethical issues of animal testing in medicine.
+Q37e) Design a controlled experiment to study temperature effects on enzymes.
+Q38e) Propose a research method to study pollution impacts on freshwater ecosystems.
+Q39e) Design a strategy to estimate numbers of mobile animals in a forest.
+Q40e) Design a lab study comparing photosynthesis under different light wavelengths.
+Q41e) Propose a method to analyze gene expression differences in healthy and diseased tissues.
+Q42e) Design a study to investigate biodiversity changes due to habitat fragmentation.
+Q43e) Identify the molecule that stores hereditary information.
+Q44e) Identify the organelle responsible for ATP generation in eukaryotic cells.
+Q45e) Identify the basic structural and functional unit of life.
+Q46e) Identify the gaseous product released during photosynthesis.
+Q47e) Identify the cellular process that converts glucose into energy.
+Q48e) Identify the kingdom classification of fungi.
