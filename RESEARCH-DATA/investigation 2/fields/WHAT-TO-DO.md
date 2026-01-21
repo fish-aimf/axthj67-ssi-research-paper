@@ -28,13 +28,13 @@ Each field folder contains:
 - LLM-RESPONSE-SET-E.txt
 
 
-# 1. Generate the Original 40-Question Set
+# 1. Generate the Original Question Set
 
 For each subject, open a new instance of **GPT-5.1** and provide this **exact prompt**:
 
 ```
 You are participating in a research paper investigating semantic stability across different question types. 
-You are required to generate a total of 40 questions for the given academic subject.
+You are required to generate questions for the given academic subject.
 
 The questions must be generated in the following exact order of question types:
 
@@ -59,7 +59,7 @@ Q1) Question content
 Q2) Question content  
 Q3) Question content  
 ...
-Q40) Question content
+Qlast question number) Question content
 
 Your given academic subject is:
 **INSERT SUBJECT HERE (BOLDED)**
