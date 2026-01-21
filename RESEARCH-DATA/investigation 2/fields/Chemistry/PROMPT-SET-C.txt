@@ -1,0 +1,41 @@
+Set C:
+Q1c) What is the pH of a solution with [H⁺] = 2.5 × 10⁻⁴ mol L⁻¹?
+Q2c) How many moles of carbon dioxide are formed when 11.0 g of calcium carbonate decomposes completely?
+Q3c) Calculate the empirical formula for a compound made up of 40.0% carbon, 6.7% hydrogen, and 53.3% oxygen.
+Q4c) Determine the enthalpy change when 50.0 g of water is heated from 25 °C to 75 °C, given c = 4.18 J g⁻¹ K⁻¹.
+Q5c) What is the molarity of a solution containing 5.85 g of NaCl in 500 mL of solution?
+Q6c) What is the reaction rate if concentration falls from 0.80 to 0.20 mol L⁻¹ in 120 s?
+Q7c) Describe the stepwise method for conducting an acid–base titration using standard apparatus.
+Q8c) Explain how a mixture of sand, salt, and iron filings can be separated experimentally.
+Q9c) Explain the steps required to make a standard solution from a solid chemical.
+Q10c) Describe the correct and safe method for refluxing a volatile organic liquid.
+Q11c) Describe how paper chromatography is performed to separate ink components.
+Q12c) Explain how a pH meter is calibrated before measurements are taken.
+Q13c) What is electronegativity and why is it significant in bonding?
+Q14c) What does the term “limiting reagent” mean in a chemical reaction?
+Q15c) What is activation energy in relation to chemical reactions?
+Q16c) What is meant by dynamic equilibrium in reversible systems?
+Q17c) What are intermolecular forces and how do they differ from covalent bonds?
+Q18c) What is a catalyst and how does it affect reaction speed?
+Q19c) For propane combustion, analyze the impact of doubling oxygen on CO₂ yield.
+Q20c) Explain the effect of higher temperature and lower pressure on an exothermic gas equilibrium.
+Q21c) Explain how increasing metal surface area changes reaction rate with acid.
+Q22c) Using linear rate–concentration data, determine the reaction order.
+Q23c) Explain how qualitative analysis is used to identify an unknown salt.
+Q24c) Explain how molecular structure influences boiling point differences in isomers.
+Q25c) What does a redox indicator color change during titration indicate?
+Q26c) Explain the significance of flat regions on a heating curve.
+Q27c) Describe how atomic radius varies across a period and down a group.
+Q28c) Explain how IR spectra reveal functional groups in organic molecules.
+Q29c) Explain how to use a solubility curve to plan crystallization.
+Q30c) Explain how precipitation reactions can indicate which ions are present.
+Q31c) Evaluate the idea of fully replacing single-use plastics with biodegradable alternatives.
+Q32c) Evaluate the ethics of using toxic heavy metals as catalysts when no better alternatives exist.
+Q33c) Evaluate the potential expansion of nuclear chemistry in global energy production.
+Q34c) Evaluate whether laboratory safety rules should be globally unified.
+Q35c) Evaluate chemical pesticides compared to biological control strategies.
+Q36c) Should green chemistry principles be compulsory in industry? Evaluate.
+Q37c) Design an experiment to compare catalyst effectiveness in hydrogen peroxide decomposition.
+Q38c) Design a calorimetric method to measure neutralization enthalpy.
+Q39c) Design a chemical experiment to test water hardness.
+Q40c) Design an investigation into how concentration affects reaction rate with controlled variables.
