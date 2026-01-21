@@ -1,0 +1,48 @@
+Q1d) What is the percentage increase of a bacterial population growing from 2.0 × 10^6 to 5.0 × 10^6 cells in 6 hours?
+Q2d) Determine the net movement of water when a −0.8 MPa plant cell is placed in a −0.3 MPa solution.
+Q3d) Determine net O₂ production given photosynthesis at 12 µmol O₂ m⁻² s⁻¹ and respiration at 4 µmol O₂ m⁻² s⁻¹.
+Q4d) What offspring phenotypic ratio results from the cross AaBb × AaBb?
+Q5d) What is the length in nanometers of a DNA molecule containing 1200 base pairs?
+Q6d) Calculate the rate of an enzyme reaction that converts 90 mmol of substrate in 30 minutes.
+Q7d) Describe how to prepare a wet mount slide of onion epidermis.
+Q8d) Explain a simple laboratory procedure for plant DNA extraction.
+Q9d) List mitotic stages in order and describe the key events in each.
+Q10d) Explain how to control variables when testing light intensity effects on photosynthesis.
+Q11d) Explain the Gram staining procedure used for bacteria.
+Q12d) Describe how a potometer is used to determine transpiration rate.
+Q13d) Explain natural selection and its fundamental components.
+Q14d) Describe the concept of homeostasis in organisms.
+Q15d) Explain why enzymes are specific to their substrates.
+Q16d) Explain genetic drift and contrast it with natural selection.
+Q17d) Describe apoptosis and explain its biological importance.
+Q18d) Describe what carrying capacity represents in an ecosystem.
+Q19d) Explain how an enzyme-related mutation could disrupt a metabolic pathway.
+Q20d) Explain the ecological effects of predator population decline over time.
+Q21d) Explain how excess atmospheric CO₂ contributes to ocean acidification.
+Q22d) Describe the effects of sodium–potassium pump failure on nerve signaling.
+Q23d) Explain how meiotic failure can cause chromosomal disorders.
+Q24d) Discuss the joint effects of deforestation and climate change on tropical ecosystems.
+Q25d) Explain what a wide-based, narrow-topped age-structure diagram indicates.
+Q26d) Explain what low protein levels despite high mRNA suggest.
+Q27d) Explain how to interpret relatedness of species from a phylogenetic tree.
+Q28d) Explain the biological meaning of a stationary phase in population growth.
+Q29d) Explain why enzyme activity plateaus at high substrate concentration.
+Q30d) Explain the adaptive significance of increased stomatal density in bright environments.
+Q31d) Assess whether GMOs should be broadly adopted in farming.
+Q32d) Discuss whether antibiotic restrictions in livestock are biologically justified.
+Q33d) Evaluate prioritizing keystone species in conservation strategies.
+Q34d) Evaluate ethical concerns associated with cloning endangered species.
+Q35d) Discuss whether invasive species should invariably be eradicated.
+Q36d) Discuss advantages and ethical issues of animal use in biomedical research.
+Q37d) Design an experiment assessing temperature effects on enzyme function.
+Q38d) Propose a study design to examine pollution effects on freshwater biodiversity.
+Q39d) Describe a method to estimate forest animal populations that are mobile.
+Q40d) Design an experiment to test photosynthesis rates under different light colors.
+Q41d) Propose a strategy to compare gene expression in healthy and diseased cells.
+Q42d) Design a study to measure biodiversity changes due to habitat fragmentation.
+Q43d) What substance serves as genetic material in most organisms?
+Q44d) Which cell organelle generates most ATP in eukaryotes?
+Q45d) What constitutes the fundamental unit of life?
+Q46d) What gas is released during the process of photosynthesis?
+Q47d) What cellular process releases energy from glucose?
+Q48d) Which kingdom includes fungi?
