@@ -1,40 +1,48 @@
-Q1d) Find the pH of a solution given a hydrogen ion concentration of 2.5 × 10⁻⁴ mol L⁻¹.
-Q2d) Calculate the number of moles of CO₂ released from the complete decomposition of 11.0 g of calcium carbonate.
-Q3d) Determine the empirical formula based on a composition of 40.0% C, 6.7% H, and 53.3% O.
-Q4d) Compute the enthalpy change for heating 50.0 g of water from 25 °C to 75 °C using c = 4.18 J g⁻¹ K⁻¹.
-Q5d) Determine the molarity when 5.85 g of NaCl is dissolved to form 500 mL of solution.
-Q6d) Calculate reaction rate given a concentration decrease from 0.80 to 0.20 mol L⁻¹ in 120 s.
-Q7d) Outline the step-by-step method for performing an acid–base titration.
-Q8d) Explain the laboratory separation of sand, salt, and iron filings.
-Q9d) Outline how a standard solution is prepared from a solid reagent.
-Q10d) Describe safe reflux heating of a volatile organic liquid.
-Q11d) Explain the method of separating ink pigments using paper chromatography.
-Q12d) Describe the calibration process for a pH meter.
-Q13d) Define electronegativity and explain its role in bonding.
-Q14d) Explain the concept of a limiting reagent.
-Q15d) Define activation energy within chemical reactions.
-Q16d) Describe dynamic equilibrium in reversible reactions.
-Q17d) Define intermolecular forces and contrast them with covalent bonds.
-Q18d) Describe how a catalyst affects the rate of a reaction.
-Q19d) Analyze how doubling oxygen affects CO₂ production in propane combustion.
-Q20d) Analyze equilibrium changes caused by higher temperature and lower pressure in an exothermic gas reaction.
-Q21d) Explain the effect of metal surface area on acid–metal reaction rate.
-Q22d) Determine reaction order from a linear rate–concentration relationship.
-Q23d) Analyze how qualitative tests are used to identify an unknown salt.
-Q24d) Explain how molecular structure leads to boiling point differences among isomers.
-Q25d) Interpret the meaning of a redox indicator color change during titration.
-Q26d) Interpret the flat regions of a heating curve for a pure substance.
-Q27d) Explain atomic radius trends across periods and down groups.
-Q28d) Interpret IR spectroscopy data to identify functional groups.
-Q29d) Use solubility curves to determine crystallization conditions.
-Q30d) Interpret precipitation reaction results to identify ions present.
-Q31d) Evaluate the complete replacement of single-use plastics with biodegradable polymers.
-Q32d) Argue the ethical case for or against using toxic heavy metals as catalysts.
-Q33d) Evaluate nuclear chemistry’s role in future energy supply.
-Q34d) Argue whether laboratory safety standards should be global.
-Q35d) Evaluate chemical pesticides versus biological control in farming.
-Q36d) Evaluate making green chemistry mandatory in industrial practice.
-Q37d) Design an experiment comparing two catalysts in hydrogen peroxide decomposition.
-Q38d) Propose a calorimetric experiment to measure neutralization enthalpy.
-Q39d) Propose a chemical test for water hardness.
-Q40d) Propose an experiment to study concentration effects on reaction rate.
+Q1d) Compute the molar mass of Ca3(PO4)2.
+Q2d) Determine the moles in 25 grams of NaOH.
+Q3d) Find the hydrogen percent composition in C2H6O.
+Q4d) For a 0.5 M HCl solution, determine the volume required to neutralize 0.25 moles of NaOH.
+Q5d) Calculate the energy released when two moles of H2 react with O2 to yield water.
+Q6d) Determine the empirical formula for a compound made of 40% C, 6.7% H, and 53.3% O by mass.
+Q7d) Describe the procedure for titrating an acid of unknown concentration.
+Q8d) Explain how to separate sand from salt in a mixture.
+Q9d) Provide the laboratory procedure for synthesizing aspirin.
+Q10d) How can a standard sodium carbonate solution be prepared?
+Q11d) Detail how to perform a flame test to detect metal ions.
+Q12d) Explain how to measure the reaction rate between magnesium and hydrochloric acid.
+Q13d) Define electronegativity and its significance in bonding.
+Q14d) Differentiate between ionic and covalent bonds.
+Q15d) What does the term chemical equilibrium refer to?
+Q16d) Explain oxidation and reduction in terms of electrons.
+Q17d) Define molarity in solution chemistry.
+Q18d) What are intermolecular forces? Give examples.
+Q19d) Predict the products and balance aluminum reacting with HCl.
+Q20d) Using enthalpies of formation, determine the enthalpy change for methane combustion.
+Q21d) Explain how temperature shifts affect the equilibrium of N2 + 3H2 ⇌ 2NH3.
+Q22d) Identify the limiting reactant when 5 g of Na reacts with 10 g of Cl2.
+Q23d) From a titration curve, determine the equivalence point and the concentration of the unknown solution.
+Q24d) Using pKa, compare the acidities of HCl, H2SO4, and H3PO4.
+Q25d) Describe the boiling point trend among halogens from F2 to I2.
+Q26d) Explain why gas solubility declines as temperature rises.
+Q27d) Use IR spectroscopy data to identify functional groups.
+Q28d) Assess the influence of a catalyst on reaction rate based on a graph.
+Q29d) Discuss the environmental consequences of acid rain using given chemical reactions.
+Q30d) Explain why solid ionic compounds do not conduct electricity, but molten ones do.
+Q31d) Evaluate whether hydrogen fuel offers better sustainability than fossil fuels.
+Q32d) Should industrial processes adopt green chemistry? Justify your answer.
+Q33d) Discuss the potential risks and advantages of nanoparticles in consumer goods.
+Q34d) Examine ethical concerns regarding lab synthesis of new psychoactive substances.
+Q35d) Should polymer plasticizers be more tightly regulated? Provide reasoning.
+Q36d) Evaluate the use of chlorine in water treatment from a safety and health perspective.
+Q37d) Plan an experiment to measure the rate law for the iodide and hydrogen peroxide reaction.
+Q38d) Propose a distillation procedure to separate ethanol from water.
+Q39d) Develop a method for selectively synthesizing a compound with two functional groups.
+Q40d) Design a calorimetry experiment to measure the enthalpy change of a reaction.
+Q41d) Propose a method to determine dissolved oxygen concentration in water.
+Q42d) Create an experimental plan to test catalyst effectiveness in esterification reactions.
+Q43d) What number represents oxygen’s atomic number?
+Q44d) Indicate the chemical symbol for potassium.
+Q45d) Which element in period 3 is classified as a halogen?
+Q46d) What is mercury’s standard state at room temperature?
+Q47d) Which gas is generated when zinc reacts with hydrochloric acid?
+Q48d) Determine the pH of a 0.01 M hydrochloric acid solution.
