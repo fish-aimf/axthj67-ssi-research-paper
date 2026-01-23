@@ -1,36 +1,48 @@
-Q1e) Find the molar mass of the compound Ca3(PO4)2.
-Q2e) Calculate the number of moles in 25 grams of NaOH.
-Q3e) Determine the mass percentage of hydrogen in C2H6O.
-Q4e) If a solution is 0.5 M HCl, what volume is required to neutralize 0.25 moles of NaOH?
-Q5e) Compute the energy released when 2 moles of H2 react with O2 to form water.
-Q6e) Determine the empirical formula of a compound consisting of 40% carbon, 6.7% hydrogen, and 53.3% oxygen.
-Q7e) Explain how to perform a titration to determine the concentration of an unknown acid.
-Q8e) Outline the steps to separate sand and salt in a mixture.
-Q9e) List the procedure for synthesizing aspirin in a lab.
-Q10e) Describe how to prepare a standard solution of sodium carbonate.
-Q11e) Outline the flame test procedure to identify metal ions.
-Q12e) Give the steps to measure the reaction rate of magnesium with hydrochloric acid.
-Q13e) Define the concept of electronegativity and its role in chemical bonding.
-Q14e) Explain how ionic and covalent bonds differ.
-Q15e) What is meant by the term chemical equilibrium?
-Q16e) Define oxidation and reduction in terms of electron transfer.
-Q17e) Explain the concept of molarity in a solution.
-Q18e) Define intermolecular forces and provide examples.
-Q19e) Predict the products and balance the reaction of aluminum with hydrochloric acid.
-Q20e) Using enthalpies of formation, calculate the enthalpy change for methane combustion.
-Q21e) Analyze how changing temperature influences the equilibrium of N2 + 3H2 ⇌ 2NH3.
-Q22e) Identify the limiting reagent when 5 g of sodium reacts with 10 g of chlorine.
-Q23e) From a titration curve, find the equivalence point and unknown solution concentration.
-Q24e) Compare the acid strength of HCl, H2SO4, and H3PO4 using pKa values.
-Q25e) Explain the boiling point trend of halogens from F2 to I2.
-Q26e) Why does the solubility of gases decrease as temperature increases?
-Q27e) Use IR spectral information to identify functional groups.
-Q28e) Evaluate the effect of a catalyst on the rate of reaction using a graph.
-Q29e) Discuss environmental effects of acid rain with reference to chemical reactions.
-Q30e) Explain why ionic compounds conduct electricity in molten form but not when solid.
-Q31e) Evaluate if hydrogen is a more sustainable energy source than fossil fuels.
-Q32e) Should industrial chemists prioritize green chemistry? Explain your reasoning.
-Q33e) Assess the benefits and risks of using nanoparticles in consumer products.
-Q34e) Judge the ethical issues surrounding the laboratory synthesis of new psychoactive compounds.
-Q35e) Should polymer plasticizers be regulated more strictly? Justify your answer.
-Q36e) Evaluate
+Q1e) Calculate the molar mass of Ca3(PO4)2.
+Q2e) Determine how many moles are present in 25 g of NaOH.
+Q3e) Calculate the percentage composition of hydrogen in C2H6O.
+Q4e) Given a 0.5 M HCl solution, calculate the volume required to neutralize 0.25 moles of NaOH.
+Q5e) Determine the amount of energy released when 2 moles of hydrogen react with oxygen to form water.
+Q6e) Find the empirical formula of a compound that contains 40% carbon, 6.7% hydrogen, and 53.3% oxygen by mass.
+Q7e) Describe the steps involved in performing a titration to determine the concentration of an unknown acid.
+Q8e) Explain the method used to separate a mixture of sand and salt.
+Q9e) Outline the laboratory procedure used to synthesize aspirin.
+Q10e) Describe the steps required to prepare a standard solution of sodium carbonate.
+Q11e) Explain how a flame test is carried out to identify metal ions.
+Q12e) Describe the procedure for measuring the rate of reaction between magnesium and hydrochloric acid.
+Q13e) Define electronegativity and explain why it is important in chemical bonding.
+Q14e) Explain how ionic bonds differ from covalent bonds.
+Q15e) Define chemical equilibrium.
+Q16e) Explain oxidation and reduction using electron transfer.
+Q17e) Define molarity in the context of solutions.
+Q18e) Explain what intermolecular forces are and give examples.
+Q19e) Predict the products and write a balanced equation for the reaction between aluminum and hydrochloric acid.
+Q20e) Using enthalpies of formation, calculate the enthalpy change for the combustion of methane.
+Q21e) Explain how an increase or decrease in temperature affects the equilibrium position of N2 + 3H2 ⇌ 2NH3.
+Q22e) Determine the limiting reagent when 5 g of sodium reacts with 10 g of chlorine gas.
+Q23e) Using a titration curve, identify the equivalence point and determine the concentration of the unknown solution.
+Q24e) Compare the acid strengths of HCl, H2SO4, and H3PO4 using their pKa values.
+Q25e) Describe and explain the trend in boiling points of the halogens from F2 to I2.
+Q26e) Explain why the solubility of gases in liquids decreases as temperature increases.
+Q27e) Interpret infrared spectral data to identify functional groups.
+Q28e) Analyze a graph to determine how the presence of a catalyst affects reaction rate.
+Q29e) Discuss the environmental impact of acid rain with reference to chemical reactions involved.
+Q30e) Explain why ionic compounds can conduct electricity when molten but not when solid.
+Q31e) Evaluate whether hydrogen fuel is a more sustainable option compared to fossil fuels.
+Q32e) Assess whether green chemistry should be prioritized in industrial chemical processes.
+Q33e) Evaluate the advantages and potential risks of using nanoparticles in consumer products.
+Q34e) Assess the ethical implications of synthesizing new psychoactive compounds in a laboratory.
+Q35e) Evaluate whether plasticizers used in polymers should be more strictly regulated.
+Q36e) Evaluate the use of chlorine in water treatment in terms of health and safety.
+Q37e) Design an experiment to determine the rate law for the reaction between iodide ions and hydrogen peroxide.
+Q38e) Propose a distillation method to separate a mixture of ethanol and water.
+Q39e) Develop a strategy for selectively synthesizing a compound containing two functional groups.
+Q40e) Design a calorimetry experiment to measure the enthalpy change of a chemical reaction.
+Q41e) Propose a method to determine the concentration of dissolved oxygen in water.
+Q42e) Create an experimental plan to test the effectiveness of different catalysts in an esterification reaction.
+Q43e) State the atomic number of oxygen.
+Q44e) Give the chemical symbol for potassium.
+Q45e) Identify the halogen element found in period 3 of the periodic table.
+Q46e) State the standard state of mercury at room temperature.
+Q47e) Identify the gas produced when zinc reacts with hydrochloric acid.
+Q48e) Calculate the pH of a solution with a hydrogen ion concentration of 0.01 M.
