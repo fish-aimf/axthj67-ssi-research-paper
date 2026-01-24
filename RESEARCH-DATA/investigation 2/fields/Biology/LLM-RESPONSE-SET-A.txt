@@ -1,0 +1,48 @@
+A1a) Percentage increase = [(5.0 × 10^6 − 2.0 × 10^6) / 2.0 × 10^6] × 100 = 150%
+A2a) Water moves out of the plant cell into the solution (net movement from higher to lower water potential).
+A3a) Net oxygen output = Photosynthesis − Respiration = 12 − 4 = 8 µmol O₂ m⁻² s⁻¹
+A4a) Predicted phenotypic ratio = 9:3:3:1
+A5a) DNA length = 1200 × 0.34 nm = 408 nm
+A6a) Reaction rate = 90 mmol / 30 min = 3 mmol/min
+A7a) Place a thin onion epidermal layer on a slide, add a drop of water, carefully place a cover slip, and observe under the microscope.
+A8a) Grind plant tissue in a buffer, add detergent to lyse cells, filter or centrifuge to remove debris, then precipitate DNA with alcohol.
+A9a) Mitosis stages: Prophase (chromosomes condense), Metaphase (chromosomes align at equator), Anaphase (sister chromatids separate), Telophase (nuclear membrane reforms), Cytokinesis (cell divides).
+A10a) Keep all factors constant except light intensity, expose plants to varying light levels, measure photosynthesis rate (e.g., oxygen output), compare results.
+A11a) Fix bacteria on a slide, apply crystal violet, iodine, decolorize with alcohol, counterstain with safranin, observe under microscope.
+A12a) Connect a potometer to a plant shoot, measure water uptake over time, which reflects transpiration rate.
+A13a) Natural selection is the differential survival and reproduction of individuals due to heritable traits; main components: variation, inheritance, differential survival/reproduction.
+A14a) Homeostasis is the maintenance of a stable internal environment despite external changes.
+A15a) Enzyme specificity refers to the ability of an enzyme to catalyze only a particular substrate or type of reaction.
+A16a) Genetic drift is random change in allele frequency; differs from natural selection because it is not driven by fitness differences.
+A17a) Apoptosis is programmed cell death; important for development, tissue maintenance, and removing damaged cells.
+A18a) Carrying capacity is the maximum population size that an environment can sustain over time.
+A19a) A mutation may reduce or enhance enzyme function, altering substrate conversion and affecting the metabolic pathway.
+A20a) Short-term: prey population may increase, vegetation decreases; Long-term: potential overpopulation of prey, ecosystem imbalance.
+A21a) Increased CO₂ dissolves in oceans forming carbonic acid, lowering pH, which affects shell formation and marine organism survival.
+A22a) Sodium–potassium pump failure disrupts ion gradients, preventing proper depolarization and repolarization, impairing nerve impulse transmission.
+A23a) Meiosis errors (nondisjunction, mis-segregation) can produce gametes with abnormal chromosome numbers, leading to disorders in offspring.
+A24a) Deforestation removes habitats; combined with climate change, it reduces species richness, disrupts ecological interactions, and increases extinction risk.
+A25a) Wide base indicates high birth rate, narrow top indicates few older individuals; implies rapid growth and potential resource strain.
+A26a) High mRNA but low protein indicates post-transcriptional regulation, translation inhibition, or rapid protein degradation.
+A27a) Closely related species share a recent common ancestor, indicated by branching proximity on the phylogenetic tree.
+A28a) Plateau phase indicates that population growth has stabilized at the environment's carrying capacity.
+A29a) Enzyme activity plateaus because all active sites are saturated; substrate concentration no longer limits reaction rate.
+A30a) Increased stomatal density enhances gas exchange, optimizing photosynthesis under high light conditions.
+A31a) GMOs can increase crop yield, resistance to pests, and nutrient content; extensive use should be balanced with ecological and ethical considerations.
+A32a) Restricting antibiotic use reduces selection pressure for resistant bacteria, helping to control antibiotic resistance.
+A33a) Focusing on keystone species maintains ecosystem structure, but overall species richness also supports resilience; strategy depends on conservation goals.
+A34a) Cloning endangered species raises concerns about genetic diversity, ecological impact, and animal welfare; ethical review is required.
+A35a) Invasive species removal can protect native ecosystems, but ecological context and potential unintended consequences must be considered.
+A36a) Animal models provide insights into human biology and disease but raise ethical concerns regarding welfare; alternatives should be evaluated where possible.
+A37a) Vary temperature (independent variable), measure enzyme activity (dependent variable), use identical substrate concentration, pH, and enzyme volume as controls.
+A38a) Compare biodiversity in polluted vs. unpolluted freshwater sites, standardize sampling, measure species richness and abundance.
+A39a) Use mark–recapture or distance sampling; mark a subset of animals, release, recapture to estimate population size.
+A40a) Expose plants to different light wavelengths, measure photosynthesis (oxygen output or CO₂ uptake), keep other factors constant.
+A41a) Collect tissue samples, extract RNA, perform qPCR or RNA-seq to compare gene expression between healthy and diseased tissues.
+A42a) Compare species diversity in fragmented vs. continuous habitats, use standardized sampling methods and replicate plots.
+A43a) DNA
+A44a) Mitochondrion
+A45a) Cell
+A46a) Oxygen (O₂)
+A47a) Cellular respiration
+A48a) Fungi
