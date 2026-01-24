@@ -1,0 +1,48 @@
+A1c) O(log n), maximum comparisons = 20
+A2c) Total edges = (15 × 4) / 2 = 30
+A3c) Time = (7.5 × 10^11) / (3 × 10^9) = 250 seconds
+A4c) Memory = 1920 × 1080 × 3 bytes = 6,220,800 bytes
+A5c) Load factor = 150 / 200 = 0.75
+A6c) Total operations ≈ 500^2 = 250,000
+A7c) Steps: 1) Write code in .cpp file, 2) Open terminal, 3) Navigate to file directory, 4) Compile: `g++ filename.cpp -o output`, 5) Run: `./output`
+A8c) Steps: 1) Mark starting node visited, 2) Recursively visit unvisited adjacent nodes, 3) Backtrack when no unvisited neighbors, 4) Repeat until all reachable nodes are visited
+A9c) Steps: 1NF – remove repeating groups, 2NF – remove partial dependencies, 3NF – remove transitive dependencies
+A10c) Steps: 1) Install Python, 2) Navigate to project folder, 3) Run `python -m venv envname`, 4) Activate: `source envname/bin/activate` (Linux/macOS) or `envname\Scripts\activate` (Windows)
+A11c) Steps: 1) Identify conflicting files, 2) Resolve conflicts manually, 3) Mark resolved files with `git add`, 4) Complete merge with `git commit`
+A12c) Steps: 1) Collect/preprocess data, 2) Choose model, 3) Split data into training/test sets, 4) Train model, 5) Evaluate performance, 6) Tune hyperparameters
+A13c) An OS manages hardware/software resources; functions: process management, memory management, file systems, device control
+A14c) Abstraction hides implementation details while exposing essential functionality
+A15c) Recursion: function calls itself; iteration uses loops instead of the call stack
+A16c) A data structure organizes data efficiently; important for performance and algorithm implementation
+A17c) Concurrency allows multiple tasks to execute simultaneously for better throughput
+A18c) Computational complexity measures algorithm resource usage relative to input size
+A19c) A faster sorting algorithm reduces total runtime; inefficient sorting dominates overall performance
+A20c) Cache improves speed; spatial locality benefits sequential access, temporal locality benefits repeated access
+A21c) Bottlenecks: CPU, memory, disk I/O, network; mitigate via load balancing, caching, scaling, query optimization
+A22c) More layers reduce bias, increase variance, and increase training time; may improve expressiveness but risk overfitting
+A23c) Deadlock requires mutual exclusion, hold-and-wait, no preemption, circular wait; removing any condition prevents deadlock
+A24c) Distributed DBs improve availability/partition tolerance but may reduce consistency (CAP trade-offs)
+A25c) Sudden CPU spike may indicate high load, runaway processes, inefficient code, or malware
+A26c) High false negatives indicate poor sensitivity; many positives are missed
+A27c) Frequent segmentation faults suggest invalid memory access or improper pointer handling
+A28c) High latency with low packet loss indicates congestion or routing delays, not physical transmission errors
+A29c) User logs reveal navigation patterns, feature usage, and usability issues
+A30c) Ethical issues: privacy invasion, surveillance, bias, consent, and misuse
+A31c) Yes; disclosure enables security audits and vulnerability mitigation
+A32c) Algorithmic hiring requires transparency, fairness, bias mitigation, and human oversight
+A33c) Low-level knowledge aids debugging, optimization, and understanding of abstractions; avoiding it may limit competence
+A34c) Privacy often outweighs personalization; balance needed depending on context
+A35c) AI-generated code requires strict review/testing in safety-critical systems; otherwise inappropriate
+A36c) Encryption should be regulated to balance security, privacy, and lawful access
+A37c) Scalable architecture: load balancers, stateless servers, caching, sharded DBs, CDNs; ensures fault tolerance and high concurrency
+A38c) Experiment: select large datasets, implement both algorithms, measure time/memory, compare statistically
+A39c) Schema: Users, Courses, Lessons, Enrollments, Assessments; normalized to reduce redundancy and maintain integrity
+A40c) Authentication: multi-factor, hashed passwords, session management, rate limiting; balances security and usability
+A41c) Test: simulate network failures, observe failover, measure recovery and response times
+A42c) Low-bandwidth app: compress data, cache offline, minimize requests; trade-offs: lower fidelity/features
+A43c) Central Processing Unit
+A44c) 1972
+A45c) 80
+A46c) Queue
+A47c) Dijkstra’s algorithm
+A48c) Sun Microsystems
