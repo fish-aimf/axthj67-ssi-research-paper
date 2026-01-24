@@ -1,0 +1,48 @@
+Q1e) A 5 kg object falls from 20 m height. Find the speed just before impact.
+Q2e) A 12 V battery is connected to a 4 Ω resistor. Determine the current flowing through it.
+Q3e) A car accelerates uniformly from 0 to 30 m/s in 10 seconds. Compute acceleration and distance covered.
+Q4e) A 2 kg mass is attached to a spring (50 N/m). Calculate the period of oscillation.
+Q5e) A 100 W bulb is on for 2 hours. Find the energy consumed in joules.
+Q6e) Two point charges, +3 μC and -5 μC, are 2 m apart. Calculate the electrostatic force between them.
+Q7e) Describe the steps to measure gravitational acceleration using a simple pendulum.
+Q8e) Explain how to determine the resistance of a wire using a voltmeter and ammeter.
+Q9e) Outline the procedure to plot a displacement-time graph for a moving object using measurements.
+Q10e) Explain how to measure the specific heat capacity of a metal using a calorimeter.
+Q11e) Describe the steps to verify Ohm’s law experimentally.
+Q12e) Explain how to set up an experiment to measure the refractive index of a glass slab.
+Q13e) Define Newton’s first law of motion and provide an example.
+Q14e) Explain the concept of the electric field in physics.
+Q15e) Define kinetic energy and differentiate it from potential energy.
+Q16e) Explain the principle of conservation of momentum.
+Q17e) Define wave-particle duality in the context of light.
+Q18e) Explain the concept of entropy in thermodynamics.
+Q19e) A 3 kg block slides down a frictionless incline of 30°. Calculate its velocity at the bottom and work done by gravity.
+Q20e) Two capacitors, 4 μF and 6 μF, are connected in series across a 12 V battery. Determine total capacitance and charge on each capacitor.
+Q21e) A 500 kg satellite orbits Earth at 300 km. Calculate its orbital speed and orbital period.
+Q22e) A 10 Ω resistor in series with a 5 Ω resistor is connected to a 15 V battery. Calculate voltage drops across each resistor.
+Q23e) A gas expands from 2 L to 5 L under constant pressure of 2×10^5 Pa. Calculate work done by the gas.
+Q24e) A body is projected vertically at 20 m/s. Determine maximum height and total time of flight.
+Q25e) Interpret the significance of a velocity-time graph for a uniformly accelerating car.
+Q26e) Explain what a current-voltage graph indicates about a material’s conductivity.
+Q27e) Interpret the interference fringe pattern in a double-slit experiment.
+Q28e) Explain the physical meaning of a stress-strain curve.
+Q29e) Interpret a pendulum’s motion from a displacement-time graph.
+Q30e) Explain what decreasing amplitude in a damped oscillator indicates about energy.
+Q31e) Should nuclear energy be prioritized over fossil fuels for electricity generation? Justify using physics principles.
+Q32e) Evaluate the use of superconductors in technology and discuss economic feasibility.
+Q33e) Should satellites rely on solar panels or nuclear power for long-term missions? Argue based on energy considerations.
+Q34e) Assess whether improving internal combustion engine efficiency alone is sufficient to meet global energy demands.
+Q35e) Evaluate safety concerns of high-voltage power lines in urban areas due to electromagnetic exposure.
+Q36e) Should fusion power be pursued as a primary energy source despite technological challenges? Justify.
+Q37e) Design an experiment to measure a glider’s acceleration on an air track considering friction and errors.
+Q38e) Propose an experimental setup to study the relationship between magnetic field strength and induced EMF in a coil.
+Q39e) Design a method to measure the coefficient of restitution of a ball on different surfaces.
+Q40e) Develop a procedure to study the damping effect on a pendulum under varying air resistance.
+Q41e) Propose a design to measure the speed of sound in air using resonance tubes.
+Q42e) Design a method to verify conservation of angular momentum using a rotating platform and masses.
+Q43e) What is the acceleration due to gravity on Earth?
+Q44e) State the unit of electric charge.
+Q45e) What is the speed of light in a vacuum?
+Q46e) Name the particle responsible for mediating electromagnetic force.
+Q47e) What is the standard atmospheric pressure at sea level?
+Q48e) State the formula for kinetic energy.
