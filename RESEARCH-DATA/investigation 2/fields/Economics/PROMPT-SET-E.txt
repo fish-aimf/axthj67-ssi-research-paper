@@ -1,0 +1,48 @@
+Q1e) Using the given demand and supply functions, find equilibrium price and output.
+Q2e) Compute GDP per capita using the provided GDP and population figures.
+Q3e) From the cost function, find marginal cost at output of 10.
+Q4e) Estimate demand elasticity given the stated price increase and quantity decrease.
+Q5e) Compute the real interest rate given nominal interest and inflation.
+Q6e) Determine how many units of X can be bought if all income is spent on X.
+Q7e) Explain how a government applies contractionary fiscal measures.
+Q8e) Explain the steps to draw a Lorenz curve.
+Q9e) Explain how GDP is measured using spending data.
+Q10e) Describe how open market operations are executed.
+Q11e) Explain demand estimation using econometric regression.
+Q12e) Explain the procedure for cost–benefit analysis.
+Q13e) Explain opportunity cost and its role in economics.
+Q14e) Define inflation and explain its measurement.
+Q15e) Explain the principle of comparative advantage.
+Q16e) Explain equilibrium in a supply–demand framework.
+Q17e) Define moral hazard.
+Q18e) Define public goods and their characteristics.
+Q19e) Analyze the short-run economic effects of an oil price shock.
+Q20e) Analyze how interest rate hikes affect the economy.
+Q21e) Explain why externalities justify government action.
+Q22e) Analyze labor market effects of a binding minimum wage.
+Q23e) Analyze the consequences of large fiscal deficits.
+Q24e) Analyze responses to declining productivity.
+Q25e) Interpret labor and pension impacts of low fertility.
+Q26e) Interpret economic effects of currency appreciation.
+Q27e) Interpret globalization’s effects on wage inequality.
+Q28e) Interpret a flattening Phillips Curve.
+Q29e) Interpret rising housing prices from multiple perspectives.
+Q30e) Interpret persistent current account deficits.
+Q31e) Assess the case for higher sugary drink taxes.
+Q32e) Assess links between inequality and growth.
+Q33e) Assess central bank policy priorities.
+Q34e) Assess free trade agreements for developing economies.
+Q35e) Assess public funding of higher education.
+Q36e) Assess government intervention in monopolistic markets.
+Q37e) Design recession policies to cut unemployment.
+Q38e) Propose a strategy to measure the informal economy.
+Q39e) Propose an experiment on price transparency.
+Q40e) Propose a study on microcredit outcomes.
+Q41e) Propose a carbon tax framework.
+Q42e) Propose a way to compare fiscal and monetary policy.
+Q43e) State the full form of GDP.
+Q44e) Name the U.S. authority responsible for monetary policy.
+Q45e) Identify the market structure with many identical sellers.
+Q46e) Identify the main aim of the WTO.
+Q47e) Identify the term for excess supply.
+Q48e) Identify the curve relating inflation to unemployment.
