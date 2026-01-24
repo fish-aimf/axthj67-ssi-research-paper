@@ -1,0 +1,48 @@
+Q1c) Outline the procedure for conducting an ethical review of studies involving human participants.  
+Q2c) Explain the steps to resolve workplace ethical dilemmas using a structured decision-making framework.  
+Q3c) How should the principle of informed consent be applied in designing psychological experiments?  
+Q4c) Describe how to evaluate potential conflicts of interest in scholarly publishing.  
+Q5c) Provide a sequential approach to implementing a corporate ethics code.  
+Q6c) What process should an ethics committee follow to assess the risks and benefits of a medical trial before approval?  
+
+Q7c) Define utilitarianism and summarize its fundamental principle.  
+Q8c) What does deontological ethics entail, and how does it contrast with consequentialist ethics?  
+Q9c) Explain the idea of moral relativism.  
+Q10c) Define virtue ethics and highlight its principal traits.  
+Q11c) What is the ethical principle of autonomy?  
+Q12c) Define ethical egoism and provide a practical example.  
+
+Q13c) Analyze the ethical challenges of AI decision-making in healthcare contexts.  
+Q14c) Evaluate potential actions for a company facing a choice between profit and environmental responsibility.  
+Q15c) Determine an ethically sound strategy for allocating scarce organs to patients.  
+Q16c) Examine the impact of whistleblowing on both organizational culture and individual ethics.  
+Q17c) How should ethical issues be resolved when cultural norms conflict with universal human rights?  
+Q18c) Analyze the ethical issues in balancing privacy and security within digital surveillance.  
+
+Q19c) Interpret the ethical meaning of a story where a character faces a moral choice about lying to help a friend.  
+Q20c) How might public perception of mandatory vaccinations change during a pandemic?  
+Q21c) Analyze the ethical reasoning behind historical acts of civil disobedience.  
+Q22c) Discuss the ethical lessons in scenarios where self-driving cars must make life-or-death decisions.  
+Q23c) What are journalists’ ethical responsibilities when reporting in war or conflict zones?  
+Q24c) How do cultural differences affect interpretations of ethical business practices?  
+
+Q25c) Should companies be legally obliged to prioritize ethical supply chains over profitability? Explain.  
+Q26c) Assess whether using animals for medical research is ethically justifiable.  
+Q27c) Should governments take action to limit harmful content on social media? Present your reasoning.  
+Q28c) Should whistleblowers receive legal protection even when violating confidentiality agreements?  
+Q29c) Should autonomous vehicles always prioritize minimizing harm, even if passengers are endangered? Explain.  
+Q30c) Evaluate the ethical advantages and disadvantages of mandating organ donation.  
+
+Q31c) Create a framework to assess ethical compliance in multinational companies.  
+Q32c) Suggest a methodology for conducting an ethics audit in healthcare institutions.  
+Q33c) Design a study to evaluate the effectiveness of employee ethics training initiatives.  
+Q34c) Develop a protocol to ethically review AI used in recruitment processes.  
+Q35c) Build a tool to guide ethical decision-making in public policy dilemmas.  
+Q36c) Propose a system to balance patient autonomy with public health priorities in medical settings.  
+
+Q37c) Who is considered the originator of modern utilitarianism?  
+Q38c) What core ethical principle does the Hippocratic Oath emphasize?  
+Q39c) Which philosopher is known for deontological ethics?  
+Q40c) What term describes morality as being relative to culture or society?  
+Q41c) Name the ethical theory focused on character traits rather than consequences or rules.  
+Q42c) What term refers to the responsibility to act according to professional duties and standards?
