@@ -1,4 +1,3 @@
-Set A:
 Q1a) Calculate the molar mass of calcium phosphate, Ca3(PO4)2.
 Q2a) Find the number of moles present in 25 grams of sodium hydroxide.
 Q3a) Determine the percentage by mass of hydrogen in C2H6O.
@@ -47,3 +46,4 @@ Q45a) Which element in period 3 is a halogen?
 Q46a) What is mercury’s standard state at room temperature?
 Q47a) Which gas forms when hydrochloric acid reacts with zinc?
 Q48a) Calculate the pH of a 0.01 M HCl solution.
+
