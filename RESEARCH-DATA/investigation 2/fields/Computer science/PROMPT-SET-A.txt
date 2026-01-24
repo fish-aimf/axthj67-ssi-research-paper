@@ -1,0 +1,48 @@
+Q1a) Determine the worst-case time complexity of performing a binary search on an array containing 2^20 elements, stating both the Big-O notation and the exact maximum number of comparisons.
+Q2a) For an undirected graph with 15 vertices, each having a degree of 4, compute the total number of edges.
+Q3a) A processor can execute 3 × 10^9 instructions per second. Calculate the time required, in seconds, to execute 7.5 × 10^11 instructions.
+Q4a) Compute the amount of memory, in bytes, needed to store an image of resolution 1920 × 1080 with a 24-bit color depth.
+Q5a) Given a hash table containing 200 slots and 150 keys, determine its load factor.
+Q6a) If an algorithm runs in O(n^2) time and n equals 500, estimate the total number of basic operations assuming one operation per n^2 unit.
+Q7a) Describe, step by step, how to compile and execute a C++ program using a command-line compiler.
+Q8a) Explain the procedure for carrying out a depth-first search (DFS) on a graph beginning from a specified node.
+Q9a) List the steps involved in normalizing a relational database table up to Third Normal Form (3NF).
+Q10a) Describe how to set up and activate a Python virtual environment.
+Q11a) Explain the steps required to resolve a merge conflict in a Git repository.
+Q12a) Outline the process of designing and training a basic supervised machine learning model.
+Q13a) Define an operating system and describe its main functions.
+Q14a) Explain what abstraction means in the context of computer science.
+Q15a) Define recursion and explain how it differs from iterative approaches.
+Q16a) What is a data structure, and why is it important in computing?
+Q17a) Explain the concept of concurrency in computer systems.
+Q18a) Define the term “computational complexity.”
+Q19a) For an algorithm that involves both sorting and searching, analyze how selecting a different sorting algorithm influences overall performance.
+Q20a) Analyze how cache memory affects program execution speed, with reference to spatial and temporal locality.
+Q21a) In a heavily loaded client-server architecture, identify possible bottlenecks and propose reasonable solutions.
+Q22a) Analyze the effects of increasing the number of layers in a neural network on bias, variance, and training time.
+Q23a) Given a deadlock situation, analyze the required conditions for deadlock and explain how breaking one condition resolves it.
+Q24a) Analyze the effects of moving from a centralized database to a distributed database on consistency, availability, and partition tolerance.
+Q25a) Interpret what a sudden increase in CPU usage could indicate in a production system.
+Q26a) Interpret a confusion matrix in which false negatives are much higher than false positives.
+Q27a) Given a program that crashes frequently, interpret what repeated segmentation faults imply about memory usage.
+Q28a) Interpret the significance of high network latency combined with low packet loss.
+Q29a) Interpret what user interaction logs can reveal about the usability of a web application.
+Q30a) Interpret the ethical concerns associated with deploying facial recognition technology in public areas.
+Q31a) Should vendors of proprietary software be obligated to disclose source code for security purposes? Justify your response.
+Q32a) Evaluate whether the use of algorithmic decision-making in hiring processes should be permitted.
+Q33a) Assess the claim that modern software engineers do not need to learn low-level programming languages.
+Q34a) Judge whether online services should prioritize data privacy over personalization.
+Q35a) Evaluate the appropriateness of using AI-generated code in safety-critical systems.
+Q36a) Should governments impose regulations on encryption technologies? Argue your position.
+Q37a) Design a web application architecture capable of scaling to millions of users, justifying the major design decisions.
+Q38a) Design an experiment to compare how two sorting algorithms perform on large datasets.
+Q39a) Propose and justify a database schema for an online learning platform.
+Q40a) Design a secure authentication system while balancing usability and performance constraints.
+Q41a) Propose a method for testing the reliability of a distributed system when network failures occur.
+Q42a) Design a mobile application optimized for low-bandwidth environments and discuss the associated trade-offs.
+Q43a) What does the abbreviation CPU stand for?
+Q44a) In what year was the C programming language originally developed?
+Q45a) What is the default port number used by HTTP?
+Q46a) Which data structure follows the First-In-First-Out (FIFO) principle?
+Q47a) What algorithm is commonly used to compute the shortest path in a weighted graph?
+Q48a) Which company initially developed the Java programming language?
