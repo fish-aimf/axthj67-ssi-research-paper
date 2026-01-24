@@ -1,0 +1,48 @@
+A1c) Percentage increase = [(5.0 × 10^6 − 2.0 × 10^6) / 2.0 × 10^6] × 100 = 150%
+A2c) Water moves out of the plant cell into the solution.
+A3c) Net oxygen production = 12 − 4 = 8 µmol O₂ m⁻² s⁻¹
+A4c) Phenotypic ratio = 9:3:3:1
+A5c) DNA length = 1200 × 0.34 nm = 408 nm
+A6c) Enzyme reaction rate = 90 mmol / 30 min = 3 mmol/min
+A7c) Place a thin layer of onion epidermis on a slide, add a drop of water, cover with a coverslip, observe under a microscope.
+A8c) Grind plant tissue in buffer, add detergent to lyse cells, remove debris, precipitate DNA with alcohol.
+A9c) Mitosis phases: Prophase (chromosomes condense), Metaphase (chromosomes align at equator), Anaphase (sister chromatids separate), Telophase (nuclear envelope reforms), Cytokinesis (cell divides).
+A10c) Keep all factors constant except light intensity, expose plants to different light levels, measure photosynthesis, compare results.
+A11c) Fix bacteria on slide, stain with crystal violet, apply iodine, decolorize with alcohol, counterstain with safranin, observe under microscope.
+A12c) Connect a potometer to a plant shoot and measure water uptake over time to determine transpiration rate.
+A13c) Natural selection: differential survival and reproduction of individuals with heritable traits; key components: variation, inheritance, differential fitness.
+A14c) Homeostasis is the maintenance of stable internal conditions despite external changes.
+A15c) Enzyme specificity means an enzyme catalyzes only a particular substrate or type of reaction.
+A16c) Genetic drift is random change in allele frequencies; unlike natural selection, it is not based on fitness differences.
+A17c) Apoptosis is programmed cell death; essential for development, tissue maintenance, and removing damaged cells.
+A18c) Carrying capacity is the maximum population size an environment can sustain.
+A19c) Mutation in an enzyme gene may reduce or enhance activity, affecting substrate conversion and altering the metabolic pathway.
+A20c) Short-term: prey increase, vegetation decline; Long-term: ecosystem imbalance and potential overpopulation of prey.
+A21c) CO₂ dissolves in oceans forming carbonic acid, lowering pH and impacting marine organisms.
+A22c) Sodium–potassium pump failure disrupts ion gradients, impairing nerve depolarization and action potential transmission.
+A23c) Meiotic errors (nondisjunction, mis-segregation) can produce gametes with abnormal chromosome numbers, leading to chromosomal abnormalities in offspring.
+A24c) Deforestation and climate change reduce habitats and species richness, disrupt ecological interactions, increase extinction risk.
+A25c) Broad base and narrow apex indicate high birth rate, rapid growth, and potential resource strain.
+A26c) High mRNA but low protein suggests post-transcriptional regulation, translational inhibition, or rapid protein degradation.
+A27c) Closely related species share a recent common ancestor, indicated by proximity on a phylogenetic tree.
+A28c) Plateau in population growth indicates stabilization near the environment’s carrying capacity.
+A29c) Enzyme activity plateaus because all active sites are saturated; further substrate does not increase rate.
+A30c) Increased stomatal density improves gas exchange, optimizing photosynthesis under high light conditions.
+A31c) GMOs can enhance yield, pest resistance, and nutrition; widespread use should consider ecological and ethical impacts.
+A32c) Limiting antibiotics in livestock reduces selection for resistant bacteria, helping control antibiotic resistance.
+A33c) Prioritizing keystone species maintains ecosystem structure, though overall species richness is also important; strategy depends on conservation goals.
+A34c) Cloning endangered species raises ethical concerns: genetic diversity, ecological impact, and animal welfare.
+A35c) Removing invasive species can protect native ecosystems, but ecological context and potential unintended consequences must be considered.
+A36c) Animal research provides biological insights but raises ethical concerns; alternatives should be considered where possible.
+A37c) Vary temperature (independent), measure enzyme activity (dependent), control substrate, pH, and enzyme volume.
+A38c) Compare biodiversity in polluted vs. unpolluted freshwater, standardize sampling, measure species richness and abundance.
+A39c) Use mark–recapture or distance sampling: mark a subset, release, recapture to estimate population size.
+A40c) Expose plants to different light wavelengths, measure photosynthesis (O₂ or CO₂), control all other factors.
+A41c) Extract RNA from healthy and diseased tissue, perform qPCR or RNA-seq to compare gene expression.
+A42c) Compare species diversity in fragmented versus continuous habitats using standardized sampling and replicates.
+A43c) DNA
+A44c) Mitochondrion
+A45c) Cell
+A46c) Oxygen (O₂)
+A47c) Cellular respiration
+A48c) Fungi
