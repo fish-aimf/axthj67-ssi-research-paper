@@ -1,0 +1,48 @@
+Q1e) Identify the worst-case Big-O complexity of binary search on an array of size 2^20 and state the exact maximum comparisons.
+Q2e) Compute the total number of edges in an undirected graph with 15 vertices, each of degree 4.
+Q3e) Determine the execution time in seconds for 7.5 × 10^11 instructions on a processor executing 3 × 10^9 instructions per second.
+Q4e) How much memory, in bytes, is required for a 1920 × 1080 image with 24-bit color depth?
+Q5e) Calculate the load factor of a hash table with 150 keys and 200 slots.
+Q6e) For an O(n^2) algorithm with n set to 500, estimate the number of basic operations performed.
+Q7e) Explain the process of compiling and running a C++ program using command-line tools.
+Q8e) Describe the steps to perform a depth-first search starting from a given graph node.
+Q9e) Explain the steps necessary to normalize a relational table to Third Normal Form.
+Q10e) Describe how to create and activate a Python virtual environment.
+Q11e) Explain how merge conflicts are resolved in Git version control.
+Q12e) Describe the steps required to design and train a supervised machine learning model.
+Q13e) What is an operating system, and what primary roles does it serve?
+Q14e) Define abstraction within computer science.
+Q15e) What is recursion, and how is it different from iteration?
+Q16e) Define data structures and explain their importance.
+Q17e) Explain the idea of concurrency in computing systems.
+Q18e) What does the term computational complexity mean?
+Q19e) Analyze how overall performance changes when the sorting component of a sorting-searching algorithm is modified.
+Q20e) Explain how cache memory improves performance through spatial and temporal locality.
+Q21e) Analyze potential bottlenecks in a client-server system under heavy load and suggest mitigations.
+Q22e) Analyze how deeper neural networks affect bias, variance, and training time.
+Q23e) Explain the conditions necessary for deadlock and how resolving one condition eliminates deadlock.
+Q24e) Analyze the effects of adopting a distributed database instead of a centralized one on CAP properties.
+Q25e) What might a sudden increase in CPU usage indicate in a production system?
+Q26e) Interpret a confusion matrix where false negatives significantly exceed false positives.
+Q27e) Interpret what frequent segmentation faults imply about memory usage in a program.
+Q28e) Interpret the meaning of high latency with low packet loss in a network.
+Q29e) Interpret user interaction logs to understand web application usability.
+Q30e) Discuss the ethical implications of using facial recognition in public environments.
+Q31e) Should proprietary software vendors be required to reveal source code for security? Justify your view.
+Q32e) Evaluate whether hiring decisions should rely on algorithmic decision-making.
+Q33e) Assess whether learning low-level programming languages is still necessary for modern engineers.
+Q34e) Judge whether data privacy should outweigh personalization in online services.
+Q35e) Evaluate the suitability of AI-generated code for safety-critical systems.
+Q36e) Argue for or against government regulation of encryption technologies.
+Q37e) Design a scalable web application architecture capable of serving millions of users.
+Q38e) Design an experiment to evaluate and compare two sorting algorithms on large datasets.
+Q39e) Propose and justify a database schema for an online learning application.
+Q40e) Design a secure authentication system that balances usability and performance.
+Q41e) Propose a methodology to test distributed system reliability during network disruptions.
+Q42e) Design a mobile application optimized for low-bandwidth scenarios and explain trade-offs.
+Q43e) What does CPU represent?
+Q44e) In which year was the C programming language created?
+Q45e) What port number does HTTP use by default?
+Q46e) Which data structure follows the FIFO rule?
+Q47e) What algorithm is typically used to determine the shortest path in a weighted graph?
+Q48e) Which company originally developed Java?
