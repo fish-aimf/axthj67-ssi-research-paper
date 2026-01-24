@@ -1,0 +1,83 @@
+A1c) Procedure for conducting an ethical review of studies with human participants: 1) Submit study proposal to ethics committee, 2) Review study objectives, methodology, and participant recruitment, 3) Assess potential risks and benefits, 4) Evaluate informed consent processes, 5) Ensure privacy and confidentiality safeguards, 6) Approve, request modifications, or reject, 7) Monitor compliance during the study.
+
+A2c) Steps to resolve workplace ethical dilemmas using a structured framework: 1) Identify the ethical issue, 2) Gather all relevant facts, 3) Identify stakeholders and their interests, 4) Evaluate alternatives using ethical principles, 5) Make a decision, 6) Implement the decision, 7) Review and reflect on outcomes.
+
+A3c) Application of informed consent in psychological experiments: 1) Clearly provide study purpose, procedures, risks, and benefits, 2) Ensure participants understand their rights including withdrawal, 3) Obtain voluntary agreement (usually written), 4) Maintain ongoing communication for questions.
+
+A4c) Evaluating potential conflicts of interest in scholarly publishing: 1) Require disclosure from authors, reviewers, and editors, 2) Assess nature and impact of conflicts, 3) Implement management strategies such as recusal or independent review, 4) Ensure transparency in publications.
+
+A5c) Sequential approach to implementing a corporate ethics code: 1) Develop the code based on organizational values and legal standards, 2) Communicate code to all employees, 3) Provide ethics training, 4) Establish reporting mechanisms, 5) Monitor compliance and enforce consequences, 6) Review and update periodically.
+
+A6c) Ethics committee assessment of risks and benefits in medical trials: 1) Evaluate risks to participants, 2) Assess potential benefits to participants and society, 3) Compare risks versus benefits using ethical principles, 4) Ensure informed consent adequately conveys risks, 5) Approve, request modifications, or reject the trial.
+
+A7c) Utilitarianism is an ethical theory that holds that the morally right action is the one that maximizes overall happiness or well-being for the greatest number.
+
+A8c) Deontological ethics emphasizes duties and adherence to rules as morally binding, regardless of outcomes, contrasting with consequentialist ethics, which evaluate actions by their results.
+
+A9c) Moral relativism is the concept that ethical standards and moral judgments are not universal but vary according to culture, society, or individual context.
+
+A10c) Virtue ethics focuses on cultivating moral character and virtues such as honesty, courage, and compassion, rather than strictly following rules or focusing on outcomes.
+
+A11c) Autonomy is the ethical principle that individuals have the right to make informed, voluntary decisions about their own lives and actions.
+
+A12c) Ethical egoism is the principle that individuals should act in their own self-interest; for example, a professional pursuing a career path that benefits personal growth while complying with laws and ethical standards.
+
+A13c) Ethical challenges of AI in healthcare include ensuring fairness, avoiding bias, protecting patient privacy, maintaining transparency, and assigning accountability for automated decisions.
+
+A14c) Evaluating options when profit conflicts with environmental responsibility involves assessing long-term sustainability, stakeholder impact, regulatory compliance, and ethical obligations to minimize environmental harm.
+
+A15c) Ethically sound strategies for organ allocation include considering medical urgency, likelihood of success, fairness, and maximizing overall benefit to recipients.
+
+A16c) Whistleblowing can improve organizational ethics by exposing wrongdoing, but may cause retaliation, stress, and strained relationships, requiring careful ethical and legal management.
+
+A17c) Ethical resolution of conflicts between cultural norms and human rights involves dialogue, respect for context, application of universal ethical principles, and minimizing harm while protecting fundamental rights.
+
+A18c) Balancing privacy and security in digital surveillance requires considering proportionality, transparency, accountability, and protecting individual rights while ensuring societal safety.
+
+A19c) The ethical meaning in a moral dilemma story can be interpreted by analyzing the character’s intentions, reasoning, and consequences of lying to protect a friend, highlighting conflicts between loyalty and honesty.
+
+A20c) During a pandemic, public perception of mandatory vaccination may shift based on perceived collective risk, trust in authorities, ethical trade-offs between autonomy and public health, and social responsibility.
+
+A21c) Ethical reasoning in historical civil disobedience involves assessing justification for breaking laws to protest injustice, weighing moral duty against legal obligations, and considering societal impact.
+
+A22c) Ethical lessons from self-driving cars’ life-or-death decisions include ensuring fairness, safety, accountability, and transparency in algorithmic decision-making.
+
+A23c) Journalists’ ethical responsibilities in conflict zones include reporting accurately, minimizing harm, protecting sources, avoiding bias, and upholding professional integrity.
+
+A24c) Cultural differences affect business ethics interpretations by shaping values, norms, acceptable practices, and the prioritization of profit, social responsibility, and legal compliance.
+
+A25c) Legal obligations to prioritize ethical supply chains can be justified on grounds of social responsibility, consumer protection, and sustainability, while considering economic implications.
+
+A26c) Using animals for medical research is ethically justifiable if it is necessary for human benefit, minimizes suffering, and alternatives are unavailable.
+
+A27c) Governments can ethically limit harmful social media content to protect public welfare, while balancing freedom of expression and practical enforceability.
+
+A28c) Whistleblowers should receive legal protection even when breaching confidentiality, promoting transparency, accountability, and ethical conduct.
+
+A29c) Autonomous vehicles minimizing harm even at passenger risk requires careful ethical balancing of utilitarian outcomes, passenger consent, and legal responsibilities.
+
+A30c) Mandatory organ donation pros: increased availability and lives saved; cons: potential infringement on autonomy and moral objections, requiring careful ethical justification.
+
+A31c) Framework for ethical compliance in multinational companies: define standards, monitor operations, establish reporting, conduct audits, enforce corrective actions, consider cultural differences.
+
+A32c) Methodology for healthcare ethics audits: define criteria, review policies and procedures, interview staff, assess practices against ethical standards, report findings with recommendations.
+
+A33c) Study to evaluate employee ethics training: 1) Define measurable outcomes, 2) Implement training, 3) Conduct pre- and post-assessments, 4) Analyze impact on knowledge and behavior.
+
+A34c) Protocol for ethical review of AI in recruitment: 1) Assess fairness, transparency, and bias, 2) Ensure legal compliance, 3) Validate algorithmic decisions with human oversight, 4) Obtain stakeholder approval before deployment.
+
+A35c) Tool for ethical decision-making in public policy: 1) Identify stakeholders and potential consequences, 2) Apply ethical frameworks, 3) Evaluate trade-offs, 4) Recommend transparent and accountable solutions.
+
+A36c) System balancing patient autonomy with public health: 1) Inform patients of choices and risks, 2) Implement protective public health measures, 3) Encourage shared decision-making, 4) Regularly review policies for ethical alignment.
+
+A37c) Jeremy Bentham is considered the originator of modern utilitarianism.
+
+A38c) The Hippocratic Oath emphasizes the ethical principle of non-maleficence, “do no harm.”
+
+A39c) Immanuel Kant is known for deontological ethics.
+
+A40c) Moral relativism describes morality as being relative to culture or society.
+
+A41c) Virtue ethics focuses on developing character traits rather than rules or consequences.
+
+A42c) Deontology refers to the responsibility to act according to professional duties and standards.
