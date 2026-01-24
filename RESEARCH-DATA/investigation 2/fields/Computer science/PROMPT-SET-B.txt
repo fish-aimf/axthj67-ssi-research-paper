@@ -1,0 +1,48 @@
+Q1b) State the worst-case Big-O time complexity of binary search on an array of size 2^20 and give the exact maximum number of comparisons involved.
+Q2b) Calculate the total number of edges in an undirected graph with 15 vertices where each vertex has degree 4.
+Q3b) If a processor handles 3 × 10^9 instructions per second, determine how many seconds are needed to process 7.5 × 10^11 instructions.
+Q4b) Determine the memory size, in bytes, required for a 1920 × 1080 image using 24-bit color.
+Q5b) Compute the load factor of a hash table that has 200 slots and stores 150 keys.
+Q6b) For an O(n^2) algorithm with n = 500, approximate the number of basic operations assuming one operation per n^2.
+Q7b) Explain the step-by-step method for compiling and running a C++ program from the command line.
+Q8b) Describe how to execute a depth-first search (DFS) on a graph starting from a chosen node.
+Q9b) Identify the steps needed to normalize a relational table to Third Normal Form (3NF).
+Q10b) Explain how a virtual environment is created and activated in Python.
+Q11b) Describe the process of resolving a merge conflict within a Git repository.
+Q12b) Explain the stages involved in building and training a simple supervised machine learning model.
+Q13b) What is an operating system, and what are its core responsibilities?
+Q14b) Describe the idea of abstraction as used in computer science.
+Q15b) What is recursion, and how does it differ from iteration?
+Q16b) Define a data structure and explain its importance in computing.
+Q17b) Describe what concurrency means in computer systems.
+Q18b) What is meant by the term “computational complexity”?
+Q19b) Analyze how the choice of sorting algorithm affects the overall performance of an algorithm that also includes searching.
+Q20b) Discuss how cache memory improves execution speed, focusing on spatial and temporal locality.
+Q21b) Under heavy load in a client-server system, analyze potential bottlenecks and suggest mitigation strategies.
+Q22b) Examine how adding more layers to a neural network influences bias, variance, and training duration.
+Q23b) Analyze a deadlock scenario by identifying its necessary conditions and explaining how removing one condition resolves it.
+Q24b) Examine how shifting from a centralized database to a distributed one impacts consistency, availability, and partition tolerance.
+Q25b) What might a sudden spike in CPU usage indicate in a live production environment?
+Q26b) Explain the implications of a confusion matrix where false negatives greatly outnumber false positives.
+Q27b) If a program repeatedly crashes with segmentation faults, what does this suggest about memory handling?
+Q28b) What does the presence of high latency but low packet loss imply in a network?
+Q29b) What can user interaction logs tell us about a web application’s usability?
+Q30b) What ethical issues arise from using facial recognition systems in public spaces?
+Q31b) Should proprietary software companies be forced to release source code for security reasons? Provide justification.
+Q32b) Evaluate the appropriateness of using algorithm-based decisions in hiring.
+Q33b) Consider the claim that learning low-level languages is unnecessary for today’s software engineers.
+Q34b) Should data privacy take precedence over personalization in online platforms? Evaluate this view.
+Q35b) Assess whether AI-generated code should be used in safety-critical applications.
+Q36b) Argue for or against government regulation of encryption technologies.
+Q37b) Propose a scalable architecture for a web application serving millions of users and justify your choices.
+Q38b) Propose an experimental setup to compare the performance of two sorting algorithms on large inputs.
+Q39b) Design and justify a database schema suitable for an online education platform.
+Q40b) Propose a secure authentication mechanism that balances performance and usability.
+Q41b) Suggest a strategy for testing distributed system reliability under network failure conditions.
+Q42b) Design a mobile app intended for low-bandwidth usage and explain the design trade-offs.
+Q43b) What is the full form of CPU?
+Q44b) In which year was the C language first introduced?
+Q45b) Which port number is used by default for HTTP?
+Q46b) Which data structure operates according to the FIFO principle?
+Q47b) Name the algorithm most commonly applied to find the shortest path in a weighted graph.
+Q48b) Which organization originally created the Java programming language?
