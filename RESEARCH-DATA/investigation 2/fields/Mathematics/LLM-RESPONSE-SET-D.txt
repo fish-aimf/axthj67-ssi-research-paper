@@ -1,0 +1,97 @@
+A1d) x = 6
+
+A2d) y = 1 or y = 3
+
+A3d) f′(x) = 15x² − 4x
+
+A4d) 16
+
+A5d) 3775
+
+A6d) −1
+
+A7d) Write the quadratic in ax²+bx+c form, find two numbers that multiply to ac and add to b, split the middle term, then factor by grouping.
+
+A8d) Divide the leading term of the dividend by the leading term of the divisor, multiply, subtract, bring down the next term, and repeat.
+
+A9d) Write the augmented matrix, use row operations to reach row-echelon form, then back-substitute.
+
+A10d) x² + 6x + 9 = 4  
+(x + 3)² = 4  
+x = −1 or x = −5
+
+A11d) The inverse of [[a,b],[c,d]] is (1/(ad−bc))[[d,−b],[−c,a]] if ad−bc ≠ 0.
+
+A12d) Use the first derivative to find critical points and behavior, the second derivative for concavity, then sketch the graph.
+
+A13d) A limit is the value a function approaches as the input approaches a given number.
+
+A14d) Eigenvalues are scalars λ such that Av = λv, and eigenvectors are the corresponding nonzero vectors v.
+
+A15d) Permutations consider order, combinations do not.
+
+A16d) A function is continuous if its limit at a point equals its value at that point.
+
+A17d) Prove a base case, assume it holds for n, then prove it holds for n+1.
+
+A18d) A probability distribution assigns probabilities to all possible values of a random variable.
+
+A19d) 9x² + 12x + 4
+
+A20d) aₙ = 2·2ⁿ⁻¹, 10th term = 1024
+
+A21d) Width = 25/3, Length = 50/3
+
+A22d) Roots are x = 1, 2, 3.
+
+A23d) 3/8
+
+A24d) x = 1, y = 2, z = 3
+
+A25d) Local maximum at x = 1/3, local minimum at x = 1, inflection point at x = 2/3.
+
+A26d) Ratios of successive Fibonacci numbers approach the golden ratio.
+
+A27d) ln(x) → −∞ as x → 0⁺ and ln(x) → ∞ as x → ∞.
+
+A28d) The determinant represents the area scaling factor of a linear transformation.
+
+A29d) Right skew indicates many low scores, left skew indicates many high scores, often due to test difficulty.
+
+A30d) The series converges because the area under y = 1/x² from 1 to ∞ is finite.
+
+A31d) Methods such as infinite series, polygons, and Monte Carlo simulations vary in accuracy and efficiency.
+
+A32d) Calculators reduce arithmetic load but may weaken fundamental skills.
+
+A33d) Proofs strengthen logical reasoning and deepen conceptual understanding.
+
+A34d) Memorization improves speed but can limit understanding without context.
+
+A35d) Both are important, but theory builds foundations while applications develop intuition.
+
+A36d) Multiple-choice questions are efficient but limited in assessing deep reasoning.
+
+A37d) Compare speed and accuracy for both methods under controlled conditions.
+
+A38d) Use real-world rate or motion examples to assess conceptual understanding.
+
+A39d) Combine animations, interactive tools, and guided practice.
+
+A40d) Use Likert-scale questions targeting confidence in key calculus skills.
+
+A41d) Compare pre- and post-test performance before and after group learning.
+
+A42d) Compare recall accuracy after teaching different mnemonic strategies.
+
+A43d) 180°
+
+A44d) 12
+
+A45d) 2x
+
+A46d) 3.14
+
+A47d) 12
+
+A48d) 5040
