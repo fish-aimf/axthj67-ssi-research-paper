@@ -1,0 +1,48 @@
+Q1b) Using Qd = 120 − 2P and Qs = 20 + 3P, calculate the market equilibrium price and quantity.
+Q2b) Calculate GDP per capita when GDP equals $500 billion and population is 25 million.
+Q3b) Given TC = 100 + 5Q + Q², determine marginal cost at an output level of 10.
+Q4b) Find the price elasticity of demand as quantity falls from 100 to 80 while price rises from $10 to $12.
+Q5b) Apply the Fisher equation to compute the real interest rate with 6% nominal interest and 2% inflation.
+Q6b) If income is $200 and Px = $10, Py = $20, how many units of X can be bought if only X is consumed?
+Q7b) Explain the steps a government takes to implement contractionary fiscal policy.
+Q8b) Describe how a Lorenz curve is constructed using income distribution data.
+Q9b) Describe the procedure for measuring GDP via the expenditure approach.
+Q10b) Outline how a central bank conducts open market operations.
+Q11b) Explain how economists use regression analysis to estimate demand.
+Q12b) Describe the stages involved in a public project cost–benefit analysis.
+Q13b) What is opportunity cost and why is it important in decision-making?
+Q14b) Define inflation and describe how it is commonly measured.
+Q15b) What is meant by comparative advantage?
+Q16b) Explain the meaning of market equilibrium in supply and demand analysis.
+Q17b) Define moral hazard in economic terms.
+Q18b) What are public goods?
+Q19b) Analyze the short-term macroeconomic effects of an oil price increase.
+Q20b) Explain how higher interest rates influence investment and consumption.
+Q21b) Using externalities, explain the rationale for government intervention.
+Q22b) Analyze the impact of a binding minimum wage on jobs, prices, and firms.
+Q23b) Discuss the short- and long-term effects of large budget deficits in developing economies.
+Q24b) Analyze policy options to address slowing productivity growth and their trade-offs.
+Q25b) Explain how sustained low birth rates affect labor markets and pensions.
+Q26b) Discuss the implications of a strong and appreciating currency for exporters and consumers.
+Q27b) Explain how different groups may view globalization’s effect on wage inequality.
+Q28b) Explain what a flattening Phillips Curve indicates about inflation and unemployment.
+Q29b) Discuss differing interpretations of rising house prices by households and policymakers.
+Q30b) Explain what persistent current account deficits imply for an open economy.
+Q31b) Evaluate whether taxing sugary drinks more heavily is economically justified.
+Q32b) Assess whether income inequality necessarily slows economic growth.
+Q33b) Discuss whether inflation targeting should take priority over employment stabilization.
+Q34b) Evaluate the benefits of free trade agreements for small developing nations.
+Q35b) Assess the case for public funding of higher education.
+Q36b) Discuss whether government intervention in monopolies is justified.
+Q37b) Propose policies to reduce unemployment in a recession and discuss trade-offs.
+Q38b) Suggest a methodology for measuring the informal sector in developing countries.
+Q39b) Propose an experimental design to study consumer reactions to price transparency.
+Q40b) Describe a research strategy to evaluate microcredit’s effects on households.
+Q41b) Propose a carbon tax design, including how rates evolve over time.
+Q42b) Outline a method to compare fiscal stimulus with monetary stimulus.
+Q43b) What does GDP represent?
+Q44b) Which institution sets U.S. monetary policy?
+Q45b) Which market type features many firms selling identical goods?
+Q46b) What is the primary role of the World Trade Organization?
+Q47b) What is the economic term for excess supply?
+Q48b) Which curve shows the inflation–unemployment trade-off?
