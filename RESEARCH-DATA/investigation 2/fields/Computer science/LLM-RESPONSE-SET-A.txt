@@ -1,0 +1,48 @@
+A1a) O(log n), maximum comparisons = 20
+A2a) Total edges = (15 × 4) / 2 = 30
+A3a) Time = (7.5 × 10^11) / (3 × 10^9) = 250 seconds
+A4a) Memory = 1920 × 1080 × 3 bytes = 6,220,800 bytes
+A5a) Load factor = 150 / 200 = 0.75
+A6a) Total operations ≈ 500^2 = 250,000
+A7a) Steps: 1) Write code in a .cpp file, 2) Open terminal, 3) Navigate to file directory, 4) Compile using `g++ filename.cpp -o output`, 5) Execute with `./output`
+A8a) Steps: 1) Mark starting node as visited, 2) Visit an unvisited adjacent node recursively, 3) Backtrack when no unvisited adjacent nodes remain, 4) Repeat until all reachable nodes are visited
+A9a) Steps: 1) Remove repeating groups (1NF), 2) Remove partial dependencies (2NF), 3) Remove transitive dependencies (3NF)
+A10a) Steps: 1) Install Python, 2) Navigate to project folder, 3) Run `python -m venv envname`, 4) Activate with `source envname/bin/activate` (Linux/macOS) or `envname\Scripts\activate` (Windows)
+A11a) Steps: 1) Identify conflicting files, 2) Open files and manually resolve conflicts, 3) Mark resolved files with `git add`, 4) Complete merge with `git commit`
+A12a) Steps: 1) Collect and preprocess data, 2) Select model type, 3) Split data into training and test sets, 4) Train model on training data, 5) Evaluate on test data, 6) Tune hyperparameters if needed
+A13a) An operating system is system software that manages hardware and software resources; main functions include process management, memory management, file system management, and device control
+A14a) Abstraction is the process of hiding complex implementation details while exposing essential features
+A15a) Recursion is a function calling itself directly or indirectly; differs from iteration by using call stack instead of loops
+A16a) A data structure is a way of organizing data for efficient access and modification; important for performance and algorithm implementation
+A17a) Concurrency is the ability of a system to execute multiple tasks simultaneously, potentially improving efficiency
+A18a) Computational complexity measures the resources (time, space) an algorithm requires relative to input size
+A19a) A faster sorting algorithm reduces the sorting portion of the overall runtime, improving total performance; inefficient sorting dominates total time
+A20a) Cache memory speeds up execution by storing frequently used data; spatial locality improves access to consecutive memory locations, temporal locality improves repeated access to the same location
+A21a) Bottlenecks: CPU, memory, disk I/O, network; solutions: load balancing, caching, scaling, optimizing queries
+A22a) Increasing layers can reduce bias, increase variance, and increase training time; may improve expressiveness but risks overfitting
+A23a) Deadlock requires mutual exclusion, hold and wait, no preemption, circular wait; breaking any condition (e.g., preemption) resolves deadlock
+A24a) Distributed databases improve availability and partition tolerance but may reduce consistency; trade-offs depend on CAP theorem
+A25a) Sudden CPU spike may indicate high workload, runaway process, inefficient code, or malware
+A26a) High false negatives imply poor sensitivity; the system misses many positive cases
+A27a) Frequent segmentation faults indicate invalid memory access or improper pointer handling
+A28a) High latency with low packet loss suggests network congestion or routing delays, not physical transmission errors
+A29a) User logs reveal navigation patterns, feature usage, and usability issues
+A30a) Ethical concerns: privacy violations, surveillance, bias, consent, and data misuse
+A31a) Yes, for security transparency and auditing; ensures vulnerabilities can be detected and mitigated
+A32a) Use with caution; requires transparency, fairness, bias mitigation, and human oversight
+A33a) Low-level knowledge aids debugging, performance optimization, and understanding of abstractions; entirely avoiding it may limit competence
+A34a) Prioritizing privacy protects users’ rights, though personalization enhances experience; balance is key
+A35a) AI-generated code in safety-critical systems should be heavily reviewed and tested; inappropriate without validation
+A36a) Governments should regulate encryption responsibly to balance security, privacy, and lawful access
+A37a) Architecture: load balancers, stateless servers, caching, database sharding, CDNs; justified for scalability and fault tolerance
+A38a) Experiment: select datasets, implement algorithms, measure time and memory usage, compare results statistically
+A39a) Schema: Users, Courses, Lessons, Enrollments, Assessments tables; normalized to avoid redundancy and maintain integrity
+A40a) Authentication system: multi-factor, password hashing, session management, rate limiting; balances security with user convenience
+A41a) Reliability test: simulate network failures, observe failover, measure response times and recovery success
+A42a) Mobile app: compress data, reduce images, offline caching, minimal requests; trade-off is reduced visual fidelity or feature richness
+A43a) Central Processing Unit
+A44a) 1972
+A45a) 80
+A46a) Queue
+A47a) Dijkstra’s algorithm
+A48a) Sun Microsystems
