@@ -1,0 +1,55 @@
+Q1a) Solve for x in the equation 3x + 7 = 25.  
+Q2a) Find the value of y that satisfies 2y^2 - 8y + 6 = 0.  
+Q3a) Determine the derivative of f(x) = 5x^3 - 2x^2 + 7.  
+Q4a) Compute the definite integral ∫ from 0 to 2 of (3x^2 + 4x) dx.  
+Q5a) Calculate the sum of the first 50 terms of the arithmetic sequence 2, 5, 8, ...  
+Q6a) Find the determinant of the matrix [[2, 3], [5, 7]].  
+
+Q7a) Explain step-by-step how to factor a quadratic expression.  
+Q8a) Describe the process for performing long division with polynomials.  
+Q9a) Outline the method for solving a system of linear equations using Gaussian elimination.  
+Q10a) Show the process of completing the square for x^2 + 6x + 5 = 0.  
+Q11a) Demonstrate how to compute the inverse of a 2x2 matrix.  
+Q12a) Provide the steps to construct a graph of a function using its derivative.  
+
+Q13a) Define the mathematical concept of a limit in calculus.  
+Q14a) Explain the meaning of eigenvalues and eigenvectors.  
+Q15a) Describe the distinction between a permutation and a combination.  
+Q16a) Define what it means for a function to be continuous.  
+Q17a) Explain the principle of mathematical induction.  
+Q18a) Define what is meant by a probability distribution.  
+
+Q19a) If f(x) = x^2 and g(x) = 3x + 2, find and simplify (f∘g)(x).  
+Q20a) For the sequence 2, 4, 8, 16, ..., derive a formula for the nth term and calculate the 10th term.  
+Q21a) A rectangle has a perimeter of 50 and its length is twice the width. Find its dimensions.  
+Q22a) Given f(x) = x^3 - 6x^2 + 11x - 6, determine all roots and explain your reasoning.  
+Q23a) A coin is tossed three times. Find the probability of exactly 2 heads and justify your approach.  
+Q24a) Solve the system: x + y + z = 6, x - y + 2z = 3, 2x + y - z = 4.  
+
+Q25a) Interpret the graph of y = x^3 - 3x^2 + 2x and describe its main features, including maxima, minima, and inflection points.  
+Q26a) Explain the relevance of the golden ratio in the Fibonacci sequence.  
+Q27a) Analyze how f(x) = ln(x) behaves as x approaches 0 and infinity.  
+Q28a) Describe the geometric interpretation of the determinant of a 2x2 matrix.  
+Q29a) Given a histogram of exam scores, identify patterns of skewness and suggest possible causes.  
+Q30a) Explain the convergence of the series ∑ 1/n^2 in terms of the area under a curve.  
+
+Q31a) Evaluate the effectiveness of different numerical techniques for approximating π.  
+Q32a) Argue for or against allowing calculators in high school mathematics exams.  
+Q33a) Discuss the importance of learning proofs for developing mathematical reasoning skills.  
+Q34a) Analyze the pros and cons of memorizing formulas by rote.  
+Q35a) Should students prioritize theoretical concepts over applied problem-solving? Provide justification.  
+Q36a) Critique the use of multiple-choice questions in evaluating higher-level mathematical understanding.  
+
+Q37a) Design an experiment comparing the speed of solving algebra problems using paper versus a computer.  
+Q38a) Propose a method to test students’ understanding of limits using real-world examples.  
+Q39a) Develop a plan for a learning module teaching integration techniques with interactive visualizations.  
+Q40a) Design a survey to assess student confidence in solving calculus problems and justify your question choices.  
+Q41a) Create a method to measure improvement in problem-solving after group-based learning.  
+Q42a) Design a small-scale study to compare mnemonic techniques for memorizing formulas.  
+
+Q43a) What is the sum of the interior angles of a triangle?  
+Q44a) How many edges does a cube have?  
+Q45a) Find the derivative of x^2.  
+Q46a) State the value of π to two decimal places.  
+Q47a) What is the square root of 144?  
+Q48a) Compute 7 factorial (7!).
