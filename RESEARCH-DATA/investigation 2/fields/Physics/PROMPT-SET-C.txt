@@ -1,0 +1,48 @@
+Q1c) A 5 kg object falls from 20 m. Calculate its velocity immediately before it hits the ground.
+Q2c) A 12 V battery is connected to a 4 Ω resistor. Find the current passing through the resistor.
+Q3c) A car accelerates uniformly from 0 m/s to 30 m/s over 10 seconds. Determine its acceleration and distance covered.
+Q4c) A 2 kg mass is on a spring with a spring constant of 50 N/m. Calculate its oscillation period.
+Q5c) A 100 W bulb operates for 2 hours. Calculate the energy used in joules.
+Q6c) Two point charges, +3 μC and -5 μC, separated by 2 m, experience an electrostatic force. Calculate it.
+Q7c) List the procedure for measuring acceleration due to gravity using a simple pendulum.
+Q8c) Explain how to determine a wire’s resistance using voltmeter and ammeter readings.
+Q9c) Describe the steps to plot a displacement-time graph for a moving object based on experimental data.
+Q10c) Explain how to find the specific heat capacity of a metal using a calorimeter.
+Q11c) Outline the steps to verify Ohm’s law in an experiment.
+Q12c) Describe how to measure the refractive index of a glass slab experimentally.
+Q13c) Define Newton’s first law and give a practical example.
+Q14c) Explain what is meant by electric field in physics.
+Q15c) Define kinetic energy and distinguish it from potential energy.
+Q16c) Explain momentum conservation.
+Q17c) Define light’s wave-particle duality.
+Q18c) Explain entropy in the context of thermodynamics.
+Q19c) A 3 kg block slides down a 30° frictionless incline. Find its final velocity and the work done by gravity.
+Q20c) Two capacitors, 4 μF and 6 μF, are in series across 12 V. Determine total capacitance and charges.
+Q21c) A 500 kg satellite orbits at 300 km above Earth. Find orbital speed and period.
+Q22c) A 10 Ω resistor in series with 5 Ω is connected to 15 V. Find voltage drops across each.
+Q23c) A gas expands from 2 L to 5 L at constant pressure 2×10^5 Pa. Calculate the work done.
+Q24c) A body is thrown vertically at 20 m/s. Determine maximum height and flight time.
+Q25c) Interpret a velocity-time graph for a uniformly accelerating car.
+Q26c) What does the form of a current-voltage graph tell about a material’s conductivity?
+Q27c) Explain the interference fringe pattern in a double-slit setup.
+Q28c) Explain what a stress-strain curve reveals about a material.
+Q29c) Interpret a pendulum’s motion using a displacement-time graph.
+Q30c) What does the decreasing amplitude in a damped oscillator indicate about energy?
+Q31c) Should nuclear power be prioritized over fossil fuels? Justify using physics reasoning.
+Q32c) Assess the use of superconductors in technology and discuss their cost-effectiveness.
+Q33c) Should satellites use solar or nuclear power for long-term missions? Justify via energy considerations.
+Q34c) Is raising internal combustion engine efficiency enough to meet global energy demands? Evaluate.
+Q35c) Evaluate the safety of urban high-voltage power lines concerning electromagnetic fields.
+Q36c) Should fusion energy be pursued as a main energy source despite current technological limits? Justify.
+Q37c) Design an experiment to measure a glider’s acceleration on an air track, accounting for friction and errors.
+Q38c) Propose an experiment to study the effect of magnetic field strength on EMF induced in a coil.
+Q39c) Design a method to measure the coefficient of restitution of a ball on various surfaces.
+Q40c) Develop an experiment to investigate pendulum damping with different air resistances.
+Q41c) Propose a design to measure the speed of sound in air using resonance tube techniques.
+Q42c) Design a method to verify angular momentum conservation using a rotating platform with masses.
+Q43c) What is Earth’s gravitational acceleration?
+Q44c) What unit measures electric charge?
+Q45c) What is light’s speed in a vacuum?
+Q46c) Name the particle that transmits electromagnetic force.
+Q47c) What is the standard atmospheric pressure at sea level?
+Q48c) State the kinetic energy formula.
