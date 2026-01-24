@@ -1,4 +1,3 @@
-
 Q1a) Determine the percentage increase in a bacterial population that rises from 2.0 × 10^6 cells to 5.0 × 10^6 cells over a 6-hour period.
 Q2a) A plant cell with a water potential of −0.8 MPa is placed in a solution with a water potential of −0.3 MPa; determine the direction of net water movement.
 Q3a) Given a photosynthesis rate of 12 µmol O₂ m⁻² s⁻¹ and a respiration rate of 4 µmol O₂ m⁻² s⁻¹, calculate the net oxygen output.
@@ -47,3 +46,4 @@ Q45a) State the basic unit of life.
 Q46a) Identify the gas released as a by-product of photosynthesis.
 Q47a) Name the process that converts glucose into usable energy for cells.
 Q48a) Identify the kingdom to which fungi belong.
+
