@@ -1,0 +1,48 @@
+Q1b) A 5 kg object is dropped from a 20 m height. Find its velocity just before it strikes the ground.
+Q2b) A 12 V battery is connected to a 4 Ω resistor. Calculate the current that flows through the resistor.
+Q3b) A car accelerates uniformly from 0 to 30 m/s in 10 seconds. Determine the acceleration and distance traveled.
+Q4b) A 2 kg mass is attached to a spring with a constant of 50 N/m. Compute the period of its oscillation.
+Q5b) A 100 W light bulb is switched on for 2 hours. Determine the energy consumed in joules.
+Q6b) Two point charges, +3 μC and -5 μC, are separated by 2 m. Find the electrostatic force between them.
+Q7b) Describe the procedure to measure the acceleration due to gravity using a simple pendulum.
+Q8b) Explain how to find a wire’s resistance using an ammeter and voltmeter.
+Q9b) Outline the steps to plot a displacement-time graph for a moving object using experimental data.
+Q10b) Explain how to measure a metal’s specific heat capacity using a calorimeter.
+Q11b) Describe how to verify Ohm’s law experimentally.
+Q12b) Explain how to set up an experiment to measure the refractive index of a glass slab.
+Q13b) Define Newton’s first law of motion and give an example.
+Q14b) Explain the physics concept of the electric field.
+Q15b) Define kinetic energy and contrast it with potential energy.
+Q16b) Explain the law of conservation of momentum.
+Q17b) Define wave-particle duality with reference to light.
+Q18b) Explain the thermodynamic concept of entropy.
+Q19b) A 3 kg block slides down a frictionless incline at 30°. Calculate the velocity at the base and the work done by gravity.
+Q20b) Two capacitors, 4 μF and 6 μF, are connected in series to a 12 V battery. Determine total capacitance and charge on each capacitor.
+Q21b) A 500 kg satellite orbits Earth at 300 km. Compute its orbital speed and period.
+Q22b) A 10 Ω resistor in series with a 5 Ω resistor is across a 15 V battery. Find the voltage across each resistor.
+Q23b) A gas expands from 2 L to 5 L at a constant pressure of 2×10^5 Pa. Calculate the work done.
+Q24b) A body is projected vertically upward at 20 m/s. Find the maximum height and time of flight.
+Q25b) Explain the meaning of a velocity-time graph for a uniformly accelerating car.
+Q26b) What does the shape of a current-voltage graph indicate about a material’s conductivity?
+Q27b) Interpret the interference fringe pattern in a double-slit experiment.
+Q28b) Explain the significance of a stress-strain curve for a material.
+Q29b) Interpret a pendulum’s motion from a displacement-time graph.
+Q30b) What does a decreasing amplitude in a damped oscillator indicate about energy?
+Q31b) Should nuclear energy be favored over fossil fuels for electricity? Justify using physics principles.
+Q32b) Evaluate superconductors’ use in technology and their economic viability.
+Q33b) Should satellites use solar panels or nuclear power for long-term missions? Justify using energy considerations.
+Q34b) Is improving internal combustion engine efficiency enough to meet global energy needs? Assess.
+Q35b) Evaluate urban high-voltage power lines’ safety with regard to electromagnetic exposure.
+Q36b) Should fusion power be pursued as a main energy source despite technical challenges? Justify.
+Q37b) Design an experiment to measure a glider’s acceleration on an air track considering friction and errors.
+Q38b) Propose an experiment to study how magnetic field strength affects induced EMF in a coil.
+Q39b) Design a method to measure a ball’s coefficient of restitution on different surfaces.
+Q40b) Develop an experiment to investigate pendulum damping under varying air resistance.
+Q41b) Propose a setup to determine the speed of sound in air using resonance tubes.
+Q42b) Design a method to verify conservation of angular momentum using a rotating platform and masses.
+Q43b) What is the gravitational acceleration on Earth?
+Q44b) What is the unit used for electric charge?
+Q45b) State the speed of light in a vacuum.
+Q46b) Name the particle that mediates electromagnetic force.
+Q47b) What is the standard sea-level atmospheric pressure?
+Q48b) Write the formula for kinetic energy.
