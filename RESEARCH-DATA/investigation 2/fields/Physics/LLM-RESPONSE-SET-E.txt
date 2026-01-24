@@ -1,0 +1,48 @@
+A1e) v = √(2gh) = √(2 × 9.8 × 20) ≈ 19.8 m/s
+A2e) I = V / R = 12 / 4 = 3 A
+A3e) a = (v - u)/t = (30 - 0)/10 = 3 m/s²; s = ut + ½at² = 0 + 0.5 × 3 × 10² = 150 m
+A4e) T = 2π√(m/k) = 2π√(2/50) ≈ 1.26 s
+A5e) E = P × t = 100 × (2 × 3600) = 720,000 J
+A6e) F = k|q1q2|/r² = 9×10^9 × |3×10^-6 × -5×10^-6| / 2² ≈ 33.75 N
+A7e) Measure pendulum length, time multiple oscillations, calculate average period, use g = 4π²L/T²
+A8e) Connect ammeter in series, voltmeter in parallel, measure I and V, calculate R = V/I
+A9e) Record displacement at regular intervals, plot displacement vs time, connect points
+A10e) Heat water in calorimeter, add metal, measure final temp, use Qlost = Qgained to calculate specific heat
+A11e) Apply various voltages across resistor, measure current, plot V-I graph to check linearity
+A12e) Shine light on glass slab, measure incident and refracted angles, calculate n = sin i / sin r
+A13e) Newton’s first law: object stays at rest or in uniform motion unless acted on by net force; e.g., stationary book
+A14e) Electric field: region where a charge experiences force; E = F/q
+A15e) KE = ½mv²; PE = mgh; KE due to motion, PE due to position
+A16e) Total momentum of isolated system is constant if no external forces act; p = mv
+A17e) Light exhibits both wave (interference) and particle (photons) properties
+A18e) Entropy measures disorder; total entropy of isolated system increases
+A19e) v = √(2gh along incline) ≈ 5.42 m/s; W = mgh ≈ 44.1 J
+A20e) Ceq = 1 / (1/4 + 1/6) = 2.4 μF; Q = Ceq × V = 28.8 μC; V4 = 7.2 V, V6 = 4.8 V
+A21e) v = √(GM/(R+h)) ≈ 7.73 km/s; T = 2π(R+h)/v ≈ 5,430 s ≈ 1.51 h
+A22e) Rtotal = 15 Ω; I = 15/15 = 1 A; V10Ω = 10 V, V5Ω = 5 V
+A23e) W = PΔV = 2×10^5 × (5-2)×10^-3 = 600 J
+A24e) hmax = v²/2g ≈ 20.41 m; ttotal = 2v/g ≈ 4.08 s
+A25e) Slope = acceleration; area under graph = displacement
+A26e) Linear graph → ohmic conductor; non-linear → non-ohmic
+A27e) Bright/dark fringes = constructive/destructive interference; spacing depends on wavelength and slit separation
+A28e) Stress-strain curve shows elasticity, yield point, ultimate strength, fracture
+A29e) Amplitude = max displacement; period = oscillation time; graph indicates motion type
+A30e) Decreasing amplitude indicates energy loss due to damping
+A31e) Nuclear energy: high energy density, low emissions, reduces reliance on fossil fuels
+A32e) Superconductors: zero-resistance current; economically limited due to cooling/material costs
+A33e) Solar panels: renewable and safe; nuclear: high energy density for long-term missions
+A34e) Efficiency improvements help, but renewables needed to meet global energy demand
+A35e) EM fields from lines are low frequency; exposure generally safe within limits
+A36e) Fusion offers abundant clean energy; development justified despite technical challenges
+A37e) Release glider on air track, measure distance/time, repeat, correct for friction, calculate acceleration
+A38e) Vary magnetic field with electromagnet, measure induced EMF in coil, plot EMF vs B
+A39e) Drop ball from known height, measure rebound height, compute e = √(h'/h)
+A40e) Displace pendulum, measure amplitude decay with varying air resistance, plot amplitude vs time
+A41e) Use resonance tube, measure resonant lengths, calculate v = 4Lf
+A42e) Place masses on rotating platform, measure angular velocity before/after, verify Iω conserved
+A43e) g ≈ 9.8 m/s²
+A44e) Coulomb (C)
+A45e) c ≈ 3 × 10^8 m/s
+A46e) Photon
+A47e) 1 atm = 101,325 Pa
+A48e) KE = ½mv²
