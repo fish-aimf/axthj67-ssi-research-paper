@@ -1,0 +1,48 @@
+Q1a) A 5 kg object is released from a height of 20 m. Calculate its velocity immediately before impact.
+Q2a) A circuit has a 12 V battery connected to a 4 Ω resistor. Determine the current flowing through the resistor.
+Q3a) A car accelerates uniformly from rest to 30 m/s over 10 seconds. Find its acceleration and the distance it travels.
+Q4a) A 2 kg mass is connected to a spring with a spring constant of 50 N/m. Calculate the oscillation period.
+Q5a) A 100 W bulb is turned on for 2 hours. Compute the energy consumed in joules.
+Q6a) Two point charges, +3 μC and -5 μC, are 2 m apart. Determine the electrostatic force between them.
+Q7a) List the steps to determine the acceleration due to gravity using a simple pendulum.
+Q8a) Describe how to measure a wire’s resistance using a voltmeter and an ammeter.
+Q9a) Explain how to plot a displacement-time graph for a moving object using experimental measurements.
+Q10a) Outline the procedure to determine a metal’s specific heat capacity using a calorimeter.
+Q11a) Describe the steps to experimentally verify Ohm’s law.
+Q12a) Explain how to set up an experiment to measure the refractive index of a glass slab.
+Q13a) Define Newton’s first law of motion and provide a practical example.
+Q14a) Explain the concept of the electric field in physics.
+Q15a) Define kinetic energy and explain how it differs from potential energy.
+Q16a) Explain the principle of conservation of momentum.
+Q17a) Define wave-particle duality in the context of light.
+Q18a) Explain the concept of entropy in thermodynamics.
+Q19a) A 3 kg block slides down a frictionless incline of 30°. Calculate its velocity at the bottom and the work done by gravity.
+Q20a) Two capacitors, 4 μF and 6 μF, are in series across a 12 V battery. Find the total capacitance and the charge on each capacitor.
+Q21a) A 500 kg satellite orbits Earth at 300 km altitude. Calculate its orbital speed and period.
+Q22a) A 10 Ω resistor in series with a 5 Ω resistor is connected to a 15 V battery. Find the voltage drop across each resistor.
+Q23a) A gas expands from 2 L to 5 L under constant pressure of 2×10^5 Pa. Calculate the work done by the gas.
+Q24a) A body is projected vertically upward at 20 m/s. Determine the maximum height and total time of flight.
+Q25a) Interpret the significance of a velocity-time graph for a car undergoing uniform acceleration.
+Q26a) Explain what the shape of a current-voltage graph reveals about a material’s conductivity.
+Q27a) Interpret the pattern of interference fringes observed in a double-slit experiment.
+Q28a) Explain the physical meaning of a stress-strain curve for a material.
+Q29a) Interpret the motion of a pendulum from a displacement-time graph.
+Q30a) Explain what the reduction in amplitude in a damped oscillator indicates about energy.
+Q31a) Should nuclear energy be prioritized over fossil fuels for electricity generation? Justify using physics principles.
+Q32a) Evaluate the use of superconductors in modern technology and discuss their economic feasibility.
+Q33a) Should satellites rely on solar panels or nuclear power for long-term missions? Support your argument with energy considerations.
+Q34a) Assess whether improving internal combustion engine efficiency is sufficient to meet global energy demands.
+Q35a) Evaluate the safety of high-voltage power lines in urban areas considering electromagnetic field exposure.
+Q36a) Should fusion power be developed as a primary energy source despite current technological challenges? Justify.
+Q37a) Design an experiment to determine the acceleration of a glider on an air track, considering friction and measurement errors.
+Q38a) Propose a setup to investigate the relationship between magnetic field strength and induced EMF in a coil.
+Q39a) Design an apparatus to measure the coefficient of restitution of a ball bouncing on various surfaces.
+Q40a) Develop an experimental method to study the damping effect on a pendulum with varying air resistance.
+Q41a) Propose a design to measure the speed of sound in air using resonance tubes.
+Q42a) Design a method to verify conservation of angular momentum using a rotating platform and masses.
+Q43a) What is the acceleration due to gravity on Earth?
+Q44a) State the unit of electric charge.
+Q45a) What is the speed of light in a vacuum?
+Q46a) Name the particle responsible for mediating the electromagnetic force.
+Q47a) What is the standard atmospheric pressure at sea level?
+Q48a) State the formula for kinetic energy.
