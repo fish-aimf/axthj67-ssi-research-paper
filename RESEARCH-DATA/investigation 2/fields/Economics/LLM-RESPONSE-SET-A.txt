@@ -1,0 +1,95 @@
+A1a) Equate Qd and Qs: 120 − 2P = 20 + 3P → 100 = 5P → P = 20. Equilibrium quantity: Q = 120 − 2(20) = 80.
+
+A2a) GDP per person = 500,000,000,000 / 25,000,000 = $20,000.
+
+A3a) Marginal cost MC = d(TC)/dQ = 5 + 2Q → MC at Q=10: 5 + 2(10) = 25.
+
+A4a) Price elasticity of demand: E = (ΔQ/ΔP) * (P_avg/Q_avg) = (−20/2)*(11/90) ≈ −1.22.
+
+A5a) Real interest rate r ≈ nominal rate − inflation = 6% − 2% = 4%.
+
+A6a) Maximum quantity of X = Income / Px = 200 / 10 = 20 units.
+
+A7a) Government reduces spending or increases taxes → aggregate demand decreases → slows inflation and economic activity.
+
+A8a) Rank households by income, calculate cumulative income and population percentages, plot cumulative income vs cumulative population to form the Lorenz curve.
+
+A9a) Identify consumption, investment, government spending, and net exports → sum C + I + G + (X − M) to get GDP.
+
+A10a) Central bank decides target, buys/sells government securities in open market, adjusts reserves and interest rates, monitors impact.
+
+A11a) Collect demand and price data, specify regression model Qd = α + βP + ε, estimate parameters using least squares, interpret coefficients.
+
+A12a) Identify project costs and benefits, quantify them in monetary terms, discount future values, compare total benefits to total costs, make decision.
+
+A13a) Opportunity cost is the value of the next best alternative foregone; it matters because resources are limited.
+
+A14a) Inflation is the sustained rise in general price levels; usually measured using CPI or PPI.
+
+A15a) Comparative advantage occurs when a country can produce a good at a lower opportunity cost than another country.
+
+A16a) Market equilibrium is where quantity demanded equals quantity supplied, determining the equilibrium price and quantity.
+
+A17a) Moral hazard occurs when one party takes more risks because another party bears the cost.
+
+A18a) Public goods are non-excludable and non-rivalrous, like national defense or street lighting.
+
+A19a) Short-run effects of higher oil prices: ↑ inflation, ↑ production costs → possible ↓ economic growth, ↑ unemployment.
+
+A20a) Higher interest rates ↑ borrowing costs → ↓ investment and consumption → lower aggregate demand and economic activity.
+
+A21a) Negative externalities like pollution justify taxes or regulations to align private costs with social costs, improving efficiency.
+
+A22a) Minimum wage above equilibrium → potential unemployment ↑, prices ↑, firms may reduce hiring or automate.
+
+A23a) Short-run: higher interest rates and crowding out; long-run: debt sustainability concerns, potential slower growth.
+
+A24a) Policies: fiscal stimulus, monetary easing, productivity incentives; trade-offs include inflation and debt accumulation.
+
+A25a) Low birth rates → labor shortages, aging population, increased pension burden, higher dependency ratio.
+
+A26a) Appreciating currency → exports more expensive (↓), consumers benefit from cheaper imports, trade balance affected.
+
+A27a) Globalization may raise overall wages but widen inequality; interpretation varies by stakeholder interest and exposure.
+
+A28a) Flattening Phillips Curve → weaker relationship between inflation and unemployment; inflation less responsive to labor market changes.
+
+A29a) Policymakers may worry about overheating and financial stability; households may see wealth effect and investment gains.
+
+A30a) Persistent current account deficits → reliance on foreign capital, potential currency depreciation, external vulnerability.
+
+A31a) Higher taxes on sugary drinks can reduce consumption (internalize external costs) and improve public health.
+
+A32a) Not always harmful; moderate inequality can incentivize productivity, extreme inequality may hinder growth and social cohesion.
+
+A33a) Focus depends on mandate: controlling inflation ensures price stability; stabilizing employment supports social welfare; trade-offs exist.
+
+A34a) Free trade can promote efficiency, lower prices, but small economies may face adjustment costs and exposure to competition.
+
+A35a) Government financing of higher education can improve access, human capital, and productivity; trade-off: fiscal cost.
+
+A36a) Monopoly intervention may be justified to prevent inefficiency, price gouging, or to promote innovation and consumer welfare.
+
+A37a) Policy mix: fiscal stimulus (spending), monetary easing (lower interest rates); trade-offs: inflation, debt, and currency risks.
+
+A38a) Estimate informal economy via labor surveys, tax gap analysis, electricity consumption, or currency demand methods.
+
+A39a) Conduct randomized experiment altering price transparency, measure changes in quantity demanded, analyze statistical significance.
+
+A40a) Use treatment and control groups, collect baseline and follow-up welfare data, apply econometric analysis to assess microcredit impact.
+
+A41a) Set carbon tax based on social cost of carbon, adjust gradually for emissions reductions, monitor environmental and economic impact.
+
+A42a) Compare fiscal vs monetary stimulus by defining metrics (GDP, employment), use counterfactual analysis or econometric modeling.
+
+A43a) GDP stands for Gross Domestic Product.
+
+A44a) The Federal Reserve (Fed).
+
+A45a) Perfect competition.
+
+A46a) Promote free trade and resolve trade disputes internationally.
+
+A47a) Surplus.
+
+A48a) Phillips Curve.
