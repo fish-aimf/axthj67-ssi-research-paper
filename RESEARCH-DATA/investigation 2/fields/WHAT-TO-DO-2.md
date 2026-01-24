@@ -43,12 +43,9 @@ Give your answer in a text box for easy copying and pasting ``
 
 ## Important Rules
 
-* ✅ **Do not modify the prompt**
-* ✅ Paste **only one** question set at a time
-* ✅ Answers must follow the format **exactly**
-* ❌ No explanations
-* ❌ No extra words
-* ❌ No missing or extra numbering
+* Only give 1 set per instance of chatgpt. so open a new instance every time.
+* Copy the response and put it into LLM response file corresponding to the set. In the same time, paste it into the answers ssi calculator and calculate the ssi.
+* Copy the calculated results as json from the website. Then create and put the data into ssi_of_answers.
 
 ---
 
