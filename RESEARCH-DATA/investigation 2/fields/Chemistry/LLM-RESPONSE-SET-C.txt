@@ -1,0 +1,48 @@
+A1c) Molar mass of Ca3(PO4)2 = (3×40.08) + (2×(30.97 + 4×16.00)) = 310.18 g/mol
+A2c) Moles of NaOH = 25 g ÷ 40.00 g/mol = 0.625 mol
+A3c) % H in C2H6O = (6×1.008 ÷ 46.08) × 100 ≈ 13.1%
+A4c) Volume of 0.5 M HCl to neutralize 0.25 mol NaOH: V = 0.25 ÷ 0.5 = 0.5 L
+A5c) Energy released: 2 H2 + O2 → 2 H2O, ΔH = 2×(–286) = –572 kJ
+A6c) Empirical formula: C:H:O ratio ≈ 1:2:1 → CH2O
+A7c) Titration steps: rinse burette/pipette; fill burette with standard; measure acid in flask; add indicator; titrate to endpoint; record volume; repeat for concordant results; calculate concentration.
+A8c) Sand-salt separation: dissolve mixture in water; filter sand; evaporate water to recover salt.
+A9c) Aspirin synthesis: mix salicylic acid + acetic anhydride; add acid catalyst; heat; cool; add water; filter and dry product.
+A10c) Standard Na2CO3 solution: weigh solid; dissolve in water; transfer to volumetric flask; make up to mark; mix.
+A11c) Flame test: clean wire; dip in sample; place in flame; observe color; compare with standard.
+A12c) Reaction rate: add Mg to HCl; measure gas evolved over time; plot volume vs time; determine rate.
+A13c) Electronegativity: tendency of atom to attract electrons; important for bond polarity and chemical reactivity.
+A14c) Ionic bonds: electron transfer between metal and nonmetal; Covalent bonds: electron sharing between nonmetals.
+A15c) Chemical equilibrium: state where forward and reverse reaction rates are equal; concentrations remain constant.
+A16c) Oxidation: loss of electrons; Reduction: gain of electrons.
+A17c) Molarity = moles of solute ÷ liters of solution.
+A18c) Intermolecular forces: interactions between molecules; examples: hydrogen bonding, dipole-dipole, London dispersion forces.
+A19c) 2 Al + 6 HCl → 2 AlCl3 + 3 H2
+A20c) CH4 + 2 O2 → CO2 + 2 H2O; ΔHrxn = [–393.5 + 2(–286)] – [–74.8 + 0] = –802.7 kJ
+A21c) Increasing temperature shifts equilibrium toward reactants (endothermic direction); decreasing temperature favors ammonia formation.
+A22c) Na: 5/23 = 0.217 mol; Cl2: 10/70.9 ≈ 0.141 mol; 2 Na + Cl2 → 2 NaCl; Na limiting reagent.
+A23c) Equivalence point: steepest slope on titration curve; unknown concentration from titrant volume at equivalence.
+A24c) Acid strength: HCl > H2SO4 > H3PO4 based on pKa.
+A25c) Boiling points increase F2 → Cl2 → Br2 → I2 due to increasing London dispersion forces.
+A26c) Gas solubility decreases with temperature as kinetic energy allows gas to escape solution.
+A27c) IR spectra: identify functional groups from peaks, e.g., C=O ~1700 cm–1, O–H ~3300 cm–1.
+A28c) Catalyst lowers activation energy, increases rate; graph shows faster reaction to equilibrium.
+A29c) Acid rain corrodes structures, acidifies soil/water, harms aquatic life; reactions: SO2 + H2O → H2SO3, NO2 + H2O → HNO3.
+A30c) Molten ionic compounds conduct due to mobile ions; solid ions fixed in lattice, cannot conduct.
+A31c) Hydrogen fuel produces water, reduces CO2 and pollutants; sustainability depends on green H2 production.
+A32c) Yes; green chemistry minimizes hazards, conserves resources, and improves safety.
+A33c) Nanoparticles: advantages—enhanced properties, medical use; risks—toxicity, environmental accumulation.
+A34c) Ethical issues: potential misuse, human harm, regulatory concerns; oversight required.
+A35c) Yes; stricter regulation reduces health and endocrine disruption risks.
+A36c) Chlorine disinfects water effectively but may form harmful byproducts; safety measures required.
+A37c) Rate law experiment: vary KI and H2O2 concentrations; measure I2 formation over time; calculate rate order and constant.
+A38c) Fractional distillation: separate ethanol (78°C) from water (100°C).
+A39c) Selective synthesis: protect one functional group; react second group; deprotect to yield target compound.
+A40c) Calorimetry: measure initial temperature; mix reactants; record temperature change; calculate ΔH using q = m·c·ΔT.
+A41c) Dissolved oxygen: collect sample; add Winkler reagents; titrate to determine O2 concentration.
+A42c) Catalyst test: perform esterification with different catalysts; measure rate or yield; compare effectiveness.
+A43c) 8
+A44c) K
+A45c) Cl
+A46c) Liquid
+A47c) H2
+A48c) [H+] = 0.01 M → pH = 2
