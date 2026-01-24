@@ -1,0 +1,48 @@
+Q1a) Given the demand equation Qd = 120 − 2P and the supply equation Qs = 20 + 3P, determine the equilibrium price and equilibrium quantity.
+Q2a) If a nation has a GDP of $500 billion and a population of 25 million people, compute its GDP per person.
+Q3a) A firm’s total cost function is TC = 100 + 5Q + Q². Find the marginal cost at Q = 10.
+Q4a) Calculate the price elasticity of demand when quantity demanded decreases from 100 to 80 units as price increases from $10 to $12.
+Q5a) Using the Fisher equation, find the real interest rate when the nominal rate is 6% and inflation is 2%.
+Q6a) A consumer earns $200 and faces prices Px = $10 and Py = $20. What is the maximum quantity of X that can be purchased if all income is spent on X?
+Q7a) Describe the sequence of actions a government would take to apply contractionary fiscal policy.
+Q8a) Explain the process of constructing a Lorenz curve from household income data.
+Q9a) Outline the steps involved in calculating GDP using the expenditure method.
+Q10a) List the procedures a central bank follows when carrying out open market operations.
+Q11a) Describe how demand can be estimated using regression analysis.
+Q12a) Explain the steps required to perform a cost–benefit analysis for a public investment project.
+Q13a) Define opportunity cost and explain why it matters in economic choices.
+Q14a) What is inflation, and how is it usually measured?
+Q15a) Explain the idea of comparative advantage.
+Q16a) Define market equilibrium with reference to supply and demand.
+Q17a) What does moral hazard mean in economics?
+Q18a) Explain the concept of public goods.
+Q19a) Analyze the short-run effects of a rise in oil prices on inflation, unemployment, and economic growth.
+Q20a) Analyze how an increase in interest rates can affect investment and consumption through economic transmission channels.
+Q21a) Using externalities, explain why government intervention can improve market efficiency.
+Q22a) Examine the effects of a minimum wage set above the equilibrium level on employment, prices, and firm behavior.
+Q23a) Analyze the short-run and long-run consequences of a large budget deficit in a developing economy.
+Q24a) Given falling productivity growth, analyze possible policy responses and their trade-offs.
+Q25a) Interpret how persistently low birth rates may affect the labor market and pension system.
+Q26a) Interpret the economic effects of a rapidly appreciating currency on exporters and consumers.
+Q27a) Discuss how various stakeholders may interpret globalization’s impact on wage inequality.
+Q28a) Interpret what a flattening Phillips Curve implies about the relationship between inflation and unemployment.
+Q29a) Explain how policymakers and households might interpret rising housing prices differently.
+Q30a) Interpret the economic significance of ongoing current account deficits.
+Q31a) Should governments levy higher taxes on sugary drinks? Justify your answer using economic reasoning.
+Q32a) Is income inequality always harmful to economic growth? Evaluate different perspectives.
+Q33a) Should central banks focus more on controlling inflation than stabilizing employment? Explain your view.
+Q34a) Assess whether free trade agreements benefit small developing economies.
+Q35a) Should higher education be financed by the government? Argue using economic principles.
+Q36a) Evaluate whether government intervention is warranted in monopolistic markets.
+Q37a) Design a policy mix to reduce unemployment during a recession and explain the trade-offs.
+Q38a) Propose a method to estimate the size of the informal economy in a developing country.
+Q39a) Design an experiment to test consumer responses to changes in price transparency.
+Q40a) Outline a research design to assess the impact of microcredit on household welfare.
+Q41a) Design a carbon tax policy, including how the tax rate should be set and adjusted over time.
+Q42a) Propose an approach to compare the effectiveness of fiscal and monetary stimulus.
+Q43a) What does the abbreviation GDP stand for?
+Q44a) Which body is responsible for setting monetary policy in the United States?
+Q45a) Which market structure involves many firms selling identical products?
+Q46a) What is the main objective of the World Trade Organization?
+Q47a) What term describes a situation where supply exceeds demand?
+Q48a) What curve illustrates the relationship between inflation and unemployment?
