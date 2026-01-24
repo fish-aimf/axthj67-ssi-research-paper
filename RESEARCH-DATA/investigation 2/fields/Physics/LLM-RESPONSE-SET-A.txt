@@ -1,0 +1,48 @@
+A1a) v = √(2gh) = √(2 × 9.8 × 20) ≈ 19.8 m/s
+A2a) I = V / R = 12 / 4 = 3 A
+A3a) a = (v - u)/t = (30 - 0)/10 = 3 m/s²; s = ut + ½at² = 0 + 0.5 × 3 × 10² = 150 m
+A4a) T = 2π√(m/k) = 2π√(2/50) ≈ 1.26 s
+A5a) E = P × t = 100 × (2 × 3600) = 720,000 J
+A6a) F = k|q1q2|/r² = 9×10^9 × |3×10^-6 × -5×10^-6| / 2² ≈ 33.75 N
+A7a) Measure length of pendulum, measure period of several oscillations, calculate average period, use formula g = 4π²L/T²
+A8a) Connect ammeter in series and voltmeter in parallel with wire; measure current (I) and voltage (V); calculate resistance R = V/I
+A9a) Measure displacement at regular time intervals; plot displacement on y-axis and time on x-axis; connect points to form graph
+A10a) Heat known mass of water in calorimeter, add metal sample at known temperature, measure final equilibrium temperature; use Qlost = Qgained to calculate specific heat
+A11a) Connect various voltages across resistor, measure current for each, plot V-I graph; verify linearity
+A12a) Shine light at known angle onto glass slab, measure angle of refraction, use n = sin i / sin r
+A13a) Newton’s first law: a body remains at rest or in uniform motion unless acted upon by a net force; e.g., a stationary book stays put on a table
+A14a) Electric field is the region around a charge where another charge experiences a force; E = F/q
+A15a) Kinetic energy KE = ½mv²; potential energy PE = mgh; KE is due to motion, PE due to position
+A16a) Total momentum of an isolated system remains constant if no external force acts; p = mv
+A17a) Wave-particle duality: light exhibits both wave-like behavior (interference) and particle-like behavior (photons)
+A18a) Entropy measures disorder or randomness; second law states total entropy of isolated system increases
+A19a) v = √(2gh) = √(2 × 9.8 × 3 × sin30° × 3) (check incline geometry); work by gravity W = mgh
+A20a) 1/Ceq = 1/4 + 1/6 → Ceq = 2.4 μF; Q = Ceq × V = 2.4 × 10^-6 × 12 = 28.8 μC; V4 = Q/4μF = 7.2 V, V6 = Q/6μF = 4.8 V
+A21a) v = √(GM/(R+h)) ≈ 7.73 km/s; T = 2π(R+h)/v ≈ 5,430 s ≈ 1.51 h
+A22a) Rtotal = 10 Ω; I = V/R = 15/15 = 1.5 A; V10Ω = 15 × 10/15 = 10 V, V5Ω = 15 × 5/15 = 5 V
+A23a) W = PΔV = 2×10^5 × (5-2)×10^-3 = 600 J
+A24a) hmax = v²/2g = 400/19.6 ≈ 20.41 m; t = 2v/g = 40/9.8 ≈ 4.08 s
+A25a) Slope of velocity-time graph gives acceleration; area under graph gives displacement
+A26a) Linear V-I graph → ohmic conductor; non-linear → non-ohmic
+A27a) Bright and dark fringes indicate constructive and destructive interference; fringe spacing depends on wavelength and slit separation
+A28a) Stress-strain curve shows material elasticity, yield point, ultimate strength, and fracture behavior
+A29a) Amplitude shows maximum displacement; period shows oscillation time; graph indicates motion type
+A30a) Reduction in amplitude indicates energy loss due to damping or resistive forces
+A31a) Nuclear energy produces high energy density with low greenhouse emissions; can reduce reliance on fossil fuels
+A32a) Superconductors allow zero-resistance current; economically limited due to cooling costs and material challenges
+A33a) Solar panels are safer and sustainable; nuclear provides higher energy density for long-term missions
+A34a) Efficiency improvements help but global demand also requires renewable energy sources
+A35a) High-voltage lines generate low-frequency EM fields; exposure within safety limits is generally safe
+A36a) Fusion offers abundant clean energy; development justified despite technological hurdles
+A37a) Release glider on air track, measure time and distance; account for friction by repeating trials and applying corrections
+A38a) Vary magnetic field strength using electromagnet, measure induced EMF in coil, plot EMF vs B
+A39a) Drop ball from known height, measure rebound height on different surfaces, calculate coefficient e = √(h'/h)
+A40a) Displace pendulum, measure amplitude decay over time for different air resistances, plot amplitude vs time
+A41a) Use resonance tube with tuning fork, measure resonant length, apply v = 4Lf for first resonance
+A42a) Place masses on rotating platform, release torque-free, measure angular velocity before and after collisions, verify Iω conserved
+A43a) g ≈ 9.8 m/s²
+A44a) Coulomb (C)
+A45a) c ≈ 3 × 10^8 m/s
+A46a) Photon
+A47a) 1 atm = 101,325 Pa
+A48a) KE = ½mv²
