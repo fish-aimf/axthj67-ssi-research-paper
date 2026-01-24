@@ -1,0 +1,48 @@
+Q1d) Solve for equilibrium price and quantity given the stated demand and supply equations.
+Q2d) Determine GDP per capita from a GDP of $500 billion and population of 25 million.
+Q3d) Calculate marginal cost at Q = 10 from the given total cost function.
+Q4d) Determine price elasticity of demand for the given price and quantity changes.
+Q5d) Find the real interest rate using the Fisher equation.
+Q6d) Calculate the maximum amount of X purchasable with $200 income.
+Q7d) Describe how contractionary fiscal policy is carried out.
+Q8d) Describe the method for creating a Lorenz curve.
+Q9d) Explain GDP calculation using the expenditure approach.
+Q10d) Explain the process of open market operations.
+Q11d) Describe estimating demand through regression analysis.
+Q12d) Describe how to perform a cost–benefit analysis.
+Q13d) Explain opportunity cost and its importance.
+Q14d) Explain inflation and how it is measured.
+Q15d) Describe comparative advantage.
+Q16d) Explain market equilibrium.
+Q17d) Describe moral hazard.
+Q18d) Explain public goods.
+Q19d) Analyze macroeconomic effects of higher oil prices.
+Q20d) Analyze the economic impact of rising interest rates.
+Q21d) Explain government intervention using externalities.
+Q22d) Analyze effects of a minimum wage above equilibrium.
+Q23d) Analyze budget deficits in developing economies.
+Q24d) Analyze policy options for low productivity growth.
+Q25d) Explain impacts of declining birth rates.
+Q26d) Explain effects of currency appreciation.
+Q27d) Explain interpretations of globalization on wages.
+Q28d) Explain implications of a flatter Phillips Curve.
+Q29d) Explain differing views on rising house prices.
+Q30d) Explain meaning of persistent current account deficits.
+Q31d) Evaluate sugary drink taxes.
+Q32d) Evaluate income inequality and growth.
+Q33d) Evaluate central bank priorities.
+Q34d) Evaluate free trade agreements.
+Q35d) Evaluate public funding of higher education.
+Q36d) Evaluate intervention in monopolies.
+Q37d) Design unemployment-reduction policies.
+Q38d) Design a method to measure informality.
+Q39d) Design a price transparency experiment.
+Q40d) Design microcredit impact research.
+Q41d) Design a carbon tax policy.
+Q42d) Compare fiscal and monetary stimulus methods.
+Q43d) Expand the acronym GDP.
+Q44d) Identify the U.S. monetary authority.
+Q45d) Identify the market with many identical-product firms.
+Q46d) State the WTO’s main goal.
+Q47d) Name the condition where supply exceeds demand.
+Q48d) Name the curve linking inflation and unemployment.
