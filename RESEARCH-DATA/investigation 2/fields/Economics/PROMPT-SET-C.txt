@@ -1,0 +1,48 @@
+Q1c) Determine equilibrium price and quantity from Qd = 120 − 2P and Qs = 20 + 3P.
+Q2c) Find GDP per capita given GDP of $500 billion and a population of 25 million.
+Q3c) For TC = 100 + 5Q + Q², compute marginal cost at Q = 10.
+Q4c) Compute price elasticity of demand for a price rise from $10 to $12 and a quantity drop from 100 to 80.
+Q5c) Calculate the real interest rate using a 6% nominal rate and 2% inflation.
+Q6c) With income of $200 and Px = $10, what is the maximum X purchasable if no Y is bought?
+Q7c) Outline how contractionary fiscal policy is implemented by a government.
+Q8c) Explain how to plot a Lorenz curve using household income figures.
+Q9c) Explain how GDP is calculated using the expenditure method.
+Q10c) Describe the steps involved in central bank open market operations.
+Q11c) Explain how demand estimation is carried out using regression techniques.
+Q12c) Outline the steps in conducting a cost–benefit analysis for a public project.
+Q13c) Define opportunity cost and explain its economic significance.
+Q14c) What is inflation and how do economists measure it?
+Q15c) Explain comparative advantage.
+Q16c) What is market equilibrium in supply and demand analysis?
+Q17c) Explain the concept of moral hazard.
+Q18c) Define public goods.
+Q19c) Analyze the short-run macroeconomic effects of rising oil prices.
+Q20c) Analyze the transmission of higher interest rates to consumption and investment.
+Q21c) Explain why government intervention may improve outcomes when externalities exist.
+Q22c) Examine the consequences of a minimum wage above equilibrium.
+Q23c) Analyze the effects of a large fiscal deficit in a developing economy.
+Q24c) Discuss policy responses to declining productivity growth.
+Q25c) Interpret the effects of falling birth rates on labor markets and pensions.
+Q26c) Interpret the impact of currency appreciation on exporters and consumers.
+Q27c) Interpret how globalization’s wage effects may differ across stakeholders.
+Q28c) Explain the meaning of a flattening Phillips Curve.
+Q29c) Interpret rising housing prices from different economic perspectives.
+Q30c) Explain the implications of persistent current account deficits.
+Q31c) Argue for or against higher taxes on sugary drinks using economics.
+Q32c) Discuss whether income inequality harms economic growth.
+Q33c) Evaluate whether central banks should prioritize inflation over employment.
+Q34c) Assess free trade agreements for small developing economies.
+Q35c) Evaluate the economic case for public funding of higher education.
+Q36c) Analyze whether monopolistic markets justify government intervention.
+Q37c) Design recession policies aimed at reducing unemployment.
+Q38c) Propose a way to measure the informal economy.
+Q39c) Design a study to test consumer responses to price transparency.
+Q40c) Propose a research design to study microcredit impacts.
+Q41c) Design a carbon tax and explain how it should change over time.
+Q42c) Propose a framework to compare fiscal and monetary stimulus.
+Q43c) What does GDP mean?
+Q44c) Who sets monetary policy in the U.S.?
+Q45c) What market structure has many firms selling identical products?
+Q46c) What is the purpose of the WTO?
+Q47c) What is excess supply called?
+Q48c) What curve represents the inflation–unemployment relationship?
