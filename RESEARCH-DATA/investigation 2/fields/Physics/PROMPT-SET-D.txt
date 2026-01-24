@@ -1,0 +1,48 @@
+Q1d) A 5 kg object is dropped from a height of 20 m. Find its speed just before hitting the ground.
+Q2d) A 12 V battery connected to a 4 Ω resistor. Calculate the current through the resistor.
+Q3d) A car uniformly accelerates from rest to 30 m/s over 10 seconds. Determine its acceleration and distance traveled.
+Q4d) A 2 kg mass attached to a spring of 50 N/m. Calculate the period of oscillation.
+Q5d) A 100 W bulb runs for 2 hours. Compute energy consumed in joules.
+Q6d) Two point charges (+3 μC and -5 μC) are 2 m apart. Calculate the electrostatic force between them.
+Q7d) Describe the steps to measure gravitational acceleration using a simple pendulum.
+Q8d) Explain how to determine wire resistance with a voltmeter and an ammeter.
+Q9d) Outline how to plot a displacement-time graph from experimental data.
+Q10d) Describe how to determine a metal’s specific heat using a calorimeter.
+Q11d) Explain the procedure to verify Ohm’s law experimentally.
+Q12d) Describe how to measure the refractive index of a glass slab.
+Q13d) Define Newton’s first law of motion and provide a practical example.
+Q14d) Explain the concept of the electric field.
+Q15d) Define kinetic energy and differentiate it from potential energy.
+Q16d) Explain conservation of momentum.
+Q17d) Define wave-particle duality for light.
+Q18d) Explain the concept of entropy.
+Q19d) A 3 kg block slides down a 30° frictionless slope. Find final velocity and work done.
+Q20d) Two capacitors, 4 μF and 6 μF, in series with 12 V battery. Find total capacitance and charge on each.
+Q21d) A 500 kg satellite orbits 300 km above Earth. Calculate orbital speed and period.
+Q22d) A 10 Ω resistor in series with a 5 Ω resistor connected to 15 V. Determine voltage drop across each.
+Q23d) A gas expands from 2 L to 5 L at constant 2×10^5 Pa. Find work done by the gas.
+Q24d) A body projected vertically at 20 m/s. Find max height and time of flight.
+Q25d) Interpret a velocity-time graph for uniform acceleration.
+Q26d) What does the shape of a current-voltage graph indicate about conductivity?
+Q27d) Explain interference fringe patterns in a double-slit experiment.
+Q28d) Interpret stress-strain curves for materials.
+Q29d) Explain a pendulum’s motion using displacement-time data.
+Q30d) What does decreasing amplitude in a damped oscillator indicate about energy?
+Q31d) Should nuclear energy replace fossil fuels? Justify using physics.
+Q32d) Evaluate the use of superconductors and their economic feasibility.
+Q33d) Should satellites use solar panels or nuclear power? Justify using energy principles.
+Q34d) Is improving engine efficiency enough for global energy needs? Evaluate.
+Q35d) Assess the safety of urban high-voltage lines considering EM exposure.
+Q36d) Should fusion power be developed as a main energy source? Justify despite challenges.
+Q37d) Design an experiment to measure glider acceleration on an air track considering friction and errors.
+Q38d) Propose an experiment to relate magnetic field strength and induced EMF.
+Q39d) Design a method to measure a ball’s coefficient of restitution on different surfaces.
+Q40d) Develop an experiment to study pendulum damping under varied air resistance.
+Q41d) Propose a setup to measure sound speed in air using resonance tubes.
+Q42d) Design a method to verify angular momentum conservation with a rotating platform and masses.
+Q43d) What is the gravitational acceleration on Earth?
+Q44d) State the unit of electric charge.
+Q45d) What is the speed of light in vacuum?
+Q46d) Name the particle responsible for electromagnetic force.
+Q47d) What is standard atmospheric pressure at sea level?
+Q48d) Write the formula for kinetic energy.
