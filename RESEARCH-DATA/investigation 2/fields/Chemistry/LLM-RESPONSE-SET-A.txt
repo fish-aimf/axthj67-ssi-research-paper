@@ -1,0 +1,48 @@
+A1a) Molar mass of Ca3(PO4)2 = (3×40.08) + (2×(30.97 + 4×16.00)) = 120.24 + 2×94.97 = 120.24 + 189.94 = 310.18 g/mol
+A2a) Moles of NaOH = 25 g ÷ 40.00 g/mol = 0.625 mol
+A3a) % H in C2H6O = (6×1.008 ÷ (2×12.01 + 6×1.008 + 16.00)) × 100 = (6.048 ÷ 46.08) × 100 ≈ 13.1%
+A4a) Volume of 0.5 M HCl to neutralize 0.25 mol NaOH: n = M×V ⇒ V = n/M = 0.25 ÷ 0.5 = 0.5 L
+A5a) Energy released: 2 H2 + O2 → 2 H2O, ΔHf(H2O) = –286 kJ/mol, total energy = 2×(–286) = –572 kJ
+A6a) Empirical formula: C:H:O = 40:6.7:53.3 → moles C = 40/12 = 3.33, H = 6.7/1.008 = 6.65, O = 53.3/16 = 3.33 → ratio ≈ 1:2:1 → CH2O
+A7a) Titration procedure: 1) Rinse burette, pipette, conical flask; 2) Fill burette with standard solution; 3) Measure acid in pipette into flask; 4) Add indicator; 5) Titrate until end point; 6) Record volume; 7) Repeat for concordant readings; 8) Calculate concentration.
+A8a) Separate sand and salt: 1) Add water to dissolve salt; 2) Filter to remove sand; 3) Evaporate water to recover salt.
+A9a) Aspirin synthesis steps: 1) Mix salicylic acid and acetic anhydride; 2) Add catalyst (acid); 3) Heat gently; 4) Cool mixture; 5) Add water to precipitate aspirin; 6) Filter and dry.
+A10a) Prepare standard Na2CO3 solution: 1) Weigh pure Na2CO3; 2) Dissolve in distilled water; 3) Transfer to volumetric flask; 4) Make up to mark; 5) Mix thoroughly.
+A11a) Flame test procedure: 1) Clean wire loop; 2) Dip in sample; 3) Place in flame; 4) Observe flame color; 5) Compare with known standards.
+A12a) Rate of reaction: 1) Add Mg to HCl in flask; 2) Measure gas evolved over time; 3) Plot volume vs. time; 4) Determine rate from slope.
+A13a) Electronegativity is the tendency of an atom to attract electrons in a bond; it determines bond polarity and reactivity.
+A14a) Ionic bonding: transfer of electrons between metal and nonmetal; Covalent bonding: sharing of electrons between nonmetals.
+A15a) Chemical equilibrium occurs when the rates of the forward and reverse reactions are equal, and concentrations remain constant.
+A16a) Oxidation: loss of electrons; Reduction: gain of electrons.
+A17a) Molarity (M) = moles of solute ÷ liters of solution.
+A18a) Intermolecular forces: forces between molecules; examples: hydrogen bonding, dipole-dipole, London dispersion.
+A19a) 2 Al + 6 HCl → 2 AlCl3 + 3 H2
+A20a) CH4 + 2 O2 → CO2 + 2 H2O; ΔHrxn = [ΔHf(CO2) + 2ΔHf(H2O)] – [ΔHf(CH4) + 2ΔHf(O2)] = [–393.5 + 2(–286)] – [–74.8 + 0] = –802.7 kJ
+A21a) Increasing temperature shifts N2 + 3H2 ⇌ 2NH3 equilibrium backward (endothermic direction favors reactants), decreasing temperature favors forward reaction.
+A22a) Moles: Na = 5/23 = 0.217 mol, Cl2 = 10/70.9 ≈ 0.141 mol; reaction: 2 Na + Cl2 → 2 NaCl; Na needed = 2×0.141 = 0.282 > 0.217 → Na is limiting reagent.
+A23a) Equivalence point: point of steepest slope on titration curve; concentration calculated from volume of titrant used.
+A24a) Acidity: HCl (pKa ~ –7) > H2SO4 (pKa1 ~ –3, pKa2 ~ 1.99) > H3PO4 (pKa1 ~ 2.15, pKa2 ~ 7.2, pKa3 ~ 12.4)
+A25a) Boiling points increase from F2 → Cl2 → Br2 → I2 due to increasing London dispersion forces with larger molecular size.
+A26a) Gas solubility decreases with temperature because higher kinetic energy allows gas molecules to escape solution more easily.
+A27a) IR interpretation: identify peaks (e.g., ~1700 cm–1 for C=O, ~3300 cm–1 for O–H) to determine functional groups.
+A28a) Catalyst increases reaction rate by lowering activation energy; graph shows faster approach to equilibrium.
+A29a) Acid rain causes corrosion of buildings, acidification of soils and water, damages aquatic life; main reactions: SO2 + H2O → H2SO3, NO2 + H2O → HNO3.
+A30a) Ionic compounds conduct when molten because ions are free to move; in solid state ions are fixed in lattice.
+A31a) Hydrogen fuel produces water as emission, reducing CO2 and pollutant output; sustainability depends on production method (green H2 preferred).
+A32a) Yes, green chemistry reduces hazardous waste, improves safety, and conserves resources; justified for industrial sustainability.
+A33a) Nanoparticles: benefits—enhanced properties, medical applications; risks—toxicity, environmental accumulation; assessment required.
+A34a) Ethical concerns: potential misuse, human harm, regulatory compliance; need for risk-benefit evaluation and oversight.
+A35a) Yes, strict regulation needed due to health risks from leaching and endocrine disruption.
+A36a) Chlorine disinfects water effectively but can form harmful byproducts; balance needed for safety and health.
+A37a) Rate law experiment: 1) Mix KI and H2O2 solutions; 2) Vary concentrations; 3) Measure I2 formation over time; 4) Determine reaction order and rate constant.
+A38a) Ethanol-water separation: fractional distillation exploiting different boiling points (ethanol 78°C, water 100°C).
+A39a) Synthesis strategy: protect one functional group, react second group selectively, deprotect to obtain desired compound.
+A40a) Calorimetry experiment: 1) Measure initial temperature; 2) Mix reactants in calorimeter; 3) Measure temperature change; 4) Calculate ΔH using q = m·c·ΔT.
+A41a) Dissolved oxygen: 1) Collect water sample; 2) Add reagent (Winkler method); 3) Titrate to determine O2 concentration.
+A42a) Catalyst effectiveness test: 1) Perform esterification with different catalysts; 2) Keep conditions constant; 3) Measure reaction rate or product yield; 4) Compare results.
+A43a) 8
+A44a) K
+A45a) Cl
+A46a) Liquid
+A47a) H2
+A48a) [H+] = 0.01 M → pH = –log10(0.01) = 2
