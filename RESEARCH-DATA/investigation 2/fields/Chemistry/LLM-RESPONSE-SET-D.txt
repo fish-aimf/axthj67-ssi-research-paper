@@ -1,0 +1,48 @@
+A1d) Molar mass of Ca3(PO4)2 = (3×40.08) + (2×(30.97 + 4×16.00)) = 310.18 g/mol
+A2d) Moles of NaOH = 25 g ÷ 40.00 g/mol = 0.625 mol
+A3d) % H in C2H6O = (6×1.008 ÷ 46.08) × 100 ≈ 13.1%
+A4d) Volume of 0.5 M HCl to neutralize 0.25 mol NaOH: V = 0.25 ÷ 0.5 = 0.5 L
+A5d) Energy released: 2 H2 + O2 → 2 H2O, ΔH = 2×(–286) = –572 kJ
+A6d) Empirical formula: C:H:O ratio ≈ 1:2:1 → CH2O
+A7d) Titration: rinse burette/pipette; fill burette with standard solution; measure unknown acid in flask; add indicator; titrate to endpoint; record volume; repeat for concordant results; calculate concentration.
+A8d) Sand-salt separation: dissolve mixture in water; filter sand; evaporate water to recover salt.
+A9d) Aspirin synthesis: mix salicylic acid + acetic anhydride; add acid catalyst; heat gently; cool; add water to precipitate aspirin; filter and dry.
+A10d) Standard Na2CO3 solution: weigh solid; dissolve in water; transfer to volumetric flask; make up to mark; mix thoroughly.
+A11d) Flame test: clean wire; dip in sample; place in flame; observe color; compare with standard metal ion colors.
+A12d) Reaction rate: add Mg to HCl; measure gas volume over time; plot volume vs time; calculate rate from slope.
+A13d) Electronegativity: atom’s ability to attract electrons in a bond; important for bond polarity and reactivity.
+A14d) Ionic bonds: electron transfer between metal and nonmetal; Covalent bonds: electron sharing between nonmetals.
+A15d) Chemical equilibrium: state where forward and reverse reaction rates are equal; concentrations remain constant.
+A16d) Oxidation: loss of electrons; Reduction: gain of electrons.
+A17d) Molarity = moles of solute ÷ liters of solution.
+A18d) Intermolecular forces: attractions between molecules; examples: hydrogen bonding, dipole-dipole, London dispersion forces.
+A19d) 2 Al + 6 HCl → 2 AlCl3 + 3 H2
+A20d) CH4 + 2 O2 → CO2 + 2 H2O; ΔHrxn = [–393.5 + 2(–286)] – [–74.8 + 0] = –802.7 kJ
+A21d) Increasing temperature shifts N2 + 3H2 ⇌ 2NH3 equilibrium toward reactants (endothermic direction); decreasing temperature favors ammonia formation.
+A22d) Na: 5/23 = 0.217 mol; Cl2: 10/70.9 ≈ 0.141 mol; reaction: 2 Na + Cl2 → 2 NaCl; Na is limiting reagent.
+A23d) Equivalence point: steepest slope on titration curve; unknown concentration calculated from titrant volume at equivalence.
+A24d) Acid strength: HCl > H2SO4 > H3PO4 based on pKa values.
+A25d) Boiling points: increase F2 → Cl2 → Br2 → I2 due to stronger London dispersion forces.
+A26d) Gas solubility decreases as temperature rises because higher kinetic energy allows gas molecules to escape solution.
+A27d) IR spectra: identify functional groups from characteristic peaks, e.g., C=O ~1700 cm–1, O–H ~3300 cm–1.
+A28d) Catalyst lowers activation energy, increases reaction rate; graph shows faster attainment of equilibrium.
+A29d) Acid rain: corrodes structures, acidifies soils and water, harms aquatic life; reactions: SO2 + H2O → H2SO3, NO2 + H2O → HNO3.
+A30d) Solid ionic compounds: ions fixed in lattice, cannot conduct; molten: ions free to move, conduct electricity.
+A31d) Hydrogen fuel emits water instead of CO2; sustainability depends on production method (green hydrogen preferred).
+A32d) Yes; green chemistry reduces hazards, conserves resources, improves safety and sustainability.
+A33d) Nanoparticles: benefits—enhanced properties, medical use; risks—toxicity, environmental accumulation.
+A34d) Ethical concerns: potential misuse, human harm, legal/regulatory issues; requires oversight.
+A35d) Yes; stricter regulation needed due to health and endocrine disruption risks.
+A36d) Chlorine: effective disinfectant but may form harmful byproducts; careful monitoring needed.
+A37d) Rate law experiment: vary KI and H2O2 concentrations; measure I2 formation over time; determine rate order and constant.
+A38d) Fractional distillation: separate ethanol (78°C) from water (100°C) based on boiling points.
+A39d) Selective synthesis: protect one functional group; react second group; deprotect to obtain target compound.
+A40d) Calorimetry: measure initial temperature; mix reactants in calorimeter; record temperature change; calculate ΔH using q = m·c·ΔT.
+A41d) Dissolved oxygen: collect sample; add Winkler reagents; titrate to measure O2 concentration.
+A42d) Catalyst effectiveness: perform esterification with different catalysts; measure rate or yield; compare results.
+A43d) 8
+A44d) K
+A45d) Cl
+A46d) Liquid
+A47d) H2
+A48d) [H+] = 0.01 M → pH = 2
