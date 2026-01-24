@@ -1,0 +1,48 @@
+Q1d) Express the worst-case time complexity of binary search on a 2^20-sized array in Big-O terms and give the exact comparison count.
+Q2d) Determine the number of edges in an undirected graph with 15 vertices, each having degree 4.
+Q3d) How long will it take, in seconds, to run 7.5 × 10^11 instructions at a rate of 3 × 10^9 instructions per second?
+Q4d) Calculate the memory usage, in bytes, for a 1920 × 1080 image with 24-bit color.
+Q5d) Find the load factor for a hash table with 200 slots containing 150 keys.
+Q6d) For n = 500, approximate the number of operations in an O(n^2) algorithm assuming one operation per unit of n^2.
+Q7d) Describe the steps needed to compile and execute a C++ program via the command line.
+Q8d) Explain how depth-first search is carried out on a graph from a starting node.
+Q9d) Describe the procedure for normalizing a database table to Third Normal Form.
+Q10d) Explain how to create and activate a virtual environment in Python.
+Q11d) Describe how merge conflicts are identified and resolved in Git.
+Q12d) Outline the steps involved in building and training a supervised machine learning model.
+Q13d) Define an operating system and outline its key functions.
+Q14d) What is abstraction in computer science?
+Q15d) Define recursion and explain how it differs from iteration.
+Q16d) What is a data structure and why is it essential in computing?
+Q17d) What does concurrency mean in computer systems?
+Q18d) Explain the meaning of computational complexity.
+Q19d) Analyze the performance impact of changing the sorting algorithm in a combined sorting-searching process.
+Q20d) Analyze how cache memory affects execution speed through locality principles.
+Q21d) Identify and analyze bottlenecks in a heavily loaded client-server architecture and suggest fixes.
+Q22d) Analyze the impact of adding layers to a neural network on learning behavior and training cost.
+Q23d) Explain the conditions that lead to deadlock and how removing one condition resolves it.
+Q24d) Analyze how distributed databases differ from centralized ones in terms of consistency, availability, and partition tolerance.
+Q25d) What could a sudden CPU usage spike indicate in a production environment?
+Q26d) What does it imply when false negatives dominate a confusion matrix?
+Q27d) What do repeated segmentation faults indicate about a program’s memory management?
+Q28d) What does high latency with low packet loss suggest about network performance?
+Q29d) What insights about usability can be gained from user interaction logs?
+Q30d) What ethical concerns arise from using facial recognition in public settings?
+Q31d) Should software companies be compelled to release proprietary source code for security? Justify.
+Q32d) Evaluate the use of algorithmic systems in hiring decisions.
+Q33d) Judge the claim that learning low-level languages is unnecessary for modern developers.
+Q34d) Evaluate whether personalization should be sacrificed to protect user privacy.
+Q35d) Assess the risks and benefits of using AI-generated code in safety-critical systems.
+Q36d) Should governments control encryption technologies? Argue your viewpoint.
+Q37d) Design an architecture for a web application that must scale to millions of users.
+Q38d) Design a fair experiment to compare two sorting algorithms on large-scale data.
+Q39d) Propose a suitable database design for an online learning platform.
+Q40d) Design an authentication system that balances security, usability, and performance.
+Q41d) Propose a way to test distributed systems for reliability under network failure.
+Q42d) Design a mobile app for environments with limited bandwidth and discuss trade-offs.
+Q43d) What is the expanded form of CPU?
+Q44d) In which year did development of the C language begin?
+Q45d) What is HTTP’s default port?
+Q46d) Which data structure operates on a FIFO basis?
+Q47d) Which algorithm is typically used for shortest-path computation in weighted graphs?
+Q48d) Which company first developed Java?
