@@ -1,0 +1,55 @@
+Q1c) Determine the value of x that satisfies 3x + 7 = 25.  
+Q2c) Find y from the quadratic equation 2y^2 - 8y + 6 = 0.  
+Q3c) Compute the derivative of the function f(x) = 5x^3 - 2x^2 + 7.  
+Q4c) Evaluate ∫ from 0 to 2 of (3x^2 + 4x) dx.  
+Q5c) Find the sum of the first 50 terms in the arithmetic sequence 2, 5, 8, ...  
+Q6c) Evaluate the determinant of the matrix [[2, 3], [5, 7]].  
+
+Q7c) Provide a stepwise method for factoring a quadratic equation.  
+Q8c) Explain how to perform long division with polynomials.  
+Q9c) Outline how to solve linear equations using Gaussian elimination.  
+Q10c) Demonstrate completing the square for x^2 + 6x + 5 = 0.  
+Q11c) Show the method to find the inverse of a 2×2 matrix.  
+Q12c) Explain how to draw a graph of a function using derivative information.  
+
+Q13c) Define the concept of a limit in the context of calculus.  
+Q14c) Explain eigenvalues and eigenvectors in linear algebra.  
+Q15c) Distinguish between permutations and combinations.  
+Q16c) Define what a continuous function is.  
+Q17c) Explain the idea behind mathematical induction.  
+Q18c) Define the concept of probability distribution.  
+
+Q19c) With f(x) = x^2 and g(x) = 3x + 2, calculate (f∘g)(x) and simplify.  
+Q20c) For the sequence 2, 4, 8, 16, ..., determine a formula for the nth term and the 10th term.  
+Q21c) A rectangle has a perimeter of 50 with length twice its width. Determine the dimensions.  
+Q22c) Determine all roots of f(x) = x^3 - 6x^2 + 11x - 6 with explanation.  
+Q23c) A coin is flipped three times. Find the probability of exactly two heads and justify the solution.  
+Q24c) Solve the linear system: x + y + z = 6, x - y + 2z = 3, 2x + y - z = 4.  
+
+Q25c) Analyze the graph of y = x^3 - 3x^2 + 2x, indicating maxima, minima, and inflection points.  
+Q26c) Discuss the role of the golden ratio in the Fibonacci sequence.  
+Q27c) Examine the function f(x) = ln(x) as x approaches 0 and infinity.  
+Q28c) Interpret the geometric significance of a 2×2 matrix determinant.  
+Q29c) Inspect a histogram of exam results for skewness patterns and suggest causes.  
+Q30c) Discuss the convergence of ∑ 1/n^2 and its relation to areas under curves.  
+
+Q31c) Evaluate different numerical approaches to approximating π.  
+Q32c) Discuss whether calculators should be permitted in high school math exams.  
+Q33c) Justify the importance of learning proofs for mathematical reasoning development.  
+Q34c) Analyze pros and cons of memorizing formulas by rote.  
+Q35c) Should theoretical learning be prioritized over applied problem-solving? Explain.  
+Q36c) Assess multiple-choice questions in evaluating higher-level math understanding.  
+
+Q37c) Design a test comparing algebra-solving speed on paper versus computer.  
+Q38c) Propose a real-world application method to test understanding of limits.  
+Q39c) Plan a learning module teaching integration techniques with interactive visuals.  
+Q40c) Construct a survey to gauge student confidence in calculus problem-solving and justify questions.  
+Q41c) Devise a method to measure problem-solving improvement after group-based learning.  
+Q42c) Design a study comparing mnemonic strategies for formula memorization.  
+
+Q43c) What is the total of a triangle's interior angles?  
+Q44c) How many edges does a cube possess?  
+Q45c) Compute the derivative of x^2.  
+Q46c) State π to two decimal places.  
+Q47c) Find √144.  
+Q48c) Evaluate 7 factorial (7!).
