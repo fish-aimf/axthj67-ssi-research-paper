@@ -1,0 +1,48 @@
+Q1c) Find the worst-case Big-O complexity of binary search on an array of size 2^20 and specify the maximum number of comparisons.
+Q2c) How many edges are there in an undirected graph with 15 vertices if each vertex has degree 4?
+Q3c) Calculate the execution time, in seconds, for 7.5 × 10^11 instructions on a processor running at 3 × 10^9 instructions per second.
+Q4c) How many bytes of memory are needed to store a 1920 × 1080 image with 24-bit color depth?
+Q5c) What is the load factor of a hash table that has 150 keys stored in 200 slots?
+Q6c) Estimate the number of operations performed by an O(n^2) algorithm when n = 500, assuming one operation per n^2.
+Q7c) Outline the steps to compile and run a C++ program using a command-line compiler.
+Q8c) Describe the method for performing a depth-first search on a graph from a given starting node.
+Q9c) What steps are followed to normalize a database table to Third Normal Form?
+Q10c) How do you create and activate a Python virtual environment?
+Q11c) What steps are involved in handling and resolving a Git merge conflict?
+Q12c) Describe the workflow for creating and training a basic supervised learning model.
+Q13c) What is an operating system, and what functions does it perform?
+Q14c) What does abstraction refer to in computer science?
+Q15c) Explain recursion and contrast it with iteration.
+Q16c) What is meant by a data structure, and why is it significant?
+Q17c) What does concurrency mean in the context of computer systems?
+Q18c) How would you define computational complexity?
+Q19c) Analyze the effect of changing the sorting algorithm in a process that involves both sorting and searching.
+Q20c) Explain how cache memory impacts performance using spatial and temporal locality.
+Q21c) In a client-server system under heavy load, analyze likely bottlenecks and suggest solutions.
+Q22c) Discuss how increasing neural network depth affects bias, variance, and training time.
+Q23c) Analyze the conditions required for deadlock and explain how eliminating one condition prevents it.
+Q24c) Discuss the implications of moving from centralized to distributed databases in terms of CAP properties.
+Q25c) What does a sudden rise in CPU usage typically indicate in production systems?
+Q26c) How should a confusion matrix be interpreted when false negatives are much higher than false positives?
+Q27c) What do frequent segmentation faults suggest about a program’s memory usage?
+Q28c) What can be inferred from a network experiencing high latency but minimal packet loss?
+Q29c) How can user interaction logs be interpreted to assess web application usability?
+Q30c) What ethical implications are associated with public deployment of facial recognition systems?
+Q31c) Should proprietary software vendors disclose their source code for security reasons? Defend your answer.
+Q32c) Should algorithmic hiring decisions be allowed? Evaluate this practice.
+Q33c) Evaluate the statement that low-level programming knowledge is unnecessary for modern engineers.
+Q34c) Should online services favor privacy over personalization? Assess this issue.
+Q35c) Is it appropriate to use AI-generated code in safety-critical environments? Evaluate.
+Q36c) Should encryption technologies be subject to government regulation? Argue your stance.
+Q37c) Design a highly scalable web application and justify its architectural components.
+Q38c) Design an experiment to measure and compare two sorting algorithms on large datasets.
+Q39c) Create a database schema for an online learning system and justify the structure.
+Q40c) Design an authentication system that is secure while remaining usable and efficient.
+Q41c) Propose a testing approach for evaluating distributed system reliability during network failures.
+Q42c) Design a mobile application suitable for low-bandwidth conditions and explain the compromises involved.
+Q43c) What does CPU stand for?
+Q44c) When was the C programming language first developed?
+Q45c) What port does HTTP use by default?
+Q46c) Which data structure follows a FIFO ordering?
+Q47c) What is the standard algorithm for shortest paths in weighted graphs?
+Q48c) Which company was responsible for the original development of Java?
