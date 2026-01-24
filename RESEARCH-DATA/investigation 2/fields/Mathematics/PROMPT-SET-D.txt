@@ -1,0 +1,55 @@
+Q1d) Solve the equation 3x + 7 = 25 for x.  
+Q2d) Determine y from 2y^2 - 8y + 6 = 0.  
+Q3d) Find the derivative of f(x) = 5x^3 - 2x^2 + 7.  
+Q4d) Calculate the definite integral ∫0^2 (3x^2 + 4x) dx.  
+Q5d) Determine the sum of the first 50 terms of the sequence 2, 5, 8, ...  
+Q6d) Compute the determinant of the 2×2 matrix [[2, 3], [5, 7]].  
+
+Q7d) Explain the procedure to factor a quadratic equation step by step.  
+Q8d) Describe how to carry out long division with polynomials.  
+Q9d) Explain the steps of solving a system of linear equations via Gaussian elimination.  
+Q10d) Demonstrate how to complete the square for x^2 + 6x + 5 = 0.  
+Q11d) Show how to determine the inverse of a 2×2 matrix.  
+Q12d) Provide the steps for graphing a function using its derivative.  
+
+Q13d) Define the concept of a limit in calculus.  
+Q14d) Clarify the meaning of eigenvalues and eigenvectors.  
+Q15d) Differentiate between a permutation and a combination.  
+Q16d) Define a continuous function.  
+Q17d) Explain mathematical induction.  
+Q18d) Define a probability distribution.  
+
+Q19d) If f(x) = x^2 and g(x) = 3x + 2, determine (f∘g)(x) and simplify.  
+Q20d) For the sequence 2, 4, 8, 16, ..., formulate the nth term and compute the 10th term.  
+Q21d) A rectangle with perimeter 50 has length twice its width. Find its dimensions.  
+Q22d) Solve f(x) = x^3 - 6x^2 + 11x - 6 for all roots with reasoning.  
+Q23d) A coin is tossed 3 times. Determine the probability of exactly 2 heads with justification.  
+Q24d) Solve the system: x + y + z = 6, x - y + 2z = 3, 2x + y - z = 4.  
+
+Q25d) Examine the graph of y = x^3 - 3x^2 + 2x, noting maxima, minima, and inflection points.  
+Q26d) Explain why the golden ratio is significant in the Fibonacci sequence.  
+Q27d) Analyze f(x) = ln(x) as x approaches 0 and ∞.  
+Q28d) Interpret geometrically the determinant of a 2×2 matrix.  
+Q29d) Analyze a histogram of exam scores for skewness and propose reasons.  
+Q30d) Explain the convergence of ∑ 1/n^2 in relation to areas under curves.  
+
+Q31d) Evaluate different numerical methods for approximating π.  
+Q32d) Argue for or against calculator use in high school mathematics exams.  
+Q33d) Assess the importance of learning proofs for reasoning in mathematics.  
+Q34d) Discuss pros and cons of rote memorization of formulas.  
+Q35d) Should theoretical knowledge be emphasized over applied problem-solving? Justify.  
+Q36d) Evaluate the use of multiple-choice questions in assessing advanced mathematics skills.  
+
+Q37d) Design an experiment to compare algebra-solving speed on paper versus computer.  
+Q38d) Propose a method to test comprehension of limits using real-life examples.  
+Q39d) Plan a learning module teaching integration techniques with interactive visuals.  
+Q40d) Create a survey assessing confidence in calculus problem-solving and justify the questions.  
+Q41d) Develop a method to measure improvement in problem-solving from group-based learning.  
+Q42d) Design a study comparing mnemonic strategies for formula memorization.  
+
+Q43d) Calculate the sum of interior angles in a triangle.  
+Q44d) How many edges does a cube have?  
+Q45d) Determine the derivative of x^2.  
+Q46d) State the value of π to two decimal places.  
+Q47d) Compute the square root of 144.  
+Q48d) Find 7 factorial (7!).
