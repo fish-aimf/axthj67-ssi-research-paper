@@ -1,0 +1,95 @@
+A1e) Set Qd = Qs: 120 − 2P = 20 + 3P → 100 = 5P → P = 20. Equilibrium quantity: Q = 120 − 2(20) = 80.
+
+A2e) GDP per capita = 500,000,000,000 / 25,000,000 = $20,000.
+
+A3e) MC = d(TC)/dQ = 5 + 2Q → MC at Q=10: 5 + 2(10) = 25.
+
+A4e) Price elasticity: E = (ΔQ/ΔP) * (P_avg/Q_avg) = (−20/2)*(11/90) ≈ −1.22.
+
+A5e) Real interest rate ≈ nominal − inflation = 6% − 2% = 4%.
+
+A6e) Maximum X purchasable = Income / Px = 200 / 10 = 20 units.
+
+A7e) Government reduces spending or raises taxes → lowers aggregate demand → contractionary effect.
+
+A8e) Rank households by income, calculate cumulative income/population shares, plot cumulative income vs population to form Lorenz curve.
+
+A9e) GDP = C + I + G + (X − M), summing consumption, investment, government spending, and net exports.
+
+A10e) Central bank sets targets, buys/sells government securities, adjusts reserves, monitors effects on interest rates and money supply.
+
+A11e) Collect price and quantity data, specify Qd = α + βP + ε, estimate β via regression, interpret demand response.
+
+A12e) Identify project costs and benefits, assign monetary values, discount future values, compare totals, make decision.
+
+A13e) Opportunity cost = value of next best alternative forgone; important for efficient resource allocation.
+
+A14e) Inflation = sustained rise in general price levels; measured via CPI, PPI, or GDP deflator.
+
+A15e) Comparative advantage = ability to produce a good at lower opportunity cost than others.
+
+A16e) Market equilibrium = quantity demanded equals quantity supplied; determines equilibrium price and quantity.
+
+A17e) Moral hazard = when one party takes risks because another bears the cost.
+
+A18e) Public goods = non-excludable and non-rivalrous, e.g., national defense, street lighting.
+
+A19e) Oil price shock → ↑ production costs → ↑ inflation, ↓ growth, ↑ unemployment in short run.
+
+A20e) Higher interest rates → ↑ borrowing costs → ↓ consumption and investment → ↓ aggregate demand.
+
+A21e) Externalities justify government intervention (taxes, subsidies, regulation) to improve efficiency.
+
+A22e) Binding minimum wage → ↑ unemployment, ↑ prices, firms may reduce hiring or automate.
+
+A23e) Large fiscal deficits → short-term: higher interest rates, crowding out; long-term: debt sustainability and slower growth.
+
+A24e) Responses: fiscal stimulus, monetary easing, productivity incentives; trade-offs: inflation, debt, efficiency.
+
+A25e) Low fertility → aging workforce, labor shortages, higher pension burdens, increased dependency ratio.
+
+A26e) Currency appreciation → exports less competitive, imports cheaper, trade balance impacted.
+
+A27e) Globalization effects vary: some gain higher wages, others face competition; depends on stakeholder perspective.
+
+A28e) Flattened Phillips Curve → weaker relationship between inflation and unemployment; inflation less responsive to labor market.
+
+A29e) Households view wealth effect; policymakers focus on affordability, bubbles, and financial stability.
+
+A30e) Persistent current account deficits → reliance on foreign capital, potential currency pressure, vulnerability to shocks.
+
+A31e) Higher taxes on sugary drinks reduce consumption, improve health outcomes, internalize social costs.
+
+A32e) Moderate inequality may promote growth; extreme inequality can hinder growth and social cohesion.
+
+A33e) Trade-off: inflation targeting ensures stability; employment stabilization supports welfare; priority depends on mandate.
+
+A34e) Free trade increases efficiency, lowers prices; small developing economies may face adjustment costs.
+
+A35e) Public funding increases access, human capital, and productivity; trade-off: fiscal cost.
+
+A36e) Intervention justified to prevent monopoly inefficiency, high prices, or promote innovation and consumer welfare.
+
+A37e) Recession policies: fiscal stimulus, monetary easing; trade-offs include inflation, debt, and currency effects.
+
+A38e) Measure informal economy via surveys, tax gaps, electricity usage, or currency demand analysis.
+
+A39e) Randomize price transparency, measure demand changes, analyze statistically to test consumer response.
+
+A40e) Use treatment/control groups, collect baseline and follow-up data, apply econometric analysis to evaluate microcredit impact.
+
+A41e) Carbon tax set by social cost of carbon, gradually adjusted to achieve emission targets, monitor economic/environmental effects.
+
+A42e) Compare fiscal and monetary stimulus using GDP, employment, counterfactuals, or econometric modeling.
+
+A43e) GDP = Gross Domestic Product.
+
+A44e) The Federal Reserve (Fed).
+
+A45e) Perfect competition.
+
+A46e) Promote free trade and resolve international trade disputes.
+
+A47e) Surplus.
+
+A48e) Phillips Curve.
