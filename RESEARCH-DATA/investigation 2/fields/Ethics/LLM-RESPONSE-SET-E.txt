@@ -1,0 +1,83 @@
+A1e) Procedure for conducting an ethical review of research with human participants: 1) Submit proposal to ethics committee, 2) Review study objectives, methods, and participant recruitment, 3) Assess risks and benefits, 4) Evaluate informed consent procedures, 5) Ensure privacy and confidentiality protections, 6) Approve, request modifications, or reject, 7) Monitor study throughout implementation.
+
+A2e) Formal steps for resolving workplace ethical dilemmas: 1) Identify the ethical issue, 2) Gather relevant information, 3) Identify stakeholders, 4) Evaluate options using ethical frameworks, 5) Make a decision, 6) Implement the decision, 7) Review and reflect on outcomes.
+
+A3e) Applying informed consent in psychological studies: 1) Provide clear information on purpose, procedures, risks, and benefits, 2) Ensure participants understand their rights and ability to withdraw, 3) Obtain voluntary consent (usually written), 4) Maintain ongoing communication and clarification.
+
+A4e) Steps to assess potential conflicts of interest in academic publishing: 1) Require disclosure from authors, reviewers, and editors, 2) Evaluate the nature and impact of conflicts, 3) Implement management strategies such as recusal or independent review, 4) Ensure transparency in publications.
+
+A5e) Stepwise approach to enforcing a corporate ethics code: 1) Develop code based on organizational values and legal standards, 2) Communicate code to all employees, 3) Provide ethics training, 4) Establish reporting mechanisms, 5) Monitor compliance and enforce consequences, 6) Periodically review and update the code.
+
+A6e) Ethics committee assessment of risks vs. benefits in medical trials: 1) Evaluate risks to participants, 2) Assess potential benefits to participants and society, 3) Compare risks versus benefits using ethical principles, 4) Ensure informed consent accurately conveys risks, 5) Approve, request modifications, or reject the study.
+
+A7e) Utilitarianism is the ethical theory that morally right actions maximize overall happiness or well-being for the greatest number.
+
+A8e) Deontological ethics emphasizes duties and rules as morally binding regardless of outcomes, contrasting with consequentialist theories that judge actions by their results.
+
+A9e) Moral relativism is the idea that ethical standards and judgments are not absolute but depend on culture, society, or individual context.
+
+A10e) Virtue ethics focuses on cultivating moral character and virtues, such as honesty, courage, and compassion, rather than strictly following rules or focusing on consequences.
+
+A11e) Autonomy is the ethical principle that individuals have the right to make informed, voluntary decisions about their own lives and actions.
+
+A12e) Ethical egoism holds that individuals should act in their own self-interest; for example, a businessperson prioritizing personal growth and success while complying with legal and ethical norms.
+
+A13e) Ethical considerations of AI in healthcare include ensuring fairness, transparency, avoidance of bias, protecting patient privacy, and accountability for automated decision-making.
+
+A14e) Evaluating decisions between profit and environmental responsibility involves considering sustainability, stakeholder impact, legal compliance, and ethical obligations to minimize harm.
+
+A15e) Ethically justified organ allocation considers medical urgency, likelihood of success, fairness, and maximizing overall benefit to recipients.
+
+A16e) Whistleblowing can enhance ethical accountability but may result in retaliation, stress, and strained workplace relationships, affecting both organizational culture and individual ethics.
+
+A17e) Conflicts between cultural norms and universal human rights can be resolved ethically through dialogue, respect for context, application of universal ethical principles, and minimizing harm while protecting fundamental rights.
+
+A18e) Balancing privacy and security in digital surveillance requires proportionality, transparency, accountability, and protecting individual rights alongside public safety.
+
+A19e) Moral significance in a dilemma story can be interpreted by examining intentions, reasoning, and consequences of lying to protect a friend, highlighting the conflict between loyalty and honesty.
+
+A20e) During a pandemic, public attitudes toward mandatory vaccination may shift based on perceived collective risk, trust in authorities, ethical trade-offs between autonomy and public health, and social responsibility.
+
+A21e) Ethical reasoning in historical civil disobedience evaluates the justification for breaking laws to protest injustice, balancing moral duty, legal obligations, and societal consequences.
+
+A22e) Lessons from self-driving car scenarios include prioritizing fairness, safety, transparency, and accountability in algorithmic decision-making for life-or-death situations.
+
+A23e) Journalists’ moral responsibilities in conflict zones include reporting accurately, minimizing harm, protecting sources, avoiding bias, and maintaining professional integrity.
+
+A24e) Cultural factors influence ethical interpretations in business by shaping norms, values, acceptable practices, and the prioritization of profit, social responsibility, and legal compliance.
+
+A25e) Legal obligation to prioritize ethical supply chains can be justified for social responsibility, sustainability, and consumer protection, balanced against economic consequences.
+
+A26e) Using animals in medical research is ethically permissible if necessary for human benefit, suffering is minimized, and no feasible alternatives exist.
+
+A27e) Governments may ethically restrict harmful social media content to protect public welfare, while balancing freedom of expression and enforceability.
+
+A28e) Whistleblowers should receive legal protection even when breaching confidentiality to promote accountability, transparency, and ethical conduct.
+
+A29e) Autonomous vehicles minimizing harm at passenger risk requires ethical trade-offs between utilitarian outcomes, passenger consent, and legal obligations.
+
+A30e) Mandatory organ donation pros: increased organ availability and lives saved; cons: potential infringement on autonomy and moral objections, requiring careful ethical justification.
+
+A31e) Framework for evaluating ethical compliance in multinational organizations: define standards, monitor operations, establish reporting, conduct audits, enforce corrective actions, and consider cultural variations.
+
+A32e) Methodology for ethics audits in healthcare: define criteria, review policies and procedures, interview staff, assess practices against ethical standards, and report findings with recommendations.
+
+A33e) Study to assess ethics training effectiveness: 1) Define measurable outcomes, 2) Implement training, 3) Conduct pre- and post-assessments, 4) Analyze changes in knowledge and behavior.
+
+A34e) Protocol for ethical review of AI in hiring: 1) Assess fairness, bias, and transparency, 2) Ensure legal compliance, 3) Validate algorithmic decisions with human oversight, 4) Obtain stakeholder approval before deployment.
+
+A35e) Tool for ethical decision-making in public policy: 1) Identify stakeholders and potential consequences, 2) Apply ethical frameworks, 3) Evaluate trade-offs, 4) Recommend transparent and accountable solutions.
+
+A36e) System balancing patient autonomy and public health: 1) Inform patients of choices and risks, 2) Implement public health measures, 3) Encourage shared decision-making, 4) Review policies regularly for ethical alignment.
+
+A37e) Jeremy Bentham is regarded as the founder of modern utilitarianism.
+
+A38e) The Hippocratic Oath emphasizes non-maleficence, the principle of “do no harm.”
+
+A39e) Immanuel Kant is associated with deontological ethics.
+
+A40e) Moral relativism describes morality as being relative to culture or society.
+
+A41e) Virtue ethics emphasizes character traits over rules or consequences.
+
+A42e) Deontology refers to the duty to follow professional ethical standards and responsibilities.
