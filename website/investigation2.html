@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SSI Subject Analyzer - Investigation 2</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: Arial, sans-serif;
+            padding: 20px;
+            max-width: 1400px;
+            margin: 0 auto;
+        }
+        h1 {
+            font-size: 24px;
+            margin-bottom: 20px;
+        }
+        h2 {
+            font-size: 20px;
+            margin-bottom: 15px;
+        }
+        h3 {
+            font-size: 16px;
+            margin-bottom: 10px;
+        }
+        .info {
+            color: #666;
+            font-size: 14px;
+            margin-bottom: 20px;
+        }
+        .loading {
+            text-align: center;
+            padding: 50px;
+            font-size: 18px;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 30px;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: left;
+        }
+        th {
+            background-color: #f5f5f5;
+        }
+        .text-right {
+            text-align: right;
+        }
+        .section {
+            margin-bottom: 40px;
+            border: 1px solid #ddd;
+            padding: 20px;
+            border-radius: 4px;
+        }
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 15px;
+            margin-bottom: 20px;
+        }
+        .stat-box {
+            border: 1px solid #ddd;
+            padding: 15px;
+            border-radius: 4px;
+        }
+        .stat-box div {
+            font-size: 14px;
+            margin-bottom: 5px;
+        }
+        button {
+            padding: 8px 16px;
+            border: 1px solid #ddd;
+            background: white;
+            cursor: pointer;
+            border-radius: 4px;
+        }
+        button:hover {
+            background: #f5f5f5;
+        }
+        .section-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+        .calculations {
+            margin-top: 20px;
+        }
+        .hidden {
+            display: none;
+        }
+        .font-medium {
+            font-weight: 500;
+        }
+        .bg-gray {
+            background-color: #f9f9f9;
+        }
+        .skipped-note {
+            background-color: #fff3cd;
+            border: 1px solid #ffc107;
+            padding: 10px;
+            margin-bottom: 15px;
+            border-radius: 4px;
+            font-size: 14px;
+        }
+        .error {
+            color: #dc3545;
+        }
+    </style>
+</head>
+<body>
+    <h1>SSI Subject Analyzer - Investigation 2</h1>
+    <div class="info">Data loaded from: RESEARCH-DATA/investigation 2/fields</div>
+    
+    <div id="loading" class="loading">Loading data from GitHub...</div>
+    <div id="content" class="hidden"></div>
+
+    <script>
+        var subjects = [
+            'Biology',
+            'Chemistry',
+            'Computer science',
+            'Economics',
+            'English Language',
+            'Ethics',
+            'History',
+            'Mathematics',
+            'Philosophy',
+            'Physics'
+        ];
+
+        function calculateStats(values) {
+            var n = values.length;
+            if (n === 0) return { mean: 0, stdDev: 0, min: 0, max: 0, n: 0 };
+            
+            var sum = 0;
+            for (var i = 0; i < values.length; i++) {
+                sum += values[i];
+            }
+            var mean = sum / n;
+            
+            var varianceSum = 0;
+            for (var i = 0; i < values.length; i++) {
+                varianceSum += Math.pow(values[i] - mean, 2);
+            }
+            var variance = varianceSum / n;
+            var stdDev = Math.sqrt(variance);
+            var min = Math.min.apply(null, values);
+            var max = Math.max.apply(null, values);
+            
+            return { mean: mean, stdDev: stdDev, min: min, max: max, n: n };
+        }
+
+        function analyzeSubject(questions, answers) {
+            var questionKeys = Object.keys(questions).sort(function(a, b) {
+                var numA = parseInt(a.substring(1));
+                var numB = parseInt(b.substring(1));
+                return numA - numB;
+            });
+            
+            var answerKeys = Object.keys(answers).sort(function(a, b) {
+                var numA = parseInt(a.substring(1));
+                var numB = parseInt(b.substring(1));
+                return numA - numB;
+            });
+
+            var ratios = [];
+            var calculations = [];
+
+            for (var i = 0; i < questionKeys.length; i++) {
+                var qKey = questionKeys[i];
+                var aKey = answerKeys[i];
+                var qValue = questions[qKey];
+                var aValue = answers[aKey];
+                var ratio = aValue / qValue;
+                
+                ratios.push(ratio);
+                calculations.push({
+                    question: qKey,
+                    answer: aKey,
+                    questionSSI: qValue,
+                    answerSSI: aValue,
+                    ratio: ratio
+                });
+            }
+
+            var questionValues = [];
+            for (var k in questions) {
+                if (questions.hasOwnProperty(k)) {
+                    questionValues.push(questions[k]);
+                }
+            }
+            
+            var answerValues = [];
+            for (var k in answers) {
+                if (answers.hasOwnProperty(k)) {
+                    answerValues.push(answers[k]);
+                }
+            }
+            
+            var qSum = 0;
+            for (var i = 0; i < questionValues.length; i++) {
+                qSum += questionValues[i];
+            }
+            var avgQuestionSSI = questionValues.length > 0 ? qSum / questionValues.length : 0;
+            
+            var aSum = 0;
+            for (var i = 0; i < answerValues.length; i++) {
+                aSum += answerValues[i];
+            }
+            var avgAnswerSSI = answerValues.length > 0 ? aSum / answerValues.length : 0;
+            
+            var rSum = 0;
+            for (var i = 0; i < ratios.length; i++) {
+                rSum += ratios[i];
+            }
+            var avgRatio = ratios.length > 0 ? rSum / ratios.length : 0;
+            
+            var ratioStats = calculateStats(ratios);
+            var questionStats = calculateStats(questionValues);
+            var answerStats = calculateStats(answerValues);
+
+            return {
+                calculations: calculations,
+                avgQuestionSSI: avgQuestionSSI,
+                avgAnswerSSI: avgAnswerSSI,
+                avgRatio: avgRatio,
+                ratioStats: ratioStats,
+                questionStats: questionStats,
+                answerStats: answerStats
+            };
+        }
+
+        function toggleCalculations(id) {
+            var elem = document.getElementById(id);
+            if (elem.classList.contains('hidden')) {
+                elem.classList.remove('hidden');
+            } else {
+                elem.classList.add('hidden');
+            }
+            var button = document.querySelector('button[data-target="' + id + '"]');
+            if (elem.classList.contains('hidden')) {
+                button.textContent = 'Show Detailed Calculations';
+            } else {
+                button.textContent = 'Hide Detailed Calculations';
+            }
+        }
+
+        function fetchAllData() {
+            var baseUrl = '../RESEARCH-DATA/investigation 2/fields';
+            var results = {};
+            var completed = 0;
+            var total = subjects.length;
+            
+            for (var i = 0; i < subjects.length; i++) {
+                (function(subject) {
+                    var questionsUrl = baseUrl + '/' + subject + '/ssi_of_questions';
+                    var answersUrl = baseUrl + '/' + subject + '/ssi_of_answers';
+                    var skippedUrl = baseUrl + '/' + subject + '/skipped';
+                    
+                    var skippedType = null;
+                    
+                    fetch(skippedUrl)
+                        .then(function(r) { 
+                            if (r.ok) {
+                                return r.text();
+                            }
+                            return null;
+                        })
+                        .then(function(skippedData) {
+                            if (skippedData) {
+                                skippedType = skippedData.trim();
+                            }
+                            
+                            return fetch(questionsUrl)
+                                .then(function(r) { return r.json(); })
+                                .then(function(questionsData) {
+                                    return fetch(answersUrl)
+                                        .then(function(r) { return r.json(); })
+                                        .then(function(answersData) {
+                                            results[subject] = analyzeSubject(questionsData, answersData);
+                                            results[subject].skippedType = skippedType;
+                                            completed++;
+                                            if (completed === total) {
+                                                renderResults(results);
+                                            }
+                                        });
+                                });
+                        })
+                        .catch(function(err) {
+                            console.error('Error fetching ' + subject + ':', err);
+                            completed++;
+                            if (completed === total) {
+                                renderResults(results);
+                            }
+                        });
+                })(subjects[i]);
+            }
+        }
+
+        function renderResults(results) {
+            var entries = [];
+            for (var key in results) {
+                if (results.hasOwnProperty(key)) {
+                    entries.push([key, results[key]]);
+                }
+            }
+            entries.sort(function(a, b) {
+                return b[1].avgRatio - a[1].avgRatio;
+            });
+            
+            var html = '<div><h2>Summary Rankings by Subject</h2><table><thead><tr class="bg-gray"><th>Rank</th><th>Subject</th><th>Skipped Question Type</th><th class="text-right">Avg Question SSI</th><th class="text-right">Avg Answer SSI</th><th class="text-right">Avg SSI Ratio</th><th class="text-right">Ratio Std Dev</th></tr></thead><tbody>';
+            
+            for (var idx = 0; idx < entries.length; idx++) {
+                var name = entries[idx][0];
+                var data = entries[idx][1];
+                var skippedDisplay = data.skippedType ? data.skippedType : '-';
+                
+                html += '<tr>' +
+                    '<td>' + (idx + 1) + '</td>' +
+                    '<td>' + name + '</td>' +
+                    '<td>' + skippedDisplay + '</td>' +
+                    '<td class="text-right">' + data.avgQuestionSSI.toFixed(4) + '</td>' +
+                    '<td class="text-right">' + data.avgAnswerSSI.toFixed(4) + '</td>' +
+                    '<td class="text-right font-medium">' + data.avgRatio.toFixed(4) + '</td>' +
+                    '<td class="text-right">' + data.ratioStats.stdDev.toFixed(4) + '</td>' +
+                '</tr>';
+            }
+            
+            html += '</tbody></table></div>';
+            
+            for (var idx = 0; idx < entries.length; idx++) {
+                var name = entries[idx][0];
+                var data = entries[idx][1];
+                var id = 'calc-' + name.replace(/\s+/g, '-');
+                
+                html += '<div class="section">' +
+                    '<div class="section-header">' +
+                        '<h2>' + name + '</h2>' +
+                        '<button data-target="' + id + '" onclick="toggleCalculations(\'' + id + '\')">Show Detailed Calculations</button>' +
+                    '</div>';
+                
+                if (data.skippedType) {
+                    html += '<div class="skipped-note">' +
+                        '<strong>Note:</strong> This subject skipped the question type: <strong>' + data.skippedType + '</strong>' +
+                    '</div>';
+                }
+                
+                html += '<div class="stats-grid">' +
+                        '<div class="stat-box">' +
+                            '<h3>Question SSI Statistics</h3>' +
+                            '<div>Mean: ' + data.questionStats.mean.toFixed(4) + '</div>' +
+                            '<div>Std Dev: ' + data.questionStats.stdDev.toFixed(4) + '</div>' +
+                            '<div>Min: ' + data.questionStats.min.toFixed(4) + '</div>' +
+                            '<div>Max: ' + data.questionStats.max.toFixed(4) + '</div>' +
+                            '<div>Count: ' + data.questionStats.n + '</div>' +
+                        '</div>' +
+                        '<div class="stat-box">' +
+                            '<h3>Answer SSI Statistics</h3>' +
+                            '<div>Mean: ' + data.answerStats.mean.toFixed(4) + '</div>' +
+                            '<div>Std Dev: ' + data.answerStats.stdDev.toFixed(4) + '</div>' +
+                            '<div>Min: ' + data.answerStats.min.toFixed(4) + '</div>' +
+                            '<div>Max: ' + data.answerStats.max.toFixed(4) + '</div>' +
+                            '<div>Count: ' + data.answerStats.n + '</div>' +
+                        '</div>' +
+                        '<div class="stat-box">' +
+                            '<h3>SSI Ratio Statistics</h3>' +
+                            '<div>Mean: ' + data.ratioStats.mean.toFixed(4) + '</div>' +
+                            '<div>Std Dev: ' + data.ratioStats.stdDev.toFixed(4) + '</div>' +
+                            '<div>Min: ' + data.ratioStats.min.toFixed(4) + '</div>' +
+                            '<div>Max: ' + data.ratioStats.max.toFixed(4) + '</div>' +
+                            '<div>Count: ' + data.ratioStats.n + '</div>' +
+                        '</div>' +
+                    '</div>' +
+                    '<div id="' + id + '" class="calculations hidden">' +
+                        '<h3>Individual Question Calculations</h3>' +
+                        '<table>' +
+                            '<thead>' +
+                                '<tr class="bg-gray">' +
+                                    '<th>Question</th>' +
+                                    '<th>Answer</th>' +
+                                    '<th>Question SSI</th>' +
+                                    '<th>Answer SSI</th>' +
+                                    '<th>Ratio (A/Q)</th>' +
+                                '</tr>' +
+                            '</thead>' +
+                            '<tbody>';
+                
+                for (var c = 0; c < data.calculations.length; c++) {
+                    var calc = data.calculations[c];
+                    html += '<tr>' +
+                        '<td>' + calc.question + '</td>' +
+                        '<td>' + calc.answer + '</td>' +
+                        '<td class="text-right">' + calc.questionSSI.toFixed(6) + '</td>' +
+                        '<td class="text-right">' + calc.answerSSI.toFixed(6) + '</td>' +
+                        '<td class="text-right font-medium">' + calc.ratio.toFixed(6) + '</td>' +
+                    '</tr>';
+                }
+                
+                html += '<tr class="bg-gray font-medium">' +
+                    '<td colspan="2">AVERAGE</td>' +
+                    '<td class="text-right">' + data.avgQuestionSSI.toFixed(6) + '</td>' +
+                    '<td class="text-right">' + data.avgAnswerSSI.toFixed(6) + '</td>' +
+                    '<td class="text-right">' + data.avgRatio.toFixed(6) + '</td>' +
+                '</tr>' +
+                            '</tbody>' +
+                        '</table>' +
+                    '</div>' +
+                '</div>';
+            }
+            
+            document.getElementById('loading').classList.add('hidden');
+            document.getElementById('content').innerHTML = html;
+            document.getElementById('content').classList.remove('hidden');
+        }
+
+        fetchAllData();
+    </script>
+</body>
+</html>
