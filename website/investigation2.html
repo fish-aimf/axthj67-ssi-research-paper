@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SSI Subject Analyzer - Investigation 2 (Enhanced)</title>
+    <title>SSI Subject Analyzer - Investigation 2 Results</title>
     <style>
         * {
             margin: 0;
@@ -234,6 +234,60 @@
         .highlight-min {
             background-color: #f8d7da;
         }
+        
+        /* Toggle Controls */
+        .toggle-controls {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            margin: 20px 0;
+            padding: 15px;
+            background: #f8f9fa;
+            border-radius: 6px;
+            align-items: center;
+        }
+        
+        .toggle-controls label {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            cursor: pointer;
+            font-size: 14px;
+            padding: 5px 10px;
+            background: white;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            transition: background 0.2s;
+        }
+        
+        .toggle-controls label:hover {
+            background: #e9ecef;
+        }
+        
+        .toggle-controls input[type="checkbox"] {
+            cursor: pointer;
+            width: 16px;
+            height: 16px;
+        }
+        
+        .toggle-section {
+            display: flex;
+            flex-direction: column;
+            gap: 5px;
+        }
+        
+        .toggle-section-title {
+            font-weight: 600;
+            font-size: 13px;
+            color: #666;
+            margin-right: 10px;
+        }
+        
+        .subject-toggles {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 8px;
+        }
     </style>
 </head>
 <body>
@@ -272,6 +326,30 @@
             'Philosophy': '#c0392b',
             'Physics': '#16a085'
         };
+        
+        // Visibility state for each subject and average line
+        var subjectVisibility = {};
+        for (var i = 0; i < subjects.length; i++) {
+            subjectVisibility[subjects[i]] = true;
+        }
+        var showAverageLine = true;
+        
+        // Global results for redrawing
+        var globalResults = null;
+        
+        function toggleSubject(subject) {
+            subjectVisibility[subject] = !subjectVisibility[subject];
+            if (globalResults) {
+                drawGraph(globalResults);
+            }
+        }
+        
+        function toggleAverageLine() {
+            showAverageLine = !showAverageLine;
+            if (globalResults) {
+                drawGraph(globalResults);
+            }
+        }
         
         // Question type mapping in the original order
         var questionTypesOriginal = [
@@ -542,6 +620,29 @@
                 }
             }
             
+            // Calculate average values for each question type
+            var averageByType = {};
+            for (var t = 0; t < questionTypes.length; t++) {
+                var type = questionTypes[t];
+                var typeRatios = [];
+                for (var subject in results) {
+                    if (results.hasOwnProperty(subject)) {
+                        var typeStats = results[subject].typeStats;
+                        if (typeStats[type] && typeStats[type].ratioStats.n > 0) {
+                            typeRatios.push(typeStats[type].avgRatio);
+                        }
+                    }
+                }
+                if (typeRatios.length > 0) {
+                    var sum = 0;
+                    for (var i = 0; i < typeRatios.length; i++) {
+                        sum += typeRatios[i];
+                    }
+                    averageByType[type] = sum / typeRatios.length;
+                    allRatios.push(averageByType[type]);
+                }
+            }
+            
             var minRatio = Math.min.apply(null, allRatios);
             var maxRatio = Math.max.apply(null, allRatios);
             var range = maxRatio - minRatio;
@@ -596,7 +697,7 @@
             // X-axis label
             ctx.font = 'bold 14px Arial';
             ctx.textAlign = 'center';
-            ctx.fillText('Increasing SSI Ratio →', width / 2, height - 10);
+            ctx.fillText('Increasing Stability Question Type →', width / 2, height - 10);
             
             // Y-axis label
             ctx.save();
@@ -609,7 +710,7 @@
             
             // Plot lines for each subject
             for (var subject in results) {
-                if (results.hasOwnProperty(subject)) {
+                if (results.hasOwnProperty(subject) && subjectVisibility[subject]) {
                     var typeStats = results[subject].typeStats;
                     var color = subjectColors[subject];
                     
@@ -658,9 +759,57 @@
                     }
                 }
             }
+            
+            // Draw average line if enabled
+            if (showAverageLine) {
+                ctx.strokeStyle = '#000000';
+                ctx.lineWidth = 3;
+                ctx.setLineDash([8, 4]);
+                
+                var lastValidPoint = null;
+                for (var i = 0; i < questionTypes.length; i++) {
+                    var type = questionTypes[i];
+                    if (averageByType[type]) {
+                        var ratio = averageByType[type];
+                        var x = margin.left + xStep * i;
+                        var y = margin.top + plotHeight - ((ratio - yMin) / (yMax - yMin)) * plotHeight;
+                        
+                        var currentPoint = {x: x, y: y};
+                        
+                        if (lastValidPoint) {
+                            ctx.beginPath();
+                            ctx.moveTo(lastValidPoint.x, lastValidPoint.y);
+                            ctx.lineTo(currentPoint.x, currentPoint.y);
+                            ctx.stroke();
+                        }
+                        
+                        lastValidPoint = currentPoint;
+                    } else {
+                        lastValidPoint = null;
+                    }
+                }
+                
+                // Draw points for average line
+                ctx.fillStyle = '#000000';
+                ctx.setLineDash([]);
+                for (var i = 0; i < questionTypes.length; i++) {
+                    var type = questionTypes[i];
+                    if (averageByType[type]) {
+                        var ratio = averageByType[type];
+                        var x = margin.left + xStep * i;
+                        var y = margin.top + plotHeight - ((ratio - yMin) / (yMax - yMin)) * plotHeight;
+                        
+                        ctx.beginPath();
+                        ctx.arc(x, y, 5, 0, 2 * Math.PI);
+                        ctx.fill();
+                    }
+                }
+            }
         }
 
         function renderResults(results) {
+            globalResults = results;
+            
             var entries = [];
             for (var key in results) {
                 if (results.hasOwnProperty(key)) {
@@ -672,10 +821,33 @@
             });
             
             var html = '<h2>Multi-Subject SSI Ratio Comparison by Question Type</h2>';
+            
+            // Toggle controls
+            html += '<div class="toggle-controls">';
+            html += '<div class="toggle-section">';
+            html += '<span class="toggle-section-title">Show/Hide Lines:</span>';
+            html += '</div>';
+            html += '<div class="subject-toggles">';
+            html += '<label><input type="checkbox" checked onchange="toggleAverageLine()" id="toggle-average"><span style="font-weight: 600;">Average Line</span></label>';
+            for (var i = 0; i < subjects.length; i++) {
+                var subject = subjects[i];
+                var color = subjectColors[subject];
+                html += '<label>';
+                html += '<input type="checkbox" checked onchange="toggleSubject(\'' + subject + '\')" id="toggle-' + subject.replace(/\s+/g, '-') + '">';
+                html += '<span style="color: ' + color + '; font-weight: 500;">' + subject + '</span>';
+                html += '</label>';
+            }
+            html += '</div>';
+            html += '</div>';
+            
             html += '<div id="graph-container">';
             html += '<div class="graph-title">SSI Ratio Trends Across Question Types</div>';
             html += '<canvas id="ssi-graph" width="1500" height="600"></canvas>';
             html += '<div class="legend">';
+            html += '<div class="legend-item">';
+            html += '<div class="legend-color" style="background-color: #000000; height: 3px; border-top: 2px dashed #000;"></div>';
+            html += '<span><strong>Average</strong></span>';
+            html += '</div>';
             for (var i = 0; i < subjects.length; i++) {
                 var subject = subjects[i];
                 var color = subjectColors[subject];
