@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SSI Subject Analyzer - Investigation 2 Results</title>
+    <title>SSI Subject Analyzer - Investigation 2</title>
     <style>
         * {
             margin: 0;
@@ -147,7 +147,7 @@
         #graph-container {
             width: 100%;
             height: 600px;
-            margin: 30px 0;
+            margin: 0;
             background: white;
             border: 1px solid #ddd;
             border-radius: 6px;
@@ -288,11 +288,91 @@
             flex-wrap: wrap;
             gap: 8px;
         }
+        
+        /* Average SSI Bar */
+        .graph-with-bar {
+            display: flex;
+            gap: 20px;
+            align-items: stretch;
+        }
+        
+        .graph-main {
+            flex: 1;
+        }
+        
+        .average-bar-container {
+            width: 200px;
+            display: flex;
+            flex-direction: column;
+            background: white;
+            border: 1px solid #ddd;
+            border-radius: 6px;
+            padding: 15px;
+        }
+        
+        .average-bar-title {
+            font-size: 15px;
+            font-weight: 600;
+            margin-bottom: 15px;
+            text-align: center;
+            color: #2c3e50;
+        }
+        
+        .average-bar-items {
+            display: flex;
+            flex-direction: column;
+            gap: 8px;
+            flex: 1;
+        }
+        
+        .average-bar-item {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            padding: 8px;
+            border-radius: 4px;
+            transition: background 0.2s;
+        }
+        
+        .average-bar-item:hover {
+            background: #f8f9fa;
+        }
+        
+        .average-bar-color {
+            width: 20px;
+            height: 20px;
+            border-radius: 3px;
+            flex-shrink: 0;
+        }
+        
+        .average-bar-info {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            gap: 2px;
+        }
+        
+        .average-bar-subject {
+            font-size: 12px;
+            font-weight: 600;
+            line-height: 1.2;
+        }
+        
+        .average-bar-value {
+            font-size: 14px;
+            font-weight: 700;
+            color: #2c3e50;
+        }
+        
+        .average-bar-rank {
+            font-size: 10px;
+            color: #666;
+        }
     </style>
 </head>
 <body>
     <div class="container">
-        <h1>SSI Subject Analyzer - Investigation 2 (Enhanced)</h1>
+        <h1>SSI Subject Analyzer - Investigation 2</h1>
         <div class="info">Data loaded from: RESEARCH-DATA/investigation 2/fields</div>
         
         <div id="loading" class="loading">Loading data from GitHub...</div>
@@ -840,6 +920,8 @@
             html += '</div>';
             html += '</div>';
             
+            html += '<div class="graph-with-bar">';
+            html += '<div class="graph-main">';
             html += '<div id="graph-container">';
             html += '<div class="graph-title">SSI Ratio Trends Across Question Types</div>';
             html += '<canvas id="ssi-graph" width="1500" height="600"></canvas>';
@@ -856,6 +938,36 @@
                 html += '<span>' + subject + '</span>';
                 html += '</div>';
             }
+            html += '</div>';
+            html += '</div>';
+            html += '</div>';
+            
+            // Average SSI Bar
+            html += '<div class="average-bar-container">';
+            html += '<div class="average-bar-title">Overall Average SSI Ratio</div>';
+            html += '<div class="average-bar-items">';
+            
+            // Sort entries by avgRatio for the bar
+            var sortedEntries = entries.slice().sort(function(a, b) {
+                return b[1].avgRatio - a[1].avgRatio;
+            });
+            
+            for (var idx = 0; idx < sortedEntries.length; idx++) {
+                var name = sortedEntries[idx][0];
+                var data = sortedEntries[idx][1];
+                var color = subjectColors[name];
+                
+                html += '<div class="average-bar-item">';
+                html += '<div class="average-bar-color" style="background-color: ' + color + ';"></div>';
+                html += '<div class="average-bar-info">';
+                html += '<div class="average-bar-subject" style="color: ' + color + ';">' + name + '</div>';
+                html += '<div class="average-bar-value">' + data.avgRatio.toFixed(4) + '</div>';
+                html += '<div class="average-bar-rank">#' + (idx + 1) + '</div>';
+                html += '</div>';
+                html += '</div>';
+            }
+            
+            html += '</div>';
             html += '</div>';
             html += '</div>';
             
