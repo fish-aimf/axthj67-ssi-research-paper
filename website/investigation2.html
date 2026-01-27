@@ -273,8 +273,8 @@
             'Physics': '#16a085'
         };
         
-        // Question type mapping (based on the Chemistry example you provided)
-        var questionTypes = [
+        // Question type mapping in the original order
+        var questionTypesOriginal = [
             'Computational-Numerical',
             'Procedural-How-To',
             'Conceptual-Definition',
@@ -285,11 +285,32 @@
             'Closed-Factual'
         ];
         
-        // Map question indices to types (Q1-Q6 = type 1, Q7-Q12 = type 2, etc.)
-        function getQuestionType(questionNumber) {
+        // Question types in the display order (reversed from the specified order)
+        var questionTypes = [
+            'Analytical-Multistep-Reasoning',
+            'Procedural-How-To',
+            'Design-Methodological',
+            'Evaluative-Normative',
+            'Interpretive-Contextual',
+            'Computational-Numerical',
+            'Closed-Factual',
+            'Conceptual-Definition'
+        ];
+        
+        // Map question indices to types, accounting for skipped types
+        function getQuestionType(questionNumber, skippedType) {
             var num = parseInt(questionNumber.substring(1));
             var typeIndex = Math.floor((num - 1) / 6);
-            return questionTypes[typeIndex] || 'Unknown';
+            
+            // Build list of available types (excluding skipped)
+            var availableTypes = [];
+            for (var i = 0; i < questionTypesOriginal.length; i++) {
+                if (questionTypesOriginal[i] !== skippedType) {
+                    availableTypes.push(questionTypesOriginal[i]);
+                }
+            }
+            
+            return availableTypes[typeIndex] || 'Unknown';
         }
 
         function calculateStats(values) {
@@ -314,7 +335,7 @@
             return { mean: mean, stdDev: stdDev, min: min, max: max, n: n };
         }
 
-        function analyzeSubject(questions, answers) {
+        function analyzeSubject(questions, answers, skippedType) {
             var questionKeys = Object.keys(questions).sort(function(a, b) {
                 var numA = parseInt(a.substring(1));
                 var numB = parseInt(b.substring(1));
@@ -346,7 +367,7 @@
                 var qValue = questions[qKey];
                 var aValue = answers[aKey];
                 var ratio = aValue / qValue;
-                var type = getQuestionType(qKey);
+                var type = getQuestionType(qKey, skippedType);
                 
                 ratios.push(ratio);
                 calculations.push({
@@ -474,7 +495,7 @@
                                     return fetch(answersUrl)
                                         .then(function(r) { return r.json(); })
                                         .then(function(answersData) {
-                                            results[subject] = analyzeSubject(questionsData, answersData);
+                                            results[subject] = analyzeSubject(questionsData, answersData, skippedType);
                                             results[subject].skippedType = skippedType;
                                             completed++;
                                             if (completed === total) {
@@ -514,7 +535,7 @@
                 if (results.hasOwnProperty(subject)) {
                     var typeStats = results[subject].typeStats;
                     for (var type in typeStats) {
-                        if (typeStats.hasOwnProperty(type)) {
+                        if (typeStats.hasOwnProperty(type) && typeStats[type].ratioStats.n > 0) {
                             allRatios.push(typeStats[type].avgRatio);
                         }
                     }
@@ -572,6 +593,11 @@
                 ctx.restore();
             }
             
+            // X-axis label
+            ctx.font = 'bold 14px Arial';
+            ctx.textAlign = 'center';
+            ctx.fillText('Increasing SSI Ratio →', width / 2, height - 10);
+            
             // Y-axis label
             ctx.save();
             ctx.translate(20, height / 2);
@@ -589,31 +615,38 @@
                     
                     ctx.strokeStyle = color;
                     ctx.lineWidth = 2.5;
-                    ctx.beginPath();
                     
-                    var firstPoint = true;
+                    // Draw line segments between consecutive valid points
+                    var lastValidPoint = null;
                     for (var i = 0; i < questionTypes.length; i++) {
                         var type = questionTypes[i];
-                        if (typeStats[type]) {
+                        if (typeStats[type] && typeStats[type].ratioStats.n > 0) {
                             var ratio = typeStats[type].avgRatio;
                             var x = margin.left + xStep * i;
                             var y = margin.top + plotHeight - ((ratio - yMin) / (yMax - yMin)) * plotHeight;
                             
-                            if (firstPoint) {
-                                ctx.moveTo(x, y);
-                                firstPoint = false;
-                            } else {
-                                ctx.lineTo(x, y);
+                            var currentPoint = {x: x, y: y};
+                            
+                            if (lastValidPoint) {
+                                // Draw line from last valid point to current point
+                                ctx.beginPath();
+                                ctx.moveTo(lastValidPoint.x, lastValidPoint.y);
+                                ctx.lineTo(currentPoint.x, currentPoint.y);
+                                ctx.stroke();
                             }
+                            
+                            lastValidPoint = currentPoint;
+                        } else {
+                            // No data for this type, create gap
+                            lastValidPoint = null;
                         }
                     }
-                    ctx.stroke();
                     
-                    // Draw points
+                    // Draw points (including for isolated points)
                     ctx.fillStyle = color;
                     for (var i = 0; i < questionTypes.length; i++) {
                         var type = questionTypes[i];
-                        if (typeStats[type]) {
+                        if (typeStats[type] && typeStats[type].ratioStats.n > 0) {
                             var ratio = typeStats[type].avgRatio;
                             var x = margin.left + xStep * i;
                             var y = margin.top + plotHeight - ((ratio - yMin) / (yMax - yMin)) * plotHeight;
@@ -674,25 +707,25 @@
                 for (var i = 0; i < subjects.length; i++) {
                     var subject = subjects[i];
                     var typeStats = results[subject].typeStats;
-                    if (typeStats[type]) {
+                    if (typeStats[type] && typeStats[type].ratioStats.n > 0) {
                         ratiosForType.push(typeStats[type].avgRatio);
                     }
                 }
                 
-                var maxVal = Math.max.apply(null, ratiosForType);
-                var minVal = Math.min.apply(null, ratiosForType);
+                var maxVal = ratiosForType.length > 0 ? Math.max.apply(null, ratiosForType) : null;
+                var minVal = ratiosForType.length > 0 ? Math.min.apply(null, ratiosForType) : null;
                 
                 for (var i = 0; i < subjects.length; i++) {
                     var subject = subjects[i];
                     var typeStats = results[subject].typeStats;
-                    if (typeStats[type]) {
+                    if (typeStats[type] && typeStats[type].ratioStats.n > 0) {
                         var val = typeStats[type].avgRatio;
                         var className = '';
-                        if (val === maxVal) className = 'highlight-max';
-                        else if (val === minVal) className = 'highlight-min';
+                        if (maxVal !== null && val === maxVal) className = 'highlight-max';
+                        else if (minVal !== null && val === minVal) className = 'highlight-min';
                         html += '<td class="text-right ' + className + '">' + val.toFixed(4) + '</td>';
                     } else {
-                        html += '<td class="text-right">-</td>';
+                        html += '<td class="text-right" style="color: #999;">-</td>';
                     }
                 }
                 html += '</tr>';
@@ -752,7 +785,7 @@
                 
                 for (var t = 0; t < questionTypes.length; t++) {
                     var type = questionTypes[t];
-                    if (data.typeStats[type]) {
+                    if (data.typeStats[type] && data.typeStats[type].ratioStats.n > 0) {
                         var ts = data.typeStats[type];
                         html += '<tr>';
                         html += '<td><strong>' + type + '</strong></td>';
@@ -761,6 +794,15 @@
                         html += '<td class="text-right font-medium">' + ts.avgRatio.toFixed(4) + '</td>';
                         html += '<td class="text-right">' + ts.ratioStats.stdDev.toFixed(4) + '</td>';
                         html += '<td class="text-right">' + ts.ratioStats.n + '</td>';
+                        html += '</tr>';
+                    } else {
+                        html += '<tr>';
+                        html += '<td><strong>' + type + '</strong></td>';
+                        html += '<td class="text-right" style="color: #999;">-</td>';
+                        html += '<td class="text-right" style="color: #999;">-</td>';
+                        html += '<td class="text-right" style="color: #999;">-</td>';
+                        html += '<td class="text-right" style="color: #999;">-</td>';
+                        html += '<td class="text-right" style="color: #999;">-</td>';
                         html += '</tr>';
                     }
                 }
