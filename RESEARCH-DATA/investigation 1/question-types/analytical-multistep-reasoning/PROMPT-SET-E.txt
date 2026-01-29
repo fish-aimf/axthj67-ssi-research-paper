@@ -14,9 +14,9 @@ Q10e) A population exhibits trait variation across three environments; analyze h
 Q11e) A metabolic pathway is inhibited at two key enzymes; analyze feedback, substrate availability, and compensatory pathways affecting ATP yield.
 Q12e) A disease spreads through age-specific networks; analyze transmission probability, incubation, and immunity shaping the epidemic curve.
 
-Q13e) A sorting algorithm adds a pre-processing partition step; analyze best-, average-, and worst-case complexities and for which data distributions the modification helps.
+Q13e) New legislation decreases corporate tax rates and removes deductions; analyze the interaction between revenue impacts, investment responses, and distributional consequences over five years.
 Q14e) A distributed system replicates data asynchronously; analyze consistency, latency, and failure scenarios to identify the most reliable resolution strategy.
-Q15e) Dynamic programming can use memoization or tabulation; analyze memory usage, recomputation, and input size to recommend the optimal approach.
+Q15e) A tested drug proves beneficial but presents occasional severe complications; analyze the balance of therapeutic gains, patient autonomy, and regulatory benchmarks in guiding approval choices.
 
 Q16e) A political revolution follows economic decline, foreign influence, and ideological movements; analyze how these factors determine timing and character.
 Q17e) A post-war treaty reshapes borders and trade alliances; analyze how competing interests, economic pressures, and security concerns influenced the treaty.
@@ -37,3 +37,4 @@ Q27e) Two characters debate a moral dilemma using coded language; analyze dialog
 Q28e) A hospital must allocate limited ICU beds during a crisis; analyze utilitarian, fairness, and duty-based frameworks to justify prioritization.
 Q29e) A company considers deploying employee-monitoring AI; analyze privacy, stakeholder concerns, and organizational trust to determine ethical deployment.
 Q30e) A community debates a renewable energy project affecting local livelihoods; analyze environmental gains, justice, and participatory decision-making to reach a recommendation.
+
