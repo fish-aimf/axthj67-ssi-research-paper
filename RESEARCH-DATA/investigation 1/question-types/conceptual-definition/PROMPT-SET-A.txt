@@ -1,4 +1,4 @@
-Q1a) What is a prime number and how is it defined?  
+Q1a) What is a prime number and how is it defined?
 Q2a) Explain the concept of a function in mathematics.  
 Q3a) What is the meaning of the term "derivative" in calculus?  
 
@@ -37,4 +37,5 @@ Q27a) Explain the concept of a narrative point of view.
 Q28a) What is meant by informed consent in ethics?  
 Q29a) Define the principle of beneficence.  
 Q30a) Explain the concept of moral relativism.  
+
 
