@@ -1,4 +1,4 @@
-Q1a) Should governments give priority to funding pure mathematics research rather than applied mathematics? Justify your answer.   
+Q1a) Should governments give priority to funding pure mathematics research rather than applied mathematics? Justify your answer.
 Q2a) Is it ethically justifiable to require standardized testing in schools to evaluate mathematical skills? Explain your reasoning.  
 Q3a) Should universities mandate advanced mathematics courses for all students, regardless of their major? Argue for or against.  
 Q4a) Should research in renewable energy technologies be prioritized over fundamental particle physics by physicists? Provide reasons.  
@@ -28,4 +28,5 @@ Q27a) Should controversial literature be censored in schools? Argue your positio
 Q28a) Should ethical guidelines be imposed on emerging medical technologies even if progress slows? Justify your answer.  
 Q29a) Is it morally acceptable to allocate scarce medical resources based on social utility instead of need? Explain your stance.  
 Q30a) Should people be legally required to participate in organ donation to save lives? Argue for or against.  
+
 
