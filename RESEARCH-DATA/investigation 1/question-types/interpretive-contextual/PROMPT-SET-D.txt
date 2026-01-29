@@ -1,30 +1,30 @@
-Q1d) A proof is praised for symmetry rather than shortness—interpret what this suggests about standards of mathematical beauty.
-Q2d) Wave and particle harmony is emphasized—interpret what this implies about philosophical views of light.
-Q3d) The usefulness of incorrect models is accepted—interpret what this says about scientific realism and practice.
-Q4d) Ether-based particle theories of light are presented—interpret what this shows about historical physics.
-Q5d) Nature is described as fundamentally probabilistic—interpret the philosophical position being implied.
-Q6d) Heat is modeled as a transferable fluid—interpret what this framework failed to capture.
-Q7d) Alchemical marriage imagery—interpret what metallurgical ideas it likely represents.
-Q8d) A reaction is described in life-like cycles—interpret what measurable behavior is being observed.
-Q9d) Elements are defined by resistance to analysis—interpret what this reveals about assumptions of atomic theory.
-Q10d) Cells are labeled indivisible—interpret how this limited early biological understanding.
-Q11d) Fire history is said to shape forest memory—interpret the ecological theory behind this.
-Q12d) Nature is said to choose traits like a breeder—interpret the philosophical meaning of this comparison.
-Q13d) Programs are framed as stories—interpret what this implies about software clarity and design.
-Q14d) Microservices are framed as evolving organisms—interpret what this suggests about long-term software change.
-Q15d) Voice technology is described in human terms—interpret what UX principle this highlights.
-Q16d) Interpret a wartime cartoon about immigration—what social message is being conveyed?
-Q17d) Interpret Abigail Adams’ request for greater rights—what political stance does it reflect?
-Q18d) Interpret how economic recovery is linked to New Deal actions.
-Q19d) Interpret Kant’s demand for universalizable rules.
-Q20d) Interpret the trolley scenario as a test of ethical priorities.
-Q21d) Interpret differing ethical conclusions about lying.
-Q22d) Interpret market behavior being labeled irrational—what behavioral assumptions are involved?
-Q23d) Interpret crisis explanations focused on imagination—what institutional weaknesses are implied?
-Q24d) Interpret trade protection as symbolic politics.
-Q25d) Interpret Frost’s ending as either celebratory or ironic.
-Q26d) Interpret Hamlet’s delay as a sign of moral conflict.
-Q27d) Interpret the green light as representing unreachable goals.
-Q28d) Interpret competing values in ICU allocation.
-Q29d) Interpret ethical implications of selective vaccine exemptions.
-Q30d) Interpret why fabricating data for urgency undermines scientific ethics.
+Q1d) A mathematician values symmetry over brevity in a Riemann proof—interpret what this implies about mathematical beauty and truth.  
+Q2d) Wave–particle harmony in a 1920s paper—interpret the implied philosophy of light.  
+Q3d) Models acknowledged as wrong yet useful—interpret the epistemological position.  
+Q4d) Light as corpuscles in ether—interpret 19th-century assumptions about space and energy.  
+Q5d) Quantum mechanics described as rejecting definiteness—interpret the philosophical stance.  
+Q6d) Heat treated as flowing caloric—interpret the theory and its shortcomings.  
+Q7d) Alchemical marriage of sun and moon—interpret the metallurgical meaning.  
+Q8d) Reaction cycles compared to breathing—interpret the phenomenon and vitalist overtones.  
+Q9d) Elements defined as undecomposable—interpret assumptions about matter.  
+Q10d) Cells as indivisible life particles—interpret this framework and later challenges.  
+Q11d) Forests remembering fires—interpret ecological memory and succession.  
+Q12d) Nature selecting like a breeder—interpret agency versus metaphor.  
+Q13d) Code as a story—interpret design values of readability and structure.  
+Q14d) Microservices as an ecosystem—interpret implied development philosophy.  
+Q15d) Voice UI as humanlike—interpret UX and anthropomorphism principles.  
+Q16d) Interpret Uncle Sam rejecting immigrants in 1917.  
+Q17d) Interpret Abigail Adams’s appeal for women’s rights.  
+Q18d) Interpret New Deal timeline cause-and-effect.  
+Q19d) Interpret Kant’s categorical imperative principle.  
+Q20d) Interpret ethical conflict shown by the trolley problem.  
+Q21d) Interpret how ethical theories differ on lying.  
+Q22d) Interpret behavioral assumptions in “irrational exuberance.”  
+Q23d) Interpret systemic failures implied by “failure of imagination.”  
+Q24d) Interpret economic and political motives behind protectionist theater claims.  
+Q25d) Interpret meaning of choice and irony in Frost’s poem.  
+Q26d) Interpret Hamlet’s moral hesitation in the prayer scene.  
+Q27d) Interpret Gatsby’s green light symbolism.  
+Q28d) Interpret competing principles in ICU triage decisions.  
+Q29d) Interpret ethical tensions in selective vaccine exemptions.  
+Q30d) Interpret scientific ethics lessons from falsified climate data.  
