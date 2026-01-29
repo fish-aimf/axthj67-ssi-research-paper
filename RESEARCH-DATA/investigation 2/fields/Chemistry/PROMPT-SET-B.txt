@@ -17,16 +17,16 @@ Q16b) Explain oxidation and reduction in terms of electron transfer.
 Q17b) Define molarity as it relates to solutions.
 Q18b) What are intermolecular forces? Provide examples.
 Q19b) Predict and balance the products when aluminum reacts with HCl.
-Q20b) Using formation enthalpies, calculate the enthalpy change of methane combustion.
+Q20b) Using the titration information provided, determine the molarity of the acid and describe the calculation process.
 Q21b) Describe how temperature affects the equilibrium of N2 + 3H2 ⇌ 2NH3.
-Q22b) Identify the limiting reagent when 5 g of Na reacts with 10 g of Cl2.
-Q23b) From a titration curve, determine the equivalence point and unknown solution concentration.
+Q22b) Calculate the expected yield of aluminum chloride from 10 grams of aluminum and explain the steps.
+Q23b) Analyze how temperature increase influences both kinetics and equilibrium for an exothermic reaction.
 Q24b) Compare the acid strengths of HCl, H2SO4, and H3PO4 based on pKa.
 Q25b) Explain the boiling point trend of halogens from F2 to I2.
 Q26b) Why does gas solubility reduce as temperature increases?
 Q27b) Analyze IR spectra to identify functional groups.
 Q28b) Evaluate the effect of a catalyst on reaction rates using a given graph.
-Q29b) Explain the environmental consequences of acid rain from chemical reactions.
+Q29b) Interpret the features of an energy profile diagram and describe what they indicate about the reaction.
 Q30b) Why do ionic compounds conduct electricity when molten but not when solid?
 Q31b) Discuss whether hydrogen is a more sustainable fuel than fossil fuels.
 Q32b) Should industrial chemistry adopt green chemistry principles? Explain.
@@ -45,4 +45,5 @@ Q44b) State the chemical symbol for potassium.
 Q45b) Which period 3 element is classified as a halogen?
 Q46b) What is the room-temperature standard state of mercury?
 Q47b) Which gas is produced when zinc reacts with hydrochloric acid?
-Q48b) Determine the pH of a 0.01 M HCl solution.
+Q48b) What pH corresponds to a neutral aqueous solution?
+
