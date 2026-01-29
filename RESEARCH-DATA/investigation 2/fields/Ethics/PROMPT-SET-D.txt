@@ -13,7 +13,7 @@ Q11d) What is the ethical principle of autonomy?
 Q12d) Define ethical egoism and provide an example scenario.  
 
 Q13d) Analyze ethical issues arising from AI decision-making in healthcare.  
-Q14d) Evaluate possible decisions when a company faces a choice between environmental responsibility and profit.  
+Q14d) What is informed consent and why is it essential in ethical practice? 
 Q15d) Determine the ethical method for allocating limited organs to patients.  
 Q16d) Examine the implications of whistleblowing on organizational culture and individual ethics.  
 Q17d) How can conflicts between cultural norms and universal human rights be ethically resolved?  
@@ -46,3 +46,4 @@ Q39d) Which philosopher is associated with deontological ethics?
 Q40d) What term refers to the belief that morality depends on culture or society?  
 Q41d) Name the ethical theory that prioritizes character traits over rules or consequences.  
 Q42d) What term describes the duty to act according to professional ethical standards?
+
