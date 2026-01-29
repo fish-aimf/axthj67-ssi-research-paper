@@ -17,16 +17,16 @@ Q16c) Describe oxidation and reduction with respect to electron transfer.
 Q17c) Define the concept of molarity in solution chemistry.
 Q18c) What are intermolecular forces? Provide examples.
 Q19c) Predict the products and balance the reaction of aluminum with HCl.
-Q20c) Calculate the reaction enthalpy for methane combustion using enthalpies of formation.
+Q20c) Analyze the titration results to find the acid concentration and show how the answer is obtained.
 Q21c) How does temperature affect the equilibrium position for N2 + 3H2 ⇌ 2NH3?
-Q22c) Find the limiting reagent when 5 g of sodium reacts with 10 g of chlorine.
-Q23c) Using a titration curve, identify the equivalence point and the concentration of the unknown.
+Q22c) Using stoichiometric reasoning, find the theoretical yield formed from 10 grams of aluminum.
+Q23c) Describe how raising temperature changes reaction rate and equilibrium position in an exothermic reaction.
 Q24c) Compare the acidity of HCl, H2SO4, and H3PO4 using pKa values.
 Q25c) Explain the trend in boiling points of halogens from fluorine to iodine.
 Q26c) Explain why increasing temperature reduces the solubility of gases.
 Q27c) Use IR spectral data to identify functional groups.
 Q28c) Examine how the presence of a catalyst affects reaction rate using a graph.
-Q29c) Discuss the environmental impact of acid rain based on chemical reactions.
+Q29c) Analyze a reaction energy diagram to explain activation energy and overall energy change.
 Q30c) Explain why molten ionic compounds conduct electricity while solid ones do not.
 Q31c) Analyze whether hydrogen fuel is more sustainable than using fossil fuels.
 Q32c) Should chemists focus on green chemistry in industrial processes? Explain.
@@ -45,4 +45,5 @@ Q44c) Provide the chemical symbol for potassium.
 Q45c) Identify the halogen in period 3.
 Q46c) What is the standard state of mercury at room temperature?
 Q47c) Which gas forms when zinc reacts with HCl?
-Q48c) Calculate the pH of a hydrochloric acid solution with concentration 0.01 M.
+Q48c) Identify the pH level of neutral water at room temperature.
+
