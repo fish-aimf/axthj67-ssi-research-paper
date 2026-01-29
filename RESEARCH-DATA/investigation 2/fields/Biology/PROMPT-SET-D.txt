@@ -1,13 +1,13 @@
 Q1d) What is the percentage increase of a bacterial population growing from 2.0 × 10^6 to 5.0 × 10^6 cells in 6 hours?
-Q2d) Determine the net movement of water when a −0.8 MPa plant cell is placed in a −0.3 MPa solution.
+Q2d) Given an initial count of 2000 bacteria that doubles every 30 minutes, find the population size at the end of 3 hours.
 Q3d) Determine net O₂ production given photosynthesis at 12 µmol O₂ m⁻² s⁻¹ and respiration at 4 µmol O₂ m⁻² s⁻¹.
 Q4d) What offspring phenotypic ratio results from the cross AaBb × AaBb?
 Q5d) What is the length in nanometers of a DNA molecule containing 1200 base pairs?
 Q6d) Calculate the rate of an enzyme reaction that converts 90 mmol of substrate in 30 minutes.
 Q7d) Describe how to prepare a wet mount slide of onion epidermis.
 Q8d) Explain a simple laboratory procedure for plant DNA extraction.
-Q9d) List mitotic stages in order and describe the key events in each.
-Q10d) Explain how to control variables when testing light intensity effects on photosynthesis.
+Q9d) List the sequential steps required to obtain DNA from plant cells with a detergent based method.
+Q10d) Provide a step by step method for observing onion epidermal cells using a microscope.
 Q11d) Explain the Gram staining procedure used for bacteria.
 Q12d) Describe how a potometer is used to determine transpiration rate.
 Q13d) Explain natural selection and its fundamental components.
@@ -46,3 +46,4 @@ Q45d) What constitutes the fundamental unit of life?
 Q46d) What gas is released during the process of photosynthesis?
 Q47d) What cellular process releases energy from glucose?
 Q48d) Which kingdom includes fungi?
+
