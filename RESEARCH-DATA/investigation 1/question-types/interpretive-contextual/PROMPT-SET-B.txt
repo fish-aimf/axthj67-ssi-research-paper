@@ -1,30 +1,30 @@
-Q1b) A mathematician states "elegance in proof lies not in brevity, but in beauty"—interpret what this suggests about their mathematical philosophy.
-Q2b) A physics article mentions "unexpected harmonious patterns" in experimental results—interpret what the author's metaphor might signify.
-Q3b) A statistician claims "some models are useful, though all models are wrong"—interpret the epistemological meaning of this assertion.
-Q4b) Historical writings describe light as "emanations of corpuscular nature"—interpret what this reveals about scientific thinking of that period.
-Q5b) A physicist states quantum mechanics reveals "nature's rejection of definiteness"—interpret the philosophical position this language conveys.
-Q6b) Early thermodynamics literature refers to heat as a "fluid of subtle character"—interpret what this suggests about theoretical frameworks then.
-Q7b) An alchemical text mentions "sun and moon in sacred marriage"—interpret what chemical transformation this symbolic phrase likely indicates.
-Q8b) A chemist notes a reaction that "sleeps and breathes rhythmically"—interpret what observable behavior this poetic language might describe.
-Q9b) A 19th-century source defines elements as "elementary substances resisting all analytical efforts"—interpret the theoretical premises behind this definition.
-Q10b) A biologist characterizes cells as "life's elementary particles"—interpret what conceptual approach this analogy indicates.
-Q11b) An ecologist states forests "retain memory" of previous disturbances—interpret what ecological principle this metaphor expresses.
-Q12b) Darwin described nature as "selecting" advantageous variations—interpret whether this phrasing suggests intent or is merely figurative.
-Q13b) Documentation describes code as "telling its own story"—interpret what software philosophy this viewpoint represents.
-Q14b) A system designer characterizes architecture as having "organic growth patterns"—interpret what development methodology this implies.
-Q15b) An interface is reviewed as being "conversational in nature"—interpret what user experience values this description highlights.
-Q16b) Examine a historical propaganda poster and interpret the intended message and target audience.
-Q17b) Analyze a political speech transcript and interpret the speaker's implicit assumptions and rhetorical strategies.
-Q18b) Given conflicting historical accounts of an event, interpret which sources are most credible and why.
-Q19b) Examine a philosophical paradox and interpret what it reveals about language, logic, or metaphysics.
-Q20b) Analyze an ancient ethical text and interpret how its moral framework applies to modern dilemmas.
-Q21b) Given a thought experiment with ambiguous implications, interpret what philosophical position it best supports.
-Q22b) An economist characterizes a market as behaving "irrationally"—interpret what assumptions about behavior and rationality this reflects.
-Q23b) A crisis is termed "an imagination failure" in financial reporting—interpret what systemic problems this metaphor may indicate.
-Q24b) Trade policy is labeled "theater of protectionist nature"—interpret what political and economic motives this suggests.
-Q25b) Examine ambiguous symbolism in a short story and interpret its thematic significance.
-Q26b) Analyze a narrator's unreliable account and interpret what the text suggests really happened.
-Q27b) Given a play's ending with multiple possible meanings, interpret which interpretation best fits the work's themes.
-Q28b) Examine conflicting medical opinions on a treatment decision and interpret which ethical framework each physician is applying.
-Q29b) Analyze a bioethics committee's decision rationale and interpret the implicit value judgments underlying their conclusion.
-Q30b) Given an ambiguous research ethics scenario, interpret what principles are in tension and how they might be balanced.
+Q1b) A mathematician argues that symmetry, not conciseness, gives a proof its beauty—interpret what this says about their aesthetic philosophy.
+Q2b) A 1920s paper notes harmony between wave and particle—interpret what this suggests about beliefs on light.
+Q3b) A statistician accepts flawed models as useful—interpret the epistemological stance behind this.
+Q4b) An 1850s text presents light as particles in ether—interpret era assumptions about space and energy.
+Q5b) A physicist says quantum theory rejects definiteness—interpret the implied philosophy of reality.
+Q6b) Heat is described as flowing caloric—interpret what this theory misunderstood.
+Q7b) Alchemical symbolism of sun and moon union—interpret the metallic process implied.
+Q8b) A reaction described as breathing—interpret the oscillatory phenomenon and vitalist implications.
+Q9b) Oxygen and hydrogen described as undecomposable—interpret atomic assumptions.
+Q10b) Cells described as indivisible—interpret early biological theory and later challenges.
+Q11b) Forests said to retain memory—interpret ecological succession concepts.
+Q12b) Natural selection likened to breeding—interpret metaphor vs intent.
+Q13b) Code described narratively—interpret design philosophy.
+Q14b) Microservices compared to organisms—interpret assumptions about system evolution.
+Q15b) Voice tech described as humanlike—interpret UX and anthropomorphic framing.
+Q16b) Interpret WWI anti-immigration cartoon symbolism.
+Q17b) Interpret Abigail Adams’ appeal for women’s rights.
+Q18b) Interpret New Deal timeline causality.
+Q19b) Interpret Kant’s universal law principle.
+Q20b) Interpret trolley problem ethical conflict.
+Q21b) Interpret ethical frameworks on lying.
+Q22b) Interpret “irrational exuberance” in financial context.
+Q23b) Interpret “failure of imagination” in crisis analysis.
+Q24b) Interpret critique of protectionist trade policy.
+Q25b) Interpret Frost’s ending as sincere or ironic.
+Q26b) Interpret Hamlet’s moral hesitation.
+Q27b) Interpret green light symbolism.
+Q28b) Interpret ICU allocation ethics.
+Q29b) Interpret vaccine mandate ethics.
+Q30b) Interpret lessons from data fabrication.
