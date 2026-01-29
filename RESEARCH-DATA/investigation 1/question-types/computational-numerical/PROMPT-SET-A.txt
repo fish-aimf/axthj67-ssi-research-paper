@@ -1,4 +1,4 @@
-Q1a) Calculate the value of 7 factorial (7!).
+Q1a) Calculate the value of 7 factorial (7!). 
 Q2a) Solve for x in the equation 3x - 5 = 16.
 Q3a) Find the square root of 625.
 Q4a) A car accelerates from 0 to 20 m/s in 5 seconds. Determine its acceleration.
@@ -28,3 +28,4 @@ Q27a) A patient takes 500 mg of a drug every 8 hours for 3 days. Find the total 
 Q28a) If the probability of an event is 0.2, calculate the odds in favor.
 Q29a) A coin is flipped 10 times. Calculate the expected number of heads.
 Q30a) A sample of 25 people has a mean of 50 and SD of 8. Calculate the 95% confidence interval.
+
