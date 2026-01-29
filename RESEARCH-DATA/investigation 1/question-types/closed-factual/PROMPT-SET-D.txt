@@ -1,6 +1,6 @@
-Q1d) What value do you get when computing 7! (seven factorial)?
+Q1d) What numerical value does the constant pi (π) have when expressed to two decimal places?
 Q2d) Which number is equal to √144?
-Q3d) What is x in the equation 2x + 3 = 7?
+Q3d) Under standard atmospheric pressure, what is water's freezing point in degrees Celsius?
 Q4d) What is the accepted gravitational acceleration on Earth measured in m/s²?
 Q5d) Which subatomic particle bears a negative electric charge?
 Q6d) What is the SI unit for measuring resistance in electricity?
@@ -28,3 +28,4 @@ Q27d) What punctuation mark is used to indicate possession in English?
 Q28d) What ethical framework judges actions according to their consequences?
 Q29d) What principle in medical ethics translates to “do no harm”?
 Q30d) Who is the writer of “Groundwork of the Metaphysics of Morals”?
+
