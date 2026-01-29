@@ -19,12 +19,12 @@ Q16a) Define what it means for a function to be continuous.
 Q17a) Explain the principle of mathematical induction.  
 Q18a) Define what is meant by a probability distribution.  
 
-Q19a) If f(x) = x^2 and g(x) = 3x + 2, find and simplify (f∘g)(x).  
+Q19a) Use the substitution method to solve two linear equations and describe the process. 
 Q20a) For the sequence 2, 4, 8, 16, ..., derive a formula for the nth term and calculate the 10th term.  
 Q21a) A rectangle has a perimeter of 50 and its length is twice the width. Find its dimensions.  
 Q22a) Given f(x) = x^3 - 6x^2 + 11x - 6, determine all roots and explain your reasoning.  
 Q23a) A coin is tossed three times. Find the probability of exactly 2 heads and justify your approach.  
-Q24a) Solve the system: x + y + z = 6, x - y + 2z = 3, 2x + y - z = 4.  
+Q24a) Calculate the total displacement of a particle whose velocity varies quadratically with time.
 
 Q25a) Interpret the graph of y = x^3 - 3x^2 + 2x and describe its main features, including maxima, minima, and inflection points.  
 Q26a) Explain the relevance of the golden ratio in the Fibonacci sequence.  
@@ -49,7 +49,8 @@ Q42a) Design a small-scale study to compare mnemonic techniques for memorizing f
 
 Q43a) What is the sum of the interior angles of a triangle?  
 Q44a) How many edges does a cube have?  
-Q45a) Find the derivative of x^2.  
+Q45a) State the value of pi correct to three decimal places. 
 Q46a) State the value of π to two decimal places.  
-Q47a) What is the square root of 144?  
-Q48a) Compute 7 factorial (7!).
+Q47a) Find the derivative of x squared.  
+Q48a) State the formula for finding the area of a circle.
+
