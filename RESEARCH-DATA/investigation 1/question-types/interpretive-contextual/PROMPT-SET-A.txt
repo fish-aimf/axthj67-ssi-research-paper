@@ -1,27 +1,27 @@
-Q1a) Examine an abstract mathematical diagram with overlapping shapes and symbols, and interpret what conceptual relationship or theorem the artist might be illustrating.
-Q2a) Given a graph showing irregular data points from a real-world phenomenon, interpret whether the underlying pattern suggests causation, correlation, or randomness.
-Q3a) Analyze a historical mathematician's cryptic notebook entry with unusual notation, and interpret what problem they might have been attempting to solve.
-Q4a) Examine a physics textbook illustration from the 1800s depicting "ether" and interpret what it reveals about scientific understanding and assumptions of that era.
-Q5a) Given a scientist's lab notebook sketch with ambiguous annotations, interpret the experimental setup and what hypothesis they might have been testing.
-Q6a) Interpret a historical debate transcript between physicists about quantum mechanics and explain what philosophical assumptions underlie their disagreement.
-Q7a) Analyze an alchemical manuscript's symbolic diagrams and interpret what chemical processes or substances the symbols likely represent.
-Q8a) Given a chemist's field notes describing an unexpected reaction color change, interpret possible explanations and what they suggest about reaction mechanisms.
-Q9a) Examine a 19th-century chemistry textbook's classification system and interpret how it reflects the scientific paradigms and limitations of that period.
-Q10a) Observe a microscope image showing unusual cellular structures and interpret what biological process or condition might explain the anomaly.
-Q11a) Given an ecological field study's conflicting observations, interpret which environmental factors most plausibly explain the population changes.
-Q12a) Analyze Darwin's sketches of finch beaks and interpret what reasoning process led him to his conclusions about adaptation.
-Q13a) Examine a programmer's commented code with ambiguous variable names and interpret the intended purpose of the algorithm.
-Q14a) Given a software architecture diagram with unconventional connections, interpret the designer's rationale and what problem they were solving.
-Q15a) Analyze a tech company's internal memo about a failed project and interpret what organizational or technical factors contributed to the failure.
+Q1a) A mathematician writes "beauty lies in the proof's elegance, not its brevity"—interpret what this reveals about their philosophy of mathematical knowledge.
+Q2a) A physics paper describes an experiment's "unexpected harmonies"—interpret what the author might mean by this metaphorical language.
+Q3a) A statistician states "all models are wrong, but some are useful"—interpret the epistemological implications of this claim.
+Q4a) A historical text describes light as "corpuscular emanations"—interpret what this language reveals about the era's scientific worldview.
+Q5a) A physicist writes that quantum mechanics shows "nature abhors definiteness"—interpret the philosophical stance this statement reflects.
+Q6a) An early thermodynamics text refers to heat as a "subtle fluid"—interpret what this metaphor suggests about theoretical understanding at the time.
+Q7a) An alchemist's journal mentions "the marriage of sun and moon"—interpret what chemical process this symbolic language likely describes.
+Q8a) A chemist's notes say a reaction "breathes and sleeps"—interpret what observable phenomenon this poetic description might reference.
+Q9a) A 19th-century text calls certain elements "elementary substances that resist all analysis"—interpret the theoretical assumptions underlying this definition.
+Q10a) A biologist describes cells as "the elementary particles of life"—interpret what this analogy reveals about their conceptual framework.
+Q11a) An ecologist writes that a forest "remembers" past disturbances—interpret what ecological concept this metaphorical language expresses.
+Q12a) Darwin wrote that nature "selects" favorable variations—interpret whether this language implies intentionality or is purely metaphorical.
+Q13a) A programmer's documentation states "the code tells a story"—interpret what software design philosophy this perspective reflects.
+Q14a) A systems architect writes that a design has "organic growth"—interpret what this metaphor suggests about the development approach.
+Q15a) A tech review describes an interface as "conversational"—interpret what user experience principles this characterization emphasizes.
 Q16a) Interpret a historical political cartoon and explain what commentary it provides on social or political events of its era.
 Q17a) Examine a primary source letter and interpret the author's perspective and intentions.
 Q18a) Analyze a timeline of key events and interpret the cause-and-effect relationships between them.
 Q19a) Given a philosophical excerpt, interpret the main arguments and evaluate their implications for moral reasoning.
 Q20a) Examine a thought experiment and interpret its significance in illustrating a philosophical principle.
 Q21a) Analyze a diagram of ethical theories and interpret how different frameworks approach the same moral dilemma.
-Q22a) Examine conflicting economic reports about a policy's impact and interpret which interpretation is most supported by the evidence.
-Q23a) Given a historical account of an economic crisis with partisan perspectives, interpret the underlying causes beyond the political rhetoric.
-Q24a) Analyze a corporation's annual report with vague financial language and interpret what the company might be obscuring or emphasizing.
+Q22a) An economist describes a market as "irrational"—interpret what assumptions about rationality and behavior this judgment reflects.
+Q23a) A financial report calls a crisis "a failure of imagination"—interpret what systemic issues this metaphor might be highlighting.
+Q24a) A trade policy is described as "protectionist theater"—interpret what economic and political motivations this characterization suggests.
 Q25a) Given a poem, interpret its central theme and how literary devices contribute to its meaning.
 Q26a) Examine a novel passage and interpret the development of a character's internal conflict.
 Q27a) Analyze a metaphor in a text and interpret its broader significance within the work's context.
