@@ -1,13 +1,13 @@
 Q1b) Calculate the percentage growth of a bacterial population increasing from 2.0 × 10^6 to 5.0 × 10^6 cells in 6 hours.
-Q2b) If a plant cell has a water potential of −0.8 MPa and is placed in a −0.3 MPa solution, determine the net movement of water.
+Q2b) A culture begins with 2000 bacteria and doubles in size every half hour. Determine the total population after 3 hours.
 Q3b) With photosynthesis producing 12 µmol O₂ m⁻² s⁻¹ and respiration using 4 µmol O₂ m⁻² s⁻¹, find the net oxygen production.
 Q4b) What phenotypic ratio is expected from the dihybrid cross AaBb × AaBb?
 Q5b) Determine the length in nanometers of a DNA fragment with 1200 base pairs, given 0.34 nm per base pair.
 Q6b) An enzyme processes 90 mmol of substrate over 30 minutes; calculate its rate per minute.
 Q7b) Explain how to prepare a wet mount slide of onion epidermal cells for microscopic examination.
 Q8b) Describe a basic laboratory procedure for extracting DNA from plant material.
-Q9b) State the stages of mitosis in correct order and explain what happens in each.
-Q10b) Describe how to set up a controlled experiment to test the effect of light intensity on photosynthesis.
+Q9b) Outline the procedure used to isolate plant DNA through a detergent salt technique.
+Q10b) Explain the steps needed to make a temporary onion epidermis slide for microscopic observation.
 Q11b) Outline the procedure used to carry out a Gram stain on bacterial samples.
 Q12b) Describe how transpiration rate can be measured using a potometer.
 Q13b) Define natural selection and outline its essential elements.
@@ -46,4 +46,5 @@ Q45b) What is considered the fundamental unit of life?
 Q46b) Which gas is produced during photosynthesis?
 Q47b) Which cellular process converts glucose into usable energy?
 Q48b) To which biological kingdom do fungi belong?
+
 
