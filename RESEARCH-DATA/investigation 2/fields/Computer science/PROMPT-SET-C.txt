@@ -27,7 +27,7 @@ Q26c) How should a confusion matrix be interpreted when false negatives are much
 Q27c) What do frequent segmentation faults suggest about a program’s memory usage?
 Q28c) What can be inferred from a network experiencing high latency but minimal packet loss?
 Q29c) How can user interaction logs be interpreted to assess web application usability?
-Q30c) What ethical implications are associated with public deployment of facial recognition systems?
+Q30c) Review the algorithm and describe its intended purpose.
 Q31c) Should proprietary software vendors disclose their source code for security reasons? Defend your answer.
 Q32c) Should algorithmic hiring decisions be allowed? Evaluate this practice.
 Q33c) Evaluate the statement that low-level programming knowledge is unnecessary for modern engineers.
@@ -46,3 +46,4 @@ Q45c) What port does HTTP use by default?
 Q46c) Which data structure follows a FIFO ordering?
 Q47c) What is the standard algorithm for shortest paths in weighted graphs?
 Q48c) Which company was responsible for the original development of Java?
+
