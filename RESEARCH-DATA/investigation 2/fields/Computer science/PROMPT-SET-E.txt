@@ -27,7 +27,7 @@ Q26e) Interpret a confusion matrix where false negatives significantly exceed fa
 Q27e) Interpret what frequent segmentation faults imply about memory usage in a program.
 Q28e) Interpret the meaning of high latency with low packet loss in a network.
 Q29e) Interpret user interaction logs to understand web application usability.
-Q30e) Discuss the ethical implications of using facial recognition in public environments.
+Q30e) From the given pseudocode, infer the function and objective of the algorithm.
 Q31e) Should proprietary software vendors be required to reveal source code for security? Justify your view.
 Q32e) Evaluate whether hiring decisions should rely on algorithmic decision-making.
 Q33e) Assess whether learning low-level programming languages is still necessary for modern engineers.
@@ -46,3 +46,4 @@ Q45e) What port number does HTTP use by default?
 Q46e) Which data structure follows the FIFO rule?
 Q47e) What algorithm is typically used to determine the shortest path in a weighted graph?
 Q48e) Which company originally developed Java?
+
