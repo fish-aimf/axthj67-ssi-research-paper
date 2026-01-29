@@ -17,16 +17,16 @@ Q16a) Define oxidation and reduction in terms of electron transfer.
 Q17a) Explain the meaning of molarity in solutions.
 Q18a) Define “intermolecular forces” and give examples.
 Q19a) Predict the products and balance the reaction of aluminum with hydrochloric acid.
-Q20a) Using enthalpies of formation, calculate the reaction enthalpy for methane combustion.
+Q20a) Calculate the concentration of hydrochloric acid based on titration data and explain the reasoning used.
 Q21a) Analyze how temperature changes affect the equilibrium position of N2 + 3H2 ⇌ 2NH3.
-Q22a) Determine the limiting reagent when 5 g of sodium reacts with 10 g of chlorine.
-Q23a) From a titration curve, identify the equivalence point and the concentration of the unknown solution.
+Q22a) Determine the theoretical amount of aluminum chloride produced when 10 grams of aluminum react completely.
+Q23a) Explain the effects of higher temperature on reaction speed and equilibrium in an exothermic system.
 Q24a) Compare the acidity of HCl, H2SO4, and H3PO4 using their pKa values.
 Q25a) Explain the trend in boiling points of halogens from F2 to I2.
 Q26a) Why does gas solubility decrease with increasing temperature?
 Q27a) Interpret IR spectral data to identify functional groups.
 Q28a) Analyze the effect of a catalyst on reaction rate using a provided graph.
-Q29a) Discuss the environmental effects of acid rain based on chemical reactions.
+Q29a) Explain what information about activation energy and catalysts can be obtained from a reaction energy diagram.
 Q30a) Explain why ionic compounds conduct electricity when molten but not in solid form.
 Q31a) Evaluate if using hydrogen fuel is more sustainable than fossil fuels.
 Q32a) Should green chemistry be prioritized in industrial processes? Justify your answer.
@@ -45,5 +45,6 @@ Q44a) What is the chemical symbol for potassium?
 Q45a) Which element in period 3 is a halogen?
 Q46a) What is mercury’s standard state at room temperature?
 Q47a) Which gas forms when hydrochloric acid reacts with zinc?
-Q48a) Calculate the pH of a 0.01 M HCl solution.
+Q48a) State the pH value of a neutral solution at room temperature.
+
 
