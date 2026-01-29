@@ -19,7 +19,7 @@ Q16d) Define a continuous function.
 Q17d) Explain mathematical induction.  
 Q18d) Define a probability distribution.  
 
-Q19d) If f(x) = x^2 and g(x) = 3x + 2, determine (f∘g)(x) and simplify.  
+Q19d) Demonstrate the steps involved in solving linear equations using substitution.
 Q20d) For the sequence 2, 4, 8, 16, ..., formulate the nth term and compute the 10th term.  
 Q21d) A rectangle with perimeter 50 has length twice its width. Find its dimensions.  
 Q22d) Solve f(x) = x^3 - 6x^2 + 11x - 6 for all roots with reasoning.  
@@ -53,3 +53,4 @@ Q45d) Determine the derivative of x^2.
 Q46d) State the value of π to two decimal places.  
 Q47d) Compute the square root of 144.  
 Q48d) Find 7 factorial (7!).
+
