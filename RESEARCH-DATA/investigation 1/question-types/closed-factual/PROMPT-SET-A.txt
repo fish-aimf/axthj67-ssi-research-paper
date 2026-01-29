@@ -1,6 +1,6 @@
 Q1a) What is the standard value of the mathematical constant pi (π) to two decimal places?
 Q2) What is the square root of 144?
-Q3) What is the value of x in the equation 2x + 3 = 7?
+Q3a) What is the freezing point of water in degrees Celsius at standard atmospheric pressure?
 
 Q4) What is the standard acceleration due to gravity on Earth in metres per second squared?
 Q5) What subatomic particle carries a negative electric charge?
@@ -37,4 +37,5 @@ Q27) What punctuation mark is used to indicate possession in English nouns?
 Q28) What is the ethical theory that judges actions by their consequences called?
 Q29) What is the medical ethics principle meaning “do no harm” called?
 Q30) Who wrote “Groundwork of the Metaphysics of Morals”?
+
 
