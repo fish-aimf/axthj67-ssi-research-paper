@@ -409,16 +409,15 @@ A28e answer here"></textarea>
             const answers = {};
             
             lines.forEach(line => {
-                // Ultra flexible regex: matches A1a: A1a) A1a. A1a or even just A1a
-                const match = line.match(/^A(\d+)[a-z]?[\s:).]*(.+)$/i);
+                const match = line.match(/^A(\d+)[a-e]?[\s:.)\-]*(.*)$/i);
                 if (match) {
-                    const answerNum = match[1];
-                    const text = match[2].trim();
+                    const questionNum = match[1];  
+                    const answerText = match[2];   
                     
-                    if (!answers[answerNum]) {
-                        answers[answerNum] = {};
+                    if (!answers[questionNum]) {
+                        answers[questionNum] = {};
                     }
-                    answers[answerNum][setLetter] = text;
+                    answers[questionNum][setLetter] = answerText;
                 }
             });
             
