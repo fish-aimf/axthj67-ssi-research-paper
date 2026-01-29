@@ -27,7 +27,7 @@ Q26a) Interpret a confusion matrix in which false negatives are much higher than
 Q27a) Given a program that crashes frequently, interpret what repeated segmentation faults imply about memory usage.
 Q28a) Interpret the significance of high network latency combined with low packet loss.
 Q29a) Interpret what user interaction logs can reveal about the usability of a web application.
-Q30a) Interpret the ethical concerns associated with deploying facial recognition technology in public areas.
+Q30a) Analyze the pseudocode and explain the task the algorithm performs.
 Q31a) Should vendors of proprietary software be obligated to disclose source code for security purposes? Justify your response.
 Q32a) Evaluate whether the use of algorithmic decision-making in hiring processes should be permitted.
 Q33a) Assess the claim that modern software engineers do not need to learn low-level programming languages.
@@ -46,3 +46,4 @@ Q45a) What is the default port number used by HTTP?
 Q46a) Which data structure follows the First-In-First-Out (FIFO) principle?
 Q47a) What algorithm is commonly used to compute the shortest path in a weighted graph?
 Q48a) Which company initially developed the Java programming language?
+
