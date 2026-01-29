@@ -1,6 +1,6 @@
-A1d) 5040
+A1d) 3.14 
 A2d) 12
-A3d) 2
+A3d) 0 °C
 A4d) 9.8
 A5d) Electron
 A6d) Ohm
@@ -28,3 +28,4 @@ A27d) Apostrophe
 A28d) Consequentialism
 A29d) Non-maleficence
 A30d) Immanuel Kant
+
