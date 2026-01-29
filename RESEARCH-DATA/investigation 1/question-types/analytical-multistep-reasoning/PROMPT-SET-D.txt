@@ -14,9 +14,9 @@ Q10d) A trait varies in a population across three environments; analyze selectio
 Q11d) Two enzymes inhibit a metabolic pathway; analyze feedback, substrate levels, and alternative pathways affecting ATP production.
 Q12d) Disease spreads through networks differentiated by age; analyze transmission, incubation, and immunity to model epidemic curves.
 
-Q13d) A sorting algorithm adds a partition preprocessing step; analyze best-, average-, and worst-case complexities and which data types benefit.
+Q13d) A policy reduces corporate taxation while cutting deductions; analyze how fiscal revenue, capital investment incentives, and distributional effects combine to shape medium-term economic results.
 Q14d) A distributed system asynchronously replicates data; analyze consistency, latency, and failures to select the most reliable resolution method.
-Q15d) Dynamic programming can use memoization or tabulation; analyze memory, recomputation, and input scale to choose the most suitable method.
+Q15d) Trial data show a medication works well but poses rare serious dangers; analyze how risk-benefit analysis, patient decision-making rights, and approval standards should shape regulatory action.
 
 Q16d) A revolution arises from economic decline, foreign influence, and ideological movements; analyze how these contribute to timing and nature.
 Q17d) A post-war treaty alters borders and trade; analyze national interests, economic pressures, and security factors affecting its terms.
@@ -37,3 +37,4 @@ Q27d) Characters debate a moral issue with coded assumptions; analyze dialogue a
 Q28d) ICU beds are limited in a crisis; analyze utilitarian, fairness, and duty-based principles to prioritize allocation.
 Q29d) A company plans employee-monitoring AI; analyze privacy, stakeholder, and trust issues for ethical implementation.
 Q30d) A renewable energy project affects livelihoods; analyze environmental, justice, and participatory considerations to guide decisions.
+
