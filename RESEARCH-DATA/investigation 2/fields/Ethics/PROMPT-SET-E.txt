@@ -13,7 +13,7 @@ Q11e) What is meant by the principle of autonomy in ethics?
 Q12e) Define ethical egoism and provide an example application.  
 
 Q13e) Examine the ethical considerations of AI-based decision-making in healthcare.  
-Q14e) Evaluate the options available when a company must choose between profit and environmental responsibility.  
+Q14e) Define informed consent and discuss its relevance in ethical decisions.  
 Q15e) Identify an ethically justified approach for allocating scarce organs to patients.  
 Q16e) Analyze the impact of whistleblowing on organizational culture and personal ethical behavior.  
 Q17e) How should one resolve ethical conflicts between cultural norms and universal human rights?  
@@ -46,3 +46,4 @@ Q39e) Which philosopher is associated with deontological ethics?
 Q40e) What term describes morality as relative to culture or society?  
 Q41e) Name the ethical theory that emphasizes character over rules or consequences.  
 Q42e) What term refers to the duty to follow professional standards and responsibilities?
+
