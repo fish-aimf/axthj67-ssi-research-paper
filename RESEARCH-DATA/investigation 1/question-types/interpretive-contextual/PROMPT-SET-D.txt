@@ -1,39 +1,30 @@
-Q1d) Look at the graph of a quadratic function and interpret how its vertex and axis of symmetry show maximum or minimum values.  
-Q2d) In a projectile scenario, interpret how changes to initial velocity and angle affect the object’s trajectory and height.  
-Q3d) Examine a number sequence and interpret the pattern that governs its progression.  
-
-Q4d) Review a simple harmonic oscillator diagram and interpret how variations in amplitude or frequency affect energy.  
-Q5d) Given an inclined plane experiment, interpret how adjusting the angle modifies the object’s acceleration.  
-Q6d) Interpret a velocity-time graph to understand the physical significance of areas under the curve.  
-
-Q7d) Analyze a molecular structure and interpret how its geometry affects reactivity.  
-Q8d) Given a reaction mechanism, interpret the roles of intermediates and transition states in the reaction.  
-Q9d) Examine a periodic table excerpt and interpret trends in size, ionization energy, and electronegativity.  
-
-Q10d) Observe a cell under a microscope and interpret the functions of the visible organelles.  
-Q11d) Given a food web, interpret the ecosystem impact of removing a species.  
-Q12d) Analyze a gene expression chart and interpret how environmental conditions influence protein production.  
-
-Q13d) Examine a code snippet and interpret its logic and expected outcome.  
-Q14d) Given a data structure diagram, interpret traversal methods and applications.  
-Q15d) Analyze a flowchart and interpret how varying inputs could affect algorithm results.  
-
-Q16d) Interpret a historical political cartoon and explain its social or political commentary.  
-Q17d) Examine a historical letter and interpret the author’s viewpoint and intention.  
-Q18d) Analyze a timeline and interpret causal relationships between events.  
-
-Q19d) Given a philosophical excerpt, interpret the main arguments and their ethical implications.  
-Q20d) Review a thought experiment and interpret its significance in illustrating a philosophical idea.  
-Q21d) Analyze a diagram of ethical theories and interpret how different approaches address the same moral problem.  
-
-Q22d) Examine economic data charts and interpret trends in supply, demand, or market behavior.  
-Q23d) Given a financial crisis case study, interpret the contributing factors and economic consequences.  
-Q24d) Analyze an infographic of economic indicators and interpret disparities in wealth or growth.  
-
-Q25d) Given a poem, interpret its main theme and how literary devices convey meaning.  
-Q26d) Examine a novel passage and interpret the development of a character’s internal conflict.  
-Q27d) Analyze a metaphor and interpret its broader meaning in the context of the text.  
-
-Q28d) Given a medical ethics case, interpret conflicting moral principles and propose resolutions.  
-Q29d) Examine a public health policy document and interpret its ethical implications for various groups.  
-Q30d) Analyze a research misconduct case and interpret lessons for ethical scientific practice.  
+Q1d) When a mathematician states "elegance, not brevity, defines a proof's beauty"—interpret what philosophy of mathematical knowledge this reflects.
+Q2d) A physics text refers to experimental "unexpected harmonies"—interpret what this metaphorical description might signify.
+Q3d) A statistician declares "some models prove useful, though all are wrong"—interpret the epistemological implications this carries.
+Q4d) Historical accounts characterize light as "emanations of corpuscular form"—interpret what this language shows about that era's scientific worldview.
+Q5d) A physicist writes quantum mechanics reveals "nature's rejection of definiteness"—interpret what philosophical stance this language indicates.
+Q6d) Early thermodynamic writings describe heat as a "fluid of subtle nature"—interpret what this metaphor suggests about theoretical understanding of the time.
+Q7d) An alchemist's text speaks of "sun and moon's sacred union"—interpret what chemical process this symbolic phrasing likely represents.
+Q8d) A chemist observes a reaction "sleeping and breathing"—interpret what phenomenon this poetic description might be referencing.
+Q9d) A 19th-century text defines elements as "elementary substances beyond analytical decomposition"—interpret what theoretical assumptions underpin this definition.
+Q10d) A biologist describes cells as "life's elementary building blocks"—interpret what conceptual framework this analogy reveals.
+Q11d) An ecologist claims a forest "retains memory" of disturbances—interpret what ecological concept this metaphorical language conveys.
+Q12d) Darwin wrote that nature "selects" beneficial traits—interpret whether this phrasing implies intentionality or serves as metaphor.
+Q13d) A programmer's notes state "the code narrates a story"—interpret what software design philosophy this viewpoint reflects.
+Q14d) A systems designer describes architecture as showing "organic growth"—interpret what development methodology this metaphor suggests.
+Q15d) A tech analysis calls an interface "conversational"—interpret what user experience principles this term emphasizes.
+Q16d) Interpret a historical political cartoon and explain what social or political commentary it provides on events of its era.
+Q17d) Examine a primary source letter and interpret the perspective and intentions of the author.
+Q18d) Analyze a timeline of key events and interpret the cause-and-effect relationships among them.
+Q19d) Given a philosophical excerpt, interpret the main arguments and evaluate what they imply for moral reasoning.
+Q20d) Examine a thought experiment and interpret what significance it holds in illustrating a philosophical principle.
+Q21d) Analyze a diagram of ethical theories and interpret how different frameworks address the same moral dilemma.
+Q22d) An economist characterizes a market as "irrational"—interpret what assumptions regarding rationality and behavior this reflects.
+Q23d) A financial analysis terms a crisis "a failure of imagination"—interpret what systemic issues this metaphor might highlight.
+Q24d) A trade policy is called "protectionist theater"—interpret what economic and political motivations this characterization suggests.
+Q25d) Given a poem, interpret its central theme and how literary devices contribute to that meaning.
+Q26d) Examine a novel passage and interpret the development of a character's internal struggle.
+Q27d) Analyze a metaphor in a text and interpret its broader significance within the context of the work.
+Q28d) Given a medical ethics case, interpret the competing moral principles involved and suggest possible resolutions.
+Q29d) Examine a public health policy document and interpret its ethical implications across various populations.
+Q30d) Analyze a case of research misconduct and interpret what ethical lessons it offers for scientific practice.
