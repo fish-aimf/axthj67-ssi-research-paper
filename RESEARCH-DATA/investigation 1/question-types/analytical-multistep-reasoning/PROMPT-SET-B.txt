@@ -14,9 +14,9 @@ Q10b) A trait varies in a population across three environments; analyze how sele
 Q11b) A metabolic pathway faces inhibition at two regulatory enzymes; analyze how feedback, substrate availability, and compensatory routes affect ATP output.
 Q12b) A disease spreads through diverse age-specific networks; analyze how transmission, incubation, and immunity shape epidemic progression.
 
-Q13b) A sorting algorithm is enhanced with a pre-processing partition; analyze best-, average-, and worst-case complexities and infer for which data types the change is advantageous.
+Q13b) A tax reform lowers corporate rates but removes deductions; analyze the interplay of government revenue, business investment, and wealth distribution to forecast economic outcomes across five years.
 Q14b) A distributed system asynchronously replicates data; analyze consistency, latency, and failure scenarios to select the most reliable conflict-resolution strategy.
-Q15b) A dynamic programming problem allows memoization or iterative tabulation; analyze memory demands, recomputation, and input size to choose the better approach.
+Q15b) Clinical trials reveal a drug is effective but carries uncommon serious risks; analyze the interplay of benefit-harm evaluation, informed consent, and regulatory criteria in determining approval.
 
 Q16b) A revolution occurs after economic downturn, foreign influence, and ideological pressures; analyze how these factors together influence timing and nature of the uprising.
 Q17b) A treaty after war modifies borders and trade relations; analyze how competing national interests, economics, and security shaped the terms.
@@ -37,3 +37,4 @@ Q27b) Two characters debate a moral issue with coded language and hidden assumpt
 Q28b) A hospital must ration ICU beds in a crisis; analyze utilitarian, fairness, and duty-based perspectives to justify choices.
 Q29b) A company considers implementing monitoring AI; analyze privacy, stakeholder concerns, and trust to determine ethical deployment.
 Q30b) A community debates a renewable energy project affecting livelihoods; analyze environmental benefits, justice, and participatory input to form a recommendation.
+
