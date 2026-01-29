@@ -17,15 +17,15 @@ Q16e) Explain oxidation and reduction using electron transfer.
 Q17e) Define molarity in the context of solutions.
 Q18e) Explain what intermolecular forces are and give examples.
 Q19e) Predict the products and write a balanced equation for the reaction between aluminum and hydrochloric acid.
-Q20e) Using enthalpies of formation, calculate the enthalpy change for the combustion of methane.
+Q20e) Determine the strength of the acid using the titration data and provide a step by step explanation.
 Q21e) Explain how an increase or decrease in temperature affects the equilibrium position of N2 + 3H2 ⇌ 2NH3.
-Q22e) Determine the limiting reagent when 5 g of sodium reacts with 10 g of chlorine gas.
-Q23e) Using a titration curve, identify the equivalence point and determine the concentration of the unknown solution.
+Q22e) Compute the theoretical product yield when aluminum reacts fully with excess chlorine.
+Q23e) Evaluate how temperature changes affect both reaction speed and equilibrium direction in an exothermic reaction.
 Q24e) Compare the acid strengths of HCl, H2SO4, and H3PO4 using their pKa values.
 Q25e) Describe and explain the trend in boiling points of the halogens from F2 to I2.
 Q26e) Explain why the solubility of gases in liquids decreases as temperature increases.
 Q27e) Interpret infrared spectral data to identify functional groups.
-Q28e) Analyze a graph to determine how the presence of a catalyst affects reaction rate.
+Q28e) Interpret the energy diagram to explain the reaction pathway and energy requirements.
 Q29e) Discuss the environmental impact of acid rain with reference to chemical reactions involved.
 Q30e) Explain why ionic compounds can conduct electricity when molten but not when solid.
 Q31e) Evaluate whether hydrogen fuel is a more sustainable option compared to fossil fuels.
@@ -45,4 +45,5 @@ Q44e) Give the chemical symbol for potassium.
 Q45e) Identify the halogen element found in period 3 of the periodic table.
 Q46e) State the standard state of mercury at room temperature.
 Q47e) Identify the gas produced when zinc reacts with hydrochloric acid.
-Q48e) Calculate the pH of a solution with a hydrogen ion concentration of 0.01 M.
+Q48e) Give the pH value associated with a neutral solution.
+
