@@ -1,39 +1,30 @@
-Q1c) Consider a quadratic function graph and interpret how the vertex and symmetry axis indicate its peak or trough.  
-Q2c) In a projectile motion example, interpret how modifying initial velocity and angle influences maximum height and range.  
-Q3c) Review a numerical sequence and interpret the underlying rule that generates its pattern.  
-
-Q4c) Observe a simple harmonic oscillator diagram and interpret how amplitude or frequency variations affect energy levels.  
-Q5c) Given an inclined plane setup, interpret how changing the slope alters object acceleration.  
-Q6c) Interpret a velocity versus time diagram to explain the meaning of the areas under the curve.  
-
-Q7c) Examine a molecule’s geometry and interpret how it affects chemical reactivity.  
-Q8c) Given a reaction pathway diagram, interpret the significance of intermediates and transition states.  
-Q9c) Look at a periodic table excerpt and interpret trends in atomic size, ionization energy, and electronegativity.  
-
-Q10c) Examine a cell photograph and interpret the functions of the visible organelles.  
-Q11c) Given a food web, interpret how the removal of a species impacts the ecosystem.  
-Q12c) Analyze gene expression data and interpret how environmental factors affect protein production.  
-
-Q13c) Review a code screenshot and interpret its logical sequence and expected output.  
-Q14c) Given a data structure diagram, interpret traversal methods and possible applications.  
-Q15c) Examine a flowchart and interpret how changes in input may affect algorithm execution and results.  
-
-Q16c) Interpret a political cartoon from history and explain its commentary on the social or political issues of the time.  
-Q17c) Review a historical letter and interpret the writer’s perspective and purpose.  
-Q18c) Examine a timeline and interpret the causal links between key events.  
-
-Q19c) Given a philosophy passage, interpret the main arguments and their implications for ethics.  
-Q20c) Consider a thought experiment and interpret its role in demonstrating a philosophical principle.  
-Q21c) Review a diagram of ethical frameworks and interpret how they address identical moral dilemmas differently.  
-
-Q22c) Examine economic charts and interpret trends relating to supply, demand, and market behavior.  
-Q23c) Given a financial crisis case, interpret the main causes and economic consequences.  
-Q24c) Analyze an infographic comparing economic measures across countries and interpret the disparities.  
-
-Q25c) Given a poem, interpret the central message and how literary devices support it.  
-Q26c) Examine a novel excerpt and interpret how a character’s inner conflict develops.  
-Q27c) Analyze a metaphor and interpret its significance within the context of the work.  
-
-Q28c) Given a medical ethics case, interpret conflicting moral principles and suggest possible resolutions.  
-Q29c) Review a public health policy document and interpret its ethical implications for different communities.  
-Q30c) Analyze a research misconduct incident and interpret the ethical lessons it illustrates for science.  
+Q1c) A mathematician writes "the beauty of proof is in elegance, not in being brief"—interpret what this reflects about their view of mathematical knowledge.
+Q2c) A physics researcher describes findings as showing "harmonies that were unexpected"—interpret what this metaphorical phrasing might mean.
+Q3c) A statistician asserts "all models are wrong, yet some prove useful"—interpret what epistemological position this statement takes.
+Q4c) Old texts characterize light as "corpuscular emanations"—interpret what this terminology reveals about the scientific worldview of that time.
+Q5c) A physicist claims quantum mechanics demonstrates "nature's abhorrence of definiteness"—interpret what philosophical view this statement embodies.
+Q6c) Early heat theory texts call heat a "subtle flowing fluid"—interpret what this metaphor indicates about the theoretical understanding then.
+Q7c) An alchemical manuscript speaks of "the union of sun with moon"—interpret what chemical reaction this symbolic expression probably denotes.
+Q8c) A chemist's observation notes a reaction "breathing and sleeping in cycles"—interpret what physical phenomenon this figurative language might capture.
+Q9c) A 19th-century work defines elements as "elementary substances that resist analytical breakdown"—interpret the theoretical assumptions embedded in this.
+Q10c) A biologist calls cells "the elementary particles that compose life"—interpret what theoretical framework this comparison suggests.
+Q11c) An ecologist writes that forests "remember" past ecological disruptions—interpret what scientific concept this metaphorical term conveys.
+Q12c) Darwin stated nature "selects" beneficial variations—interpret whether this language implies agency or is purely metaphorical.
+Q13c) A programmer's guide claims "code tells its story"—interpret what design philosophy this perspective indicates.
+Q14c) An architect describes a system as having "growth that is organic"—interpret what development approach this metaphor signals.
+Q15c) A product review calls an interface "conversational"—interpret what user experience principles this characterization emphasizes.
+Q16c) Examine a historical treaty's ambiguous language and interpret what compromises or conflicts it obscures.
+Q17c) Analyze a memoir's selective account of events and interpret what the author's omissions reveal about their perspective.
+Q18c) Given archaeological evidence from a settlement, interpret what it suggests about the culture's social organization.
+Q19c) Examine a philosopher's fragmentary writings and interpret the coherent worldview they suggest.
+Q20c) Analyze a moral dilemma with no clear right answer and interpret which ethical framework offers the most defensible resolution.
+Q21c) Given a philosophical dialogue with ironic elements, interpret what the author's true position likely was.
+Q22c) An economist labels a market "irrational"—interpret what behavioral and rationality assumptions this judgment embodies.
+Q23c) A financial account describes a crisis as "failure of imagination"—interpret what systemic weaknesses this phrase might highlight.
+Q24c) A policy is characterized as "protectionist theater"—interpret what economic and political intentions this description implies.
+Q25c) Examine a poem's shifting imagery and interpret how the progression reflects the speaker's emotional state.
+Q26c) Analyze a character's contradictory actions and interpret what internal conflict or motivation they reveal.
+Q27c) Given a text's ambiguous ending, interpret which resolution best aligns with its established themes and symbolism.
+Q28c) Examine a triage decision in a disaster scenario and interpret what ethical priorities the choices reflect.
+Q29c) Analyze a controversial public health mandate and interpret the balance between individual rights and collective welfare it strikes.
+Q30c) Given a scientific fraud case, interpret what institutional and personal factors enabled the misconduct.
