@@ -1,4 +1,4 @@
-Q1) What is the value of 7 factorial (7!)?
+Q1a) What is the standard value of the mathematical constant pi (π) to two decimal places?
 Q2) What is the square root of 144?
 Q3) What is the value of x in the equation 2x + 3 = 7?
 
@@ -37,3 +37,4 @@ Q27) What punctuation mark is used to indicate possession in English nouns?
 Q28) What is the ethical theory that judges actions by their consequences called?
 Q29) What is the medical ethics principle meaning “do no harm” called?
 Q30) Who wrote “Groundwork of the Metaphysics of Morals”?
+
