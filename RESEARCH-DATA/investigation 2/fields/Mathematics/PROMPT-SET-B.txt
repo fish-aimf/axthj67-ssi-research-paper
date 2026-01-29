@@ -19,12 +19,12 @@ Q16b) Define a function being continuous.
 Q17b) Describe the principle behind mathematical induction.  
 Q18b) Define the concept of a probability distribution.  
 
-Q19b) For f(x) = x^2 and g(x) = 3x + 2, compute (f∘g)(x) and simplify.  
+Q19b) Explain how to solve a pair of linear equations through substitution.
 Q20b) Given the sequence 2, 4, 8, 16, ..., find a formula for the nth term and the 10th term.  
 Q21b) A rectangle has a perimeter of 50 and its length is double its width. Find the dimensions.  
 Q22b) Solve for all roots of f(x) = x^3 - 6x^2 + 11x - 6, explaining your reasoning.  
 Q23b) A coin is tossed 3 times. Calculate the probability of getting exactly 2 heads with justification.  
-Q24b) Solve the system: x + y + z = 6, x - y + 2z = 3, 2x + y - z = 4.  
+Q24b) Determine how far a particle travels when its velocity follows a quadratic pattern.
 
 Q25b) Describe the graph of y = x^3 - 3x^2 + 2x, noting maxima, minima, and inflection points.  
 Q26b) Explain the significance of the golden ratio in the Fibonacci numbers.  
@@ -49,7 +49,8 @@ Q42b) Propose a study comparing mnemonic techniques for memorizing formulas.
 
 Q43b) Calculate the sum of a triangle’s interior angles.  
 Q44b) How many edges exist on a cube?  
-Q45b) Determine the derivative of x^2.  
+Q45b) What is pi rounded to three digits after the decimal?
 Q46b) Give the value of π to two decimal places.  
-Q47b) Find the square root of 144.  
-Q48b) Compute 7! (7 factorial).
+Q47b) What is the result when differentiating x squared?
+Q48b) What equation is used to compute the area of a circle?
+
