@@ -1,39 +1,30 @@
-Q1e) Examine a quadratic function graph and interpret how its vertex and axis of symmetry determine maxima or minima.  
-Q2e) Given a projectile motion scenario, interpret how changes in initial speed and launch angle influence range and peak height.  
-Q3e) Study a sequence of numbers and interpret the rule underlying its progression.  
-
-Q4e) Observe a simple harmonic oscillator diagram and interpret how amplitude or frequency changes affect the system’s energy.  
-Q5e) Given an inclined plane setup, interpret how adjusting the angle alters the acceleration of the object.  
-Q6e) Interpret a velocity-time graph and explain the meaning of areas under the curve in physical terms.  
-
-Q7e) Analyze a molecular structure and interpret how its shape impacts chemical reactivity.  
-Q8e) Given a reaction mechanism diagram, interpret the role of intermediates and transition states in the reaction.  
-Q9e) Examine a section of the periodic table and interpret trends in atomic radius, electronegativity, and ionization energy.  
-
-Q10e) Observe a microscope image of a cell and interpret the function of the visible organelles.  
-Q11e) Given a food web diagram, interpret the effects of removing a species on the overall ecosystem.  
-Q12e) Analyze a gene expression chart and interpret how environmental conditions affect protein synthesis.  
-
-Q13e) Examine a screenshot of code and interpret the logical flow and expected output.  
-Q14e) Given a data structure diagram, interpret its traversal and potential applications.  
-Q15e) Analyze a flowchart and interpret how different inputs might change the algorithm’s execution or results.  
-
-Q16e) Interpret a historical political cartoon and explain the commentary on social or political events of its period.  
-Q17e) Examine a primary source letter and interpret the author’s viewpoint and intent.  
-Q18e) Analyze a timeline of events and interpret cause-and-effect connections.  
-
-Q19e) Given a philosophical excerpt, interpret the key arguments and their implications for moral reasoning.  
-Q20e) Examine a thought experiment and interpret its importance in illustrating a philosophical principle.  
-Q21e) Analyze a diagram of ethical theories and interpret how differing approaches might resolve the same moral dilemma.  
-
-Q22e) Examine an economic chart and interpret trends concerning supply, demand, or market behavior.  
-Q23e) Given a financial crisis case study, interpret the factors involved and the resulting economic impact.  
-Q24e) Analyze an infographic comparing economic indicators and interpret differences in growth or wealth across countries.  
-
-Q25e) Given a poem, interpret its central theme and how literary techniques contribute to meaning.  
-Q26e) Examine a novel passage and interpret how a character’s inner conflict develops.  
-Q27e) Analyze a metaphor in a text and interpret its wider significance within the work.  
-
-Q28e) Given a medical ethics scenario, interpret the conflicting moral principles and suggest potential resolutions.  
-Q29e) Examine a public health policy and interpret its ethical implications for different populations.  
-Q30e) Analyze a case of research misconduct and interpret the lessons it provides for ethical scientific practice.  
+Q1e) A mathematician claims "a proof's beauty resides in elegance, not brevity"—interpret what this statement reveals about their mathematical philosophy.
+Q2e) A physics paper mentions "harmonies that were unexpected" in results—interpret what the author's metaphor might mean.
+Q3e) A statistician says "all models are wrong, some are useful"—interpret what epistemological position this statement embodies.
+Q4e) Historical texts describe light as "corpuscular emanations"—interpret what this phrasing reveals about the scientific understanding of that period.
+Q5e) A physicist states quantum mechanics shows "nature abhors definiteness"—interpret what philosophical view this statement expresses.
+Q6e) Early thermodynamics texts refer to heat as a "subtle fluid"—interpret what this metaphor indicates about the theoretical framework at the time.
+Q7e) An alchemical manuscript references "the marriage between sun and moon"—interpret what chemical transformation this symbolic language likely describes.
+Q8e) A chemist's notes describe a reaction "breathing and sleeping"—interpret what observable behavior this figurative language might capture.
+Q9e) A 19th-century chemistry book defines elements as "elementary substances resisting analytical breakdown"—interpret what theoretical premises this definition reflects.
+Q10e) A biologist characterizes cells as "the elementary particles of living matter"—interpret what conceptual approach this analogy suggests.
+Q11e) An ecologist writes that forests "remember" previous disturbances—interpret what ecological principle this metaphorical term expresses.
+Q12e) Darwin described nature as "selecting" favorable traits—interpret whether this language suggests intention or is purely metaphorical.
+Q13e) Documentation states "the code tells a story"—interpret what software philosophy this perspective represents.
+Q14e) A system architect writes of "organic growth" in design—interpret what development approach this metaphor implies.
+Q15e) A review describes an interface as "conversational"—interpret what user experience values this characterization highlights.
+Q16e) Interpret a historical political cartoon and explain what commentary on social or political events of its era it provides.
+Q17e) Examine a primary source letter and interpret the author's intentions and perspective.
+Q18e) Analyze a timeline of key events and interpret the relationships of cause-and-effect between them.
+Q19e) Given a philosophical excerpt, interpret the main arguments and evaluate their implications regarding moral reasoning.
+Q20e) Examine a thought experiment and interpret its significance in illustrating a given philosophical principle.
+Q21e) Analyze a diagram of ethical theories and interpret how different frameworks approach the same dilemma morally.
+Q22e) An economist describes a market as behaving "irrationally"—interpret what assumptions about behavior and rationality this judgment reflects.
+Q23e) A financial report calls a crisis "a failure of imagination"—interpret what systemic problems this metaphorical language might indicate.
+Q24e) Trade policy is described as "protectionist theater"—interpret what political and economic motivations this label suggests.
+Q25e) Given a poem, interpret its central theme and how literary devices contribute to its overall meaning.
+Q26e) Examine a novel passage and interpret how a character's internal conflict develops.
+Q27e) Analyze a metaphor in a text and interpret its broader significance in the context of the work.
+Q28e) Given a medical ethics case, interpret the competing moral principles and suggest resolutions that might be possible.
+Q29e) Examine a public health policy document and interpret what ethical implications it has for various populations.
+Q30e) Analyze a case of research misconduct and interpret the ethical lessons it provides for scientific practice.
