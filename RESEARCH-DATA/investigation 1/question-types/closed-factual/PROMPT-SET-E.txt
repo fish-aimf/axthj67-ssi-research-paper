@@ -1,6 +1,6 @@
-Q1e) What number is produced when you evaluate seven factorial (7!)?
+Q1e) What is the value of π correct to two decimal places?
 Q2e) What value represents the square root of 144?
-Q3e) Solve the equation 2x + 3 = 7 for x.
+Q3e) At what Celsius temperature does water freeze at standard atmospheric pressure?
 Q4e) What is the recognised value of Earth’s gravitational acceleration in m/s²?
 Q5e) Which subatomic particle is negatively charged?
 Q6e) What SI unit denotes electrical resistance?
@@ -28,3 +28,4 @@ Q27e) What punctuation symbol is used to mark possession in English nouns?
 Q28e) What ethical theory bases evaluation of actions on their outcomes?
 Q29e) What medical ethics doctrine is summarized as “do no harm”?
 Q30e) Who penned “Groundwork of the Metaphysics of Morals”?
+
