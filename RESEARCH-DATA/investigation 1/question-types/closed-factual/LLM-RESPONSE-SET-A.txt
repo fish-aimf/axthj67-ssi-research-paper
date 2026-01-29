@@ -1,6 +1,6 @@
 A1) 5040
 A2) 12
-A3) 2
+A3) 0
 A4) 9.8
 A5) Electron
 A6) Ohm
@@ -28,3 +28,4 @@ A27) Apostrophe
 A28) Consequentialism
 A29) Non-maleficence
 A30) Immanuel Kant
+
