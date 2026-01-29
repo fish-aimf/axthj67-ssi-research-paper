@@ -22,11 +22,11 @@ A11e) Identify inhibited steps and examine substrate accumulation, feedback loop
 
 A12e) Model transmission across age-structured contacts. Consider probabilities of infection per contact, incubation periods, recovery, and immunity. These factors shape epidemic curves: peak height, duration, and age-specific attack rates.
 
-A13e) Analyze algorithm complexity: preprocessing may add O(n) cost. Best-case may improve if partitions reduce comparisons; average-case depends on distribution; worst-case may remain O(n²) unless partitions are balanced. The modification helps uneven or partially sorted data.
+A13e) Lowering corporate tax rates while removing deductions initially reduces revenue, moderately boosts investment, and disproportionately benefits capital owners over five years.
 
 A14e) Evaluate asynchronous replication: consistency may lag, latency increases, and node failures affect availability. Apply CAP principles to choose resolution: prioritize consistency or availability depending on reliability and application tolerance.
 
-A15e) Compare memoization and tabulation. Memoization reduces recomputation but may incur call stack overhead; tabulation uses iterative storage but can increase memory footprint. Optimal choice depends on problem size, recursion depth, and memory constraints.
+A15e) Approval decisions must weigh the drug’s therapeutic benefits against the risk of severe complications, respecting patient autonomy through informed consent, while ensuring regulatory standards safeguard public health.
 
 A16e) Analyze timing and nature of revolution via economic decline, external influence, and ideological readiness. Economic stress accelerates unrest; foreign influence can destabilize or support factions; ideological cohesion shapes revolutionary character.
 
@@ -57,3 +57,4 @@ A28e) Apply utilitarian framework: maximize lives saved. Apply fairness: equal c
 A29e) Assess privacy implications, transparency, and consent. Weigh benefits of monitoring for productivity against trust erosion and legal risks. Recommend deployment strategies that respect ethical standards and stakeholder interests.
 
 A30e) Evaluate environmental benefits versus local livelihood impacts. Apply justice principles: fair compensation, equitable decision-making. Encourage participatory processes to balance sustainability with community rights.
+
