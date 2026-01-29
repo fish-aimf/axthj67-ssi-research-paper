@@ -13,7 +13,7 @@ Q11a) What does the principle of autonomy mean in ethical theory?
 Q12a) Define ethical egoism and give an example of its application.  
 
 Q13a) Analyze the ethical considerations of AI decision-making in healthcare.  
-Q14a) Evaluate the possible actions when a company must choose between profit and environmental responsibility.  
+Q14a) Explain what informed consent means and why it is ethically significant.
 Q15a) Determine an ethically justifiable method for allocating limited organs to patients.  
 Q16a) Examine the effects of whistleblowing on organizational culture and personal ethics.  
 Q17a) How can one ethically resolve conflicts between cultural norms and universal human rights?  
@@ -46,3 +46,4 @@ Q39a) Which philosopher is associated with deontological ethics?
 Q40a) What term refers to morality being relative to culture or society?  
 Q41a) Name the ethical theory emphasizing character traits over rules or outcomes.  
 Q42a) What term describes the duty to follow professional responsibilities and standards?
+
