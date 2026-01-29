@@ -1,30 +1,30 @@
-Q1c) A mathematician writes "the beauty of proof is in elegance, not in being brief"—interpret what this reflects about their view of mathematical knowledge.
-Q2c) A physics researcher describes findings as showing "harmonies that were unexpected"—interpret what this metaphorical phrasing might mean.
-Q3c) A statistician asserts "all models are wrong, yet some prove useful"—interpret what epistemological position this statement takes.
-Q4c) Old texts characterize light as "corpuscular emanations"—interpret what this terminology reveals about the scientific worldview of that time.
-Q5c) A physicist claims quantum mechanics demonstrates "nature's abhorrence of definiteness"—interpret what philosophical view this statement embodies.
-Q6c) Early heat theory texts call heat a "subtle flowing fluid"—interpret what this metaphor indicates about the theoretical understanding then.
-Q7c) An alchemical manuscript speaks of "the union of sun with moon"—interpret what chemical reaction this symbolic expression probably denotes.
-Q8c) A chemist's observation notes a reaction "breathing and sleeping in cycles"—interpret what physical phenomenon this figurative language might capture.
-Q9c) A 19th-century work defines elements as "elementary substances that resist analytical breakdown"—interpret the theoretical assumptions embedded in this.
-Q10c) A biologist calls cells "the elementary particles that compose life"—interpret what theoretical framework this comparison suggests.
-Q11c) An ecologist writes that forests "remember" past ecological disruptions—interpret what scientific concept this metaphorical term conveys.
-Q12c) Darwin stated nature "selects" beneficial variations—interpret whether this language implies agency or is purely metaphorical.
-Q13c) A programmer's guide claims "code tells its story"—interpret what design philosophy this perspective indicates.
-Q14c) An architect describes a system as having "growth that is organic"—interpret what development approach this metaphor signals.
-Q15c) A product review calls an interface "conversational"—interpret what user experience principles this characterization emphasizes.
-Q16c) Examine a historical treaty's ambiguous language and interpret what compromises or conflicts it obscures.
-Q17c) Analyze a memoir's selective account of events and interpret what the author's omissions reveal about their perspective.
-Q18c) Given archaeological evidence from a settlement, interpret what it suggests about the culture's social organization.
-Q19c) Examine a philosopher's fragmentary writings and interpret the coherent worldview they suggest.
-Q20c) Analyze a moral dilemma with no clear right answer and interpret which ethical framework offers the most defensible resolution.
-Q21c) Given a philosophical dialogue with ironic elements, interpret what the author's true position likely was.
-Q22c) An economist labels a market "irrational"—interpret what behavioral and rationality assumptions this judgment embodies.
-Q23c) A financial account describes a crisis as "failure of imagination"—interpret what systemic weaknesses this phrase might highlight.
-Q24c) A policy is characterized as "protectionist theater"—interpret what economic and political intentions this description implies.
-Q25c) Examine a poem's shifting imagery and interpret how the progression reflects the speaker's emotional state.
-Q26c) Analyze a character's contradictory actions and interpret what internal conflict or motivation they reveal.
-Q27c) Given a text's ambiguous ending, interpret which resolution best aligns with its established themes and symbolism.
-Q28c) Examine a triage decision in a disaster scenario and interpret what ethical priorities the choices reflect.
-Q29c) Analyze a controversial public health mandate and interpret the balance between individual rights and collective welfare it strikes.
-Q30c) Given a scientific fraud case, interpret what institutional and personal factors enabled the misconduct.
+Q1c) A proof is said to be beautiful for symmetry rather than brevity—interpret the mathematician’s aesthetic values.
+Q2c) Harmony between waves and particles is noted—interpret philosophical implications for light.
+Q3c) Imperfect models are accepted as useful—interpret what this means for scientific knowledge.
+Q4c) Light described as ether-traveling particles—interpret historical physics assumptions.
+Q5c) Quantum theory framed as probabilistic—interpret stance on reality.
+Q6c) Heat treated as a fluid—interpret outdated thermal theory.
+Q7c) Alchemical marriage symbolism—interpret metallurgical meaning.
+Q8c) Reaction likened to breathing—interpret oscillation and vitalism context.
+Q9c) Elements called indivisible—interpret theory of matter.
+Q10c) Cells seen as indivisible—interpret early biology limits.
+Q11c) Forest memory metaphor—interpret ecological meaning.
+Q12c) Selection compared to breeding—interpret agency implications.
+Q13c) Code as narrative—interpret software philosophy.
+Q14c) Microservices as ecosystem—interpret evolution assumptions.
+Q15c) Humanlike voice tech—interpret UX goals.
+Q16c) Uncle Sam cartoon—interpret wartime immigration message.
+Q17c) Abigail Adams letter—interpret feminist intent.
+Q18c) Depression timeline—interpret policy effects.
+Q19c) Categorical imperative—interpret moral reasoning.
+Q20c) Trolley dilemma—interpret ethical conflict.
+Q21c) Lying dilemma—interpret ethical framework differences.
+Q22c) Housing bubble language—interpret behavioral assumptions.
+Q23c) Risk imagination failure—interpret systemic critique.
+Q24c) Steel tariff criticism—interpret economic and political motives.
+Q25c) Frost poem—interpret irony vs celebration.
+Q26c) Hamlet prayer scene—interpret moral conflict.
+Q27c) Green light—interpret thematic meaning.
+Q28c) ICU triage—interpret ethical principles.
+Q29c) Vaccine exemption policy—interpret fairness and autonomy.
+Q30c) Climate data fraud—interpret integrity lessons.
