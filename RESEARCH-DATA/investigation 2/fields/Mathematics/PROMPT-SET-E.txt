@@ -19,12 +19,12 @@ Q16e) Define a continuous function.
 Q17e) Explain the principle of mathematical induction.  
 Q18e) Define the idea of a probability distribution.  
 
-Q19e) If f(x) = x^2 and g(x) = 3x + 2, find (f∘g)(x) and simplify.  
+Q19e) Find the solution to two linear equations by substitution and explain your reasoning. 
 Q20e) For the sequence 2, 4, 8, 16, ..., derive a formula for the nth term and compute the 10th term.  
 Q21e) A rectangle has a perimeter of 50 and its length is twice the width. Find its dimensions.  
 Q22e) Given f(x) = x^3 - 6x^2 + 11x - 6, determine all roots and explain your reasoning.  
 Q23e) A coin is tossed 3 times. Find the probability of getting exactly 2 heads and justify your approach.  
-Q24e) Solve the system: x + y + z = 6, x - y + 2z = 3, 2x + y - z = 4.  
+Q24e) Evaluate the particle’s total movement using its time dependent quadratic velocity.
 
 Q25e) Interpret the graph of y = x^3 - 3x^2 + 2x, identifying maxima, minima, and inflection points.  
 Q26e) Explain the significance of the golden ratio in the Fibonacci sequence.  
@@ -49,7 +49,8 @@ Q42e) Design a small-scale study to compare the effectiveness of different mnemo
 
 Q43e) What is the sum of the interior angles of a triangle?  
 Q44e) How many edges does a cube have?  
-Q45e) Find the derivative of x^2.  
+Q45e) Provide the value of pi rounded to three decimal places.
 Q46e) State the value of π to two decimal places.  
-Q47e) What is the square root of 144?  
-Q48e) Compute 7 factorial (7!).
+Q47e) State the derivative of x squared.
+Q48e) Which formula is applied to determine the area of a circle?
+
