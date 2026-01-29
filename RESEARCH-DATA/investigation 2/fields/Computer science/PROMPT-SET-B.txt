@@ -27,7 +27,7 @@ Q26b) Explain the implications of a confusion matrix where false negatives great
 Q27b) If a program repeatedly crashes with segmentation faults, what does this suggest about memory handling?
 Q28b) What does the presence of high latency but low packet loss imply in a network?
 Q29b) What can user interaction logs tell us about a web application’s usability?
-Q30b) What ethical issues arise from using facial recognition systems in public spaces?
+Q30b) Interpret the pseudocode to determine the problem it is designed to address.
 Q31b) Should proprietary software companies be forced to release source code for security reasons? Provide justification.
 Q32b) Evaluate the appropriateness of using algorithm-based decisions in hiring.
 Q33b) Consider the claim that learning low-level languages is unnecessary for today’s software engineers.
@@ -46,3 +46,4 @@ Q45b) Which port number is used by default for HTTP?
 Q46b) Which data structure operates according to the FIFO principle?
 Q47b) Name the algorithm most commonly applied to find the shortest path in a weighted graph.
 Q48b) Which organization originally created the Java programming language?
+
