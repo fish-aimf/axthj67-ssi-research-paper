@@ -14,9 +14,9 @@ Q10c) A population exhibits a trait across three environments; analyze how selec
 Q11c) A metabolic pathway has two regulatory enzyme inhibitions; analyze how feedback, substrate, and alternative routes affect ATP yield.
 Q12c) A disease spreads across age-differentiated networks; analyze how transmission, incubation, and immunity shape epidemic dynamics.
 
-Q13c) A sorting algorithm is modified with a partition preprocessing step; analyze best-, average-, and worst-case complexities and infer which data distributions benefit most.
+Q13c) Corporate tax rates fall as deductions are eliminated under new policy; analyze how these changes affect tax revenue, investment behavior, and income inequality over a five-year period.
 Q14c) A distributed system replicates data asynchronously; analyze consistency, latency, and failure modes to determine the best conflict-resolution approach.
-Q15c) A dynamic programming task allows memoization or iterative tabulation; analyze memory, recomputation risk, and input size to select the optimal approach.
+Q15c) A pharmaceutical demonstrates therapeutic benefit with infrequent severe adverse events; analyze how weighing risks against benefits, respecting patient choice, and meeting regulatory requirements inform approval.
 
 Q16c) A political revolution occurs after economic decline, foreign influence, and ideological activity; analyze how these factors together determine timing and character.
 Q17c) A post-war treaty changes borders and trade; analyze how competing interests, economic conditions, and security needs influenced the treaty.
@@ -37,3 +37,4 @@ Q27c) Two characters discuss a moral dilemma with coded language; analyze dialog
 Q28c) A hospital must ration ICU beds; analyze utilitarian, fairness, and duty-based frameworks to justify allocation.
 Q29c) A company plans to deploy employee-monitoring AI; analyze privacy, stakeholder, and trust implications to determine an ethical strategy.
 Q30c) A community debates a renewable energy project affecting livelihoods; analyze environmental, justice, and participatory considerations to reach a recommendation.
+
