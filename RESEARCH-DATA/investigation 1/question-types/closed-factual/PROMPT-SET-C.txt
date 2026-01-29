@@ -1,6 +1,6 @@
-Q1c) What number results from evaluating 7 factorial (7!)?
+Q1c) What is pi (π) rounded to two decimal places?
 Q2c) What is the numerical value of the square root of 144?
-Q3c) Determine x from the equation 2x + 3 = 7.
+Q3c) What is the temperature in °C at which water freezes under standard atmospheric pressure?
 Q4c) What is the standard Earth gravitational acceleration expressed in m/s²?
 Q5c) Which subatomic particle possesses a negative electric charge?
 Q6c) What SI unit measures electrical resistance?
@@ -28,3 +28,4 @@ Q27c) Which punctuation mark denotes possession in English nouns?
 Q28c) Which ethical theory bases moral judgment on consequences?
 Q29c) What medical ethics principle is expressed by the phrase “do no harm”?
 Q30c) Who is the author of “Groundwork of the Metaphysics of Morals”?
+
