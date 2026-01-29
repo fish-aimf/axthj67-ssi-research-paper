@@ -1,13 +1,13 @@
 Q1c) Find the percentage increase when a bacterial population grows from 2.0 × 10^6 to 5.0 × 10^6 cells in 6 hours.
-Q2c) When a plant cell with −0.8 MPa water potential is placed in a −0.3 MPa solution, determine the net direction of water flow.
+Q2c) If bacteria reproduce by doubling every 30 minutes, how many cells will be present after 3 hours starting from 2000 cells?
 Q3c) Calculate net oxygen production when photosynthesis occurs at 12 µmol O₂ m⁻² s⁻¹ and respiration at 4 µmol O₂ m⁻² s⁻¹.
 Q4c) Calculate the phenotypic ratio expected from an AaBb × AaBb dihybrid cross.
 Q5c) Calculate the length in nanometers of a 1200-base-pair DNA fragment assuming 0.34 nm per base pair.
 Q6c) Determine the enzyme reaction rate in mmol per minute if 90 mmol of substrate is converted in 30 minutes.
 Q7c) Explain the steps needed to prepare a wet mount of onion epidermal cells.
 Q8c) Outline a straightforward lab technique for extracting DNA from plant cells.
-Q9c) Name the phases of mitosis in sequence and describe each phase.
-Q10c) Explain how to conduct a controlled experiment to study light intensity effects on photosynthesis.
+Q9c) Provide a stepwise description of how DNA can be extracted from plant cells using detergent and salt.
+Q10c) List the steps involved in preparing an onion cell slide for examination under a light microscope.
 Q11c) Describe the standard steps of the Gram staining technique.
 Q12c) Explain the use of a potometer in measuring transpiration rate.
 Q13c) Provide a definition of natural selection and describe its core components.
@@ -46,4 +46,5 @@ Q45c) Identify the smallest unit of life.
 Q46c) Name the gas released during photosynthesis.
 Q47c) Identify the metabolic process that converts glucose into cellular energy.
 Q48c) State the biological kingdom that includes fungi.
+
 
