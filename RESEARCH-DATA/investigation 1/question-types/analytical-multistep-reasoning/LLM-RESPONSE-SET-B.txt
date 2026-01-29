@@ -22,11 +22,11 @@ A11b) Identify points of inhibition and analyze feedback loops. Evaluate substra
 
 A12b) Model age-structured disease transmission using contact matrices and immunity. Incorporate incubation periods and recovery rates to predict epidemic peaks and spread dynamics.
 
-A13b) Analyze modified sorting algorithm by counting operations for best-, average-, and worst-case input distributions. Determine which data types (e.g., nearly sorted, random, reversed) benefit from pre-processing partition.
+A13b)Lower corporate tax rates can initially boost investment and growth, but removing deductions often offsets gains, leading to roughly stable government revenue, modest increases in business investment, and a likely shift in wealth distribution toward larger firms and higher-income shareholders over five years.
 
 A14b) Examine replication protocol under asynchronous conditions. Evaluate trade-offs between consistency, latency, and failure tolerance. Select conflict-resolution strategies minimizing data loss while maintaining availability.
 
-A15b) Compare recursive memoization versus iterative tabulation. Assess memory usage, recomputation overhead, and input size scaling. Choose the approach optimizing efficiency for given problem constraints.
+A15b) Regulators weigh demonstrated benefits against the severity and rarity of harms, require robust informed consent so patients understand risks, and may grant conditional or restricted approval if the benefit–harm balance is favorable for specific populations with ongoing safety monitoring.
 
 A16b) Evaluate how economic stress, foreign influence, and ideology interact to trigger revolution. Consider timing of events, population readiness, and intensity of pressures to predict revolutionary outcomes.
 
@@ -57,3 +57,4 @@ A28b) Apply ethical frameworks to ICU bed allocation: utilitarian (maximize live
 A29b) Assess ethical implications of AI monitoring. Consider privacy, stakeholder interests, potential harms, and transparency. Recommend deployment strategies that balance efficiency with ethical obligations.
 
 A30b) Evaluate renewable energy project impacts on environment and livelihoods. Apply principles of environmental justice, cost-benefit analysis, and participatory decision-making to form recommendations.
+
