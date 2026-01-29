@@ -1,39 +1,30 @@
-Q1a) Examine the graph of a quadratic function and interpret how its vertex and axis of symmetry indicate the function’s maximum or minimum points.  
-Q2a) Given a scenario of a projectile in motion, interpret how changes in initial speed and launch angle affect its height and range.  
-Q3a) Analyze a number sequence and interpret the rule that determines its progression.  
-
-Q4a) Examine a diagram of a simple harmonic oscillator and interpret how variations in amplitude or frequency affect the system’s energy.  
-Q5a) Given an image of an inclined plane experiment, interpret how adjusting the angle influences the acceleration of a sliding object.  
-Q6a) Interpret a velocity versus time graph to explain the physical significance of the areas under the curve.  
-
-Q7a) Analyze a molecule’s structure and interpret how its shape impacts chemical reactivity.  
-Q8a) Given a reaction mechanism diagram, interpret the role of intermediates and transition states in the pathway.  
-Q9a) Examine a portion of the periodic table and interpret trends in atomic radius, ionization energy, and electronegativity.  
-
-Q10a) Observe a microscope image of a cell and interpret the functions of the visible organelles.  
-Q11a) Given an ecological food web diagram, interpret the effects of removing one species on the ecosystem.  
-Q12a) Analyze a gene expression chart and interpret how environmental factors influence protein synthesis.  
-
-Q13a) Examine a code screenshot and interpret the logical flow and expected output of the program.  
-Q14a) Given a diagram of a data structure, interpret its traversal order and possible applications.  
-Q15a) Analyze an algorithm flowchart and interpret how different inputs could alter execution and outcomes.  
-
-Q16a) Interpret a historical political cartoon and explain what commentary it provides on social or political events of its era.  
-Q17a) Examine a primary source letter and interpret the author’s perspective and intentions.  
-Q18a) Analyze a timeline of key events and interpret the cause-and-effect relationships between them.  
-
-Q19a) Given a philosophical excerpt, interpret the main arguments and evaluate their implications for moral reasoning.  
-Q20a) Examine a thought experiment and interpret its significance in illustrating a philosophical principle.  
-Q21a) Analyze a diagram of ethical theories and interpret how different frameworks approach the same moral dilemma.  
-
-Q22a) Examine a chart of economic data and interpret trends related to supply, demand, or market behavior.  
-Q23a) Given a case study of a financial crisis, interpret the contributing factors and economic consequences.  
-Q24a) Analyze an infographic comparing economic indicators and interpret disparities in wealth or growth across countries.  
-
-Q25a) Given a poem, interpret its central theme and how literary devices contribute to its meaning.  
-Q26a) Examine a novel passage and interpret the development of a character’s internal conflict.  
-Q27a) Analyze a metaphor in a text and interpret its broader significance within the work’s context.  
-
-Q28a) Given a medical ethics case, interpret the competing moral principles and suggest possible resolutions.  
-Q29a) Examine a public health policy document and interpret its ethical implications for various populations.  
-Q30a) Analyze a case of research misconduct and interpret the ethical lessons for scientific practice.  
+Q1a) Examine an abstract mathematical diagram with overlapping shapes and symbols, and interpret what conceptual relationship or theorem the artist might be illustrating.
+Q2a) Given a graph showing irregular data points from a real-world phenomenon, interpret whether the underlying pattern suggests causation, correlation, or randomness.
+Q3a) Analyze a historical mathematician's cryptic notebook entry with unusual notation, and interpret what problem they might have been attempting to solve.
+Q4a) Examine a physics textbook illustration from the 1800s depicting "ether" and interpret what it reveals about scientific understanding and assumptions of that era.
+Q5a) Given a scientist's lab notebook sketch with ambiguous annotations, interpret the experimental setup and what hypothesis they might have been testing.
+Q6a) Interpret a historical debate transcript between physicists about quantum mechanics and explain what philosophical assumptions underlie their disagreement.
+Q7a) Analyze an alchemical manuscript's symbolic diagrams and interpret what chemical processes or substances the symbols likely represent.
+Q8a) Given a chemist's field notes describing an unexpected reaction color change, interpret possible explanations and what they suggest about reaction mechanisms.
+Q9a) Examine a 19th-century chemistry textbook's classification system and interpret how it reflects the scientific paradigms and limitations of that period.
+Q10a) Observe a microscope image showing unusual cellular structures and interpret what biological process or condition might explain the anomaly.
+Q11a) Given an ecological field study's conflicting observations, interpret which environmental factors most plausibly explain the population changes.
+Q12a) Analyze Darwin's sketches of finch beaks and interpret what reasoning process led him to his conclusions about adaptation.
+Q13a) Examine a programmer's commented code with ambiguous variable names and interpret the intended purpose of the algorithm.
+Q14a) Given a software architecture diagram with unconventional connections, interpret the designer's rationale and what problem they were solving.
+Q15a) Analyze a tech company's internal memo about a failed project and interpret what organizational or technical factors contributed to the failure.
+Q16a) Interpret a historical political cartoon and explain what commentary it provides on social or political events of its era.
+Q17a) Examine a primary source letter and interpret the author's perspective and intentions.
+Q18a) Analyze a timeline of key events and interpret the cause-and-effect relationships between them.
+Q19a) Given a philosophical excerpt, interpret the main arguments and evaluate their implications for moral reasoning.
+Q20a) Examine a thought experiment and interpret its significance in illustrating a philosophical principle.
+Q21a) Analyze a diagram of ethical theories and interpret how different frameworks approach the same moral dilemma.
+Q22a) Examine conflicting economic reports about a policy's impact and interpret which interpretation is most supported by the evidence.
+Q23a) Given a historical account of an economic crisis with partisan perspectives, interpret the underlying causes beyond the political rhetoric.
+Q24a) Analyze a corporation's annual report with vague financial language and interpret what the company might be obscuring or emphasizing.
+Q25a) Given a poem, interpret its central theme and how literary devices contribute to its meaning.
+Q26a) Examine a novel passage and interpret the development of a character's internal conflict.
+Q27a) Analyze a metaphor in a text and interpret its broader significance within the work's context.
+Q28a) Given a medical ethics case, interpret the competing moral principles and suggest possible resolutions.
+Q29a) Examine a public health policy document and interpret its ethical implications for various populations.
+Q30a) Analyze a case of research misconduct and interpret the ethical lessons for scientific practice.
