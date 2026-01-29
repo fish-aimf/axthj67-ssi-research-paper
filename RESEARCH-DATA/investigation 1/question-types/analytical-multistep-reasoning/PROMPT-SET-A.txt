@@ -14,9 +14,9 @@ Q10a) A population shows trait variation across three environments; analyze how 
 Q11a) A metabolic pathway is inhibited at two key enzymes; analyze how feedback inhibition, substrate levels, and alternative pathways affect ATP production.
 Q12a) A disease spreads in a community with differing contact networks; analyze how transmission probability, incubation period, and immunity patterns shape the epidemic curve.
 
-Q13a) A sorting algorithm is modified with a pre-processing partition; analyze its best-, average-, and worst-case complexities and determine for which data distributions the modification is beneficial.
+Q13a) A new tax policy reduces corporate rates while eliminating deductions; analyze how revenue changes, investment incentives, and income distribution interact to predict net economic effects over five years.
 Q14a) A distributed system replicates data asynchronously across nodes; analyze consistency, latency, and potential failures to decide the most reliable conflict-resolution method.
-Q15a) A dynamic programming task can use memoization or iterative tabulation; analyze memory usage, recomputation risk, and input scale to select the best implementation.
+Q15a) A new drug shows efficacy in trials but has rare severe side effects; analyze how risk-benefit assessment, patient autonomy, and regulatory standards should guide approval decisions.
 
 Q16a) A political revolution occurs after economic decline, foreign influence, and ideological movements; analyze how these factors interact to shape timing and character of the uprising.
 Q17a) A post-war treaty redefines borders and trade alliances; analyze how national interests, economic pressures, and security concerns influenced the treaty terms.
@@ -37,3 +37,4 @@ Q27a) Two characters debate a moral dilemma with implicit assumptions and coded 
 Q28a) A hospital must allocate limited ICU beds during a crisis; analyze utilitarian, fairness, and duty-based frameworks to justify prioritization.
 Q29a) A company considers employee-monitoring AI; analyze privacy, stakeholder interests, and trust implications to determine an ethical approach.
 Q30a) A community debates a renewable energy project that disrupts livelihoods; analyze environmental benefits, distributive justice, and participatory decision-making to reach a recommendation.
+
