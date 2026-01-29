@@ -13,7 +13,7 @@ Q11b) What does the principle of autonomy signify in ethical theory?
 Q12b) Define ethical egoism and illustrate it with an example.  
 
 Q13b) Discuss the ethical implications of AI making decisions in healthcare.  
-Q14b) Evaluate options when a company faces a conflict between profit and environmental responsibility.  
+Q14b) Provide a definition of informed consent and describe its role in ethics.  
 Q15b) Propose an ethically justified method for prioritizing patients for limited organ transplants.  
 Q16b) Examine the consequences of whistleblowing for both organizational culture and individual ethics.  
 Q17b) How should ethical conflicts between cultural practices and universal human rights be resolved?  
@@ -46,3 +46,4 @@ Q39b) Which philosopher is linked to deontological ethical theory?
 Q40b) What term refers to the idea that morality is culturally or socially relative?  
 Q41b) Identify the ethical theory that focuses on character rather than rules or outcomes.  
 Q42b) What term defines the duty to uphold professional standards and responsibilities?
+
