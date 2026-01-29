@@ -24,7 +24,7 @@ Q20d) For the sequence 2, 4, 8, 16, ..., formulate the nth term and compute the 
 Q21d) A rectangle with perimeter 50 has length twice its width. Find its dimensions.  
 Q22d) Solve f(x) = x^3 - 6x^2 + 11x - 6 for all roots with reasoning.  
 Q23d) A coin is tossed 3 times. Determine the probability of exactly 2 heads with justification.  
-Q24d) Solve the system: x + y + z = 6, x - y + 2z = 3, 2x + y - z = 4.  
+Q24d) Analyze the motion to compute total displacement from the velocity function.
 
 Q25d) Examine the graph of y = x^3 - 3x^2 + 2x, noting maxima, minima, and inflection points.  
 Q26d) Explain why the golden ratio is significant in the Fibonacci sequence.  
@@ -49,8 +49,9 @@ Q42d) Design a study comparing mnemonic strategies for formula memorization.
 
 Q43d) Calculate the sum of interior angles in a triangle.  
 Q44d) How many edges does a cube have?  
-Q45d) Determine the derivative of x^2.  
+Q45d) Identify pi to three decimal accuracy.
 Q46d) State the value of π to two decimal places.  
-Q47d) Compute the square root of 144.  
-Q48d) Find 7 factorial (7!).
+Q47d) Differentiate x squared with respect to x.
+Q48d) Give the standard formula for calculating the area of a circle.
+
 
