@@ -27,7 +27,7 @@ Q26d) What does it imply when false negatives dominate a confusion matrix?
 Q27d) What do repeated segmentation faults indicate about a program’s memory management?
 Q28d) What does high latency with low packet loss suggest about network performance?
 Q29d) What insights about usability can be gained from user interaction logs?
-Q30d) What ethical concerns arise from using facial recognition in public settings?
+Q30d) Explain what computational problem the pseudocode aims to solve.
 Q31d) Should software companies be compelled to release proprietary source code for security? Justify.
 Q32d) Evaluate the use of algorithmic systems in hiring decisions.
 Q33d) Judge the claim that learning low-level languages is unnecessary for modern developers.
@@ -46,3 +46,4 @@ Q45d) What is HTTP’s default port?
 Q46d) Which data structure operates on a FIFO basis?
 Q47d) Which algorithm is typically used for shortest-path computation in weighted graphs?
 Q48d) Which company first developed Java?
+
