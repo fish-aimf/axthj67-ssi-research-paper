@@ -1,13 +1,13 @@
 Q1a) Determine the percentage increase in a bacterial population that rises from 2.0 × 10^6 cells to 5.0 × 10^6 cells over a 6-hour period.
-Q2a) A plant cell with a water potential of −0.8 MPa is placed in a solution with a water potential of −0.3 MPa; determine the direction of net water movement.
+Q2a) Calculate the number of bacterial cells after 3 hours if a population starting at 2000 doubles every 30 minutes.
 Q3a) Given a photosynthesis rate of 12 µmol O₂ m⁻² s⁻¹ and a respiration rate of 4 µmol O₂ m⁻² s⁻¹, calculate the net oxygen output.
 Q4a) Determine the predicted phenotypic ratio of offspring from a dihybrid cross AaBb × AaBb.
 Q5a) A DNA segment contains 1200 base pairs; calculate its length in nanometers assuming each base pair is 0.34 nm long.
 Q6a) An enzyme converts 90 mmol of substrate in 30 minutes; calculate the reaction rate in mmol per minute.
 Q7a) Describe the procedure for preparing a wet mount slide of onion epidermal cells for viewing under a microscope.
 Q8a) Outline a simple laboratory method for extracting DNA from plant tissue.
-Q9a) List the stages of mitosis in order and describe the events that occur during each stage.
-Q10a) Explain how to design a controlled experiment to investigate the effect of light intensity on photosynthesis.
+Q9a) Explain the steps involved in extracting DNA from plant cells using detergent and salt.
+Q10a) Describe the procedure for preparing and viewing an onion epidermal cell slide using a light microscope.
 Q11a) Describe the steps involved in performing a Gram stain on bacteria.
 Q12a) Explain how a potometer can be used to measure the rate of transpiration.
 Q13a) Define natural selection and describe its main components.
@@ -46,4 +46,5 @@ Q45a) State the basic unit of life.
 Q46a) Identify the gas released as a by-product of photosynthesis.
 Q47a) Name the process that converts glucose into usable energy for cells.
 Q48a) Identify the kingdom to which fungi belong.
+
 
