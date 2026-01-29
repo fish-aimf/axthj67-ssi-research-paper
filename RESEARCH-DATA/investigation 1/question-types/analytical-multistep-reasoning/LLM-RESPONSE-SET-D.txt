@@ -22,11 +22,11 @@ A11d) Map enzyme inhibition effects: competitive reduces substrate binding, non-
 
 A12d) Model disease spread using compartmental approach across age-stratified networks. Transmission rates, incubation periods, and immunity levels shape epidemic curves. Analyze peak incidence, total infections, and herd immunity thresholds.
 
-A13d) Analyze sorting algorithm by counting comparisons and swaps with added partition step. Best case improves for already partially ordered data; average case sees minor overhead; worst case may increase if partitioning is inefficient. Certain datasets (e.g., few duplicates) benefit most.
+A13d) Lower corporate tax rates boost investment incentives, fewer deductions broaden the tax base to stabilize revenue, and the gains mainly accrue to profitable firms and shareholders, shaping mixed medium-term growth and equity outcomes.
 
 A14d) Examine asynchronous replication in distributed systems for consistency (strong vs eventual), latency, and failure tolerance. Select conflict resolution method balancing system reliability and responsiveness.
 
-A15d) Compare memoization and tabulation: memoization saves intermediate results on-demand, reducing recomputation; tabulation precomputes all subproblems. For large input scales, tabulation may be more memory efficient; choice depends on problem structure.
+A15d) Regulators should weigh the medication’s overall benefits against rare harms, ensure patients can make informed choices, and approve it with safeguards or restrictions if the net benefit justifies use.
 
 A16d) Analyze revolutionary factors: economic hardship creates grievances, foreign influence may provide support or destabilization, ideological movements shape leadership and goals. Timing emerges from interaction of these pressures.
 
@@ -57,3 +57,4 @@ A28d) Apply ethical frameworks to ICU bed allocation: utilitarian (maximize live
 A29d) Assess AI monitoring implications: privacy rights, stakeholder trust, and transparency. Implement safeguards, consent mechanisms, and accountability to ensure ethical deployment.
 
 A30d) Evaluate renewable energy project impact: environmental benefits, social justice for affected communities, and participatory decision-making. Balance energy goals with equitable livelihood protection.
+
