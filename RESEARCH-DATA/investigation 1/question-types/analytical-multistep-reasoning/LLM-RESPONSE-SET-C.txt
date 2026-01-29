@@ -22,11 +22,11 @@ A11c) Model regulatory inhibition and substrate flow; feedback or inhibition red
 
 A12c) Apply compartmental or network epidemiology models; transmission rate, incubation period, and immunity level dictate epidemic size, peak timing, and spread across age-stratified populations.
 
-A13c) Analyze complexity: best-case improves with favorable partitions, average-case depends on random distribution, worst-case occurs with highly skewed partitions; partition preprocessing benefits distributions reducing comparisons.
+A13c) Over five years, eliminating deductions while lowering corporate tax rates typically stabilizes or modestly increases tax revenue, encourages investment by simplifying incentives and improving after-tax returns, and may worsen income inequality if gains accrue mainly to shareholders unless offset by broader base effects or complementary redistribution policies.
 
 A14c) Examine consistency models (eventual, strong), latency, and potential failures; select conflict-resolution approach balancing data correctness, system responsiveness, and tolerance for partitioning.
 
-A15c) Compare memoization (higher memory, avoids recomputation) versus iterative tabulation (lower memory, sequential computation); choose based on input size, memory limits, and risk of repeated calculations.
+A15c) Approval would be informed by showing that the overall health benefits outweigh the rare serious risks (beneficence and non-maleficence), ensuring patients can make informed choices through clear disclosure and consent (autonomy), and demonstrating to regulators that safety, efficacy, and monitoring standards are met to protect the public (justice and compliance).
 
 A16c) Assess economic decline, foreign influence, and ideological mobilization; combined intensity and timing determine whether revolution occurs, and whether it is rapid, gradual, or factional.
 
@@ -57,3 +57,4 @@ A28c) Apply utilitarian (maximize overall benefit), fairness (equal access), and
 A29c) Analyze privacy risks, stakeholder impact, and trust implications; ethical strategy balances monitoring objectives with employee rights and organizational transparency.
 
 A30c) Evaluate environmental benefits, justice for affected communities, and participatory decision-making; recommend renewable energy deployment that optimally balances ecological and social outcomes.
+
