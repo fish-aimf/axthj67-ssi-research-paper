@@ -1,30 +1,30 @@
-Q1d) When a mathematician states "elegance, not brevity, defines a proof's beauty"—interpret what philosophy of mathematical knowledge this reflects.
-Q2d) A physics text refers to experimental "unexpected harmonies"—interpret what this metaphorical description might signify.
-Q3d) A statistician declares "some models prove useful, though all are wrong"—interpret the epistemological implications this carries.
-Q4d) Historical accounts characterize light as "emanations of corpuscular form"—interpret what this language shows about that era's scientific worldview.
-Q5d) A physicist writes quantum mechanics reveals "nature's rejection of definiteness"—interpret what philosophical stance this language indicates.
-Q6d) Early thermodynamic writings describe heat as a "fluid of subtle nature"—interpret what this metaphor suggests about theoretical understanding of the time.
-Q7d) An alchemist's text speaks of "sun and moon's sacred union"—interpret what chemical process this symbolic phrasing likely represents.
-Q8d) A chemist observes a reaction "sleeping and breathing"—interpret what phenomenon this poetic description might be referencing.
-Q9d) A 19th-century text defines elements as "elementary substances beyond analytical decomposition"—interpret what theoretical assumptions underpin this definition.
-Q10d) A biologist describes cells as "life's elementary building blocks"—interpret what conceptual framework this analogy reveals.
-Q11d) An ecologist claims a forest "retains memory" of disturbances—interpret what ecological concept this metaphorical language conveys.
-Q12d) Darwin wrote that nature "selects" beneficial traits—interpret whether this phrasing implies intentionality or serves as metaphor.
-Q13d) A programmer's notes state "the code narrates a story"—interpret what software design philosophy this viewpoint reflects.
-Q14d) A systems designer describes architecture as showing "organic growth"—interpret what development methodology this metaphor suggests.
-Q15d) A tech analysis calls an interface "conversational"—interpret what user experience principles this term emphasizes.
-Q16d) Interpret a historical political cartoon and explain what social or political commentary it provides on events of its era.
-Q17d) Examine a primary source letter and interpret the perspective and intentions of the author.
-Q18d) Analyze a timeline of key events and interpret the cause-and-effect relationships among them.
-Q19d) Given a philosophical excerpt, interpret the main arguments and evaluate what they imply for moral reasoning.
-Q20d) Examine a thought experiment and interpret what significance it holds in illustrating a philosophical principle.
-Q21d) Analyze a diagram of ethical theories and interpret how different frameworks address the same moral dilemma.
-Q22d) An economist characterizes a market as "irrational"—interpret what assumptions regarding rationality and behavior this reflects.
-Q23d) A financial analysis terms a crisis "a failure of imagination"—interpret what systemic issues this metaphor might highlight.
-Q24d) A trade policy is called "protectionist theater"—interpret what economic and political motivations this characterization suggests.
-Q25d) Given a poem, interpret its central theme and how literary devices contribute to that meaning.
-Q26d) Examine a novel passage and interpret the development of a character's internal struggle.
-Q27d) Analyze a metaphor in a text and interpret its broader significance within the context of the work.
-Q28d) Given a medical ethics case, interpret the competing moral principles involved and suggest possible resolutions.
-Q29d) Examine a public health policy document and interpret its ethical implications across various populations.
-Q30d) Analyze a case of research misconduct and interpret what ethical lessons it offers for scientific practice.
+Q1d) Symmetry is praised over brevity in proof—interpret philosophy of mathematical beauty.
+Q2d) Wave-particle harmony language—interpret view of light.
+Q3d) Useful but wrong models—interpret epistemological acceptance.
+Q4d) Ether-based particle light—interpret historical assumptions.
+Q5d) Probabilistic nature claim—interpret philosophical stance.
+Q6d) Caloric fluid heat—interpret flawed framework.
+Q7d) Sun-moon alchemical union—interpret metal process.
+Q8d) Reaction as breathing—interpret oscillation and vitalism.
+Q9d) Indivisible elements—interpret atomic theory assumptions.
+Q10d) Indivisible cells—interpret early life theory.
+Q11d) Forest memory—interpret succession theory.
+Q12d) Nature as breeder—interpret metaphorical intent.
+Q13d) Code as story—interpret readability values.
+Q14d) Software as ecosystem—interpret development assumptions.
+Q15d) Humanlike interface—interpret UX anthropomorphism.
+Q16d) Anti-immigration cartoon—interpret wartime ideology.
+Q17d) “Remember the ladies”—interpret political purpose.
+Q18d) Depression timeline—interpret government role.
+Q19d) Universal law maxim—interpret moral duty logic.
+Q20d) Trolley lever choice—interpret ethical theory clash.
+Q21d) Ethical models on lying—interpret contrasting outcomes.
+Q22d) Exuberance metaphor—interpret market psychology.
+Q23d) Imagination failure—interpret institutional weaknesses.
+Q24d) Protectionism as theater—interpret political economy.
+Q25d) Road less traveled—interpret irony.
+Q26d) Hamlet’s hesitation—interpret revenge vs morality.
+Q27d) Green light symbol—interpret dream and past.
+Q28d) ICU ethics case—interpret fairness and utility.
+Q29d) Vaccine mandate ethics—interpret autonomy and welfare.
+Q30d) Data fabrication—interpret consequences for trust.
