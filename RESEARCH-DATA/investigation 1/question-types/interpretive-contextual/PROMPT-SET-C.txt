@@ -1,30 +1,30 @@
-Q1c) A mathematician emphasizes symmetry over brevity in judging a proof’s beauty—interpret what this reveals about their mathematical values.
-Q2c) A paper from the 1920s highlights wave–particle harmony—interpret what this reflects about philosophical interpretations of light.
-Q3c) A statistician accepts that models are flawed but still useful—interpret what this implies about scientific knowledge and truth.
-Q4c) Light is described as corpuscles moving through ether—interpret what this indicates about 19th-century assumptions.
-Q5c) Quantum mechanics is said to reject fixed definiteness—interpret what philosophical position this suggests.
-Q6c) Heat is treated as a subtle fluid—interpret what this reveals about outdated thermal theories.
-Q7c) Alchemical language about sun and moon producing the stone—interpret what real metal-related process this may refer to.
-Q8c) A chemical reaction is compared to sleeping and breathing—interpret what cyclical behavior is being described.
-Q9c) Elements are defined by their resistance to decomposition—interpret what this says about beliefs concerning matter’s basic structure.
-Q10c) Cells are portrayed as indivisible building blocks—interpret how this shaped early biological thinking.
-Q11c) A forest is described as retaining memory of fire—interpret the ecological ideas this metaphor expresses.
-Q12c) Darwin’s breeder comparison—interpret whether it should be read literally or symbolically.
-Q13c) Code is framed as a narrative—interpret what this suggests about how programmers think about program organization.
-Q14c) Software components are likened to species in an ecosystem—interpret what this says about expectations of system evolution.
-Q15c) A voice assistant is described in human conversational terms—interpret what this shows about interface design goals.
-Q16c) Interpret a cartoon showing immigrants turned away—what does it say about wartime immigration sentiment?
-Q17c) Interpret Abigail Adams’ appeal for greater consideration of women—what political message was she advancing?
-Q18c) Interpret a timeline from crash to recovery—how is government intervention linked to economic change?
-Q19c) Interpret Kant’s universal law principle—how does it shape moral decision-making?
-Q20c) Interpret the trolley case as a way to compare ethical theories.
-Q21c) Interpret how three ethical frameworks reach different answers about lying.
-Q22c) Interpret descriptions of the housing boom as irrational—what assumptions about human rationality are being made?
-Q23c) Interpret claims that the crisis involved a lack of imagination—what does this reveal about systemic failures?
-Q24c) Interpret claims that steel tariffs are symbolic politics—what trade and voter incentives are implied?
-Q25c) Interpret Frost’s conclusion as either sincere or self-critical.
-Q26c) Interpret Hamlet’s hesitation during Claudius’s prayer—how does it reveal his inner struggle?
-Q27c) Interpret the green light as a symbol of desire or lost ideals.
-Q28c) Interpret ethical reasoning in choosing between two ICU patients.
-Q29c) Interpret ethical tradeoffs in selective vaccine exemptions.
-Q30c) Interpret what data fabrication for a “good cause” teaches about research ethics.
+Q1c) A mathematician argues that symmetry, not shortness, gives a Riemann Hypothesis proof its beauty—interpret what this shows about their mathematical aesthetics and view of truth.  
+Q2c) A 1920s physicist describes wave–particle results as harmonious—interpret what this implies about their philosophy of light’s nature.  
+Q3c) “All models are wrong but useful,” says a statistician—interpret the epistemological meaning of this stance.  
+Q4c) An 1850s author describes light as particles in ether—interpret what this reveals about contemporary beliefs on space and energy.  
+Q5c) A claim that quantum mechanics rejects definiteness in favor of probability—interpret the philosophical stance it reflects.  
+Q6c) Heat described as a flowing caloric fluid—interpret the framework and its limits.  
+Q7c) The alchemical union of red sun and white moon—interpret the likely metallurgical process symbolized.  
+Q8c) An oscillating reaction likened to breathing—interpret the observable chemistry and implications for vitalism.  
+Q9c) Oxygen and hydrogen defined as indecomposable—interpret assumptions about elemental matter.  
+Q10c) Cells called indivisible life units—interpret this model and what later science would revise.  
+Q11c) A forest said to remember fires—interpret the concept of ecological memory and succession.  
+Q12c) Natural selection compared to breeding—interpret agency versus metaphor and its implications.  
+Q13c) Code described as a narrative—interpret what this says about design philosophy.  
+Q14c) Microservices described as an evolving ecosystem—interpret the development and evolution assumptions.  
+Q15c) A voice assistant described as humanlike—interpret UX goals and anthropomorphism.  
+Q16c) Interpret a WWI cartoon of Uncle Sam rejecting immigrants.  
+Q17c) Interpret Abigail Adams’s call to remember women’s rights.  
+Q18c) Interpret cause-and-effect links in a Great Depression timeline.  
+Q19c) Interpret Kant’s universalizability principle and its moral implications.  
+Q20c) Interpret the trolley problem’s role in contrasting ethical theories.  
+Q21c) Interpret differing ethical conclusions about lying across major frameworks.  
+Q22c) Interpret “irrational exuberance” as a description of the 2008 housing bubble.  
+Q23c) Interpret “failure of imagination” in crisis risk assessment.  
+Q24c) Interpret claims that steel tariffs are protectionist theater.  
+Q25c) Interpret irony versus celebration in “The Road Not Taken.”  
+Q26c) Interpret Hamlet’s prayer-scene hesitation.  
+Q27c) Interpret the symbolism of Gatsby’s green light.  
+Q28c) Interpret ethical principles in scarce ICU triage.  
+Q29c) Interpret ethics of vaccine mandates with limited exemptions.  
+Q30c) Interpret ethics of data fabrication for climate advocacy.  
