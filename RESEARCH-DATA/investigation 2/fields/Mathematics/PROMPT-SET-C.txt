@@ -19,12 +19,12 @@ Q16c) Define what a continuous function is.
 Q17c) Explain the idea behind mathematical induction.  
 Q18c) Define the concept of probability distribution.  
 
-Q19c) With f(x) = x^2 and g(x) = 3x + 2, calculate (f∘g)(x) and simplify.  
+Q19c) Apply substitution to determine the solution of a system of linear equations.
 Q20c) For the sequence 2, 4, 8, 16, ..., determine a formula for the nth term and the 10th term.  
 Q21c) A rectangle has a perimeter of 50 with length twice its width. Determine the dimensions.  
 Q22c) Determine all roots of f(x) = x^3 - 6x^2 + 11x - 6 with explanation.  
 Q23c) A coin is flipped three times. Find the probability of exactly two heads and justify the solution.  
-Q24c) Solve the linear system: x + y + z = 6, x - y + 2z = 3, 2x + y - z = 4.  
+Q24c) Find the displacement of a particle over time given a quadratic velocity relationship.
 
 Q25c) Analyze the graph of y = x^3 - 3x^2 + 2x, indicating maxima, minima, and inflection points.  
 Q26c) Discuss the role of the golden ratio in the Fibonacci sequence.  
@@ -49,7 +49,8 @@ Q42c) Design a study comparing mnemonic strategies for formula memorization.
 
 Q43c) What is the total of a triangle's interior angles?  
 Q44c) How many edges does a cube possess?  
-Q45c) Compute the derivative of x^2.  
+Q45c) Give the approximate three decimal place value of pi.
 Q46c) State π to two decimal places.  
-Q47c) Find √144.  
-Q48c) Evaluate 7 factorial (7!).
+Q47c) Determine the derivative of the function x squared.
+Q48c) Identify the mathematical formula for circular area.
+
