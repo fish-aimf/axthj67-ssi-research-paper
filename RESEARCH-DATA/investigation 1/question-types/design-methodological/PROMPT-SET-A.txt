@@ -1,4 +1,4 @@
-Q1a) Design a study to compare the effectiveness of two approaches for teaching calculus to high school students. Specify the variables, controls, and evaluation criteria.   
+Q1a) Design a study to compare the effectiveness of two approaches for teaching calculus to high school students. Specify the variables, controls, and evaluation criteria.
 Q2a) Propose an experiment to examine how changing the angle of incidence affects light reflection from a mirror. Include equipment, procedure, and data analysis.  
 Q3a) Design a lab experiment to determine reaction rates of a chemical under different temperatures. Justify your choice of controls and measurement methods.  
 Q4a) Develop a controlled experiment to study the impact of various fertilizers on plant growth. Describe design, replication, and data collection.  
@@ -28,4 +28,5 @@ Q27a) Design an experiment comparing two algorithms for sorting large datasets. 
 Q28a) Propose a study to examine how varying physical activity levels affect learning retention in biology students. Include design and controls.  
 Q29a) Design a methodology to test if interactive simulations enhance understanding of chemical reaction mechanisms. Include control groups and evaluation metrics.  
 Q30a) Propose a study to compare the effect of feedback frequency on student motivation and learning in an online ethics course. Include design rationale and justification.  
+
 
