@@ -17,16 +17,16 @@ Q16d) Explain oxidation and reduction in terms of electrons.
 Q17d) Define molarity in solution chemistry.
 Q18d) What are intermolecular forces? Give examples.
 Q19d) Predict the products and balance aluminum reacting with HCl.
-Q20d) Using enthalpies of formation, determine the enthalpy change for methane combustion.
+Q20d) From the titration volumes given, compute the acid concentration and explain your steps.
 Q21d) Explain how temperature shifts affect the equilibrium of N2 + 3H2 ⇌ 2NH3.
-Q22d) Identify the limiting reactant when 5 g of Na reacts with 10 g of Cl2.
-Q23d) From a titration curve, determine the equivalence point and the concentration of the unknown solution.
+Q22d) Analyze the reaction to determine how much aluminum chloride can be produced from 10 grams of aluminum.
+Q23d) Discuss the impact of increased temperature on equilibrium and reaction rate in an exothermic process.
 Q24d) Using pKa, compare the acidities of HCl, H2SO4, and H3PO4.
 Q25d) Describe the boiling point trend among halogens from F2 to I2.
 Q26d) Explain why gas solubility declines as temperature rises.
 Q27d) Use IR spectroscopy data to identify functional groups.
 Q28d) Assess the influence of a catalyst on reaction rate based on a graph.
-Q29d) Discuss the environmental consequences of acid rain using given chemical reactions.
+Q29d) Describe what a reaction energy profile reveals about reaction energetics and catalysts.
 Q30d) Explain why solid ionic compounds do not conduct electricity, but molten ones do.
 Q31d) Evaluate whether hydrogen fuel offers better sustainability than fossil fuels.
 Q32d) Should industrial processes adopt green chemistry? Justify your answer.
@@ -45,4 +45,5 @@ Q44d) Indicate the chemical symbol for potassium.
 Q45d) Which element in period 3 is classified as a halogen?
 Q46d) What is mercury’s standard state at room temperature?
 Q47d) Which gas is generated when zinc reacts with hydrochloric acid?
-Q48d) Determine the pH of a 0.01 M hydrochloric acid solution.
+Q48d) What is the standard pH for neutrality in water?
+
