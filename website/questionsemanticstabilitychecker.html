@@ -402,9 +402,7 @@ Q28e: text here"></textarea>
             const questions = {};
             
             lines.forEach(line => {
-                // Ultra flexible regex: matches Q1a: Q1a) Q1a. Q1a or even just Q1a
-                // Handles Q1a, Q1b, Q15a, Q28e, etc.
-                const match = line.match(/^Q(\d+)[a-z]?[\s:).]*(.+)$/i);
+                const match = line.match(/^Q(\d+)[a-e]?[\s:).]*(.+)$/i);
                 if (match) {
                     const questionNum = match[1];
                     const text = match[2].trim();
