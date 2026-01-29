@@ -1,30 +1,30 @@
-Q1b) A mathematician argues that a proof’s elegance comes from its symmetry rather than how short it is—interpret what this suggests about their views on mathematical beauty and truth.
-Q2b) A 1920s physics paper speaks of harmony between wave and particle in the photoelectric effect—interpret what this implies about philosophical views of light.
-Q3b) A statistician claims that while models are incorrect, some remain useful—interpret what this says about how scientific knowledge is justified.
-Q4b) An 1850s text portrays light as particles moving through ether—interpret what this shows about historical beliefs concerning space and energy transfer.
-Q5b) A physicist states that quantum theory favors probability over definiteness—interpret whether this reflects realism, instrumentalism, or a related stance.
-Q6b) Heat is described as a flowing caloric substance—interpret what this indicates about early thermodynamic theory and its limitations.
-Q7b) An alchemical reference to the union of sun and moon producing the stone—interpret the likely metallurgical meaning.
-Q8b) An oscillating reaction is compared to breathing—interpret what physical behavior is being observed and what it implies about vitalist thinking.
-Q9b) Oxygen and hydrogen are defined as substances that cannot be decomposed—interpret what assumptions about fundamental matter this reflects.
-Q10b) Cells are described as indivisible life units—interpret what this reveals about early biological theory and what later findings would alter.
-Q11b) A forest is said to remember past fires—interpret how this reflects ideas of succession and ecological memory.
-Q12b) Natural selection is compared to a breeder’s choices—interpret whether this comparison suggests real agency or is simply a metaphor.
-Q13b) Code is described as telling a story—interpret what this indicates about priorities in software structure and readability.
-Q14b) Microservices are compared to organisms in an ecosystem—interpret what this implies about how software systems are expected to grow and change.
-Q15b) A voice interface is described as humanlike in conversation—interpret what this emphasizes about natural interaction in user experience design.
-Q16b) Interpret a WWI-era cartoon of Uncle Sam rejecting immigrants—what does it suggest about national identity and immigration attitudes?
-Q17b) Interpret Abigail Adams’ request to “remember the ladies”—what does this show about her political goals regarding women.
-Q18b) Interpret a sequence from the 1929 crash to New Deal recovery—how does it frame the effects of government action on the economy?
-Q19b) Interpret Kant’s rule about universalizing maxims—how does this guide judgments about moral duty?
-Q20b) Interpret the trolley problem as a way to highlight tension between outcome-based and duty-based ethics.
-Q21b) Interpret how utilitarian, deontological, and virtue ethics approaches differ in a case involving lying.
-Q22b) Interpret the phrase “irrational exuberance” as applied to the 2008 housing bubble—what does it assume about investor behavior and markets?
-Q23b) Interpret “failure of imagination” in crisis analysis—what does this suggest about institutional blind spots and risk culture?
-Q24b) Interpret criticism of steel import limits as political theater—what economic and electoral motives are implied?
-Q25b) Interpret whether Frost’s ending affirms nonconformity or critiques how people justify choices after the fact.
-Q26b) Interpret Hamlet’s choice not to kill Claudius while he is praying—how does this show his conflict between revenge and morality?
-Q27b) Interpret Gatsby’s green light as a symbol—how does it relate to longing, the past, or the American Dream?
-Q28b) Interpret an ICU triage choice between an elderly patient and a younger parent—what ethical principles are in tension?
-Q29b) Interpret vaccine mandates with religious but not philosophical exemptions—what does this imply for fairness and public health ethics?
-Q30b) Interpret a case of fabricated climate data meant to increase urgency—what ethical lessons does this raise for scientific trust?
+Q1b) A mathematician writes that "the Riemann Hypothesis proof’s beauty lies in its elegant symmetry, not its brevity"—interpret what this indicates about their philosophy of mathematical truth and aesthetics.
+Q2b) A 1920s physics paper describes the photoelectric effect results as showing "unexpected harmonies between wave and particle"—interpret what philosophical view about light’s nature this metaphorical language reflects.
+Q3b) A statistician states that "all statistical models are wrong, but some are useful for prediction"—interpret the epistemological implications of accepting knowingly flawed models as scientific instruments.
+Q4b) An 1850s physics textbook describes light as "corpuscular emanations traveling through luminiferous ether"—interpret what this wording reveals about the era’s assumptions regarding space and energy transmission.
+Q5b) A physicist writes that quantum mechanics shows that "nature abhors definiteness, embracing probabilistic existence"—interpret whether this reflects realism, instrumentalism, or another philosophical stance on quantum reality.
+Q6b) An 1840s thermodynamics text refers to heat as "a subtle fluid called caloric flowing between bodies"—interpret what this metaphor suggests about the theoretical framework and what it failed to capture about thermal energy.
+Q7b) An alchemist’s 16th-century journal mentions that "the marriage of red sun and white moon yields the philosopher's stone"—interpret what chemical process involving metals this symbolic language likely refers to.
+Q8b) A chemist’s 1890s notes state that an oscillating reaction "breathes and sleeps in rhythmic cycles like a living organism"—interpret what observable phenomenon this poetic description might be capturing and what it suggests about vitalism.
+Q9b) An 1869 chemistry textbook calls oxygen and hydrogen "elementary substances that resist all attempts at analytical decomposition"—interpret the theoretical assumptions about matter’s fundamental nature that underlie this definition.
+Q10b) A biologist in 1838 describes cells as "the elementary particles of life, indivisible units from which all organisms are composed"—interpret what this analogy reveals about their conceptual framework and what later discoveries would challenge.
+Q11b) An ecologist writes that an old-growth forest "remembers past fires through its species composition and soil chemistry"—interpret what ecological concept of succession and ecosystem memory this metaphorical language expresses.
+Q12b) Darwin wrote that nature "selects" favorable variations "as a breeder chooses desirable traits"—interpret whether this language implies intentional agency in nature or is purely metaphorical, and what philosophical implications this carries.
+Q13b) A programmer’s 1970s documentation states that "the code tells a story of data transformation, with each function a chapter"—interpret what software design philosophy about readability and structure this narrative perspective reflects.
+Q14b) A systems architect describes a microservices design as having "organic growth where components evolve independently like organisms in an ecosystem"—interpret what development methodology and what assumptions about software evolution this metaphor implies.
+Q15b) A 2020 tech review describes a voice interface as "conversational, understanding context and intent like a human assistant"—interpret what user experience principles regarding natural interaction and anthropomorphism this characterization emphasizes.
+Q16b) Interpret a 1917 political cartoon showing Uncle Sam turning away immigrants at a golden door—explain what commentary it offers on American immigration policy and national identity during World War I.
+Q17b) Examine a 1776 letter from Abigail Adams to John Adams stating "remember the ladies, and be more generous and favorable to them than your ancestors"—interpret her perspective on women’s rights and her political intentions.
+Q18b) Analyze a timeline showing: the 1929 stock market crash, 1930–1932 bank failures, 1933 New Deal programs, and 1934–1936 economic recovery—interpret the cause-and-effect relationships between government intervention and economic outcomes.
+Q19b) Given Kant’s excerpt "act only according to that maxim whereby you can at the same time will that it should become a universal law"—interpret the main argument of the categorical imperative and evaluate its implications for determining moral duties.
+Q20b) Examine the trolley problem thought experiment where you can pull a lever to divert a runaway trolley from five people onto a track with one person—interpret its significance in illustrating the conflict between utilitarian and deontological principles.
+Q21b) Analyze a diagram comparing utilitarianism (maximize happiness), deontology (follow duties), and virtue ethics (cultivate character) approaches to the dilemma of lying to protect someone—interpret how each framework reaches different conclusions.
+Q22b) An economist describes the 2008 housing market as "irrational exuberance leading to inevitable collapse"—interpret what assumptions about human rationality, market efficiency, and behavioral economics this description reflects.
+Q23b) A financial crisis report calls the 2008 collapse "a failure of imagination where risks were systematically underestimated"—interpret what systemic issues in risk assessment, regulation, and institutional culture this metaphor may be highlighting.
+Q24b) A trade policy limiting steel imports is described by critics as "protectionist theater that wins votes but harms consumers"—interpret what economic motivations regarding comparative advantage and political motivations regarding constituencies this characterization suggests.
+Q25b) Given Robert Frost’s poem "The Road Not Taken" ending with "I took the one less traveled by, and that has made all the difference"—interpret whether the poem celebrates nonconformity or ironically questions our tendency to rationalize choices retrospectively.
+Q26b) Examine a passage where Hamlet delays killing Claudius while he is praying—interpret the development of Hamlet’s internal conflict between revenge duty and moral hesitation.
+Q27b) Analyze the "green light" metaphor in The Great Gatsby that Gatsby reaches toward across the water—interpret its broader significance representing unattainable dreams, the American Dream, or the past within the novel’s themes.
+Q28b) Given a medical ethics case where ICU beds are limited and doctors must choose between treating an 80-year-old with multiple conditions or a 40-year-old single parent—interpret the competing moral principles of equality, utility, and fairness and suggest possible resolutions.
+Q29b) Examine a public health policy requiring childhood vaccinations with religious exemptions but no philosophical exemptions—interpret its ethical implications regarding bodily autonomy, community welfare, and fair treatment across different populations.
+Q30b) Analyze a case where a scientist fabricated data in climate research to "strengthen the urgency of climate action"—interpret the ethical lessons about scientific integrity, consequentialist justifications, and trust in science for scientific practice.
