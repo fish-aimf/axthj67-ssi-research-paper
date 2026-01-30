@@ -17,16 +17,16 @@ A16a) Oxidation: loss of electrons; Reduction: gain of electrons.
 A17a) Molarity (M) = moles of solute ÷ liters of solution.
 A18a) Intermolecular forces: forces between molecules; examples: hydrogen bonding, dipole-dipole, London dispersion.
 A19a) 2 Al + 6 HCl → 2 AlCl3 + 3 H2
-A20a) CH4 + 2 O2 → CO2 + 2 H2O; ΔHrxn = [ΔHf(CO2) + 2ΔHf(H2O)] – [ΔHf(CH4) + 2ΔHf(O2)] = [–393.5 + 2(–286)] – [–74.8 + 0] = –802.7 kJ
+A20a) The acid concentration is calculated by equating moles of acid and base at equivalence.
 A21a) Increasing temperature shifts N2 + 3H2 ⇌ 2NH3 equilibrium backward (endothermic direction favors reactants), decreasing temperature favors forward reaction.
-A22a) Moles: Na = 5/23 = 0.217 mol, Cl2 = 10/70.9 ≈ 0.141 mol; reaction: 2 Na + Cl2 → 2 NaCl; Na needed = 2×0.141 = 0.282 > 0.217 → Na is limiting reagent.
-A23a) Equivalence point: point of steepest slope on titration curve; concentration calculated from volume of titrant used.
+A22a) The theoretical yield is calculated using molar ratios from the balanced reaction.
+A23a) Increasing temperature raises reaction rate but shifts equilibrium toward reactants.
 A24a) Acidity: HCl (pKa ~ –7) > H2SO4 (pKa1 ~ –3, pKa2 ~ 1.99) > H3PO4 (pKa1 ~ 2.15, pKa2 ~ 7.2, pKa3 ~ 12.4)
 A25a) Boiling points increase from F2 → Cl2 → Br2 → I2 due to increasing London dispersion forces with larger molecular size.
 A26a) Gas solubility decreases with temperature because higher kinetic energy allows gas molecules to escape solution more easily.
 A27a) IR interpretation: identify peaks (e.g., ~1700 cm–1 for C=O, ~3300 cm–1 for O–H) to determine functional groups.
 A28a) Catalyst increases reaction rate by lowering activation energy; graph shows faster approach to equilibrium.
-A29a) Acid rain causes corrosion of buildings, acidification of soils and water, damages aquatic life; main reactions: SO2 + H2O → H2SO3, NO2 + H2O → HNO3.
+A29a) The diagram shows activation energy, energy change, and reduced barrier with a catalyst.
 A30a) Ionic compounds conduct when molten because ions are free to move; in solid state ions are fixed in lattice.
 A31a) Hydrogen fuel produces water as emission, reducing CO2 and pollutant output; sustainability depends on production method (green H2 preferred).
 A32a) Yes, green chemistry reduces hazardous waste, improves safety, and conserves resources; justified for industrial sustainability.
@@ -45,4 +45,5 @@ A44a) K
 A45a) Cl
 A46a) Liquid
 A47a) H2
-A48a) [H+] = 0.01 M → pH = –log10(0.01) = 2
+A48a) The pH of a neutral solution at room temperature is 7.
+
