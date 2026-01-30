@@ -1,59 +1,30 @@
-A1c) The vertex of a quadratic function represents the maximum or minimum point of the graph. If the parabola opens upwards, the vertex is the minimum; if it opens downwards, the vertex is the maximum. The axis of symmetry passes through the vertex, indicating the line about which the graph is mirrored and helping locate the peak or trough.
-
-A2c) Increasing the initial velocity raises both the maximum height and the horizontal range of the projectile. Changing the launch angle alters the trajectory shape: angles closer to 90° increase height but reduce range, while angles around 45° maximize range, balancing vertical and horizontal motion.
-
-A3c) The underlying rule in a numerical sequence can often be deduced by examining differences or ratios between consecutive terms. Identifying patterns such as arithmetic progression, geometric progression, or alternating operations allows prediction of future terms.
-
-A4c) Increasing the amplitude of a simple harmonic oscillator increases the total mechanical energy, since energy is proportional to the square of amplitude. Increasing the frequency does not change total energy but affects how rapidly the system oscillates.
-
-A5c) Steeper slopes on an inclined plane increase the component of gravitational force along the plane, resulting in greater acceleration of the object. Shallower slopes decrease acceleration correspondingly.
-
-A6c) In a velocity versus time diagram, the area under the curve represents displacement. Positive areas indicate motion in one direction, while negative areas indicate motion in the opposite direction. Total displacement is the net area under the curve.
-
-A7c) A molecule’s geometry determines the spatial arrangement of atoms, influencing polarity, steric effects, and accessibility of reactive sites. This affects reaction rates, selectivity, and types of chemical reactions the molecule can undergo.
-
-A8c) Intermediates are transient species formed during a reaction, while transition states represent energy maxima along the pathway. The energy difference between reactants and transition states determines activation energy, affecting reaction rate.
-
-A9c) Atomic size generally decreases across a period due to increasing nuclear charge and increases down a group due to additional electron shells. Ionization energy increases across a period and decreases down a group. Electronegativity rises across periods and falls down groups.
-
-A10c) Visible organelles such as the nucleus, mitochondria, and endoplasmic reticulum perform specific functions: the nucleus stores genetic material, mitochondria generate energy, and the ER synthesizes proteins and lipids, contributing to overall cell function.
-
-A11c) Removing a species disrupts trophic interactions, potentially causing overpopulation of prey or decline of predators, leading to cascading effects throughout the ecosystem and altering energy flow and biodiversity.
-
-A12c) Environmental factors like temperature, light, or nutrient availability can upregulate or downregulate gene expression, altering protein production levels and affecting cellular function or organismal response.
-
-A13c) The code’s logical sequence shows stepwise operations leading to a predicted output. Interpreting conditionals, loops, and function calls allows anticipation of results or identification of potential errors.
-
-A14c) Traversal methods such as in-order, pre-order, post-order, or level-order determine the order in which nodes are visited in a data structure. Choice of traversal affects applications like searching, sorting, or data processing.
-
-A15c) Changes in input values propagate through the flowchart’s decision points and operations, potentially altering the path taken and the final output. Understanding dependencies allows prediction of algorithm behavior.
-
-A16c) The political cartoon uses imagery, exaggeration, and symbolism to comment on social or political issues. Interpreting visual metaphors reveals the artist’s critique of policies, leaders, or public sentiment at the time.
-
-A17c) The historical letter’s language, tone, and content reflect the writer’s perspective, intentions, and context. Interpreting these elements reveals motivations, biases, or objectives behind the communication.
-
-A18c) A timeline shows chronological ordering of events. Interpreting causal links involves analyzing how earlier events influence subsequent developments and understanding the sequence of historical cause and effect.
-
-A19c) The philosophy passage presents arguments and reasoning supporting a particular ethical stance. Interpretation involves identifying premises, conclusions, and implications for moral decisions or broader ethical frameworks.
-
-A20c) Thought experiments illustrate principles by presenting hypothetical scenarios. Interpreting them clarifies abstract concepts, tests reasoning, and demonstrates consequences of applying philosophical ideas.
-
-A21c) Ethical framework diagrams show different approaches (e.g., utilitarianism, deontology) to moral dilemmas. Interpreting these highlights how identical situations may lead to different moral judgments depending on the framework applied.
-
-A22c) Economic charts display patterns in supply, demand, and prices. Interpretation reveals trends such as shifts in equilibrium, market shortages or surpluses, and responses to policy changes or external shocks.
-
-A23c) Financial crisis cases reveal causes such as asset bubbles, excessive leverage, or regulatory failures. Interpreting consequences includes analyzing impacts on GDP, employment, financial institutions, and market stability.
-
-A24c) Comparing economic measures across countries highlights disparities in income, growth, or trade performance. Interpretation involves identifying structural factors, policy differences, or resource distributions that contribute to these variations.
-
-A25c) The central message of a poem is conveyed through themes, tone, and literary devices like imagery, metaphor, or rhyme. Interpretation connects these elements to the overall meaning or emotional impact.
-
-A26c) A novel excerpt may reveal a character’s inner conflict through thoughts, dialogue, or actions. Interpreting these elements shows development of motivations, dilemmas, and psychological complexity over the narrative.
-
-A27c) A metaphor represents one idea in terms of another to convey meaning symbolically. Interpreting its significance involves linking the figurative expression to themes, character experiences, or narrative context.
-
-A28c) Medical ethics cases often involve conflicts between principles like autonomy, beneficence, and non-maleficence. Interpretation requires weighing these principles to propose ethically justified resolutions.
-
-A29c) Public health policies affect different communities in diverse ways. Interpreting ethical implications involves analyzing fairness, equity, and potential benefits or burdens for various population groups.
-
-A30c) Research misconduct incidents illustrate violations of ethical standards. Interpretation involves identifying lessons about integrity, accountability, and the importance of honesty in scientific practice.
+A1c) It reveals a philosophy that mathematical truth is not valued solely for efficiency or minimalism, but for deep structural coherence and symmetry, suggesting that aesthetic qualities like harmony and elegance are taken as indicators of profound insight and truth.
+A2c) The metaphor reflects a philosophical stance of complementarity, implying that light cannot be fully understood through a single classical category but instead requires accepting wave and particle descriptions as jointly revealing an underlying unity.
+A3c) It implies a pragmatic epistemology in which models are understood as approximations rather than literal truths, and scientific knowledge is valued for predictive and explanatory usefulness despite known inaccuracies.
+A4c) It reveals assumptions that space is filled with a physical medium necessary for energy transmission and that light requires a material substrate, reflecting pre-relativistic conceptions of space and motion.
+A5c) This view aligns most closely with an anti-realist or structural realist stance, suggesting that quantum mechanics describes limits on definiteness in nature itself rather than merely limits of measurement, while rejecting classical realist determinacy.
+A6c) The metaphor suggests a substance-based framework for heat that treated it as conserved matter, failing to account for heat as a form of energy related to motion and unable to explain mechanical equivalence.
+A7c) It most likely describes the alloying or purification of metals, particularly the combination of gold-like and silver-like substances, symbolically representing metallurgical refinement rather than literal transmutation.
+A8c) The imagery captures observable oscillating chemical reactions with periodic concentration changes and implies that no vital life force is required, challenging vitalist interpretations by explaining the behavior through physical chemistry.
+A9c) It reflects the assumption that elements are fundamental, indivisible constituents of matter, prior to the discovery of subatomic structure that would later challenge their supposed irreducibility.
+A10c) The analogy reveals a mechanistic framework that modeled life on physical particles, which later discoveries such as cell division, organelles, and molecular biology would complicate by showing internal complexity and divisibility.
+A11c) The metaphor expresses concepts of ecological succession and ecosystem memory, suggesting that past disturbances leave lasting structural and chemical legacies that shape future ecological dynamics.
+A12c) The language functions as metaphor rather than implying literal intention, philosophically framing natural selection as a blind process while borrowing intentional language to make the mechanism intelligible.
+A13c) It reflects a design philosophy that prioritizes readability, narrative clarity, and modular structure, treating code as a communicative artifact meant to be understood by humans as well as machines.
+A14c) The metaphor conveys an agile or evolutionary development methodology, assuming decentralized change, adaptability, and continuous evolution rather than top-down, fixed design.
+A15c) It emphasizes user experience principles focused on natural interaction, ease of use, and anthropomorphism to make technology feel intuitive and socially responsive.
+A16c) The cartoon critiques restrictive immigration policies by portraying exclusion as a betrayal of national ideals, highlighting tensions between wartime nationalism and America’s self-image as a land of opportunity.
+A17c) Her perspective advocates early feminist principles, seeking expanded legal and social recognition for women while strategically appealing to revolutionary ideals of liberty and justice.
+A18c) The timeline suggests that government intervention through New Deal policies mitigated economic collapse, stabilized institutions, and contributed to recovery following earlier systemic failures.
+A19c) The categorical imperative argues that moral actions must be universally applicable, implying that duties are determined by rational consistency rather than consequences or personal interests.
+A20c) The problem illustrates the conflict between utilitarian reasoning, which prioritizes outcomes, and deontological ethics, which emphasizes moral rules and the permissibility of actions.
+A21c) Utilitarianism focuses on minimizing harm, deontology on adherence to moral rules such as truthfulness, and virtue ethics on the character and intentions of the moral agent.
+A22c) The characterization assumes limits to human rationality, challenges strong market efficiency, and reflects behavioral economics insights about herd behavior and cognitive bias.
+A23c) The metaphor highlights systemic failures in anticipating complex risks, regulatory complacency, and institutional cultures that discouraged dissent and critical imagination.
+A24c) It implies that protectionism ignores comparative advantage to satisfy political constituencies, prioritizing visible domestic benefits over diffuse consumer costs.
+A25c) The poem ultimately questions retrospective rationalization, suggesting that people impose meaning on choices after the fact rather than consciously choosing nonconformity.
+A26c) The scene deepens Hamlet’s conflict by showing his struggle between moral reasoning and the imperative for revenge, revealing paralysis born of ethical reflection.
+A27c) The green light symbolizes unattainable aspiration, the illusory promise of the American Dream, and Gatsby’s longing to reclaim an idealized past.
+A28c) The scenario highlights tension between equal respect for persons, maximizing overall benefit, and fairness, with resolutions ranging from lotteries to prioritizing life-years saved.
+A29c) The policy balances individual autonomy against public welfare, raising concerns about fairness in privileging certain belief systems while emphasizing collective health protection.
+A30c) The case underscores that ethical ends do not justify unethical means, illustrating how data fabrication undermines scientific credibility, public trust, and the moral foundations of science.
