@@ -17,16 +17,16 @@ A16b) Oxidation: loss of electrons; Reduction: gain of electrons.
 A17b) Molarity = moles of solute ÷ liters of solution.
 A18b) Intermolecular forces: interactions between molecules; examples: hydrogen bonding, dipole-dipole, London dispersion.
 A19b) 2 Al + 6 HCl → 2 AlCl3 + 3 H2
-A20b) CH4 + 2 O2 → CO2 + 2 H2O; ΔHrxn = [–393.5 + 2(–286)] – [–74.8 + 0] = –802.7 kJ
+A20b) The molarity is found using the volume and concentration relationship from the titration.
 A21b) Higher temperature shifts equilibrium toward reactants (endothermic direction); lower temperature favors ammonia formation.
-A22b) Na: 5/23 = 0.217 mol; Cl2: 10/70.9 ≈ 0.141 mol; reaction requires 0.282 mol Na → Na is limiting reagent.
-A23b) Equivalence point: steepest slope on titration curve; unknown concentration from titrant volume at equivalence.
+A22b) Converting aluminum mass to moles and applying stoichiometry gives the product yield.
+A23b) Higher temperature speeds collisions and favors the endothermic direction.
 A24b) Acid strength: HCl > H2SO4 > H3PO4 (based on pKa values).
 A25b) Boiling points increase F2 → Cl2 → Br2 → I2 due to stronger London dispersion forces.
 A26b) Gas solubility decreases with temperature because molecules escape solution more easily.
 A27b) IR spectra: identify functional groups from characteristic peaks (e.g., C=O ~1700 cm–1, O–H ~3300 cm–1).
 A28b) Catalyst lowers activation energy; increases reaction rate; graph shows faster approach to equilibrium.
-A29b) Acid rain: corrodes structures, acidifies soil/water, harms aquatic life; reactions: SO2 + H2O → H2SO3, NO2 + H2O → HNO3.
+A29b) It indicates energy requirements and catalyst effect on reaction pathway.
 A30b) Ionic compounds conduct when molten due to free-moving ions; solid lattice prevents conduction.
 A31b) Hydrogen fuel produces water instead of CO2; sustainability depends on production method (green H2 preferred).
 A32b) Yes; green chemistry reduces hazards, conserves resources, improves safety.
@@ -45,4 +45,5 @@ A44b) K
 A45b) Cl
 A46b) Liquid
 A47b) H2
-A48b) [H+] = 0.01 M → pH = 2
+A48b) The pH value is 7.
+
