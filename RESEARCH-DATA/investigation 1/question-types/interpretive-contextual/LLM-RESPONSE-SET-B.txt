@@ -1,59 +1,59 @@
-A1b) The vertex represents the maximum or minimum value of the quadratic function, with the axis of symmetry showing the vertical line that divides the parabola into two mirror-image halves. If the parabola opens upwards, the vertex is the minimum; if it opens downwards, the vertex is the maximum.
+A1b) It reveals a philosophy that mathematical truth is not only about logical correctness or conciseness but about deep structural harmony; elegance and symmetry are taken as indicators of profound insight into mathematical reality.
 
-A2b) Increasing the initial speed generally increases both the maximum height and horizontal distance, while changing the launch angle shifts the balance: angles closer to 45° maximize distance, higher angles increase height but reduce range.
+A2b) It reflects a stance that light cannot be fully captured by a single classical ontology; the metaphor suggests an emerging complementarity view in which wave and particle aspects coexist rather than exclude one another.
 
-A3b) The underlying rule can be identified by observing differences or ratios between consecutive terms, such as arithmetic (constant difference) or geometric (constant ratio) patterns.
+A3b) It implies a pragmatic epistemology: scientific knowledge is seen as approximate and instrumental, valuing predictive power and usefulness over literal truth or perfect representation of reality.
 
-A4b) Increasing amplitude raises the total energy of the oscillator, while increasing frequency increases the rate of oscillation but does not affect energy directly if amplitude remains constant.
+A4b) It reveals assumptions that space is filled with a physical medium enabling energy transmission, and that forces and motion require a mechanical substrate rather than action at a distance.
 
-A5b) Increasing the incline angle increases the component of gravitational force along the plane, thus increasing the acceleration of the object; decreasing the angle reduces acceleration.
+A5b) It reflects a non-classical realism or structural realism, where probabilities are taken as fundamental features of nature rather than mere ignorance, rejecting strict determinism without collapsing into pure instrumentalism.
 
-A6b) The area under a velocity-time graph represents the displacement of the object; positive areas indicate movement in the positive direction, negative areas indicate movement in the opposite direction.
+A6b) It suggests a substance-based theoretical framework treating heat as conserved matter, which failed to capture heat as kinetic energy arising from microscopic motion and transformable into work.
 
-A7b) Molecular geometry determines how atoms are spatially arranged, influencing bond angles, polarity, and accessibility of reactive sites, which affects chemical reactivity and interaction with other molecules.
+A7b) It likely symbolically describes alloying or purification processes involving gold and silver (or sulfur and mercury), using alchemical symbolism to encode metallurgical transformations.
 
-A8b) Intermediates indicate temporary species formed during the reaction, and transition states represent high-energy configurations; both are critical for understanding the reaction pathway and activation energy.
+A8b) It captures observable periodic changes in color or concentration in oscillating chemical reactions and suggests lingering vitalist intuitions by likening purely chemical processes to living behavior.
 
-A9b) Moving across periods, atomic radius decreases and ionization energy and electronegativity generally increase; moving down groups, atomic radius increases while ionization energy and electronegativity decrease.
+A9b) It reflects the assumption that elements are ultimate, indivisible constituents of matter, predating atomic substructure and the later discovery of electrons, protons, and neutrons.
 
-A10b) Visible organelles can be linked to their functions: the nucleus controls genetic information, mitochondria produce energy, chloroplasts enable photosynthesis, and the endoplasmic reticulum and Golgi apparatus are involved in protein and lipid processing.
+A10b) It reveals a mechanistic, reductionist framework modeling life after physical particles, which would later be challenged by discoveries of cell division, organelles, and molecular biology.
 
-A11b) Removing a species disrupts the food web, potentially causing population imbalances, trophic cascades, or extinction of dependent species, highlighting the interconnectedness of the ecosystem.
+A11b) It expresses the concept of ecological succession and legacy effects, where past disturbances leave enduring imprints that shape future ecosystem structure and function.
 
-A12b) Changes in the environment can upregulate or downregulate gene expression, altering protein production and affecting cellular response to external conditions.
+A12b) It is metaphorical rather than implying conscious agency; philosophically, it frames natural selection as an impersonal process while borrowing intentional language to aid understanding.
 
-A13b) The code’s logical structure dictates the sequence of operations and conditions; interpreting it reveals the intended output and how inputs are processed to produce results.
+A13b) It reflects a philosophy emphasizing code readability, narrative structure, and modular design, valuing human comprehension alongside functional correctness.
 
-A14b) The traversal method (e.g., pre-order, in-order, post-order, breadth-first) dictates the order in which nodes are accessed, affecting search, insertion, or data processing tasks.
+A14b) It suggests an agile, evolutionary development methodology, assuming software systems adapt over time through decentralized change rather than top-down control.
 
-A15b) The flowchart shows decision points and process sequences; different inputs may follow distinct paths, leading to variable outcomes depending on conditional logic.
+A15b) It emphasizes usability, natural language interaction, contextual awareness, and reduced cognitive load, aiming to make technology feel intuitive and human-centered.
 
-A16b) The cartoon uses symbolism, exaggeration, or satire to comment on societal or political issues, reflecting public opinion or critiquing policies and behaviors.
+A16b) It comments on restrictive wartime immigration policies, portraying a narrowing national identity driven by fear, nationalism, and exclusion during World War I.
 
-A17b) The author’s viewpoint is inferred from tone, word choice, and argument; objectives may include persuasion, documentation, or advocacy on particular historical issues.
+A17b) It reflects an early advocacy for women’s rights and legal recognition, using political influence to press for gender equality within the emerging American republic.
 
-A18b) The timeline allows tracing cause-and-effect relationships, showing how earlier events lead to subsequent developments and highlighting historical patterns or consequences.
+A18b) It suggests that government intervention helped stabilize financial systems and restore confidence, implying a causal link between New Deal policies and economic recovery.
 
-A19b) The main points convey the central argument or perspective; assessing moral reasoning involves evaluating principles, consistency, and implications for ethical decisions.
+A19b) It argues that moral actions must be universally applicable without contradiction, grounding duties in rational consistency rather than consequences or personal preference.
 
-A20b) The thought experiment illustrates abstract philosophical concepts by creating hypothetical scenarios that reveal underlying principles or challenge assumptions.
+A20b) It illustrates the tension between outcome-based ethics that prioritize overall good and rule-based ethics that emphasize moral constraints regardless of consequences.
 
-A21b) Different ethical approaches may prioritize outcomes, duties, or virtues; the diagram shows how each framework addresses the same moral question, highlighting contrasts and similarities.
+A21b) It shows utilitarianism permitting lying for greater good, deontology forbidding it on principle, and virtue ethics judging it by character and context.
 
-A22b) Charts reveal trends such as increasing or decreasing supply and demand, price fluctuations, and market equilibrium changes, enabling interpretation of economic behavior.
+A22b) It reflects skepticism toward strict rationality and market efficiency, incorporating behavioral economics to explain bubbles driven by psychology and herd behavior.
 
-A23b) Contributing factors may include policy decisions, market failures, or external shocks; outcomes may involve recession, inflation, unemployment, or recovery patterns.
+A23b) It highlights systemic failures in risk modeling, institutional incentives, and collective foresight, emphasizing structural blind spots rather than isolated mistakes.
 
-A24b) Economic indicators show disparities in wealth, growth rates, and productivity between nations, illustrating differences in development, resource allocation, and economic policies.
+A24b) It suggests political incentives to appear protective of domestic industry while economically imposing higher costs and inefficiencies on consumers.
 
-A25b) The poem’s theme emerges from recurring ideas and imagery; literary techniques like metaphor, rhyme, and structure enhance the expression and emotional impact of the theme.
+A25b)It questions retrospective rationalization, suggesting that meaning is constructed after choices are made rather than clearly determined at the moment of decision.
 
-A26b) The passage reflects the character’s internal struggles, choices, and evolution over time, revealing psychological depth and narrative development.
+A26b)It deepens Hamlet’s conflict by showing his struggle to reconcile moral conscience with the demand for revenge, delaying action through ethical reasoning.
 
-A27b) The metaphor conveys meaning beyond literal words, linking concepts symbolically to express larger truths, emotions, or philosophical ideas.
+A27b) It symbolizes unattainable dreams, hope, and the illusion of the American Dream, reflecting Gatsby’s longing for an idealized past and future.
 
-A28b) Conflicting ethical principles (e.g., autonomy vs. beneficence) require balancing; potential resolutions involve prioritizing principles, compromise, or context-specific judgment.
+A28b) It highlights tension between equal treatment, maximizing lives or life-years, and social responsibility, with possible resolutions involving triage principles or weighted fairness.
 
-A29b) Policies may benefit some populations while disadvantaging others; interpreting ethical effects involves considering equity, justice, and overall societal impact.
+A29b) It raises concerns about unequal respect for autonomy, privileging certain belief systems while justifying limits in the name of public health and collective welfare.
 
-A30b) The case illustrates consequences of research misconduct, emphasizing the importance of integrity, transparency, and adherence to ethical standards in science.
+A30b)It underscores that ethical ends do not justify dishonest means, showing how data fabrication undermines scientific credibility and public trust even for urgent causes.
