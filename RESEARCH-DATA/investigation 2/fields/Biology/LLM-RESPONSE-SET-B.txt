@@ -1,13 +1,13 @@
 A1b) Percentage growth = [(5.0 × 10^6 − 2.0 × 10^6) / 2.0 × 10^6] × 100 = 150%
-A2b) Water moves out of the plant cell into the solution.
+A2b) Doubling every 30 minutes for three hours gives 6 doublings, resulting in 128000 bacteria.
 A3b) Net oxygen production = 12 − 4 = 8 µmol O₂ m⁻² s⁻¹
 A4b) Phenotypic ratio = 9:3:3:1
 A5b) DNA length = 1200 × 0.34 nm = 408 nm
 A6b) Enzyme rate = 90 mmol / 30 min = 3 mmol/min
 A7b) Place a thin onion epidermal layer on a slide, add water, cover with a coverslip, and observe under a microscope.
 A8b) Grind plant tissue in buffer, add detergent to lyse cells, remove debris, precipitate DNA with alcohol.
-A9b) Mitosis stages: Prophase (chromosomes condense), Metaphase (chromosomes align), Anaphase (sister chromatids separate), Telophase (nuclear envelope reforms), Cytokinesis (cell divides).
-A10b) Keep all variables constant except light intensity, expose plants to different intensities, measure photosynthesis, compare results.
+A9b) Break cell walls, dissolve membranes with detergent, neutralize charges using salt, and precipitate DNA with alcohol.
+A10b) Mount onion epidermis on a slide, stain it, and view it using a light microscope.
 A11b) Fix bacteria on a slide, apply crystal violet, iodine, decolorize with alcohol, counterstain with safranin, observe under microscope.
 A12b) Connect a potometer to a plant shoot, measure water uptake over time to estimate transpiration rate.
 A13b) Natural selection: differential survival and reproduction of individuals with heritable traits; key elements: variation, inheritance, differential fitness.
@@ -46,3 +46,4 @@ A45b) Cell
 A46b) Oxygen (O₂)
 A47b) Cellular respiration
 A48b) Fungi
+
