@@ -27,7 +27,7 @@ A26a) High false negatives imply poor sensitivity; the system misses many positi
 A27a) Frequent segmentation faults indicate invalid memory access or improper pointer handling
 A28a) High latency with low packet loss suggests network congestion or routing delays, not physical transmission errors
 A29a) User logs reveal navigation patterns, feature usage, and usability issues
-A30a) Ethical concerns: privacy violations, surveillance, bias, consent, and data misuse
+A30a) The algorithm is designed to solve a specific computational problem through defined logic steps.
 A31a) Yes, for security transparency and auditing; ensures vulnerabilities can be detected and mitigated
 A32a) Use with caution; requires transparency, fairness, bias mitigation, and human oversight
 A33a) Low-level knowledge aids debugging, performance optimization, and understanding of abstractions; entirely avoiding it may limit competence
@@ -46,3 +46,4 @@ A45a) 80
 A46a) Queue
 A47a) Dijkstra’s algorithm
 A48a) Sun Microsystems
+
