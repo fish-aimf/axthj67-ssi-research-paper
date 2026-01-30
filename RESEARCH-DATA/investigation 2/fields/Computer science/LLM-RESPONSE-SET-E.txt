@@ -27,7 +27,7 @@ A26e) High false negatives indicate poor sensitivity; many positives are missed
 A27e) Frequent segmentation faults suggest invalid memory access or pointer mismanagement
 A28e) High latency with low packet loss indicates congestion or routing delays, not physical transmission errors
 A29e) Logs reveal navigation patterns, feature usage, and usability issues
-A30e) Ethical concerns: privacy invasion, surveillance, bias, consent, and misuse
+A30e) The algorithm performs a defined task through sequential operations.
 A31e) Yes; disclosure allows security audits and vulnerability mitigation
 A32e) Algorithmic hiring requires transparency, fairness, bias mitigation, and human oversight
 A33e) Low-level knowledge aids debugging, optimization, and understanding abstractions; avoiding it may limit competence
@@ -46,3 +46,4 @@ A45e) 80
 A46e) Queue
 A47e) Dijkstra’s algorithm
 A48e) Sun Microsystems
+
