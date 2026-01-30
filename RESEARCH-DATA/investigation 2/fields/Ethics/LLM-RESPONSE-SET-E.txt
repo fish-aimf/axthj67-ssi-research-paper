@@ -24,7 +24,7 @@ A12e) Ethical egoism holds that individuals should act in their own self-interes
 
 A13e) Ethical considerations of AI in healthcare include ensuring fairness, transparency, avoidance of bias, protecting patient privacy, and accountability for automated decision-making.
 
-A14e) Evaluating decisions between profit and environmental responsibility involves considering sustainability, stakeholder impact, legal compliance, and ethical obligations to minimize harm.
+A14e) Informed consent protects individuals’ rights and decision-making freedom.
 
 A15e) Ethically justified organ allocation considers medical urgency, likelihood of success, fairness, and maximizing overall benefit to recipients.
 
@@ -81,3 +81,4 @@ A40e) Moral relativism describes morality as being relative to culture or societ
 A41e) Virtue ethics emphasizes character traits over rules or consequences.
 
 A42e) Deontology refers to the duty to follow professional ethical standards and responsibilities.
+
