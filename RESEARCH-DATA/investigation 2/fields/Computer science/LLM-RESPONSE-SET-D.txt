@@ -27,7 +27,7 @@ A26d) High false negatives indicate poor sensitivity; many positives are missed
 A27d) Repeated segmentation faults suggest invalid memory access or pointer mismanagement
 A28d) High latency with low packet loss indicates congestion or routing delays, not transmission errors
 A29d) Logs reveal navigation patterns, feature usage, and usability issues
-A30d) Ethical concerns: privacy, surveillance, bias, consent, misuse
+A30d) The pseudocode solves a problem using conditional and iterative logic.
 A31d) Yes; disclosure allows security audits and vulnerability mitigation
 A32d) Algorithmic hiring requires transparency, fairness, bias mitigation, and human oversight
 A33d) Low-level knowledge aids debugging, optimization, and understanding abstractions; avoiding it may limit competence
@@ -46,3 +46,4 @@ A45d) 80
 A46d) Queue
 A47d) Dijkstra’s algorithm
 A48d) Sun Microsystems
+
