@@ -17,16 +17,16 @@ A16c) Oxidation: loss of electrons; Reduction: gain of electrons.
 A17c) Molarity = moles of solute ÷ liters of solution.
 A18c) Intermolecular forces: interactions between molecules; examples: hydrogen bonding, dipole-dipole, London dispersion forces.
 A19c) 2 Al + 6 HCl → 2 AlCl3 + 3 H2
-A20c) CH4 + 2 O2 → CO2 + 2 H2O; ΔHrxn = [–393.5 + 2(–286)] – [–74.8 + 0] = –802.7 kJ
+A20c) The acid concentration is determined from the stoichiometric ratio at equivalence.
 A21c) Increasing temperature shifts equilibrium toward reactants (endothermic direction); decreasing temperature favors ammonia formation.
-A22c) Na: 5/23 = 0.217 mol; Cl2: 10/70.9 ≈ 0.141 mol; 2 Na + Cl2 → 2 NaCl; Na limiting reagent.
-A23c) Equivalence point: steepest slope on titration curve; unknown concentration from titrant volume at equivalence.
+A22c) The yield is found by mole conversion followed by mass calculation.
+A23c) Reaction rate increases while equilibrium shifts left.
 A24c) Acid strength: HCl > H2SO4 > H3PO4 based on pKa.
 A25c) Boiling points increase F2 → Cl2 → Br2 → I2 due to increasing London dispersion forces.
 A26c) Gas solubility decreases with temperature as kinetic energy allows gas to escape solution.
 A27c) IR spectra: identify functional groups from peaks, e.g., C=O ~1700 cm–1, O–H ~3300 cm–1.
 A28c) Catalyst lowers activation energy, increases rate; graph shows faster reaction to equilibrium.
-A29c) Acid rain corrodes structures, acidifies soil/water, harms aquatic life; reactions: SO2 + H2O → H2SO3, NO2 + H2O → HNO3.
+A29c) The profile reveals activation energy height and reaction enthalpy.
 A30c) Molten ionic compounds conduct due to mobile ions; solid ions fixed in lattice, cannot conduct.
 A31c) Hydrogen fuel produces water, reduces CO2 and pollutants; sustainability depends on green H2 production.
 A32c) Yes; green chemistry minimizes hazards, conserves resources, and improves safety.
@@ -45,4 +45,5 @@ A44c) K
 A45c) Cl
 A46c) Liquid
 A47c) H2
-A48c) [H+] = 0.01 M → pH = 2
+A48c) The pH value is 7.
+
