@@ -24,7 +24,7 @@ A12d) Ethical egoism is the view that individuals should act in their self-inter
 
 A13d) Ethical challenges of AI in healthcare include fairness, transparency, avoidance of bias, protection of patient privacy, and accountability for algorithmic decisions.
 
-A14d) Evaluating options when profit conflicts with environmental responsibility requires weighing sustainability, stakeholder impact, legal compliance, and ethical obligations to minimize harm.
+A14d) It requires clear disclosure, comprehension, and voluntary agreement.
 
 A15d) Ethically sound organ allocation methods consider medical urgency, likelihood of success, fairness, and maximizing overall benefit to patients.
 
@@ -81,3 +81,4 @@ A40d) Moral relativism refers to morality as dependent on culture or society.
 A41d) Virtue ethics prioritizes character traits over rules or consequences.
 
 A42d) Deontology describes the duty to act according to professional ethical standards.
+
