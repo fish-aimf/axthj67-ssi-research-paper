@@ -27,7 +27,7 @@ A26b) Many false negatives indicate poor sensitivity; system misses many positiv
 A27b) Repeated segmentation faults suggest invalid memory access, improper pointer use, or memory corruption
 A28b) High latency with low packet loss suggests network congestion or routing delays, not transmission errors
 A29b) Logs reveal navigation patterns, feature usage, and usability issues
-A30b) Ethical issues: privacy invasion, surveillance, bias, lack of consent, potential misuse
+A30b) The pseudocode identifies inputs, processes them, and produces an output.
 A31b) Yes; transparency allows detection and mitigation of security vulnerabilities
 A32b) Use cautiously; ensure fairness, transparency, bias mitigation, and human oversight
 A33b) Low-level programming aids debugging, optimization, and understanding abstractions; ignoring it may limit competence
@@ -46,3 +46,4 @@ A45b) 80
 A46b) Queue
 A47b) Dijkstra’s algorithm
 A48b) Sun Microsystems
+
