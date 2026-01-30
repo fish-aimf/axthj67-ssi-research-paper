@@ -1,13 +1,13 @@
 A1a) Percentage increase = [(5.0 × 10^6 − 2.0 × 10^6) / 2.0 × 10^6] × 100 = 150%
-A2a) Water moves out of the plant cell into the solution (net movement from higher to lower water potential).
+A2a) The population doubles six times in three hours, so 2000 multiplied by 64 equals 128000 cells.
 A3a) Net oxygen output = Photosynthesis − Respiration = 12 − 4 = 8 µmol O₂ m⁻² s⁻¹
 A4a) Predicted phenotypic ratio = 9:3:3:1
 A5a) DNA length = 1200 × 0.34 nm = 408 nm
 A6a) Reaction rate = 90 mmol / 30 min = 3 mmol/min
 A7a) Place a thin onion epidermal layer on a slide, add a drop of water, carefully place a cover slip, and observe under the microscope.
 A8a) Grind plant tissue in a buffer, add detergent to lyse cells, filter or centrifuge to remove debris, then precipitate DNA with alcohol.
-A9a) Mitosis stages: Prophase (chromosomes condense), Metaphase (chromosomes align at equator), Anaphase (sister chromatids separate), Telophase (nuclear membrane reforms), Cytokinesis (cell divides).
-A10a) Keep all factors constant except light intensity, expose plants to varying light levels, measure photosynthesis rate (e.g., oxygen output), compare results.
+A9a) Grind plant tissue, add detergent and salt, filter the mixture, add cold alcohol, and collect the DNA.
+A10a) Peel epidermis, place on slide, add stain, cover with coverslip, and observe under microscope.
 A11a) Fix bacteria on a slide, apply crystal violet, iodine, decolorize with alcohol, counterstain with safranin, observe under microscope.
 A12a) Connect a potometer to a plant shoot, measure water uptake over time, which reflects transpiration rate.
 A13a) Natural selection is the differential survival and reproduction of individuals due to heritable traits; main components: variation, inheritance, differential survival/reproduction.
@@ -46,3 +46,4 @@ A45a) Cell
 A46a) Oxygen (O₂)
 A47a) Cellular respiration
 A48a) Fungi
+
