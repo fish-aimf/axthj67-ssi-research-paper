@@ -45,5 +45,6 @@ A44b) K
 A45b) Cl
 A46b) Liquid
 A47b) H2
-A48b) The pH value is 7.
+A48b) Neutral aqueous solutions have a pH of 7.
+
 
