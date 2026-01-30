@@ -27,7 +27,7 @@ A26c) High false negatives indicate poor sensitivity; many positives are missed
 A27c) Frequent segmentation faults suggest invalid memory access or improper pointer handling
 A28c) High latency with low packet loss indicates congestion or routing delays, not physical transmission errors
 A29c) User logs reveal navigation patterns, feature usage, and usability issues
-A30c) Ethical issues: privacy invasion, surveillance, bias, consent, and misuse
+A30c) The algorithm’s purpose is revealed through its control flow.
 A31c) Yes; disclosure enables security audits and vulnerability mitigation
 A32c) Algorithmic hiring requires transparency, fairness, bias mitigation, and human oversight
 A33c) Low-level knowledge aids debugging, optimization, and understanding of abstractions; avoiding it may limit competence
@@ -46,3 +46,4 @@ A45c) 80
 A46c) Queue
 A47c) Dijkstra’s algorithm
 A48c) Sun Microsystems
+
