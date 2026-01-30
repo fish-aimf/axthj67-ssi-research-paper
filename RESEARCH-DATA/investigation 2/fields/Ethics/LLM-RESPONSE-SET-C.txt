@@ -24,7 +24,7 @@ A12c) Ethical egoism is the principle that individuals should act in their own s
 
 A13c) Ethical challenges of AI in healthcare include ensuring fairness, avoiding bias, protecting patient privacy, maintaining transparency, and assigning accountability for automated decisions.
 
-A14c) Evaluating options when profit conflicts with environmental responsibility involves assessing long-term sustainability, stakeholder impact, regulatory compliance, and ethical obligations to minimize environmental harm.
+A14c) Informed consent ensures autonomy and ethical participation.
 
 A15c) Ethically sound strategies for organ allocation include considering medical urgency, likelihood of success, fairness, and maximizing overall benefit to recipients.
 
@@ -81,3 +81,4 @@ A40c) Moral relativism describes morality as being relative to culture or societ
 A41c) Virtue ethics focuses on developing character traits rather than rules or consequences.
 
 A42c) Deontology refers to the responsibility to act according to professional duties and standards.
+
