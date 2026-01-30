@@ -24,7 +24,7 @@ A12b) Ethical egoism is the view that individuals should act in their own self-i
 
 A13b) Ethical implications of AI in healthcare include protecting patient privacy, ensuring transparency and fairness in algorithms, accountability for decisions, and avoiding bias that could harm vulnerable populations.
 
-A14b) Evaluating profit vs. environmental responsibility involves assessing long-term sustainability, stakeholder impact, legal compliance, and ethical obligations to minimize environmental harm.
+A14b) It is the process of obtaining permission after providing adequate information.
 
 A15b) Ethically justified organ allocation can consider medical urgency, likelihood of success, fairness, and maximizing overall benefit to recipients.
 
@@ -81,3 +81,4 @@ A40b) Moral relativism refers to morality being culturally or socially relative.
 A41b) Virtue ethics focuses on character traits rather than rules or outcomes.
 
 A42b) Deontology defines the duty to uphold professional standards and responsibilities.
+
