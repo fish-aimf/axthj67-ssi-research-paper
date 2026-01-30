@@ -1,13 +1,13 @@
 A1e) Percentage increase = [(5.0 × 10^6 − 2.0 × 10^6) / 2.0 × 10^6] × 100 = 150%
-A2e) Water moves out of the plant cell into the solution.
+A2e) Starting from 2000 and doubling six times results in 128000 cells.
 A3e) Net O₂ output = 12 − 4 = 8 µmol O₂ m⁻² s⁻¹
 A4e) Phenotypic ratio = 9:3:3:1
 A5e) DNA length = 1200 × 0.34 nm = 408 nm
 A6e) Enzyme reaction rate = 90 mmol / 30 min = 3 mmol/min
 A7e) Place a thin layer of onion epidermis on a slide, add a drop of water, cover with a coverslip, observe under a microscope.
 A8e) Grind plant tissue in buffer, add detergent to lyse cells, remove debris, precipitate DNA with alcohol.
-A9e) Mitosis stages: Prophase (chromosomes condense), Metaphase (chromosomes align at equator), Anaphase (sister chromatids separate), Telophase (nuclear envelope reforms), Cytokinesis (cell divides).
-A10e) Keep all variables constant except light intensity, expose plants to different light levels, measure photosynthesis, compare results.
+A9e) The process involves cell breakdown, membrane dissolution, filtration, and alcohol precipitation of DNA.
+A10e) The slide is prepared by mounting, staining, covering, and viewing under a microscope.
 A11e) Fix bacteria on slide, stain with crystal violet, apply iodine, decolorize with alcohol, counterstain with safranin, observe under microscope.
 A12e) Connect a potometer to a plant shoot, measure water uptake over time to estimate transpiration rate.
 A13e) Natural selection: differential survival and reproduction of individuals with heritable traits; key features: variation, inheritance, differential fitness.
@@ -46,3 +46,4 @@ A45e) Cell
 A46e) Oxygen (O₂)
 A47e) Cellular respiration
 A48e) Fungi
+
