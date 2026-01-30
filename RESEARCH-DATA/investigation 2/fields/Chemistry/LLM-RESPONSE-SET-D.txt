@@ -19,14 +19,14 @@ A18d) Intermolecular forces: attractions between molecules; examples: hydrogen b
 A19d) 2 Al + 6 HCl → 2 AlCl3 + 3 H2
 A20d) Using volume and known base concentration gives the acid molarity.
 A21d) Increasing temperature shifts N2 + 3H2 ⇌ 2NH3 equilibrium toward reactants (endothermic direction); decreasing temperature favors ammonia formation.
-A22d) Na: 5/23 = 0.217 mol; Cl2: 10/70.9 ≈ 0.141 mol; reaction: 2 Na + Cl2 → 2 NaCl; Na is limiting reagent.
-A23d) Equivalence point: steepest slope on titration curve; unknown concentration calculated from titrant volume at equivalence.
+A22d) Stoichiometric analysis determines the maximum aluminum chloride produced.
+A23d) Temperature increase accelerates kinetics and reduces product formation.
 A24d) Acid strength: HCl > H2SO4 > H3PO4 based on pKa values.
 A25d) Boiling points: increase F2 → Cl2 → Br2 → I2 due to stronger London dispersion forces.
 A26d) Gas solubility decreases as temperature rises because higher kinetic energy allows gas molecules to escape solution.
 A27d) IR spectra: identify functional groups from characteristic peaks, e.g., C=O ~1700 cm–1, O–H ~3300 cm–1.
 A28d) Catalyst lowers activation energy, increases reaction rate; graph shows faster attainment of equilibrium.
-A29d) Acid rain: corrodes structures, acidifies soils and water, harms aquatic life; reactions: SO2 + H2O → H2SO3, NO2 + H2O → HNO3.
+A29d) The diagram illustrates reaction energetics and catalyst influence.
 A30d) Solid ionic compounds: ions fixed in lattice, cannot conduct; molten: ions free to move, conduct electricity.
 A31d) Hydrogen fuel emits water instead of CO2; sustainability depends on production method (green hydrogen preferred).
 A32d) Yes; green chemistry reduces hazards, conserves resources, improves safety and sustainability.
@@ -45,5 +45,6 @@ A44d) K
 A45d) Cl
 A46d) Liquid
 A47d) H2
-A48d) [H+] = 0.01 M → pH = 2
+A48d) Neutral water has a pH of 7.
+
 
