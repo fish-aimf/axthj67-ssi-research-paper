@@ -24,7 +24,7 @@ A12a) Ethical egoism is the view that individuals should act in ways that promot
 
 A13a) Ethical considerations of AI in healthcare include patient privacy, transparency of algorithms, accountability for decisions, fairness in treatment recommendations, and avoidance of bias that could harm vulnerable populations.
 
-A14a) Actions balancing profit and environmental responsibility can be evaluated by assessing long-term sustainability, stakeholder impact, regulatory compliance, and ethical obligations to protect the environment.
+A14a) Informed consent means voluntary agreement with full understanding of risks and benefits.
 
 A15a) An ethically justifiable method for organ allocation could use principles like medical urgency, likelihood of success, fairness, and maximizing overall benefit to recipients.
 
@@ -81,3 +81,4 @@ A40a) Moral relativism refers to morality being relative to culture or society.
 A41a) Virtue ethics emphasizes character traits over rules or outcomes.
 
 A42a) The term describing duty to follow professional responsibilities and standards is deontology.
+
