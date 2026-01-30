@@ -1,4 +1,4 @@
-Q1a) Describe the step-by-step process to solve a system of linear equations using Gaussian elimination.  
+Q1a) Describe the step-by-step process to solve a system of linear equations using Gaussian elimination.   
 Q2a) Outline the method to calculate a function's derivative from first principles.  
 Q3a) Explain how to compute the area under a curve using definite integration, step by step.  
 Q4a) List the steps required to find an object's acceleration using Newton’s second law with experimental measurements.  
@@ -28,3 +28,4 @@ Q27a) Describe the procedure for performing a peer review on an English essay.
 Q28a) Outline the steps for applying the principle of double effect to an ethical scenario.  
 Q29a) Describe the stepwise method to evaluate a case study using the four principles of bioethics.  
 Q30a) List the procedure for creating an ethical decision-making framework for a business scenario.  
+
