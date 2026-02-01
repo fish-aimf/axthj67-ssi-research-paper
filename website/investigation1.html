@@ -130,14 +130,16 @@
         }
         
         /* Graph Styles */
+        .graph-section {
+            margin-bottom: 40px;
+        }
+        
         #graph-container {
             width: 100%;
-            height: 600px;
-            margin: 0;
             background: white;
             border: 1px solid #ddd;
             border-radius: 6px;
-            padding: 20px;
+            padding: 30px;
             box-sizing: border-box;
         }
         
@@ -145,166 +147,111 @@
             text-align: center;
             font-size: 20px;
             font-weight: 600;
-            margin-bottom: 20px;
+            margin-bottom: 30px;
             color: #2c3e50;
         }
         
-        .legend {
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: center;
+        .graph-subtitle {
+            text-align: center;
+            font-size: 14px;
+            color: #666;
+            margin-bottom: 25px;
+        }
+        
+        #bar-chart {
+            width: 100%;
+            height: 500px;
+        }
+        
+        .stats-summary {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
             gap: 20px;
-            margin-top: 20px;
-            padding: 15px;
-            background: #f8f9fa;
-            border-radius: 4px;
-        }
-        
-        .legend-item {
-            display: flex;
-            align-items: center;
-            gap: 8px;
-            font-size: 13px;
-        }
-        
-        .legend-color {
-            width: 24px;
-            height: 3px;
-            border-radius: 2px;
-        }
-        
-        /* Toggle Controls */
-        .toggle-controls {
-            display: flex;
-            flex-wrap: wrap;
-            gap: 10px;
-            margin: 20px 0;
-            padding: 15px;
+            margin-top: 30px;
+            padding: 20px;
             background: #f8f9fa;
             border-radius: 6px;
-            align-items: center;
         }
         
-        .toggle-controls label {
-            display: flex;
-            align-items: center;
-            gap: 8px;
-            cursor: pointer;
-            font-size: 14px;
-            padding: 5px 10px;
+        .summary-card {
+            text-align: center;
+            padding: 15px;
             background: white;
-            border: 1px solid #ddd;
             border-radius: 4px;
-            transition: background 0.2s;
+            border: 1px solid #e0e0e0;
         }
         
-        .toggle-controls label:hover {
-            background: #e9ecef;
+        .summary-card .label {
+            font-size: 12px;
+            color: #666;
+            margin-bottom: 8px;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
         }
         
-        .toggle-controls input[type="checkbox"] {
-            cursor: pointer;
-            width: 16px;
-            height: 16px;
-        }
-        
-        .toggle-section-title {
+        .summary-card .value {
+            font-size: 24px;
             font-weight: 600;
+            color: #2c3e50;
+        }
+        
+        .summary-card .subvalue {
+            font-size: 12px;
+            color: #999;
+            margin-top: 4px;
+        }
+        
+        /* Comparison Grid */
+        .comparison-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 20px;
+            margin-top: 30px;
+        }
+        
+        .comparison-card {
+            border: 1px solid #e0e0e0;
+            border-radius: 6px;
+            padding: 20px;
+            background: white;
+        }
+        
+        .comparison-card h3 {
+            margin-top: 0;
+            margin-bottom: 15px;
+            color: #2c3e50;
+            font-size: 16px;
+        }
+        
+        .metric-row {
+            display: flex;
+            justify-content: space-between;
+            padding: 8px 0;
+            border-bottom: 1px solid #f0f0f0;
+        }
+        
+        .metric-row:last-child {
+            border-bottom: none;
+        }
+        
+        .metric-label {
             font-size: 13px;
             color: #666;
-            margin-right: 10px;
         }
         
-        .type-toggles {
-            display: flex;
-            flex-wrap: wrap;
-            gap: 8px;
-        }
-        
-        /* Average SSI Bar */
-        .graph-with-bar {
-            display: flex;
-            gap: 20px;
-            align-items: stretch;
-        }
-        
-        .graph-main {
-            flex: 1;
-        }
-        
-        .average-bar-container {
-            width: 120px;
-            display: flex;
-            flex-direction: column;
-            background: white;
-            border: 1px solid #ddd;
-            border-radius: 6px;
-            padding: 20px 15px;
-            position: relative;
-        }
-        
-        .average-bar-title {
+        .metric-value {
             font-size: 13px;
             font-weight: 600;
-            margin-bottom: 20px;
-            text-align: center;
             color: #2c3e50;
-            line-height: 1.3;
         }
         
-        .average-bar-scale {
-            position: relative;
-            flex: 1;
-            display: flex;
-            justify-content: center;
-        }
-        
-        .average-bar-axis {
-            width: 2px;
-            background: #333;
-            position: relative;
-            height: 100%;
-        }
-        
-        .average-bar-dot {
-            position: absolute;
-            width: 12px;
-            height: 12px;
-            border-radius: 50%;
-            border: 2px solid white;
-            box-shadow: 0 2px 4px rgba(0,0,0,0.2);
-            cursor: pointer;
-            transition: transform 0.2s;
-            left: 50%;
-            transform: translateX(-50%);
-        }
-        
-        .average-bar-dot:hover {
-            transform: translateX(-50%) scale(1.3);
-            z-index: 10;
-        }
-        
-        .average-bar-label {
-            position: absolute;
-            font-size: 10px;
+        .highlight-highest {
+            background-color: #d4edda;
             font-weight: 600;
-            white-space: nowrap;
-            left: 20px;
-            transform: translateY(-50%);
-            pointer-events: none;
         }
         
-        .average-bar-tooltip {
-            position: absolute;
-            background: rgba(0,0,0,0.8);
-            color: white;
-            padding: 4px 8px;
-            border-radius: 4px;
-            font-size: 11px;
-            white-space: nowrap;
-            pointer-events: none;
-            z-index: 1000;
-            display: none;
+        .highlight-lowest {
+            background-color: #f8d7da;
         }
     </style>
 </head>
@@ -340,30 +287,6 @@
             'closed-factual': '#e67e22',
             'conceptual-definition': '#34495e'
         };
-        
-        // Visibility state for each type and average line
-        var typeVisibility = {};
-        for (var i = 0; i < questionTypes.length; i++) {
-            typeVisibility[questionTypes[i]] = true;
-        }
-        var showAverageLine = true;
-        
-        // Global results for redrawing
-        var globalResults = null;
-        
-        function toggleType(type) {
-            typeVisibility[type] = !typeVisibility[type];
-            if (globalResults) {
-                drawGraph(globalResults);
-            }
-        }
-        
-        function toggleAverageLine() {
-            showAverageLine = !showAverageLine;
-            if (globalResults) {
-                drawGraph(globalResults);
-            }
-        }
 
         function calculateStats(values) {
             var n = values.length;
@@ -517,8 +440,8 @@
             }
         }
         
-        function drawGraph(results) {
-            var canvas = document.getElementById('ssi-graph');
+        function drawBarChart(results) {
+            var canvas = document.getElementById('bar-chart');
             var ctx = canvas.getContext('2d');
             var width = canvas.width;
             var height = canvas.height;
@@ -527,32 +450,41 @@
             ctx.clearRect(0, 0, width, height);
             
             // Margins
-            var margin = { top: 40, right: 40, bottom: 100, left: 80 };
+            var margin = { top: 20, right: 40, bottom: 120, left: 80 };
             var plotWidth = width - margin.left - margin.right;
             var plotHeight = height - margin.top - margin.bottom;
             
-            // Find min and max ratio values
-            var allRatios = [];
+            // Prepare data sorted by ratio
+            var entries = [];
             for (var i = 0; i < questionTypes.length; i++) {
                 var type = questionTypes[i];
                 if (results[type]) {
-                    allRatios.push(results[type].avgRatio);
+                    entries.push({
+                        type: type,
+                        ratio: results[type].avgRatio,
+                        color: typeColors[type]
+                    });
                 }
             }
             
-            // Calculate average
-            var sum = 0;
-            for (var i = 0; i < allRatios.length; i++) {
-                sum += allRatios[i];
-            }
-            var average = allRatios.length > 0 ? sum / allRatios.length : 0;
-            allRatios.push(average);
+            // Sort by ratio (descending)
+            entries.sort(function(a, b) {
+                return b.ratio - a.ratio;
+            });
             
-            var minRatio = Math.min.apply(null, allRatios);
-            var maxRatio = Math.max.apply(null, allRatios);
-            var range = maxRatio - minRatio;
-            var yMin = minRatio - range * 0.1;
-            var yMax = maxRatio + range * 0.1;
+            // Find max ratio for scaling
+            var maxRatio = 0;
+            for (var i = 0; i < entries.length; i++) {
+                if (entries[i].ratio > maxRatio) {
+                    maxRatio = entries[i].ratio;
+                }
+            }
+            
+            var yMax = maxRatio * 1.1; // Add 10% padding
+            
+            // Calculate bar dimensions
+            var barWidth = plotWidth / entries.length * 0.7;
+            var barSpacing = plotWidth / entries.length;
             
             // Draw axes
             ctx.strokeStyle = '#333';
@@ -563,7 +495,7 @@
             ctx.lineTo(width - margin.right, height - margin.bottom);
             ctx.stroke();
             
-            // Draw grid lines
+            // Draw horizontal grid lines
             ctx.strokeStyle = '#e0e0e0';
             ctx.lineWidth = 1;
             var numYGridLines = 8;
@@ -575,104 +507,85 @@
                 ctx.stroke();
                 
                 // Y-axis labels
-                var value = yMax - (yMax - yMin) * (i / numYGridLines);
+                var value = yMax - (yMax * (i / numYGridLines));
                 ctx.fillStyle = '#333';
                 ctx.font = '12px Arial';
                 ctx.textAlign = 'right';
                 ctx.fillText(value.toFixed(3), margin.left - 10, y + 4);
             }
             
-            // X-axis labels
-            var xStep = plotWidth / (questionTypes.length - 1);
-            ctx.fillStyle = '#333';
-            ctx.font = '11px Arial';
-            ctx.textAlign = 'center';
-            for (var i = 0; i < questionTypes.length; i++) {
-                var x = margin.left + xStep * i;
-                var label = questionTypes[i];
+            // Draw bars
+            for (var i = 0; i < entries.length; i++) {
+                var entry = entries[i];
+                var x = margin.left + (i * barSpacing) + (barSpacing - barWidth) / 2;
+                var barHeight = (entry.ratio / yMax) * plotHeight;
+                var y = height - margin.bottom - barHeight;
                 
-                // Rotate text for better fit
+                // Draw bar with gradient
+                var gradient = ctx.createLinearGradient(x, y, x, height - margin.bottom);
+                gradient.addColorStop(0, entry.color);
+                gradient.addColorStop(1, entry.color + '99'); // Add transparency
+                
+                ctx.fillStyle = gradient;
+                ctx.fillRect(x, y, barWidth, barHeight);
+                
+                // Draw bar border
+                ctx.strokeStyle = entry.color;
+                ctx.lineWidth = 2;
+                ctx.strokeRect(x, y, barWidth, barHeight);
+                
+                // Draw value on top of bar
+                ctx.fillStyle = '#333';
+                ctx.font = 'bold 12px Arial';
+                ctx.textAlign = 'center';
+                ctx.fillText(entry.ratio.toFixed(4), x + barWidth / 2, y - 8);
+                
+                // Draw x-axis labels (rotated)
                 ctx.save();
-                ctx.translate(x, height - margin.bottom + 15);
+                ctx.translate(x + barWidth / 2, height - margin.bottom + 15);
                 ctx.rotate(-Math.PI / 4);
-                ctx.fillText(label, 0, 0);
+                ctx.fillStyle = entry.color;
+                ctx.font = '12px Arial';
+                ctx.textAlign = 'right';
+                ctx.fillText(entry.type, 0, 0);
                 ctx.restore();
             }
-            
-            // X-axis label
-            ctx.font = 'bold 14px Arial';
-            ctx.textAlign = 'center';
-            ctx.fillText('Increasing Stability Question Type →', width / 2, height - 10);
             
             // Y-axis label
             ctx.save();
             ctx.translate(20, height / 2);
             ctx.rotate(-Math.PI / 2);
             ctx.font = 'bold 14px Arial';
+            ctx.fillStyle = '#333';
             ctx.textAlign = 'center';
-            ctx.fillText('SSI Ratio (Answer/Question)', 0, 0);
+            ctx.fillText('Average SSI Ratio (Answer/Question)', 0, 0);
             ctx.restore();
             
-            // Plot lines for each question type
-            ctx.strokeStyle = '#3498db';
-            ctx.lineWidth = 2.5;
-            
-            var points = [];
-            for (var i = 0; i < questionTypes.length; i++) {
-                var type = questionTypes[i];
-                if (results[type] && typeVisibility[type]) {
-                    var ratio = results[type].avgRatio;
-                    var x = margin.left + xStep * i;
-                    var y = margin.top + plotHeight - ((ratio - yMin) / (yMax - yMin)) * plotHeight;
-                    points.push({x: x, y: y, type: type, ratio: ratio});
-                }
+            // Draw average line
+            var totalRatio = 0;
+            for (var i = 0; i < entries.length; i++) {
+                totalRatio += entries[i].ratio;
             }
+            var avgRatio = totalRatio / entries.length;
+            var avgY = height - margin.bottom - (avgRatio / yMax) * plotHeight;
             
-            // Draw line segments
-            for (var i = 0; i < points.length - 1; i++) {
-                var color = typeColors[points[i].type];
-                ctx.strokeStyle = color;
-                ctx.beginPath();
-                ctx.moveTo(points[i].x, points[i].y);
-                ctx.lineTo(points[i + 1].x, points[i + 1].y);
-                ctx.stroke();
-            }
+            ctx.strokeStyle = '#e74c3c';
+            ctx.lineWidth = 2;
+            ctx.setLineDash([8, 4]);
+            ctx.beginPath();
+            ctx.moveTo(margin.left, avgY);
+            ctx.lineTo(width - margin.right, avgY);
+            ctx.stroke();
+            ctx.setLineDash([]);
             
-            // Draw points
-            for (var i = 0; i < points.length; i++) {
-                var color = typeColors[points[i].type];
-                ctx.fillStyle = color;
-                ctx.beginPath();
-                ctx.arc(points[i].x, points[i].y, 4, 0, 2 * Math.PI);
-                ctx.fill();
-            }
-            
-            // Draw average line if enabled
-            if (showAverageLine) {
-                ctx.strokeStyle = '#000000';
-                ctx.lineWidth = 3;
-                ctx.setLineDash([8, 4]);
-                
-                var avgY = margin.top + plotHeight - ((average - yMin) / (yMax - yMin)) * plotHeight;
-                
-                ctx.beginPath();
-                ctx.moveTo(margin.left, avgY);
-                ctx.lineTo(width - margin.right, avgY);
-                ctx.stroke();
-                
-                ctx.setLineDash([]);
-                
-                // Draw point for average
-                ctx.fillStyle = '#000000';
-                ctx.beginPath();
-                ctx.arc(margin.left + plotWidth / 2, avgY, 5, 0, 2 * Math.PI);
-                ctx.fill();
-            }
+            // Draw average label
+            ctx.fillStyle = '#e74c3c';
+            ctx.font = 'bold 12px Arial';
+            ctx.textAlign = 'left';
+            ctx.fillText('Average: ' + avgRatio.toFixed(4), width - margin.right + 10, avgY + 4);
         }
 
         function renderResults(results) {
-            globalResults = results;
-            
             var entries = [];
             for (var key in results) {
                 if (results.hasOwnProperty(key)) {
@@ -683,65 +596,115 @@
                 return b[1].avgRatio - a[1].avgRatio;
             });
             
-            var html = '<h2>SSI Ratio Analysis by Question Type</h2>';
-            
-            // Toggle controls
-            html += '<div class="toggle-controls">';
-            html += '<span class="toggle-section-title">Show/Hide Lines:</span>';
-            html += '<div class="type-toggles">';
-            html += '<label><input type="checkbox" checked onchange="toggleAverageLine()" id="toggle-average"><span style="font-weight: 600;">Average Line</span></label>';
-            for (var i = 0; i < questionTypes.length; i++) {
-                var type = questionTypes[i];
-                var color = typeColors[type];
-                html += '<label>';
-                html += '<input type="checkbox" checked onchange="toggleType(\'' + type + '\')" id="toggle-' + type + '">';
-                html += '<span style="color: ' + color + '; font-weight: 500;">' + type + '</span>';
-                html += '</label>';
+            // Calculate overall statistics
+            var allRatios = [];
+            var allQuestionSSI = [];
+            var allAnswerSSI = [];
+            for (var i = 0; i < entries.length; i++) {
+                allRatios.push(entries[i][1].avgRatio);
+                allQuestionSSI.push(entries[i][1].avgQuestionSSI);
+                allAnswerSSI.push(entries[i][1].avgAnswerSSI);
             }
-            html += '</div>';
+            
+            var overallStats = {
+                avgRatio: calculateStats(allRatios).mean,
+                avgQuestionSSI: calculateStats(allQuestionSSI).mean,
+                avgAnswerSSI: calculateStats(allAnswerSSI).mean,
+                highestRatio: entries[0],
+                lowestRatio: entries[entries.length - 1]
+            };
+            
+            var html = '<div class="graph-section">';
+            html += '<h2>SSI Ratio Comparison Across Question Types</h2>';
+            html += '<div id="graph-container">';
+            html += '<div class="graph-title">Average SSI Ratio by Question Type</div>';
+            html += '<div class="graph-subtitle">Higher ratios indicate answers with greater semantic specificity relative to questions</div>';
+            html += '<canvas id="bar-chart" width="1400" height="600"></canvas>';
+            
+            // Stats summary
+            html += '<div class="stats-summary">';
+            html += '<div class="summary-card">';
+            html += '<div class="label">Overall Average</div>';
+            html += '<div class="value">' + overallStats.avgRatio.toFixed(4) + '</div>';
+            html += '<div class="subvalue">SSI Ratio</div>';
             html += '</div>';
             
-            html += '<div class="graph-with-bar">';
-            html += '<div class="graph-main">';
-            html += '<div id="graph-container">';
-            html += '<div class="graph-title">SSI Ratio by Question Type</div>';
-            html += '<canvas id="ssi-graph" width="1500" height="600"></canvas>';
-            html += '<div class="legend">';
-            html += '<div class="legend-item">';
-            html += '<div class="legend-color" style="background-color: #000000; height: 3px; border-top: 2px dashed #000;"></div>';
-            html += '<span><strong>Average</strong></span>';
+            html += '<div class="summary-card">';
+            html += '<div class="label">Highest Ratio</div>';
+            html += '<div class="value" style="color: ' + typeColors[overallStats.highestRatio[0]] + ';">' + overallStats.highestRatio[1].avgRatio.toFixed(4) + '</div>';
+            html += '<div class="subvalue">' + overallStats.highestRatio[0] + '</div>';
             html += '</div>';
-            for (var i = 0; i < questionTypes.length; i++) {
-                var type = questionTypes[i];
-                var color = typeColors[type];
-                html += '<div class="legend-item">';
-                html += '<div class="legend-color" style="background-color: ' + color + ';"></div>';
-                html += '<span>' + type + '</span>';
+            
+            html += '<div class="summary-card">';
+            html += '<div class="label">Lowest Ratio</div>';
+            html += '<div class="value" style="color: ' + typeColors[overallStats.lowestRatio[0]] + ';">' + overallStats.lowestRatio[1].avgRatio.toFixed(4) + '</div>';
+            html += '<div class="subvalue">' + overallStats.lowestRatio[0] + '</div>';
+            html += '</div>';
+            
+            html += '<div class="summary-card">';
+            html += '<div class="label">Range</div>';
+            html += '<div class="value">' + (overallStats.highestRatio[1].avgRatio - overallStats.lowestRatio[1].avgRatio).toFixed(4) + '</div>';
+            html += '<div class="subvalue">Difference</div>';
+            html += '</div>';
+            
+            html += '</div>'; // stats-summary
+            html += '</div>'; // graph-container
+            html += '</div>'; // graph-section
+            
+            // Comparison grid
+            html += '<h2>Key Comparisons</h2>';
+            html += '<div class="comparison-grid">';
+            
+            // Top 3 vs Bottom 3
+            html += '<div class="comparison-card">';
+            html += '<h3>Highest vs Lowest SSI Ratios</h3>';
+            for (var i = 0; i < 3; i++) {
+                var name = entries[i][0];
+                html += '<div class="metric-row">';
+                html += '<span class="metric-label" style="color: ' + typeColors[name] + ';">▪ ' + name + '</span>';
+                html += '<span class="metric-value">' + entries[i][1].avgRatio.toFixed(4) + '</span>';
+                html += '</div>';
+            }
+            html += '<div style="height: 1px; background: #ddd; margin: 10px 0;"></div>';
+            for (var i = entries.length - 3; i < entries.length; i++) {
+                var name = entries[i][0];
+                html += '<div class="metric-row">';
+                html += '<span class="metric-label" style="color: ' + typeColors[name] + ';">▪ ' + name + '</span>';
+                html += '<span class="metric-value">' + entries[i][1].avgRatio.toFixed(4) + '</span>';
                 html += '</div>';
             }
             html += '</div>';
-            html += '</div>';
+            
+            // Variability comparison
+            html += '<div class="comparison-card">';
+            html += '<h3>Variability (Standard Deviation)</h3>';
+            var stdDevEntries = entries.slice().sort(function(a, b) {
+                return b[1].ratioStats.stdDev - a[1].ratioStats.stdDev;
+            });
+            for (var i = 0; i < Math.min(6, stdDevEntries.length); i++) {
+                var name = stdDevEntries[i][0];
+                html += '<div class="metric-row">';
+                html += '<span class="metric-label" style="color: ' + typeColors[name] + ';">▪ ' + name + '</span>';
+                html += '<span class="metric-value">' + stdDevEntries[i][1].ratioStats.stdDev.toFixed(4) + '</span>';
+                html += '</div>';
+            }
             html += '</div>';
             
-            // Average SSI Bar
-            html += '<div class="average-bar-container">';
-            html += '<div class="average-bar-title">Average SSI Ratio</div>';
-            html += '<div class="average-bar-scale" id="average-scale">';
-            html += '<div class="average-bar-axis"></div>';
-            html += '</div>';
-            html += '<div class="average-bar-tooltip" id="bar-tooltip"></div>';
-            html += '</div>';
-            html += '</div>';
+            html += '</div>'; // comparison-grid
             
-            html += '<h2>Summary Rankings</h2>';
+            html += '<h2>Detailed Rankings</h2>';
             html += '<table><thead><tr class="bg-gray"><th>Rank</th><th>Question Type</th><th class="text-right">Avg Question SSI</th><th class="text-right">Avg Answer SSI</th><th class="text-right">Avg SSI Ratio</th><th class="text-right">Ratio Std Dev</th></tr></thead><tbody>';
             
             for (var idx = 0; idx < entries.length; idx++) {
                 var name = entries[idx][0];
                 var data = entries[idx][1];
-                html += '<tr>' +
+                var rowClass = '';
+                if (idx === 0) rowClass = 'highlight-highest';
+                else if (idx === entries.length - 1) rowClass = 'highlight-lowest';
+                
+                html += '<tr class="' + rowClass + '">' +
                     '<td>' + (idx + 1) + '</td>' +
-                    '<td><strong style="color: ' + typeColors[name] + ';">' + name + '</strong></td>' +
+                    '<td><strong style="color: ' + typeColors[name] + ';">▪ ' + name + '</strong></td>' +
                     '<td class="text-right">' + data.avgQuestionSSI.toFixed(4) + '</td>' +
                     '<td class="text-right">' + data.avgAnswerSSI.toFixed(4) + '</td>' +
                     '<td class="text-right font-medium">' + data.avgRatio.toFixed(4) + '</td>' +
@@ -751,6 +714,7 @@
             
             html += '</tbody></table>';
             
+            // Detailed sections
             for (var idx = 0; idx < entries.length; idx++) {
                 var name = entries[idx][0];
                 var data = entries[idx][1];
@@ -758,7 +722,7 @@
                 
                 html += '<div class="section">' +
                     '<div class="section-header">' +
-                        '<h2 style="color: ' + typeColors[name] + ';">' + name + '</h2>' +
+                        '<h2 style="color: ' + typeColors[name] + ';">▪ ' + name + '</h2>' +
                         '<button data-target="' + id + '" onclick="toggleCalculations(\'' + id + '\')">Show Detailed Calculations</button>' +
                     '</div>' +
                     '<div class="stats-grid">' +
@@ -828,82 +792,10 @@
             document.getElementById('content').innerHTML = html;
             document.getElementById('content').classList.remove('hidden');
             
-            // Draw the graph after rendering
+            // Draw the bar chart after rendering
             setTimeout(function() {
-                drawGraph(results);
-                populateAverageBar(results);
+                drawBarChart(results);
             }, 100);
-        }
-        
-        function populateAverageBar(results) {
-            var scale = document.getElementById('average-scale');
-            if (!scale) return;
-            
-            // Find min and max for scale
-            var allRatios = [];
-            for (var i = 0; i < questionTypes.length; i++) {
-                var type = questionTypes[i];
-                if (results[type]) {
-                    allRatios.push(results[type].avgRatio);
-                }
-            }
-            
-            var minRatio = Math.min.apply(null, allRatios);
-            var maxRatio = Math.max.apply(null, allRatios);
-            var range = maxRatio - minRatio;
-            var yMin = minRatio - range * 0.1;
-            var yMax = maxRatio + range * 0.1;
-            
-            // Get scale height
-            var scaleHeight = scale.offsetHeight;
-            
-            // Add dots for each type
-            for (var i = 0; i < questionTypes.length; i++) {
-                var type = questionTypes[i];
-                if (results[type]) {
-                    var ratio = results[type].avgRatio;
-                    var color = typeColors[type];
-                    
-                    // Calculate position (inverted - top is high value)
-                    var percentage = ((ratio - yMin) / (yMax - yMin));
-                    var yPos = scaleHeight * (1 - percentage);
-                    
-                    // Create dot
-                    var dot = document.createElement('div');
-                    dot.className = 'average-bar-dot';
-                    dot.style.backgroundColor = color;
-                    dot.style.top = yPos + 'px';
-                    dot.setAttribute('data-type', type);
-                    dot.setAttribute('data-ratio', ratio.toFixed(4));
-                    
-                    // Add hover effect
-                    dot.addEventListener('mouseenter', function(e) {
-                        var tooltip = document.getElementById('bar-tooltip');
-                        var tp = e.target.getAttribute('data-type');
-                        var rat = e.target.getAttribute('data-ratio');
-                        tooltip.textContent = tp + ': ' + rat;
-                        tooltip.style.display = 'block';
-                        tooltip.style.left = (e.target.offsetLeft + 25) + 'px';
-                        tooltip.style.top = e.target.offsetTop + 'px';
-                    });
-                    
-                    dot.addEventListener('mouseleave', function() {
-                        var tooltip = document.getElementById('bar-tooltip');
-                        tooltip.style.display = 'none';
-                    });
-                    
-                    scale.appendChild(dot);
-                    
-                    // Add label (abbreviated)
-                    var label = document.createElement('div');
-                    label.className = 'average-bar-label';
-                    label.style.color = color;
-                    label.style.top = yPos + 'px';
-                    var abbrev = type.split('-').map(function(w) { return w[0]; }).join('').toUpperCase();
-                    label.textContent = abbrev.substring(0, 3);
-                    scale.appendChild(label);
-                }
-            }
         }
 
         fetchAllData();
