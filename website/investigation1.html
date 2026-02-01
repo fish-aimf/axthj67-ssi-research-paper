@@ -514,19 +514,27 @@
                 ctx.fillText(value.toFixed(3), margin.left - 10, y + 4);
             }
             
+            // Draw bars
             for (var i = 0; i < entries.length; i++) {
                 var entry = entries[i];
                 var x = margin.left + (i * barSpacing) + (barSpacing - barWidth) / 2;
                 var barHeight = (entry.ratio / yMax) * plotHeight;
                 var y = height - margin.bottom - barHeight;
                 
-                ctx.fillStyle = entry.color;
-                ctx.fillRect(x, y, barWidth, barHeight);;
-            
+                // Draw bar with gradient
+                var gradient = ctx.createLinearGradient(x, y, x, height - margin.bottom);
+                gradient.addColorStop(0, entry.color);
+                gradient.addColorStop(1, entry.color + '99'); // Add transparency
+                
+                ctx.fillStyle = gradient;
+                ctx.fillRect(x, y, barWidth, barHeight);
+                
+                // Draw bar border
                 ctx.strokeStyle = entry.color;
                 ctx.lineWidth = 2;
                 ctx.strokeRect(x, y, barWidth, barHeight);
                 
+                // Draw value on top of bar
                 ctx.fillStyle = '#333';
                 ctx.font = 'bold 12px Arial';
                 ctx.textAlign = 'center';
