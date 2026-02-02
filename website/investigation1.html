@@ -670,18 +670,10 @@
             html += '<h2>Key Comparisons</h2>';
             html += '<div class="comparison-grid">';
             
-            // Top 3 vs Bottom 3
+            // All entries sorted by ratio
             html += '<div class="comparison-card">';
             html += '<h3>Highest vs Lowest SSI Ratios</h3>';
-            for (var i = 0; i < 3; i++) {
-                var name = entries[i][0];
-                html += '<div class="metric-row">';
-                html += '<span class="metric-label" style="color: ' + typeColors[name] + ';">▪ ' + name + '</span>';
-                html += '<span class="metric-value">' + entries[i][1].avgRatio.toFixed(4) + '</span>';
-                html += '</div>';
-            }
-            html += '<div style="height: 1px; background: #ddd; margin: 10px 0;"></div>';
-            for (var i = entries.length - 3; i < entries.length; i++) {
+            for (var i = 0; i < entries.length; i++) {
                 var name = entries[i][0];
                 html += '<div class="metric-row">';
                 html += '<span class="metric-label" style="color: ' + typeColors[name] + ';">▪ ' + name + '</span>';
@@ -690,13 +682,13 @@
             }
             html += '</div>';
             
-            // Variability comparison
+            // Variability comparison - all entries
             html += '<div class="comparison-card">';
             html += '<h3>Variability (Standard Deviation)</h3>';
             var stdDevEntries = entries.slice().sort(function(a, b) {
                 return b[1].ratioStats.stdDev - a[1].ratioStats.stdDev;
             });
-            for (var i = 0; i < Math.min(6, stdDevEntries.length); i++) {
+            for (var i = 0; i < stdDevEntries.length; i++) {
                 var name = stdDevEntries[i][0];
                 html += '<div class="metric-row">';
                 html += '<span class="metric-label" style="color: ' + typeColors[name] + ';">▪ ' + name + '</span>';
