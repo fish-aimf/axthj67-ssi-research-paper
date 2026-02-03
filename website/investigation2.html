@@ -3,1752 +3,1132 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SSI Subject Analyzer - Investigation 2 (Enhanced)</title>
+    <title>SSI Subject Analyzer — Investigation 2</title>
     <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
+        /* ─── Reset & Base ─── */
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+
         body {
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            padding: 20px;
-            background: #f8f9fa;
-        }
-        .container {
-            max-width: 1600px;
-            margin: 0 auto;
-            background: white;
-            padding: 30px;
-            border-radius: 8px;
-            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
-        }
-        h1 {
-            font-size: 28px;
-            margin-bottom: 10px;
+            font-family: 'Georgia', 'Times New Roman', serif;
+            font-size: 14px;
+            line-height: 1.6;
             color: #1a1a1a;
+            background: #eef0f2;
+            padding: 40px 20px;
         }
+
+        .container {
+            max-width: 1520px;
+            margin: 0 auto;
+            background: #fff;
+            border: 1px solid #ccc;
+            box-shadow: 0 2px 12px rgba(0,0,0,0.08);
+        }
+
+        /* ─── Header ─── */
+        .page-header {
+            border-bottom: 3px solid #1a1a1a;
+            padding: 36px 40px 28px;
+            background: #fff;
+        }
+        .page-header h1 {
+            font-family: 'Georgia', serif;
+            font-size: 26px;
+            font-weight: 700;
+            color: #1a1a1a;
+            letter-spacing: -0.3px;
+            margin-bottom: 6px;
+        }
+        .page-header .subtitle {
+            font-size: 13px;
+            color: #666;
+            font-style: italic;
+        }
+
+        /* ─── Body content ─── */
+        .body-content { padding: 0 40px 40px; }
+
+        /* ─── Section headings ─── */
         h2 {
-            font-size: 22px;
-            margin-bottom: 15px;
-            margin-top: 30px;
-            color: #2c3e50;
-            border-bottom: 2px solid #e0e0e0;
-            padding-bottom: 8px;
+            font-family: 'Georgia', serif;
+            font-size: 19px;
+            font-weight: 700;
+            color: #1a1a1a;
+            margin-top: 44px;
+            margin-bottom: 14px;
+            padding-bottom: 6px;
+            border-bottom: 1.5px solid #1a1a1a;
+            letter-spacing: 0.1px;
         }
         h3 {
-            font-size: 18px;
-            margin-bottom: 12px;
-            margin-top: 20px;
-            color: #34495e;
+            font-family: 'Georgia', serif;
+            font-size: 15px;
+            font-weight: 700;
+            color: #333;
+            margin-top: 22px;
+            margin-bottom: 8px;
         }
-        .info {
-            color: #666;
-            font-size: 14px;
-            margin-bottom: 25px;
-        }
-        .loading {
-            text-align: center;
-            padding: 80px;
-            font-size: 20px;
-            color: #666;
-        }
+
+        /* ─── Tables ─── */
         table {
             width: 100%;
             border-collapse: collapse;
-            margin-bottom: 30px;
-            font-size: 14px;
-        }
-        th, td {
-            border: 1px solid #ddd;
-            padding: 10px;
-            text-align: left;
+            margin-bottom: 28px;
+            font-size: 13px;
+            font-family: 'Segoe UI', sans-serif;
         }
         th {
-            background-color: #f5f5f5;
+            background: #f4f4f4;
+            border: 1px solid #ccc;
+            padding: 9px 11px;
+            text-align: left;
             font-weight: 600;
+            font-size: 12px;
+            color: #333;
+            text-transform: uppercase;
+            letter-spacing: 0.4px;
             position: sticky;
             top: 0;
             z-index: 10;
         }
-        .text-right {
-            text-align: right;
-        }
-        .text-center {
-            text-align: center;
-        }
-        .section {
-            margin-bottom: 50px;
-            border: 1px solid #e0e0e0;
-            padding: 25px;
-            border-radius: 6px;
-            background: #fafafa;
-        }
-        .stats-grid {
-            display: grid;
-            grid-template-columns: repeat(3, 1fr);
-            gap: 15px;
-            margin-bottom: 20px;
-        }
-        .stat-box {
+        td {
             border: 1px solid #ddd;
-            padding: 15px;
-            border-radius: 4px;
-            background: white;
+            padding: 8px 11px;
+            background: #fff;
         }
-        .stat-box div {
-            font-size: 14px;
-            margin-bottom: 5px;
-        }
-        button {
-            padding: 10px 20px;
-            border: 1px solid #3498db;
-            background: #3498db;
-            color: white;
-            cursor: pointer;
-            border-radius: 4px;
-            font-size: 14px;
-            transition: background 0.2s;
-        }
-        button:hover {
-            background: #2980b9;
-        }
-        .section-header {
+        tr:nth-child(even) td { background: #fafafa; }
+        .text-right { text-align: right; }
+        .font-mono { font-family: 'Consolas', 'Courier New', monospace; }
+        .font-bold { font-weight: 700; }
+
+        /* ─── Highlight ─── */
+        .highlight-max { background: #e8f5e9 !important; font-weight: 700; }
+        .highlight-min { background: #fce4ec !important; }
+
+        /* ─── Z-Score colours ─── */
+        .z-pos { color: #2e7d32; font-weight: 600; }
+        .z-neg { color: #c62828; font-weight: 600; }
+        .z-zero { color: #757575; }
+
+        /* ─── Toggle bar ─── */
+        .toggle-bar {
             display: flex;
-            justify-content: space-between;
-            align-items: center;
-            margin-bottom: 20px;
-        }
-        .calculations {
-            margin-top: 20px;
-        }
-        .hidden {
-            display: none;
-        }
-        .font-medium {
-            font-weight: 600;
-        }
-        .bg-gray {
-            background-color: #f9f9f9;
-        }
-        .skipped-note {
-            background-color: #fff3cd;
-            border: 1px solid #ffc107;
-            padding: 12px;
-            margin-bottom: 15px;
-            border-radius: 4px;
-            font-size: 14px;
-        }
-        .error {
-            color: #dc3545;
-        }
-        
-        /* Graph Styles */
-        #graph-container {
-            width: 100%;
-            height: 600px;
-            margin: 0;
-            background: white;
+            flex-wrap: wrap;
+            gap: 8px;
+            padding: 12px 16px;
+            background: #f7f7f7;
             border: 1px solid #ddd;
-            border-radius: 6px;
-            padding: 20px;
-            box-sizing: border-box;
+            margin-bottom: 18px;
+            align-items: center;
         }
-        
+        .toggle-bar-label {
+            font-size: 12px;
+            font-weight: 600;
+            color: #555;
+            text-transform: uppercase;
+            letter-spacing: 0.4px;
+            margin-right: 6px;
+        }
+        .toggle-bar label {
+            display: flex;
+            align-items: center;
+            gap: 6px;
+            font-size: 13px;
+            font-family: 'Segoe UI', sans-serif;
+            cursor: pointer;
+            padding: 4px 10px;
+            background: #fff;
+            border: 1px solid #ddd;
+            border-radius: 3px;
+            transition: background 0.15s;
+        }
+        .toggle-bar label:hover { background: #eee; }
+        .toggle-bar input[type="checkbox"] { cursor: pointer; width: 14px; height: 14px; }
+
+        /* ─── Graph wrapper ─── */
+        .graph-with-bar { display: flex; gap: 18px; }
+        .graph-main { flex: 1; min-width: 0; }
+        #graph-container {
+            background: #fff;
+            border: 1px solid #ccc;
+            padding: 20px;
+        }
         .graph-title {
             text-align: center;
-            font-size: 20px;
-            font-weight: 600;
-            margin-bottom: 20px;
-            color: #2c3e50;
+            font-family: 'Georgia', serif;
+            font-size: 15px;
+            font-weight: 700;
+            color: #1a1a1a;
+            margin-bottom: 12px;
         }
-        
+        .graph-caption {
+            text-align: center;
+            font-size: 12px;
+            color: #666;
+            font-style: italic;
+            margin-top: 8px;
+        }
+
+        /* Legend */
         .legend {
             display: flex;
             flex-wrap: wrap;
             justify-content: center;
-            gap: 20px;
-            margin-top: 20px;
-            padding: 15px;
-            background: #f8f9fa;
-            border-radius: 4px;
+            gap: 18px;
+            margin-top: 14px;
+            padding: 10px 16px;
+            background: #f7f7f7;
+            border: 1px solid #eee;
         }
-        
-        .legend-item {
-            display: flex;
-            align-items: center;
-            gap: 8px;
-            font-size: 13px;
-        }
-        
-        .legend-color {
-            width: 24px;
-            height: 3px;
-            border-radius: 2px;
-        }
-        
-        /* Question Type Analysis */
-        .question-type-section {
-            margin-top: 30px;
-            padding: 20px;
-            background: white;
-            border-radius: 6px;
-            border: 1px solid #e0e0e0;
-        }
-        
-        .question-type-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-            gap: 15px;
-            margin-top: 15px;
-        }
-        
-        .question-type-card {
-            padding: 15px;
-            border: 1px solid #ddd;
-            border-radius: 4px;
-            background: #fafafa;
-        }
-        
-        .question-type-card h4 {
-            font-size: 15px;
-            margin-bottom: 8px;
-            color: #2c3e50;
-        }
-        
-        .question-type-card .value {
-            font-size: 20px;
-            font-weight: 600;
-            color: #3498db;
-        }
-        
-        .comparison-table {
-            margin-top: 20px;
-        }
-        
-        .highlight-max {
-            background-color: #d4edda;
-            font-weight: 600;
-        }
-        
-        .highlight-min {
-            background-color: #f8d7da;
-        }
-        
-        /* Toggle Controls */
-        .toggle-controls {
-            display: flex;
-            flex-wrap: wrap;
-            gap: 10px;
-            margin: 20px 0;
-            padding: 15px;
-            background: #f8f9fa;
-            border-radius: 6px;
-            align-items: center;
-        }
-        
-        .toggle-controls label {
-            display: flex;
-            align-items: center;
-            gap: 8px;
-            cursor: pointer;
-            font-size: 14px;
-            padding: 5px 10px;
-            background: white;
-            border: 1px solid #ddd;
-            border-radius: 4px;
-            transition: background 0.2s;
-        }
-        
-        .toggle-controls label:hover {
-            background: #e9ecef;
-        }
-        
-        .toggle-controls input[type="checkbox"] {
-            cursor: pointer;
-            width: 16px;
-            height: 16px;
-        }
-        
-        .toggle-section {
-            display: flex;
-            flex-direction: column;
-            gap: 5px;
-        }
-        
-        .toggle-section-title {
-            font-weight: 600;
-            font-size: 13px;
-            color: #666;
-            margin-right: 10px;
-        }
-        
-        .subject-toggles {
-            display: flex;
-            flex-wrap: wrap;
-            gap: 8px;
-        }
-        
-        /* Average SSI Bar */
-        .graph-with-bar {
-            display: flex;
-            gap: 20px;
-            align-items: stretch;
-        }
-        
-        .graph-main {
-            flex: 1;
-        }
-        
+        .legend-item { display: flex; align-items: center; gap: 7px; font-size: 12px; font-family: 'Segoe UI', sans-serif; }
+        .legend-swatch { width: 28px; height: 3px; }
+        .legend-swatch-dashed { width: 28px; height: 3px; background: repeating-linear-gradient(90deg, #1a1a1a 0, #1a1a1a 6px, transparent 6px, transparent 10px); }
+
+        /* Average bar sidebar */
         .average-bar-container {
-            width: 120px;
+            width: 110px;
+            flex-shrink: 0;
+            border: 1px solid #ccc;
+            background: #fff;
+            padding: 16px 10px;
+            position: relative;
             display: flex;
             flex-direction: column;
-            background: white;
-            border: 1px solid #ddd;
-            border-radius: 6px;
-            padding: 20px 15px;
-            position: relative;
         }
-        
         .average-bar-title {
-            font-size: 13px;
+            font-size: 11px;
             font-weight: 600;
-            margin-bottom: 20px;
             text-align: center;
-            color: #2c3e50;
+            color: #333;
+            text-transform: uppercase;
+            letter-spacing: 0.3px;
+            margin-bottom: 12px;
             line-height: 1.3;
         }
-        
-        .average-bar-scale {
-            position: relative;
-            flex: 1;
-            display: flex;
-            justify-content: center;
-        }
-        
-        .average-bar-axis {
-            width: 2px;
-            background: #333;
-            position: relative;
-            height: 100%;
-        }
-        
+        .average-bar-scale { position: relative; flex: 1; display: flex; justify-content: center; }
+        .average-bar-axis { width: 2px; background: #333; height: 100%; }
         .average-bar-dot {
-            position: absolute;
-            width: 12px;
-            height: 12px;
-            border-radius: 50%;
-            border: 2px solid white;
-            box-shadow: 0 2px 4px rgba(0,0,0,0.2);
-            cursor: pointer;
-            transition: transform 0.2s;
-            left: 50%;
-            transform: translateX(-50%);
+            position: absolute; width: 12px; height: 12px; border-radius: 50%;
+            border: 2px solid #fff; box-shadow: 0 1px 3px rgba(0,0,0,0.3);
+            left: 50%; transform: translateX(-50%); cursor: pointer; transition: transform 0.15s;
         }
-        
-        .average-bar-dot:hover {
-            transform: translateX(-50%) scale(1.3);
-            z-index: 10;
-        }
-        
+        .average-bar-dot:hover { transform: translateX(-50%) scale(1.4); z-index: 10; }
         .average-bar-label {
-            position: absolute;
-            font-size: 10px;
-            font-weight: 600;
-            white-space: nowrap;
-            left: 20px;
-            transform: translateY(-50%);
-            pointer-events: none;
+            position: absolute; font-size: 10px; font-weight: 700; white-space: nowrap;
+            left: 18px; transform: translateY(-50%); pointer-events: none;
+            font-family: 'Segoe UI', sans-serif; color: #444;
         }
-        
         .average-bar-tooltip {
-            position: absolute;
-            background: rgba(0,0,0,0.8);
-            color: white;
-            padding: 4px 8px;
-            border-radius: 4px;
-            font-size: 11px;
-            white-space: nowrap;
-            pointer-events: none;
-            z-index: 1000;
-            display: none;
+            position: absolute; background: #222; color: #fff; padding: 4px 8px;
+            border-radius: 3px; font-size: 11px; white-space: nowrap;
+            pointer-events: none; z-index: 1000; display: none;
+            font-family: 'Segoe UI', sans-serif;
         }
-        
-        /* Z-Score Styling */
-        .zscore-positive {
-            color: #27ae60;
-            font-weight: 600;
+
+        /* ─── Subject section cards ─── */
+        .section {
+            margin-bottom: 36px;
+            border: 1px solid #ddd;
+            padding: 22px 24px;
+            background: #fff;
         }
-        
-        .zscore-negative {
-            color: #e74c3c;
-            font-weight: 600;
+        .section-header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 14px; }
+        .section-header h2 { margin-top: 0; margin-bottom: 0; border-bottom: none; padding-bottom: 0; }
+
+        .skipped-note {
+            background: #fffbe6;
+            border-left: 3px solid #f9a825;
+            padding: 9px 14px;
+            margin-bottom: 14px;
+            font-size: 13px;
+            font-family: 'Segoe UI', sans-serif;
         }
-        
-        .zscore-neutral {
-            color: #95a5a6;
+
+        .stats-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 14px; margin-bottom: 18px; }
+        .stat-box { border: 1px solid #ddd; padding: 14px 16px; background: #fafafa; }
+        .stat-box h3 { font-size: 13px; margin-top: 0; margin-bottom: 8px; color: #1a1a1a; }
+        .stat-box div { font-size: 13px; font-family: 'Segoe UI', sans-serif; margin-bottom: 3px; color: #444; }
+
+        /* Toggle button */
+        .btn-toggle {
+            padding: 7px 16px;
+            border: 1px solid #999;
+            background: #fff;
+            color: #333;
+            cursor: pointer;
+            font-size: 13px;
+            font-family: 'Segoe UI', sans-serif;
+            transition: background 0.15s;
         }
-        
-        /* New Bottom Visualization */
-        .final-viz-section {
-            margin-top: 50px;
-            padding: 40px;
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-            border-radius: 12px;
-            box-shadow: 0 10px 40px rgba(0,0,0,0.15);
+        .btn-toggle:hover { background: #f0f0f0; }
+
+        .calculations { margin-top: 18px; }
+        .hidden { display: none; }
+
+        /* ─── Bottom Dashboard ─── */
+        .dashboard {
+            margin-top: 52px;
+            border: 1px solid #ccc;
+            background: #fff;
         }
-        
-        .viz-title {
-            font-size: 28px;
+        .dashboard-header {
+            background: #1a1a1a;
+            color: #fff;
+            padding: 18px 28px;
+        }
+        .dashboard-header h2 {
+            font-family: 'Georgia', serif;
+            font-size: 20px;
             font-weight: 700;
-            color: white;
-            margin-bottom: 30px;
-            text-align: center;
-            padding-bottom: 20px;
-            border-bottom: 3px solid rgba(255,255,255,0.3);
-            text-transform: uppercase;
-            letter-spacing: 1px;
+            color: #fff;
+            margin: 0;
+            border: none;
+            padding: 0;
+            letter-spacing: 0.2px;
         }
-        
-        .viz-container {
-            display: grid;
-            grid-template-columns: 1.5fr 1fr;
-            gap: 30px;
-            margin-bottom: 30px;
+        .dashboard-header p {
+            font-size: 13px;
+            color: #aaa;
+            margin-top: 4px;
+            font-style: italic;
         }
-        
-        .heatmap-container {
-            background: white;
-            padding: 25px;
-            border-radius: 10px;
-            box-shadow: 0 4px 20px rgba(0,0,0,0.1);
-        }
-        
-        .heatmap-title {
-            font-size: 18px;
+        .dashboard-body { padding: 28px; }
+
+        /* Heatmap */
+        .heatmap-wrap { margin-bottom: 28px; }
+        .panel-label {
+            font-family: 'Georgia', serif;
+            font-size: 15px;
             font-weight: 700;
-            margin-bottom: 20px;
-            color: #2c3e50;
-            text-align: center;
-            text-transform: uppercase;
-            letter-spacing: 0.5px;
+            color: #1a1a1a;
+            margin-bottom: 10px;
+            padding-bottom: 5px;
+            border-bottom: 1px solid #ddd;
         }
-        
         .heatmap-grid {
             display: grid;
             gap: 1px;
-            background: #bdc3c7;
-            border: 2px solid #34495e;
-            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            background: #bbb;
+            border: 1px solid #999;
         }
-        
-        .heatmap-cell {
-            padding: 10px;
-            text-align: center;
-            font-size: 12px;
+        .hm-cell {
+            background: #fff;
             display: flex;
             flex-direction: column;
             justify-content: center;
             align-items: center;
-            min-height: 65px;
+            min-height: 58px;
+            padding: 6px 4px;
+            font-family: 'Segoe UI', sans-serif;
+            cursor: default;
+            transition: box-shadow 0.15s;
             position: relative;
-            cursor: pointer;
-            transition: all 0.2s ease;
         }
-        
-        .heatmap-cell:hover {
-            transform: scale(1.08);
-            z-index: 10;
-            box-shadow: 0 0 15px rgba(0,0,0,0.4);
-        }
-        
-        .heatmap-cell-label {
-            font-weight: 600;
+        .hm-cell:hover { box-shadow: inset 0 0 0 2px #1a1a1a; z-index: 2; }
+        .hm-cell .val { font-size: 13px; font-weight: 700; }
+        .hm-cell .zs  { font-size: 10px; margin-top: 2px; opacity: 0.85; }
+
+        .hm-head {
+            background: #1a1a1a !important;
+            color: #fff !important;
             font-size: 10px;
-            margin-bottom: 4px;
-        }
-        
-        .heatmap-cell-value {
             font-weight: 700;
-            font-size: 14px;
-        }
-        
-        .heatmap-cell-zscore {
-            font-size: 10px;
-            margin-top: 3px;
-            opacity: 0.9;
-        }
-        
-        .heatmap-header {
-            background: linear-gradient(135deg, #2c3e50 0%, #34495e 100%) !important;
-            color: white !important;
-            font-weight: 700;
-            font-size: 11px;
             text-transform: uppercase;
-            letter-spacing: 0.5px;
-        }
-        
-        .heatmap-row-header {
-            background: linear-gradient(135deg, #7f8c8d 0%, #95a5a6 100%) !important;
-            color: white !important;
-            font-weight: 700;
-            font-size: 12px;
-            text-align: left;
-            padding-left: 15px;
-        }
-        
-        .rankings-container {
+            letter-spacing: 0.4px;
+            text-align: center;
+            min-height: 38px;
+            justify-content: center;
+            align-items: center;
             display: flex;
-            flex-direction: column;
-            gap: 20px;
+            padding: 4px 6px;
+            line-height: 1.3;
         }
-        
-        .ranking-card {
-            background: white;
-            padding: 20px;
-            border-radius: 10px;
-            box-shadow: 0 4px 20px rgba(0,0,0,0.1);
-        }
-        
-        .ranking-card h4 {
-            font-size: 16px;
+        .hm-row-head {
+            background: #f4f4f4 !important;
+            color: #1a1a1a !important;
+            font-size: 12px;
             font-weight: 700;
-            margin-bottom: 15px;
-            color: #2c3e50;
-            border-bottom: 3px solid #667eea;
-            padding-bottom: 8px;
-            text-transform: uppercase;
-            letter-spacing: 0.5px;
+            text-align: left !important;
+            align-items: flex-start !important;
+            padding-left: 10px !important;
+            border-right: 2px solid #999;
         }
-        
-        .ranking-item {
+
+        /* Color legend bar */
+        .legend-bar {
+            display: flex;
+            align-items: flex-start;
+            justify-content: center;
+            gap: 12px;
+            margin-top: 14px;
+            padding: 10px 0;
+        }
+        .legend-bar-label { font-size: 12px; font-weight: 600; color: #555; font-family: 'Segoe UI', sans-serif; padding-top: 2px; }
+        .legend-bar-scale { display: flex; height: 18px; border: 1px solid #999; }
+        .legend-bar-seg { width: 38px; }
+        .legend-bar-ticks {
+            display: flex;
+            justify-content: space-between;
+            width: 380px;
+            margin-top: 4px;
+            font-size: 10px;
+            color: #666;
+            font-family: 'Segoe UI', sans-serif;
+        }
+
+        /* Two-col layout: heatmap + rankings */
+        .dashboard-grid { display: grid; grid-template-columns: 1.7fr 1fr; gap: 28px; }
+
+        /* Rankings */
+        .rankings-wrap { display: flex; flex-direction: column; gap: 24px; }
+        .ranking-panel { border: 1px solid #ddd; background: #fff; }
+        .ranking-panel-head {
+            background: #f4f4f4;
+            border-bottom: 1px solid #ddd;
+            padding: 10px 16px;
+            font-size: 13px;
+            font-weight: 700;
+            color: #1a1a1a;
+            font-family: 'Segoe UI', sans-serif;
+            text-transform: uppercase;
+            letter-spacing: 0.4px;
+        }
+        .ranking-row {
             display: flex;
             justify-content: space-between;
             align-items: center;
-            padding: 8px 12px;
-            margin: 5px 0;
-            background: #f8f9fa;
-            border-radius: 6px;
-            border-left: 4px solid;
-            transition: all 0.2s ease;
+            padding: 7px 14px;
+            border-bottom: 1px solid #f0f0f0;
+            border-left: 4px solid transparent;
+            font-family: 'Segoe UI', sans-serif;
         }
-        
-        .ranking-item:hover {
-            background: #e9ecef;
-            transform: translateX(5px);
-        }
-        
-        .ranking-item-name {
-            font-size: 14px;
-            font-weight: 500;
-            color: #2c3e50;
-        }
-        
-        .ranking-item-value {
-            font-size: 14px;
-            font-weight: 700;
-            color: #34495e;
-            font-family: 'Courier New', monospace;
-        }
-        
-        .summary-stats {
-            margin-top: 30px;
-            padding: 25px;
-            background: white;
-            border-radius: 10px;
-            box-shadow: 0 4px 20px rgba(0,0,0,0.1);
-        }
-        
-        .summary-stats h4 {
-            font-size: 18px;
-            font-weight: 700;
-            margin-bottom: 20px;
-            color: #2c3e50;
-            text-transform: uppercase;
-            letter-spacing: 0.5px;
-        }
-        
-        .summary-grid {
+        .ranking-row:last-child { border-bottom: none; }
+        .ranking-row:nth-child(even) { background: #fafafa; }
+        .ranking-row .rk-name { font-size: 13px; color: #222; }
+        .ranking-row .rk-val { font-size: 13px; font-weight: 700; font-family: 'Consolas', monospace; color: #333; }
+
+        /* Global stats row */
+        .global-stats-grid {
             display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-            gap: 20px;
+            grid-template-columns: repeat(6, 1fr);
+            gap: 1px;
+            background: #ccc;
+            border: 1px solid #999;
+            margin-top: 0;
         }
-        
-        .summary-item {
-            background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
-            padding: 18px;
-            border-radius: 8px;
-            border-left: 5px solid #667eea;
-            transition: all 0.2s ease;
+        .gs-cell {
+            background: #fff;
+            padding: 16px 12px;
+            text-align: center;
+            font-family: 'Segoe UI', sans-serif;
         }
-        
-        .summary-item:hover {
-            transform: translateY(-3px);
-            box-shadow: 0 6px 20px rgba(0,0,0,0.15);
-        }
-        
-        .summary-item-label {
-            font-size: 13px;
+        .gs-cell .gs-label {
+            font-size: 11px;
+            text-transform: uppercase;
+            letter-spacing: 0.4px;
             color: #666;
-            margin-bottom: 8px;
-            font-weight: 500;
-            text-transform: uppercase;
-            letter-spacing: 0.3px;
+            margin-bottom: 6px;
+            font-weight: 600;
         }
-        
-        .summary-item-value {
-            font-size: 24px;
+        .gs-cell .gs-value {
+            font-size: 20px;
             font-weight: 700;
-            color: #2c3e50;
-            font-family: 'Courier New', monospace;
+            color: #1a1a1a;
+            font-family: 'Consolas', monospace;
         }
-        
-        /* Color scale legend */
-        .color-legend {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            gap: 20px;
-            margin-top: 20px;
-            padding: 15px;
-            background: white;
-            border-radius: 8px;
-            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
-        }
-        
-        .color-scale {
-            display: flex;
-            align-items: center;
-            gap: 10px;
-        }
-        
-        .color-scale-label {
-            font-size: 13px;
-            font-weight: 700;
-            color: #2c3e50;
-            text-transform: uppercase;
-            letter-spacing: 0.5px;
-        }
-        
-        .color-scale-bar {
-            display: flex;
-            height: 25px;
-            border-radius: 6px;
-            overflow: hidden;
-            border: 2px solid #34495e;
-            box-shadow: 0 2px 8px rgba(0,0,0,0.2);
-        }
-        
-        .color-scale-segment {
-            width: 35px;
-        }
+
+        /* Loading */
+        .loading { text-align: center; padding: 80px; font-size: 18px; color: #666; font-style: italic; }
+
+        /* Score highlight column */
+        .score-col { background: #f4f4f4 !important; }
     </style>
 </head>
 <body>
-    <div class="container">
-        <h1>SSI Subject Analyzer - Investigation 2 (Enhanced with Z-Scores)</h1>
-        <div class="info">Data loaded from: RESEARCH-DATA/investigation 2/fields</div>
-        
-        <div id="loading" class="loading">Loading data from GitHub...</div>
-        <div id="content" class="hidden"></div>
+<div class="container">
+
+    <div class="page-header">
+        <h1>SSI Subject Analyzer — Investigation 2</h1>
+        <p class="subtitle">Data source: RESEARCH-DATA / investigation 2 / fields</p>
     </div>
 
-    <script>
-        var subjects = [
-            'Biology',
-            'Chemistry',
-            'Computer science',
-            'Economics',
-            'English Language',
-            'Ethics',
-            'History',
-            'Mathematics',
-            'Philosophy',
-            'Physics'
-        ];
-        
-        // Define vibrant, distinct colors for each subject
-        var subjectColors = {
-            'Biology': '#2ecc71',
-            'Chemistry': '#e74c3c',
-            'Computer science': '#3498db',
-            'Economics': '#f39c12',
-            'English Language': '#9b59b6',
-            'Ethics': '#1abc9c',
-            'History': '#e67e22',
-            'Mathematics': '#34495e',
-            'Philosophy': '#c0392b',
-            'Physics': '#16a085'
-        };
-        
-        // Visibility state for each subject and average line
-        var subjectVisibility = {};
-        for (var i = 0; i < subjects.length; i++) {
-            subjectVisibility[subjects[i]] = true;
-        }
-        var showAverageLine = true;
-        
-        // Global results for redrawing
-        var globalResults = null;
-        
-        function toggleSubject(subject) {
-            subjectVisibility[subject] = !subjectVisibility[subject];
-            if (globalResults) {
-                drawGraph(globalResults);
-            }
-        }
-        
-        function toggleAverageLine() {
-            showAverageLine = !showAverageLine;
-            if (globalResults) {
-                drawGraph(globalResults);
-            }
-        }
-        
-        // Question type mapping in the original order
-        var questionTypesOriginal = [
-            'Computational-Numerical',
-            'Procedural-How-To',
-            'Conceptual-Definition',
-            'Analytical-Multistep-Reasoning',
-            'Interpretive-Contextual',
-            'Evaluative-Normative',
-            'Design-Methodological',
-            'Closed-Factual'
-        ];
-        
-        // Question types in the display order (reversed from the specified order)
-        var questionTypes = [
-            'Analytical-Multistep-Reasoning',
-            'Procedural-How-To',
-            'Design-Methodological',
-            'Evaluative-Normative',
-            'Interpretive-Contextual',
-            'Computational-Numerical',
-            'Closed-Factual',
-            'Conceptual-Definition'
-        ];
-        
-        // Map question indices to types, accounting for skipped types
-        function getQuestionType(questionNumber, skippedType) {
-            var num = parseInt(questionNumber.substring(1));
-            var typeIndex = Math.floor((num - 1) / 6);
-            
-            // Build list of available types (excluding skipped)
-            var availableTypes = [];
-            for (var i = 0; i < questionTypesOriginal.length; i++) {
-                if (questionTypesOriginal[i] !== skippedType) {
-                    availableTypes.push(questionTypesOriginal[i]);
-                }
-            }
-            
-            return availableTypes[typeIndex] || 'Unknown';
-        }
+    <div class="body-content">
+        <div id="loading" class="loading">Loading data …</div>
+        <div id="content" class="hidden"></div>
+    </div>
+</div>
 
-        function calculateStats(values) {
-            var n = values.length;
-            if (n === 0) return { mean: 0, stdDev: 0, min: 0, max: 0, n: 0 };
-            
-            var sum = 0;
-            for (var i = 0; i < values.length; i++) {
-                sum += values[i];
-            }
-            var mean = sum / n;
-            
-            var varianceSum = 0;
-            for (var i = 0; i < values.length; i++) {
-                varianceSum += Math.pow(values[i] - mean, 2);
-            }
-            var variance = varianceSum / n;
-            var stdDev = Math.sqrt(variance);
-            var min = Math.min.apply(null, values);
-            var max = Math.max.apply(null, values);
-            
-            return { mean: mean, stdDev: stdDev, min: min, max: max, n: n };
-        }
-        
-        function calculateZScore(value, mean, stdDev) {
-            if (stdDev === 0) return 0;
-            return (value - mean) / stdDev;
-        }
+<script>
+/* ═══════════════════════════════════════════════════════════════
+   DATA & CONFIG
+   ═══════════════════════════════════════════════════════════════ */
+var subjects = [
+    'Biology','Chemistry','Computer science','Economics',
+    'English Language','Ethics','History','Mathematics','Philosophy','Physics'
+];
 
-        function analyzeSubject(questions, answers, skippedType) {
-            var questionKeys = Object.keys(questions).sort(function(a, b) {
-                var numA = parseInt(a.substring(1));
-                var numB = parseInt(b.substring(1));
-                return numA - numB;
-            });
-            
-            var answerKeys = Object.keys(answers).sort(function(a, b) {
-                var numA = parseInt(a.substring(1));
-                var numB = parseInt(b.substring(1));
-                return numA - numB;
-            });
+var subjectColors = {
+    'Biology':'#2ecc71','Chemistry':'#e74c3c','Computer science':'#3498db',
+    'Economics':'#f39c12','English Language':'#9b59b6','Ethics':'#1abc9c',
+    'History':'#e67e22','Mathematics':'#34495e','Philosophy':'#c0392b','Physics':'#16a085'
+};
 
-            var ratios = [];
-            var calculations = [];
-            var typeAnalysis = {};
-            
-            // Initialize type analysis
-            for (var i = 0; i < questionTypes.length; i++) {
-                typeAnalysis[questionTypes[i]] = {
-                    questionSSI: [],
-                    answerSSI: [],
-                    ratios: []
-                };
-            }
+var questionTypesOriginal = [
+    'Computational-Numerical','Procedural-How-To','Conceptual-Definition',
+    'Analytical-Multistep-Reasoning','Interpretive-Contextual',
+    'Evaluative-Normative','Design-Methodological','Closed-Factual'
+];
 
-            for (var i = 0; i < questionKeys.length; i++) {
-                var qKey = questionKeys[i];
-                var aKey = answerKeys[i];
-                var qValue = questions[qKey];
-                var aValue = answers[aKey];
-                var ratio = aValue / qValue;
-                var type = getQuestionType(qKey, skippedType);
-                
-                ratios.push(ratio);
-                calculations.push({
-                    question: qKey,
-                    answer: aKey,
-                    questionSSI: qValue,
-                    answerSSI: aValue,
-                    ratio: ratio,
-                    type: type
-                });
-                
-                // Add to type analysis
-                if (typeAnalysis[type]) {
-                    typeAnalysis[type].questionSSI.push(qValue);
-                    typeAnalysis[type].answerSSI.push(aValue);
-                    typeAnalysis[type].ratios.push(ratio);
-                }
-            }
-            
-            // Calculate stats for each type
-            var typeStats = {};
-            for (var type in typeAnalysis) {
-                if (typeAnalysis.hasOwnProperty(type)) {
-                    typeStats[type] = {
-                        avgQuestionSSI: calculateStats(typeAnalysis[type].questionSSI).mean,
-                        avgAnswerSSI: calculateStats(typeAnalysis[type].answerSSI).mean,
-                        avgRatio: calculateStats(typeAnalysis[type].ratios).mean,
-                        ratioStats: calculateStats(typeAnalysis[type].ratios)
-                    };
-                }
-            }
+var questionTypes = [
+    'Analytical-Multistep-Reasoning','Procedural-How-To','Design-Methodological',
+    'Evaluative-Normative','Interpretive-Contextual','Computational-Numerical',
+    'Closed-Factual','Conceptual-Definition'
+];
 
-            var questionValues = [];
-            for (var k in questions) {
-                if (questions.hasOwnProperty(k)) {
-                    questionValues.push(questions[k]);
-                }
-            }
-            
-            var answerValues = [];
-            for (var k in answers) {
-                if (answers.hasOwnProperty(k)) {
-                    answerValues.push(answers[k]);
-                }
-            }
-            
-            var qSum = 0;
-            for (var i = 0; i < questionValues.length; i++) {
-                qSum += questionValues[i];
-            }
-            var avgQuestionSSI = questionValues.length > 0 ? qSum / questionValues.length : 0;
-            
-            var aSum = 0;
-            for (var i = 0; i < answerValues.length; i++) {
-                aSum += answerValues[i];
-            }
-            var avgAnswerSSI = answerValues.length > 0 ? aSum / answerValues.length : 0;
-            
-            var rSum = 0;
-            for (var i = 0; i < ratios.length; i++) {
-                rSum += ratios[i];
-            }
-            var avgRatio = ratios.length > 0 ? rSum / ratios.length : 0;
-            
-            var ratioStats = calculateStats(ratios);
-            var questionStats = calculateStats(questionValues);
-            var answerStats = calculateStats(answerValues);
+var shortLabels = {
+    'Analytical-Multistep-Reasoning':'Analytical',
+    'Procedural-How-To':'Procedural',
+    'Design-Methodological':'Design',
+    'Evaluative-Normative':'Evaluative',
+    'Interpretive-Contextual':'Interpretive',
+    'Computational-Numerical':'Computational',
+    'Closed-Factual':'Closed-Factual',
+    'Conceptual-Definition':'Conceptual'
+};
 
-            return {
-                calculations: calculations,
-                avgQuestionSSI: avgQuestionSSI,
-                avgAnswerSSI: avgAnswerSSI,
-                avgRatio: avgRatio,
-                ratioStats: ratioStats,
-                questionStats: questionStats,
-                answerStats: answerStats,
-                typeStats: typeStats
+/* ─── visibility state ─── */
+var subjectVisibility = {};
+subjects.forEach(function(s){ subjectVisibility[s] = true; });
+var showAverageLine = true;
+var globalResults = null;
+
+function toggleSubject(s){ subjectVisibility[s] = !subjectVisibility[s]; if(globalResults) drawGraph(globalResults); }
+function toggleAverageLine(){ showAverageLine = !showAverageLine; if(globalResults) drawGraph(globalResults); }
+
+/* ═══════════════════════════════════════════════════════════════
+   HELPERS
+   ═══════════════════════════════════════════════════════════════ */
+function getQuestionType(qNum, skipped) {
+    var num = parseInt(qNum.substring(1));
+    var idx = Math.floor((num - 1) / 6);
+    var avail = questionTypesOriginal.filter(function(t){ return t !== skipped; });
+    return avail[idx] || 'Unknown';
+}
+
+function calcStats(arr) {
+    var n = arr.length;
+    if (!n) return { mean:0, stdDev:0, min:0, max:0, n:0 };
+    var sum = arr.reduce(function(a,b){ return a+b; }, 0);
+    var mean = sum / n;
+    var variance = arr.reduce(function(a,v){ return a + Math.pow(v - mean, 2); }, 0) / n;
+    return { mean: mean, stdDev: Math.sqrt(variance), min: Math.min.apply(null, arr), max: Math.max.apply(null, arr), n: n };
+}
+
+function zScoreVal(val, mean, sd) { return sd === 0 ? 0 : (val - mean) / sd; }
+
+function zClass(z) { return z > 0.05 ? 'z-pos' : (z < -0.05 ? 'z-neg' : 'z-zero'); }
+
+function zColor(z) {
+    if (z < -2)   return '#b71c1c';
+    if (z < -1.5) return '#c62828';
+    if (z < -1)   return '#ef5350';
+    if (z < -0.5) return '#ef9a9a';
+    if (z < 0)    return '#ffcdd2';
+    if (z < 0.5)  return '#c8e6c9';
+    if (z < 1)    return '#66bb6a';
+    if (z < 1.5)  return '#43a047';
+    if (z < 2)    return '#2e7d32';
+    return '#1b5e20';
+}
+
+function zTextColor(z) { return Math.abs(z) > 1.2 ? '#fff' : '#1a1a1a'; }
+
+/* ═══════════════════════════════════════════════════════════════
+   QUESTION-SCORE LOGIC
+      Ratio       weight 0.40  — normalised 0-1 across subjects (min-max)
+      Z-Score     weight 0.30  — sigmoid mapped to 0-1
+      Consistency weight 0.30  — 1/(1+stdDev), normalised 0-1
+   Final = weighted sum × 100
+   ═══════════════════════════════════════════════════════════════ */
+function sigmoid(x) { return 1 / (1 + Math.exp(-x)); }
+
+function computeSubjectScores(results) {
+    var rows = [];
+    subjects.forEach(function(s) {
+        var r = results[s];
+        var ratios = [], zs = [], consis = [];
+        questionTypes.forEach(function(t) {
+            var ts = r.typeStats[t];
+            if (ts && ts.ratioStats.n > 0) {
+                ratios.push(ts.avgRatio);
+                zs.push(ts.zScore || 0);
+                consis.push(1 / (1 + ts.ratioStats.stdDev));
+            }
+        });
+        rows.push({
+            subject: s,
+            avgRatio: calcStats(ratios).mean,
+            avgZ: calcStats(zs).mean,
+            avgConsis: calcStats(consis).mean
+        });
+    });
+
+    var ratioVals  = rows.map(function(r){ return r.avgRatio; });
+    var consisVals = rows.map(function(r){ return r.avgConsis; });
+    var rMin = Math.min.apply(null, ratioVals), rMax = Math.max.apply(null, ratioVals);
+    var cMin = Math.min.apply(null, consisVals), cMax = Math.max.apply(null, consisVals);
+
+    rows.forEach(function(row) {
+        var normR = rMax === rMin ? 0.5 : (row.avgRatio - rMin) / (rMax - rMin);
+        var normZ = sigmoid(row.avgZ);
+        var normC = cMax === cMin ? 0.5 : (row.avgConsis - cMin) / (cMax - cMin);
+        row.score = (normR * 0.4 + normZ * 0.3 + normC * 0.3) * 100;
+    });
+
+    rows.sort(function(a,b){ return b.score - a.score; });
+    return rows;
+}
+
+function computeTypeScores(results) {
+    var rows = [];
+    questionTypes.forEach(function(t) {
+        var ratios = [], zs = [], consis = [];
+        subjects.forEach(function(s) {
+            var ts = results[s].typeStats[t];
+            if (ts && ts.ratioStats.n > 0) {
+                ratios.push(ts.avgRatio);
+                zs.push(ts.zScore || 0);
+                consis.push(1 / (1 + ts.ratioStats.stdDev));
+            }
+        });
+        if (!ratios.length) return;
+        rows.push({
+            type: t,
+            avgRatio: calcStats(ratios).mean,
+            avgZ: calcStats(zs).mean,
+            avgConsis: calcStats(consis).mean,
+            count: ratios.length
+        });
+    });
+
+    var ratioVals  = rows.map(function(r){ return r.avgRatio; });
+    var consisVals = rows.map(function(r){ return r.avgConsis; });
+    var rMin = Math.min.apply(null, ratioVals), rMax = Math.max.apply(null, ratioVals);
+    var cMin = Math.min.apply(null, consisVals), cMax = Math.max.apply(null, consisVals);
+
+    rows.forEach(function(row) {
+        var normR = rMax === rMin ? 0.5 : (row.avgRatio - rMin) / (rMax - rMin);
+        var normZ = sigmoid(row.avgZ);
+        var normC = cMax === cMin ? 0.5 : (row.avgConsis - cMin) / (cMax - cMin);
+        row.score = (normR * 0.4 + normZ * 0.3 + normC * 0.3) * 100;
+    });
+
+    rows.sort(function(a,b){ return b.score - a.score; });
+    return rows;
+}
+
+/* ═══════════════════════════════════════════════════════════════
+   ANALYSIS
+   ═══════════════════════════════════════════════════════════════ */
+function analyzeSubject(questions, answers, skippedType) {
+    var qKeys = Object.keys(questions).sort(function(a,b){ return parseInt(a.slice(1)) - parseInt(b.slice(1)); });
+    var aKeys = Object.keys(answers).sort(function(a,b){ return parseInt(a.slice(1)) - parseInt(b.slice(1)); });
+
+    var ratios = [], calculations = [];
+    var typeAnalysis = {};
+    questionTypes.forEach(function(t){ typeAnalysis[t] = { qSSI:[], aSSI:[], ratios:[] }; });
+
+    qKeys.forEach(function(qk, i) {
+        var ak = aKeys[i], qv = questions[qk], av = answers[ak], ratio = av / qv;
+        var type = getQuestionType(qk, skippedType);
+        ratios.push(ratio);
+        calculations.push({ question: qk, answer: ak, questionSSI: qv, answerSSI: av, ratio: ratio, type: type });
+        if (typeAnalysis[type]) { typeAnalysis[type].qSSI.push(qv); typeAnalysis[type].aSSI.push(av); typeAnalysis[type].ratios.push(ratio); }
+    });
+
+    var typeStats = {};
+    for (var t in typeAnalysis) {
+        if (typeAnalysis.hasOwnProperty(t)) {
+            typeStats[t] = {
+                avgQuestionSSI: calcStats(typeAnalysis[t].qSSI).mean,
+                avgAnswerSSI:   calcStats(typeAnalysis[t].aSSI).mean,
+                avgRatio:       calcStats(typeAnalysis[t].ratios).mean,
+                ratioStats:     calcStats(typeAnalysis[t].ratios)
             };
         }
+    }
 
-        function toggleCalculations(id) {
-            var elem = document.getElementById(id);
-            if (elem.classList.contains('hidden')) {
-                elem.classList.remove('hidden');
+    var qVals = Object.keys(questions).map(function(k){ return questions[k]; });
+    var aVals = Object.keys(answers).map(function(k){ return answers[k]; });
+
+    return {
+        calculations: calculations,
+        avgQuestionSSI: calcStats(qVals).mean,
+        avgAnswerSSI:   calcStats(aVals).mean,
+        avgRatio:       calcStats(ratios).mean,
+        ratioStats:     calcStats(ratios),
+        questionStats:  calcStats(qVals),
+        answerStats:    calcStats(aVals),
+        typeStats:      typeStats
+    };
+}
+
+/* ═══════════════════════════════════════════════════════════════
+   FETCH
+   ═══════════════════════════════════════════════════════════════ */
+function fetchAllData() {
+    var base = '../RESEARCH-DATA/investigation 2/fields';
+    var results = {}, done = 0, total = subjects.length;
+
+    subjects.forEach(function(subject) {
+        fetch(base + '/' + subject + '/skipped')
+        .then(function(r){ return r.ok ? r.text() : null; })
+        .then(function(txt) {
+            var skipped = txt ? txt.trim() : null;
+            return Promise.all([
+                fetch(base + '/' + subject + '/ssi_of_questions').then(function(r){ return r.json(); }),
+                fetch(base + '/' + subject + '/ssi_of_answers').then(function(r){ return r.json(); })
+            ]).then(function(pair) {
+                results[subject] = analyzeSubject(pair[0], pair[1], skipped);
+                results[subject].skippedType = skipped;
+                if (++done === total) renderResults(results);
+            });
+        })
+        .catch(function(e){ console.error(subject, e); if (++done === total) renderResults(results); });
+    });
+}
+
+/* ═══════════════════════════════════════════════════════════════
+   GRAPH
+   ═══════════════════════════════════════════════════════════════ */
+function drawGraph(results) {
+    var canvas = document.getElementById('ssi-graph');
+    if (!canvas) return;
+    var ctx = canvas.getContext('2d'), W = canvas.width, H = canvas.height;
+    ctx.clearRect(0, 0, W, H);
+
+    var M = { top:36, right:36, bottom:96, left:74 };
+    var pw = W - M.left - M.right, ph = H - M.top - M.bottom;
+
+    var allR = [];
+    var avgByType = {};
+    questionTypes.forEach(function(t) {
+        var vals = [];
+        subjects.forEach(function(s) {
+            var ts = results[s].typeStats[t];
+            if (ts && ts.ratioStats.n > 0) { allR.push(ts.avgRatio); vals.push(ts.avgRatio); }
+        });
+        if (vals.length) { avgByType[t] = calcStats(vals).mean; allR.push(avgByType[t]); }
+    });
+
+    var range = Math.max.apply(null, allR) - Math.min.apply(null, allR);
+    var yMin = Math.min.apply(null, allR) - range * 0.1;
+    var yMax = Math.max.apply(null, allR) + range * 0.1;
+
+    function yPx(v) { return M.top + ph - ((v - yMin) / (yMax - yMin)) * ph; }
+    var xStep = pw / (questionTypes.length - 1);
+    function xPx(i) { return M.left + xStep * i; }
+
+    /* axes */
+    ctx.strokeStyle = '#333'; ctx.lineWidth = 1.5;
+    ctx.beginPath(); ctx.moveTo(M.left, M.top); ctx.lineTo(M.left, H - M.bottom); ctx.lineTo(W - M.right, H - M.bottom); ctx.stroke();
+
+    /* grid + y labels */
+    var nGrid = 7;
+    for (var i = 0; i <= nGrid; i++) {
+        var yy = M.top + (ph / nGrid) * i;
+        ctx.strokeStyle = '#e8e8e8'; ctx.lineWidth = 1;
+        ctx.beginPath(); ctx.moveTo(M.left, yy); ctx.lineTo(W - M.right, yy); ctx.stroke();
+        var val = yMax - (yMax - yMin) * (i / nGrid);
+        ctx.fillStyle = '#555'; ctx.font = '11px Consolas, monospace'; ctx.textAlign = 'right';
+        ctx.fillText(val.toFixed(3), M.left - 8, yy + 4);
+    }
+
+    /* x labels (rotated) */
+    ctx.fillStyle = '#333'; ctx.font = '11px Segoe UI, sans-serif'; ctx.textAlign = 'left';
+    questionTypes.forEach(function(t, i) {
+        ctx.save();
+        ctx.translate(xPx(i), H - M.bottom + 10);
+        ctx.rotate(-Math.PI / 4.5);
+        ctx.fillText(shortLabels[t] || t, 0, 0);
+        ctx.restore();
+    });
+
+    /* axis labels */
+    ctx.font = 'bold 12px Georgia, serif'; ctx.textAlign = 'center'; ctx.fillStyle = '#1a1a1a';
+    ctx.fillText('Question Type  →  Increasing Stability', W / 2, H - 6);
+    ctx.save(); ctx.translate(16, H / 2); ctx.rotate(-Math.PI / 2);
+    ctx.fillText('SSI Ratio (Answer / Question)', 0, 0); ctx.restore();
+
+    /* subject lines */
+    subjects.forEach(function(s) {
+        if (!subjectVisibility[s]) return;
+        var ts = results[s].typeStats, col = subjectColors[s];
+        ctx.strokeStyle = col; ctx.lineWidth = 2; ctx.setLineDash([]);
+        var last = null;
+        questionTypes.forEach(function(t, i) {
+            if (ts[t] && ts[t].ratioStats.n > 0) {
+                var pt = { x: xPx(i), y: yPx(ts[t].avgRatio) };
+                if (last) { ctx.beginPath(); ctx.moveTo(last.x, last.y); ctx.lineTo(pt.x, pt.y); ctx.stroke(); }
+                last = pt;
+            } else { last = null; }
+        });
+        ctx.fillStyle = col;
+        questionTypes.forEach(function(t, i) {
+            if (ts[t] && ts[t].ratioStats.n > 0) {
+                ctx.beginPath(); ctx.arc(xPx(i), yPx(ts[t].avgRatio), 3.5, 0, Math.PI * 2); ctx.fill();
+            }
+        });
+    });
+
+    /* average dashed line */
+    if (showAverageLine) {
+        ctx.strokeStyle = '#1a1a1a'; ctx.lineWidth = 2.5; ctx.setLineDash([7, 4]);
+        var last = null;
+        questionTypes.forEach(function(t, i) {
+            if (avgByType[t] != null) {
+                var pt = { x: xPx(i), y: yPx(avgByType[t]) };
+                if (last) { ctx.beginPath(); ctx.moveTo(last.x, last.y); ctx.lineTo(pt.x, pt.y); ctx.stroke(); }
+                last = pt;
+            } else { last = null; }
+        });
+        ctx.setLineDash([]); ctx.fillStyle = '#1a1a1a';
+        questionTypes.forEach(function(t, i) {
+            if (avgByType[t] != null) { ctx.beginPath(); ctx.arc(xPx(i), yPx(avgByType[t]), 4.5, 0, Math.PI * 2); ctx.fill(); }
+        });
+    }
+}
+
+/* ═══════════════════════════════════════════════════════════════
+   RENDER
+   ═══════════════════════════════════════════════════════════════ */
+function renderResults(results) {
+    globalResults = results;
+
+    /* ── pre-compute z-scores ── */
+    questionTypes.forEach(function(t) {
+        var vals = [];
+        subjects.forEach(function(s) { var ts = results[s].typeStats[t]; if (ts && ts.ratioStats.n > 0) vals.push(ts.avgRatio); });
+        var st = calcStats(vals);
+        subjects.forEach(function(s) {
+            var ts = results[s].typeStats[t];
+            if (ts && ts.ratioStats.n > 0) ts.zScore = zScoreVal(ts.avgRatio, st.mean, st.stdDev);
+        });
+    });
+    var overallRatios = subjects.map(function(s){ return results[s].avgRatio; });
+    var overallSt = calcStats(overallRatios);
+    subjects.forEach(function(s){ results[s].zScore = zScoreVal(results[s].avgRatio, overallSt.mean, overallSt.stdDev); });
+
+    var sorted = subjects.slice().sort(function(a,b){ return results[b].avgRatio - results[a].avgRatio; });
+
+    var h = '';
+
+    /* ════════ 1. LINE GRAPH ════════ */
+    h += '<h2>Figure 1 — SSI Ratio Trends Across Question Types</h2>';
+
+    h += '<div class="toggle-bar"><span class="toggle-bar-label">Display</span>';
+    h += '<label><input type="checkbox" checked onchange="toggleAverageLine()"> Average</label>';
+    subjects.forEach(function(s) {
+        h += '<label><input type="checkbox" checked onchange="toggleSubject(\'' + s + '\')"><span style="color:' + subjectColors[s] + ';font-weight:600;">' + s + '</span></label>';
+    });
+    h += '</div>';
+
+    h += '<div class="graph-with-bar"><div class="graph-main">';
+    h += '<div id="graph-container">';
+    h += '<div class="graph-title">SSI Ratio by Question Type</div>';
+    h += '<canvas id="ssi-graph" width="1400" height="560"></canvas>';
+
+    h += '<div class="legend">';
+    h += '<div class="legend-item"><div class="legend-swatch-dashed"></div><span><strong>Average</strong></span></div>';
+    subjects.forEach(function(s) {
+        h += '<div class="legend-item"><div class="legend-swatch" style="background:' + subjectColors[s] + ';"></div><span>' + s + '</span></div>';
+    });
+    h += '</div>';
+    h += '<p class="graph-caption">Each line traces a subject\'s mean answer/question SSI ratio across question types, ordered left to right by increasing stability.</p>';
+    h += '</div></div>';
+
+    h += '<div class="average-bar-container">';
+    h += '<div class="average-bar-title">Overall<br>Avg Ratio</div>';
+    h += '<div class="average-bar-scale" id="average-scale"><div class="average-bar-axis"></div></div>';
+    h += '<div class="average-bar-tooltip" id="bar-tooltip"></div>';
+    h += '</div></div>';
+
+    /* ════════ 2. CROSS-SUBJECT TABLE ════════ */
+    h += '<h2>Table 1 — SSI Ratios by Subject and Question Type</h2>';
+    h += '<p style="font-size:13px;color:#555;margin-bottom:10px;font-style:italic;">Green = highest per row; red = lowest. Z-scores in parentheses.</p>';
+    h += '<table><thead><tr><th style="width:160px;">Question Type</th>';
+    subjects.forEach(function(s){ h += '<th class="text-right">' + s + '</th>'; });
+    h += '</tr></thead><tbody>';
+
+    questionTypes.forEach(function(t) {
+        var vals = [];
+        subjects.forEach(function(s) { var ts = results[s].typeStats[t]; if (ts && ts.ratioStats.n > 0) vals.push(ts.avgRatio); });
+        var mx = vals.length ? Math.max.apply(null, vals) : null;
+        var mn = vals.length ? Math.min.apply(null, vals) : null;
+
+        h += '<tr><td><strong>' + t + '</strong></td>';
+        subjects.forEach(function(s) {
+            var ts = results[s].typeStats[t];
+            if (ts && ts.ratioStats.n > 0) {
+                var v = ts.avgRatio, z = ts.zScore || 0;
+                var cls = (v === mx ? 'highlight-max' : (v === mn ? 'highlight-min' : ''));
+                h += '<td class="text-right ' + cls + '"><span class="font-mono">' + v.toFixed(4) + '</span> <span class="' + zClass(z) + '" style="font-size:11px;">(z=' + z.toFixed(2) + ')</span></td>';
             } else {
-                elem.classList.add('hidden');
+                h += '<td class="text-right" style="color:#aaa;">—</td>';
             }
-            var button = document.querySelector('button[data-target="' + id + '"]');
-            if (elem.classList.contains('hidden')) {
-                button.textContent = 'Show Detailed Calculations';
+        });
+        h += '</tr>';
+    });
+    h += '</tbody></table>';
+
+    /* ════════ 3. SUMMARY TABLE ════════ */
+    h += '<h2>Table 2 — Subject Summary Statistics</h2>';
+    h += '<table><thead><tr><th>Rank</th><th>Subject</th><th>Skipped Type</th><th class="text-right">Avg Q SSI</th><th class="text-right">Avg A SSI</th><th class="text-right">Avg Ratio</th><th class="text-right">Z-Score</th><th class="text-right">Std Dev</th></tr></thead><tbody>';
+    sorted.forEach(function(s, i) {
+        var d = results[s], sk = d.skippedType || '—', z = d.zScore;
+        h += '<tr><td>' + (i+1) + '</td>' +
+             '<td><strong style="color:' + subjectColors[s] + ';">' + s + '</strong></td>' +
+             '<td style="font-size:12px;color:#666;">' + sk + '</td>' +
+             '<td class="text-right font-mono">' + d.avgQuestionSSI.toFixed(4) + '</td>' +
+             '<td class="text-right font-mono">' + d.avgAnswerSSI.toFixed(4) + '</td>' +
+             '<td class="text-right font-mono font-bold">' + d.avgRatio.toFixed(4) + '</td>' +
+             '<td class="text-right ' + zClass(z) + ' font-mono">' + z.toFixed(3) + '</td>' +
+             '<td class="text-right font-mono">' + d.ratioStats.stdDev.toFixed(4) + '</td></tr>';
+    });
+    h += '</tbody></table>';
+
+    /* ════════ 4. PER-SUBJECT SECTIONS ════════ */
+    sorted.forEach(function(name) {
+        var data = results[name], id = 'calc-' + name.replace(/\s+/g, '-');
+
+        h += '<div class="section"><div class="section-header">';
+        h += '<h2 style="color:' + subjectColors[name] + ';">' + name + '</h2>';
+        h += '<button class="btn-toggle" data-target="' + id + '" onclick="toggleCalc(\'' + id + '\')">Show Calculations</button>';
+        h += '</div>';
+
+        if (data.skippedType) h += '<div class="skipped-note"><strong>Note:</strong> Question type <strong>' + data.skippedType + '</strong> was skipped for this subject.</div>';
+
+        h += '<h3>Breakdown by Question Type</h3>';
+        h += '<table><thead><tr><th>Question Type</th><th class="text-right">Avg Q SSI</th><th class="text-right">Avg A SSI</th><th class="text-right">Avg Ratio</th><th class="text-right">Z-Score</th><th class="text-right">Std Dev</th><th class="text-right">n</th></tr></thead><tbody>';
+        questionTypes.forEach(function(t) {
+            var ts = data.typeStats[t];
+            if (ts && ts.ratioStats.n > 0) {
+                var z = ts.zScore || 0;
+                h += '<tr><td><strong>' + t + '</strong></td>' +
+                     '<td class="text-right font-mono">' + ts.avgQuestionSSI.toFixed(4) + '</td>' +
+                     '<td class="text-right font-mono">' + ts.avgAnswerSSI.toFixed(4) + '</td>' +
+                     '<td class="text-right font-mono font-bold">' + ts.avgRatio.toFixed(4) + '</td>' +
+                     '<td class="text-right ' + zClass(z) + ' font-mono">' + z.toFixed(3) + '</td>' +
+                     '<td class="text-right font-mono">' + ts.ratioStats.stdDev.toFixed(4) + '</td>' +
+                     '<td class="text-right">' + ts.ratioStats.n + '</td></tr>';
             } else {
-                button.textContent = 'Hide Detailed Calculations';
+                h += '<tr><td><strong>' + t + '</strong></td><td class="text-right" style="color:#aaa;" colspan="6">—</td></tr>';
             }
-        }
-        
-        function getColorForZScore(zscore) {
-            // Color gradient from red (negative) through white (0) to green (positive)
-            if (zscore < -2) return '#b71c1c';
-            if (zscore < -1.5) return '#c62828';
-            if (zscore < -1) return '#d32f2f';
-            if (zscore < -0.5) return '#e57373';
-            if (zscore < 0) return '#ffcdd2';
-            if (zscore < 0.5) return '#c8e6c9';
-            if (zscore < 1) return '#81c784';
-            if (zscore < 1.5) return '#4caf50';
-            if (zscore < 2) return '#388e3c';
-            return '#2e7d32';
-        }
+        });
+        h += '</tbody></table>';
 
-        function fetchAllData() {
-            var baseUrl = '../RESEARCH-DATA/investigation 2/fields';
-            var results = {};
-            var completed = 0;
-            var total = subjects.length;
-            
-            for (var i = 0; i < subjects.length; i++) {
-                (function(subject) {
-                    var questionsUrl = baseUrl + '/' + subject + '/ssi_of_questions';
-                    var answersUrl = baseUrl + '/' + subject + '/ssi_of_answers';
-                    var skippedUrl = baseUrl + '/' + subject + '/skipped';
-                    
-                    var skippedType = null;
-                    
-                    fetch(skippedUrl)
-                        .then(function(r) { 
-                            if (r.ok) {
-                                return r.text();
-                            }
-                            return null;
-                        })
-                        .then(function(skippedData) {
-                            if (skippedData) {
-                                skippedType = skippedData.trim();
-                            }
-                            
-                            return fetch(questionsUrl)
-                                .then(function(r) { return r.json(); })
-                                .then(function(questionsData) {
-                                    return fetch(answersUrl)
-                                        .then(function(r) { return r.json(); })
-                                        .then(function(answersData) {
-                                            results[subject] = analyzeSubject(questionsData, answersData, skippedType);
-                                            results[subject].skippedType = skippedType;
-                                            completed++;
-                                            if (completed === total) {
-                                                renderResults(results);
-                                            }
-                                        });
-                                });
-                        })
-                        .catch(function(err) {
-                            console.error('Error fetching ' + subject + ':', err);
-                            completed++;
-                            if (completed === total) {
-                                renderResults(results);
-                            }
-                        });
-                })(subjects[i]);
-            }
-        }
-        
-        function drawGraph(results) {
-            var canvas = document.getElementById('ssi-graph');
-            var ctx = canvas.getContext('2d');
-            var width = canvas.width;
-            var height = canvas.height;
-            
-            // Clear canvas
-            ctx.clearRect(0, 0, width, height);
-            
-            // Margins
-            var margin = { top: 40, right: 40, bottom: 100, left: 80 };
-            var plotWidth = width - margin.left - margin.right;
-            var plotHeight = height - margin.top - margin.bottom;
-            
-            // Find min and max ratio values across all subjects and types
-            var allRatios = [];
-            for (var subject in results) {
-                if (results.hasOwnProperty(subject)) {
-                    var typeStats = results[subject].typeStats;
-                    for (var type in typeStats) {
-                        if (typeStats.hasOwnProperty(type) && typeStats[type].ratioStats.n > 0) {
-                            allRatios.push(typeStats[type].avgRatio);
-                        }
-                    }
-                }
-            }
-            
-            // Calculate average values for each question type
-            var averageByType = {};
-            for (var t = 0; t < questionTypes.length; t++) {
-                var type = questionTypes[t];
-                var typeRatios = [];
-                for (var subject in results) {
-                    if (results.hasOwnProperty(subject)) {
-                        var typeStats = results[subject].typeStats;
-                        if (typeStats[type] && typeStats[type].ratioStats.n > 0) {
-                            typeRatios.push(typeStats[type].avgRatio);
-                        }
-                    }
-                }
-                if (typeRatios.length > 0) {
-                    var sum = 0;
-                    for (var i = 0; i < typeRatios.length; i++) {
-                        sum += typeRatios[i];
-                    }
-                    averageByType[type] = sum / typeRatios.length;
-                    allRatios.push(averageByType[type]);
-                }
-            }
-            
-            var minRatio = Math.min.apply(null, allRatios);
-            var maxRatio = Math.max.apply(null, allRatios);
-            var range = maxRatio - minRatio;
-            var yMin = minRatio - range * 0.1;
-            var yMax = maxRatio + range * 0.1;
-            
-            // Draw axes
-            ctx.strokeStyle = '#333';
-            ctx.lineWidth = 2;
-            ctx.beginPath();
-            ctx.moveTo(margin.left, margin.top);
-            ctx.lineTo(margin.left, height - margin.bottom);
-            ctx.lineTo(width - margin.right, height - margin.bottom);
-            ctx.stroke();
-            
-            // Draw grid lines
-            ctx.strokeStyle = '#e0e0e0';
-            ctx.lineWidth = 1;
-            var numYGridLines = 8;
-            for (var i = 0; i <= numYGridLines; i++) {
-                var y = margin.top + (plotHeight / numYGridLines) * i;
-                ctx.beginPath();
-                ctx.moveTo(margin.left, y);
-                ctx.lineTo(width - margin.right, y);
-                ctx.stroke();
-                
-                // Y-axis labels
-                var value = yMax - (yMax - yMin) * (i / numYGridLines);
-                ctx.fillStyle = '#333';
-                ctx.font = '12px Arial';
-                ctx.textAlign = 'right';
-                ctx.fillText(value.toFixed(3), margin.left - 10, y + 4);
-            }
-            
-            // X-axis labels
-            var xStep = plotWidth / (questionTypes.length - 1);
-            ctx.fillStyle = '#333';
-            ctx.font = '11px Arial';
-            ctx.textAlign = 'center';
-            for (var i = 0; i < questionTypes.length; i++) {
-                var x = margin.left + xStep * i;
-                var label = questionTypes[i];
-                
-                // Rotate text for better fit
-                ctx.save();
-                ctx.translate(x, height - margin.bottom + 15);
-                ctx.rotate(-Math.PI / 4);
-                ctx.fillText(label, 0, 0);
-                ctx.restore();
-            }
-            
-            // X-axis label
-            ctx.font = 'bold 14px Arial';
-            ctx.textAlign = 'center';
-            ctx.fillText('Increasing Stability Question Type →', width / 2, height - 10);
-            
-            // Y-axis label
-            ctx.save();
-            ctx.translate(20, height / 2);
-            ctx.rotate(-Math.PI / 2);
-            ctx.font = 'bold 14px Arial';
-            ctx.textAlign = 'center';
-            ctx.fillText('SSI Ratio (Answer/Question)', 0, 0);
-            ctx.restore();
-            
-            // Plot lines for each subject
-            for (var subject in results) {
-                if (results.hasOwnProperty(subject) && subjectVisibility[subject]) {
-                    var typeStats = results[subject].typeStats;
-                    var color = subjectColors[subject];
-                    
-                    ctx.strokeStyle = color;
-                    ctx.lineWidth = 2.5;
-                    
-                    // Draw line segments between consecutive valid points
-                    var lastValidPoint = null;
-                    for (var i = 0; i < questionTypes.length; i++) {
-                        var type = questionTypes[i];
-                        if (typeStats[type] && typeStats[type].ratioStats.n > 0) {
-                            var ratio = typeStats[type].avgRatio;
-                            var x = margin.left + xStep * i;
-                            var y = margin.top + plotHeight - ((ratio - yMin) / (yMax - yMin)) * plotHeight;
-                            
-                            var currentPoint = {x: x, y: y};
-                            
-                            if (lastValidPoint) {
-                                // Draw line from last valid point to current point
-                                ctx.beginPath();
-                                ctx.moveTo(lastValidPoint.x, lastValidPoint.y);
-                                ctx.lineTo(currentPoint.x, currentPoint.y);
-                                ctx.stroke();
-                            }
-                            
-                            lastValidPoint = currentPoint;
-                        } else {
-                            // No data for this type, create gap
-                            lastValidPoint = null;
-                        }
-                    }
-                    
-                    // Draw points (including for isolated points)
-                    ctx.fillStyle = color;
-                    for (var i = 0; i < questionTypes.length; i++) {
-                        var type = questionTypes[i];
-                        if (typeStats[type] && typeStats[type].ratioStats.n > 0) {
-                            var ratio = typeStats[type].avgRatio;
-                            var x = margin.left + xStep * i;
-                            var y = margin.top + plotHeight - ((ratio - yMin) / (yMax - yMin)) * plotHeight;
-                            
-                            ctx.beginPath();
-                            ctx.arc(x, y, 4, 0, 2 * Math.PI);
-                            ctx.fill();
-                        }
-                    }
-                }
-            }
-            
-            // Draw average line if enabled
-            if (showAverageLine) {
-                ctx.strokeStyle = '#000000';
-                ctx.lineWidth = 3;
-                ctx.setLineDash([8, 4]);
-                
-                var lastValidPoint = null;
-                for (var i = 0; i < questionTypes.length; i++) {
-                    var type = questionTypes[i];
-                    if (averageByType[type]) {
-                        var ratio = averageByType[type];
-                        var x = margin.left + xStep * i;
-                        var y = margin.top + plotHeight - ((ratio - yMin) / (yMax - yMin)) * plotHeight;
-                        
-                        var currentPoint = {x: x, y: y};
-                        
-                        if (lastValidPoint) {
-                            ctx.beginPath();
-                            ctx.moveTo(lastValidPoint.x, lastValidPoint.y);
-                            ctx.lineTo(currentPoint.x, currentPoint.y);
-                            ctx.stroke();
-                        }
-                        
-                        lastValidPoint = currentPoint;
-                    } else {
-                        lastValidPoint = null;
-                    }
-                }
-                
-                // Draw points for average line
-                ctx.fillStyle = '#000000';
-                ctx.setLineDash([]);
-                for (var i = 0; i < questionTypes.length; i++) {
-                    var type = questionTypes[i];
-                    if (averageByType[type]) {
-                        var ratio = averageByType[type];
-                        var x = margin.left + xStep * i;
-                        var y = margin.top + plotHeight - ((ratio - yMin) / (yMax - yMin)) * plotHeight;
-                        
-                        ctx.beginPath();
-                        ctx.arc(x, y, 5, 0, 2 * Math.PI);
-                        ctx.fill();
-                    }
-                }
-            }
-        }
+        h += '<h3>Overall Statistics</h3>';
+        h += '<div class="stats-grid">';
+        ['questionStats','answerStats','ratioStats'].forEach(function(key, idx) {
+            var labels = ['Question SSI','Answer SSI','SSI Ratio'];
+            var st = data[key];
+            h += '<div class="stat-box"><h3>' + labels[idx] + '</h3>' +
+                 '<div>Mean: <span class="font-mono">' + st.mean.toFixed(4) + '</span></div>' +
+                 '<div>Std Dev: <span class="font-mono">' + st.stdDev.toFixed(4) + '</span></div>' +
+                 '<div>Min: <span class="font-mono">' + st.min.toFixed(4) + '</span></div>' +
+                 '<div>Max: <span class="font-mono">' + st.max.toFixed(4) + '</span></div>' +
+                 '<div>Count: ' + st.n + '</div></div>';
+        });
+        h += '</div>';
 
-        function renderResults(results) {
-            globalResults = results;
-            
-            // Calculate Z-scores for each subject
-            var allRatios = [];
-            for (var subject in results) {
-                if (results.hasOwnProperty(subject)) {
-                    allRatios.push(results[subject].avgRatio);
-                }
-            }
-            var globalStats = calculateStats(allRatios);
-            
-            // Add Z-scores to results
-            for (var subject in results) {
-                if (results.hasOwnProperty(subject)) {
-                    results[subject].zScore = calculateZScore(
-                        results[subject].avgRatio,
-                        globalStats.mean,
-                        globalStats.stdDev
-                    );
-                    
-                    // Calculate Z-scores for each question type
-                    for (var type in results[subject].typeStats) {
-                        if (results[subject].typeStats.hasOwnProperty(type)) {
-                            var typeRatios = [];
-                            for (var s in results) {
-                                if (results.hasOwnProperty(s) && 
-                                    results[s].typeStats[type] && 
-                                    results[s].typeStats[type].ratioStats.n > 0) {
-                                    typeRatios.push(results[s].typeStats[type].avgRatio);
-                                }
-                            }
-                            var typeStats = calculateStats(typeRatios);
-                            results[subject].typeStats[type].zScore = calculateZScore(
-                                results[subject].typeStats[type].avgRatio,
-                                typeStats.mean,
-                                typeStats.stdDev
-                            );
-                        }
-                    }
-                }
-            }
-            
-            var entries = [];
-            for (var key in results) {
-                if (results.hasOwnProperty(key)) {
-                    entries.push([key, results[key]]);
-                }
-            }
-            entries.sort(function(a, b) {
-                return b[1].avgRatio - a[1].avgRatio;
-            });
-            
-            var html = '<h2>Multi-Subject SSI Ratio Comparison by Question Type</h2>';
-            
-            // Toggle controls
-            html += '<div class="toggle-controls">';
-            html += '<div class="toggle-section">';
-            html += '<span class="toggle-section-title">Show/Hide Lines:</span>';
-            html += '</div>';
-            html += '<div class="subject-toggles">';
-            html += '<label><input type="checkbox" checked onchange="toggleAverageLine()" id="toggle-average"><span style="font-weight: 600;">Average Line</span></label>';
-            for (var i = 0; i < subjects.length; i++) {
-                var subject = subjects[i];
-                var color = subjectColors[subject];
-                html += '<label>';
-                html += '<input type="checkbox" checked onchange="toggleSubject(\'' + subject + '\')" id="toggle-' + subject.replace(/\s+/g, '-') + '">';
-                html += '<span style="color: ' + color + '; font-weight: 500;">' + subject + '</span>';
-                html += '</label>';
-            }
-            html += '</div>';
-            html += '</div>';
-            
-            html += '<div class="graph-with-bar">';
-            html += '<div class="graph-main">';
-            html += '<div id="graph-container">';
-            html += '<div class="graph-title">SSI Ratio Trends Across Question Types</div>';
-            html += '<canvas id="ssi-graph" width="1500" height="600"></canvas>';
-            html += '<div class="legend">';
-            html += '<div class="legend-item">';
-            html += '<div class="legend-color" style="background-color: #000000; height: 3px; border-top: 2px dashed #000;"></div>';
-            html += '<span><strong>Average</strong></span>';
-            html += '</div>';
-            for (var i = 0; i < subjects.length; i++) {
-                var subject = subjects[i];
-                var color = subjectColors[subject];
-                html += '<div class="legend-item">';
-                html += '<div class="legend-color" style="background-color: ' + color + ';"></div>';
-                html += '<span>' + subject + '</span>';
-                html += '</div>';
-            }
-            html += '</div>';
-            html += '</div>';
-            html += '</div>';
-            
-            // Average SSI Bar - vertical scale with dots
-            html += '<div class="average-bar-container">';
-            html += '<div class="average-bar-title">Overall Average SSI</div>';
-            html += '<div class="average-bar-scale" id="average-scale">';
-            html += '<div class="average-bar-axis"></div>';
-            html += '</div>';
-            html += '<div class="average-bar-tooltip" id="bar-tooltip"></div>';
-            html += '</div>';
-            html += '</div>';
-            
-            // Question Type Comparison Table with Z-scores
-            html += '<h2>Question Type Analysis Across All Subjects (with Z-Scores)</h2>';
-            html += '<div class="question-type-section">';
-            html += '<table class="comparison-table">';
-            html += '<thead><tr class="bg-gray">';
-            html += '<th>Question Type</th>';
-            for (var i = 0; i < subjects.length; i++) {
-                html += '<th class="text-right">' + subjects[i] + '</th>';
-            }
-            html += '</tr></thead><tbody>';
-            
-            for (var t = 0; t < questionTypes.length; t++) {
-                var type = questionTypes[t];
-                html += '<tr>';
-                html += '<td><strong>' + type + '</strong></td>';
-                
-                var ratiosForType = [];
-                for (var i = 0; i < subjects.length; i++) {
-                    var subject = subjects[i];
-                    var typeStats = results[subject].typeStats;
-                    if (typeStats[type] && typeStats[type].ratioStats.n > 0) {
-                        ratiosForType.push(typeStats[type].avgRatio);
-                    }
-                }
-                
-                var maxVal = ratiosForType.length > 0 ? Math.max.apply(null, ratiosForType) : null;
-                var minVal = ratiosForType.length > 0 ? Math.min.apply(null, ratiosForType) : null;
-                
-                for (var i = 0; i < subjects.length; i++) {
-                    var subject = subjects[i];
-                    var typeStats = results[subject].typeStats;
-                    if (typeStats[type] && typeStats[type].ratioStats.n > 0) {
-                        var val = typeStats[type].avgRatio;
-                        var zScore = typeStats[type].zScore;
-                        var className = '';
-                        if (maxVal !== null && val === maxVal) className = 'highlight-max';
-                        else if (minVal !== null && val === minVal) className = 'highlight-min';
-                        
-                        var zClass = zScore > 0 ? 'zscore-positive' : (zScore < 0 ? 'zscore-negative' : 'zscore-neutral');
-                        html += '<td class="text-right ' + className + '">' + val.toFixed(4) + 
-                                '<br><span class="' + zClass + '" style="font-size: 11px;">z=' + zScore.toFixed(2) + '</span></td>';
-                    } else {
-                        html += '<td class="text-right" style="color: #999;">-</td>';
-                    }
-                }
-                html += '</tr>';
-            }
-            html += '</tbody></table>';
-            html += '</div>';
-            
-            html += '<h2>Summary Rankings by Subject (with Z-Scores)</h2>';
-            html += '<table><thead><tr class="bg-gray"><th>Rank</th><th>Subject</th><th>Skipped Type</th><th class="text-right">Avg Question SSI</th><th class="text-right">Avg Answer SSI</th><th class="text-right">Avg SSI Ratio</th><th class="text-right">Z-Score</th><th class="text-right">Ratio Std Dev</th></tr></thead><tbody>';
-            
-            for (var idx = 0; idx < entries.length; idx++) {
-                var name = entries[idx][0];
-                var data = entries[idx][1];
-                var skippedDisplay = data.skippedType ? data.skippedType : '-';
-                var zScore = data.zScore;
-                var zClass = zScore > 0 ? 'zscore-positive' : (zScore < 0 ? 'zscore-negative' : 'zscore-neutral');
-                
-                html += '<tr>' +
-                    '<td>' + (idx + 1) + '</td>' +
-                    '<td><strong style="color: ' + subjectColors[name] + ';">' + name + '</strong></td>' +
-                    '<td>' + skippedDisplay + '</td>' +
-                    '<td class="text-right">' + data.avgQuestionSSI.toFixed(4) + '</td>' +
-                    '<td class="text-right">' + data.avgAnswerSSI.toFixed(4) + '</td>' +
-                    '<td class="text-right font-medium">' + data.avgRatio.toFixed(4) + '</td>' +
-                    '<td class="text-right ' + zClass + '">' + zScore.toFixed(3) + '</td>' +
-                    '<td class="text-right">' + data.ratioStats.stdDev.toFixed(4) + '</td>' +
-                '</tr>';
-            }
-            
-            html += '</tbody></table>';
-            
-            // Detailed subject sections
-            for (var idx = 0; idx < entries.length; idx++) {
-                var name = entries[idx][0];
-                var data = entries[idx][1];
-                var id = 'calc-' + name.replace(/\s+/g, '-');
-                
-                html += '<div class="section">' +
-                    '<div class="section-header">' +
-                        '<h2 style="color: ' + subjectColors[name] + ';">' + name + '</h2>' +
-                        '<button data-target="' + id + '" onclick="toggleCalculations(\'' + id + '\')">Show Detailed Calculations</button>' +
-                    '</div>';
-                
-                if (data.skippedType) {
-                    html += '<div class="skipped-note">' +
-                        '<strong>Note:</strong> This subject skipped the question type: <strong>' + data.skippedType + '</strong>' +
-                    '</div>';
-                }
-                
-                // Question Type Breakdown with Z-scores
-                html += '<h3>Analysis by Question Type (with Z-Scores)</h3>';
-                html += '<table><thead><tr class="bg-gray">';
-                html += '<th>Question Type</th>';
-                html += '<th class="text-right">Avg Question SSI</th>';
-                html += '<th class="text-right">Avg Answer SSI</th>';
-                html += '<th class="text-right">Avg Ratio</th>';
-                html += '<th class="text-right">Z-Score</th>';
-                html += '<th class="text-right">Ratio Std Dev</th>';
-                html += '<th class="text-right">Count</th>';
-                html += '</tr></thead><tbody>';
-                
-                for (var t = 0; t < questionTypes.length; t++) {
-                    var type = questionTypes[t];
-                    if (data.typeStats[type] && data.typeStats[type].ratioStats.n > 0) {
-                        var ts = data.typeStats[type];
-                        var zScore = ts.zScore;
-                        var zClass = zScore > 0 ? 'zscore-positive' : (zScore < 0 ? 'zscore-negative' : 'zscore-neutral');
-                        
-                        html += '<tr>';
-                        html += '<td><strong>' + type + '</strong></td>';
-                        html += '<td class="text-right">' + ts.avgQuestionSSI.toFixed(4) + '</td>';
-                        html += '<td class="text-right">' + ts.avgAnswerSSI.toFixed(4) + '</td>';
-                        html += '<td class="text-right font-medium">' + ts.avgRatio.toFixed(4) + '</td>';
-                        html += '<td class="text-right ' + zClass + '">' + zScore.toFixed(3) + '</td>';
-                        html += '<td class="text-right">' + ts.ratioStats.stdDev.toFixed(4) + '</td>';
-                        html += '<td class="text-right">' + ts.ratioStats.n + '</td>';
-                        html += '</tr>';
-                    } else {
-                        html += '<tr>';
-                        html += '<td><strong>' + type + '</strong></td>';
-                        html += '<td class="text-right" style="color: #999;">-</td>';
-                        html += '<td class="text-right" style="color: #999;">-</td>';
-                        html += '<td class="text-right" style="color: #999;">-</td>';
-                        html += '<td class="text-right" style="color: #999;">-</td>';
-                        html += '<td class="text-right" style="color: #999;">-</td>';
-                        html += '<td class="text-right" style="color: #999;">-</td>';
-                        html += '</tr>';
-                    }
-                }
-                
-                html += '</tbody></table>';
-                
-                html += '<h3>Overall Statistics</h3>';
-                html += '<div class="stats-grid">' +
-                        '<div class="stat-box">' +
-                            '<h3>Question SSI Statistics</h3>' +
-                            '<div>Mean: ' + data.questionStats.mean.toFixed(4) + '</div>' +
-                            '<div>Std Dev: ' + data.questionStats.stdDev.toFixed(4) + '</div>' +
-                            '<div>Min: ' + data.questionStats.min.toFixed(4) + '</div>' +
-                            '<div>Max: ' + data.questionStats.max.toFixed(4) + '</div>' +
-                            '<div>Count: ' + data.questionStats.n + '</div>' +
-                        '</div>' +
-                        '<div class="stat-box">' +
-                            '<h3>Answer SSI Statistics</h3>' +
-                            '<div>Mean: ' + data.answerStats.mean.toFixed(4) + '</div>' +
-                            '<div>Std Dev: ' + data.answerStats.stdDev.toFixed(4) + '</div>' +
-                            '<div>Min: ' + data.answerStats.min.toFixed(4) + '</div>' +
-                            '<div>Max: ' + data.answerStats.max.toFixed(4) + '</div>' +
-                            '<div>Count: ' + data.answerStats.n + '</div>' +
-                        '</div>' +
-                        '<div class="stat-box">' +
-                            '<h3>SSI Ratio Statistics</h3>' +
-                            '<div>Mean: ' + data.ratioStats.mean.toFixed(4) + '</div>' +
-                            '<div>Std Dev: ' + data.ratioStats.stdDev.toFixed(4) + '</div>' +
-                            '<div>Min: ' + data.ratioStats.min.toFixed(4) + '</div>' +
-                            '<div>Max: ' + data.ratioStats.max.toFixed(4) + '</div>' +
-                            '<div>Count: ' + data.ratioStats.n + '</div>' +
-                        '</div>' +
-                    '</div>' +
-                    '<div id="' + id + '" class="calculations hidden">' +
-                        '<h3>Individual Question Calculations</h3>' +
-                        '<table>' +
-                            '<thead>' +
-                                '<tr class="bg-gray">' +
-                                    '<th>Question</th>' +
-                                    '<th>Answer</th>' +
-                                    '<th>Question Type</th>' +
-                                    '<th class="text-right">Question SSI</th>' +
-                                    '<th class="text-right">Answer SSI</th>' +
-                                    '<th class="text-right">Ratio (A/Q)</th>' +
-                                '</tr>' +
-                            '</thead>' +
-                            '<tbody>';
-                
-                for (var c = 0; c < data.calculations.length; c++) {
-                    var calc = data.calculations[c];
-                    html += '<tr>' +
-                        '<td>' + calc.question + '</td>' +
-                        '<td>' + calc.answer + '</td>' +
-                        '<td>' + calc.type + '</td>' +
-                        '<td class="text-right">' + calc.questionSSI.toFixed(6) + '</td>' +
-                        '<td class="text-right">' + calc.answerSSI.toFixed(6) + '</td>' +
-                        '<td class="text-right font-medium">' + calc.ratio.toFixed(6) + '</td>' +
-                    '</tr>';
-                }
-                
-                html += '<tr class="bg-gray font-medium">' +
-                    '<td colspan="3">AVERAGE</td>' +
-                    '<td class="text-right">' + data.avgQuestionSSI.toFixed(6) + '</td>' +
-                    '<td class="text-right">' + data.avgAnswerSSI.toFixed(6) + '</td>' +
-                    '<td class="text-right">' + data.avgRatio.toFixed(6) + '</td>' +
-                '</tr>' +
-                            '</tbody>' +
-                        '</table>' +
-                    '</div>' +
-                '</div>';
-            }
-            
-            // NEW ENHANCED BOTTOM VISUALIZATION
-            html += renderEnhancedVisualization(results);
-            
-            document.getElementById('loading').classList.add('hidden');
-            document.getElementById('content').innerHTML = html;
-            document.getElementById('content').classList.remove('hidden');
-            
-            // Draw the graph after rendering
-            setTimeout(function() {
-                drawGraph(results);
-                populateAverageBar(results);
-            }, 100);
-        }
-        
-        function renderEnhancedVisualization(results) {
-            var html = '<div class="final-viz-section">';
-            html += '<h2 class="viz-title">Comprehensive SSI Analysis Dashboard</h2>';
-            
-            // Calculate global statistics
-            var allRatios = [];
-            var allQuestionSSI = [];
-            var allAnswerSSI = [];
-            for (var subject in results) {
-                if (results.hasOwnProperty(subject)) {
-                    allRatios.push(results[subject].avgRatio);
-                    allQuestionSSI.push(results[subject].avgQuestionSSI);
-                    allAnswerSSI.push(results[subject].avgAnswerSSI);
-                }
-            }
-            var globalRatioStats = calculateStats(allRatios);
-            var globalQuestionStats = calculateStats(allQuestionSSI);
-            var globalAnswerStats = calculateStats(allAnswerSSI);
-            
-            // Main container with heatmap and rankings
-            html += '<div class="viz-container">';
-            
-            // Heatmap
-            html += '<div class="heatmap-container">';
-            html += '<div class="heatmap-title">SSI Ratio Heatmap by Subject and Question Type</div>';
-            
-            // Calculate grid template
-            var numCols = questionTypes.length + 1; // +1 for row headers
-            html += '<div class="heatmap-grid" style="grid-template-columns: 150px repeat(' + questionTypes.length + ', 1fr);">';
-            
-            // Header row
-            html += '<div class="heatmap-cell heatmap-header">Subject</div>';
-            for (var t = 0; t < questionTypes.length; t++) {
-                var type = questionTypes[t];
-                var shortType = type.split('-')[0]; // Get first word for space
-                html += '<div class="heatmap-cell heatmap-header" title="' + type + '">' + shortType + '</div>';
-            }
-            
-            // Data rows
-            var sortedSubjects = subjects.slice().sort(function(a, b) {
-                return results[b].avgRatio - results[a].avgRatio;
-            });
-            
-            for (var s = 0; s < sortedSubjects.length; s++) {
-                var subject = sortedSubjects[s];
-                var color = subjectColors[subject];
-                
-                // Row header
-                html += '<div class="heatmap-cell heatmap-row-header" style="background-color: ' + color + ' !important;">' + 
-                        subject + '</div>';
-                
-                // Data cells
-                for (var t = 0; t < questionTypes.length; t++) {
-                    var type = questionTypes[t];
-                    var typeStats = results[subject].typeStats;
-                    
-                    if (typeStats[type] && typeStats[type].ratioStats.n > 0) {
-                        var ratio = typeStats[type].avgRatio;
-                        var zScore = typeStats[type].zScore;
-                        var bgColor = getColorForZScore(zScore);
-                        var textColor = Math.abs(zScore) > 1 ? 'white' : '#333';
-                        
-                        html += '<div class="heatmap-cell" style="background-color: ' + bgColor + '; color: ' + textColor + ';" ' +
-                                'title="' + subject + ' - ' + type + '&#10;Ratio: ' + ratio.toFixed(4) + '&#10;Z-Score: ' + zScore.toFixed(2) + '">';
-                        html += '<div class="heatmap-cell-value">' + ratio.toFixed(3) + '</div>';
-                        html += '<div class="heatmap-cell-zscore">z=' + zScore.toFixed(1) + '</div>';
-                        html += '</div>';
-                    } else {
-                        html += '<div class="heatmap-cell" style="background-color: #eee; color: #999;">';
-                        html += '<div class="heatmap-cell-value">—</div>';
-                        html += '</div>';
-                    }
-                }
-            }
-            
-            html += '</div>'; // heatmap-grid
-            
-            // Color legend
-            html += '<div class="color-legend">';
-            html += '<div class="color-scale">';
-            html += '<span class="color-scale-label">Z-Score:</span>';
-            html += '<div class="color-scale-bar">';
-            html += '<div class="color-scale-segment" style="background-color: #b71c1c;" title="z < -2"></div>';
-            html += '<div class="color-scale-segment" style="background-color: #d32f2f;" title="-2 ≤ z < -1"></div>';
-            html += '<div class="color-scale-segment" style="background-color: #e57373;" title="-1 ≤ z < -0.5"></div>';
-            html += '<div class="color-scale-segment" style="background-color: #ffcdd2;" title="-0.5 ≤ z < 0"></div>';
-            html += '<div class="color-scale-segment" style="background-color: #c8e6c9;" title="0 ≤ z < 0.5"></div>';
-            html += '<div class="color-scale-segment" style="background-color: #81c784;" title="0.5 ≤ z < 1"></div>';
-            html += '<div class="color-scale-segment" style="background-color: #4caf50;" title="1 ≤ z < 1.5"></div>';
-            html += '<div class="color-scale-segment" style="background-color: #388e3c;" title="1.5 ≤ z < 2"></div>';
-            html += '<div class="color-scale-segment" style="background-color: #2e7d32;" title="z ≥ 2"></div>';
-            html += '</div>';
-            html += '<span class="color-scale-label" style="margin-left: 5px;">Low → High</span>';
-            html += '</div>';
-            html += '</div>';
-            
-            html += '</div>'; // heatmap-container
-            
-            // Rankings sidebar
-            html += '<div class="rankings-container">';
-            
-            // Top performers - all subjects
-            html += '<div class="ranking-card">';
-            html += '<h4>SSI Ratio Rankings</h4>';
-            var topSubjects = subjects.slice().sort(function(a, b) {
-                return results[b].avgRatio - results[a].avgRatio;
-            });
-            for (var i = 0; i < topSubjects.length; i++) {
-                var subject = topSubjects[i];
-                var color = subjectColors[subject];
-                html += '<div class="ranking-item" style="border-left-color: ' + color + ';">';
-                html += '<span class="ranking-item-name">' + (i + 1) + '. ' + subject + '</span>';
-                html += '<span class="ranking-item-value">' + results[subject].avgRatio.toFixed(4) + '</span>';
-                html += '</div>';
-            }
-            html += '</div>';
-            
-            // Most consistent - all subjects
-            html += '<div class="ranking-card">';
-            html += '<h4>Consistency Rankings (Std Dev)</h4>';
-            var consistentSubjects = subjects.slice().sort(function(a, b) {
-                return results[a].ratioStats.stdDev - results[b].ratioStats.stdDev;
-            });
-            for (var i = 0; i < consistentSubjects.length; i++) {
-                var subject = consistentSubjects[i];
-                var color = subjectColors[subject];
-                html += '<div class="ranking-item" style="border-left-color: ' + color + ';">';
-                html += '<span class="ranking-item-name">' + (i + 1) + '. ' + subject + '</span>';
-                html += '<span class="ranking-item-value">' + results[subject].ratioStats.stdDev.toFixed(4) + '</span>';
-                html += '</div>';
-            }
-            html += '</div>';
-            
-            html += '</div>'; // rankings-container
-            html += '</div>'; // viz-container
-            
-            // Summary statistics
-            html += '<div class="summary-stats">';
-            html += '<h4>Global Statistics Summary</h4>';
-            html += '<div class="summary-grid">';
-            
-            html += '<div class="summary-item">';
-            html += '<div class="summary-item-label">Mean SSI Ratio (All Subjects)</div>';
-            html += '<div class="summary-item-value">' + globalRatioStats.mean.toFixed(4) + '</div>';
-            html += '</div>';
-            
-            html += '<div class="summary-item">';
-            html += '<div class="summary-item-label">Std Dev SSI Ratio</div>';
-            html += '<div class="summary-item-value">' + globalRatioStats.stdDev.toFixed(4) + '</div>';
-            html += '</div>';
-            
-            html += '<div class="summary-item">';
-            html += '<div class="summary-item-label">Range (Max - Min)</div>';
-            html += '<div class="summary-item-value">' + (globalRatioStats.max - globalRatioStats.min).toFixed(4) + '</div>';
-            html += '</div>';
-            
-            html += '<div class="summary-item">';
-            html += '<div class="summary-item-label">Mean Question SSI</div>';
-            html += '<div class="summary-item-value">' + globalQuestionStats.mean.toFixed(4) + '</div>';
-            html += '</div>';
-            
-            html += '<div class="summary-item">';
-            html += '<div class="summary-item-label">Mean Answer SSI</div>';
-            html += '<div class="summary-item-value">' + globalAnswerStats.mean.toFixed(4) + '</div>';
-            html += '</div>';
-            
-            html += '<div class="summary-item">';
-            html += '<div class="summary-item-label">Total Subjects Analyzed</div>';
-            html += '<div class="summary-item-value">' + subjects.length + '</div>';
-            html += '</div>';
-            
-            html += '</div>'; // summary-grid
-            html += '</div>'; // summary-stats
-            
-            html += '</div>'; // final-viz-section
-            
-            return html;
-        }
-        
-        function populateAverageBar(results) {
-            var scale = document.getElementById('average-scale');
-            if (!scale) return;
-            
-            // Find min and max for scale
-            var allRatios = [];
-            for (var subject in results) {
-                if (results.hasOwnProperty(subject)) {
-                    allRatios.push(results[subject].avgRatio);
-                }
-            }
-            
-            var minRatio = Math.min.apply(null, allRatios);
-            var maxRatio = Math.max.apply(null, allRatios);
-            var range = maxRatio - minRatio;
-            var yMin = minRatio - range * 0.1;
-            var yMax = maxRatio + range * 0.1;
-            
-            // Get scale height
-            var scaleHeight = scale.offsetHeight;
-            
-            // Add dots for each subject
-            for (var subject in results) {
-                if (results.hasOwnProperty(subject)) {
-                    var ratio = results[subject].avgRatio;
-                    var color = subjectColors[subject];
-                    
-                    // Calculate position (inverted - top is high value)
-                    var percentage = ((ratio - yMin) / (yMax - yMin));
-                    var yPos = scaleHeight * (1 - percentage);
-                    
-                    // Create dot
-                    var dot = document.createElement('div');
-                    dot.className = 'average-bar-dot';
-                    dot.style.backgroundColor = color;
-                    dot.style.top = yPos + 'px';
-                    dot.setAttribute('data-subject', subject);
-                    dot.setAttribute('data-ratio', ratio.toFixed(4));
-                    
-                    // Add hover effect
-                    dot.addEventListener('mouseenter', function(e) {
-                        var tooltip = document.getElementById('bar-tooltip');
-                        var subj = e.target.getAttribute('data-subject');
-                        var rat = e.target.getAttribute('data-ratio');
-                        tooltip.textContent = subj + ': ' + rat;
-                        tooltip.style.display = 'block';
-                        tooltip.style.left = (e.target.offsetLeft + 25) + 'px';
-                        tooltip.style.top = e.target.offsetTop + 'px';
-                    });
-                    
-                    dot.addEventListener('mouseleave', function() {
-                        var tooltip = document.getElementById('bar-tooltip');
-                        tooltip.style.display = 'none';
-                    });
-                    
-                    scale.appendChild(dot);
-                    
-                    // Add label (abbreviated first letter or two)
-                    var label = document.createElement('div');
-                    label.className = 'average-bar-label';
-                    label.style.color = color;
-                    label.style.top = yPos + 'px';
-                    label.textContent = subject.substring(0, 3);
-                    scale.appendChild(label);
-                }
-            }
-        }
+        h += '<div id="' + id + '" class="calculations hidden"><h3>Individual Question Calculations</h3>';
+        h += '<table><thead><tr><th>Question</th><th>Answer</th><th>Type</th><th class="text-right">Q SSI</th><th class="text-right">A SSI</th><th class="text-right">Ratio</th></tr></thead><tbody>';
+        data.calculations.forEach(function(c) {
+            h += '<tr><td>' + c.question + '</td><td>' + c.answer + '</td><td style="font-size:12px;">' + c.type + '</td>' +
+                 '<td class="text-right font-mono">' + c.questionSSI.toFixed(6) + '</td>' +
+                 '<td class="text-right font-mono">' + c.answerSSI.toFixed(6) + '</td>' +
+                 '<td class="text-right font-mono font-bold">' + c.ratio.toFixed(6) + '</td></tr>';
+        });
+        h += '<tr style="background:#f4f4f4;font-weight:700;"><td colspan="3">Average</td>' +
+             '<td class="text-right font-mono">' + data.avgQuestionSSI.toFixed(6) + '</td>' +
+             '<td class="text-right font-mono">' + data.avgAnswerSSI.toFixed(6) + '</td>' +
+             '<td class="text-right font-mono">' + data.avgRatio.toFixed(6) + '</td></tr>';
+        h += '</tbody></table></div></div>';
+    });
 
-        fetchAllData();
-    </script>
+    /* ════════ 5. DASHBOARD ════════ */
+    var subScores  = computeSubjectScores(results);
+    var typeScores = computeTypeScores(results);
+
+    var gRatio = calcStats(subjects.map(function(s){ return results[s].avgRatio; }));
+    var gQ     = calcStats(subjects.map(function(s){ return results[s].avgQuestionSSI; }));
+    var gA     = calcStats(subjects.map(function(s){ return results[s].avgAnswerSSI; }));
+
+    h += '<div class="dashboard">';
+    h += '<div class="dashboard-header"><h2>Comprehensive Summary Dashboard</h2><p>Aggregated metrics, heatmap, scores and rankings across all subjects</p></div>';
+    h += '<div class="dashboard-body">';
+
+    /* global stats */
+    h += '<div class="global-stats-grid">';
+    [['Mean SSI Ratio', gRatio.mean.toFixed(4)],
+     ['Std Dev (Ratio)', gRatio.stdDev.toFixed(4)],
+     ['Ratio Range',     (gRatio.max - gRatio.min).toFixed(4)],
+     ['Mean Q SSI',      gQ.mean.toFixed(4)],
+     ['Mean A SSI',      gA.mean.toFixed(4)],
+     ['Subjects',        subjects.length.toString()]
+    ].forEach(function(item) {
+        h += '<div class="gs-cell"><div class="gs-label">' + item[0] + '</div><div class="gs-value">' + item[1] + '</div></div>';
+    });
+    h += '</div>';
+
+    /* ── two-column ── */
+    h += '<div class="dashboard-grid" style="margin-top:28px;">';
+
+    /* Heatmap */
+    h += '<div>';
+    h += '<div class="panel-label">Figure 2 — SSI Ratio Heatmap</div>';
+    h += '<div class="heatmap-grid" style="grid-template-columns: 140px ' + questionTypes.map(function(){ return '1fr'; }).join(' ') + ';">';
+
+    h += '<div class="hm-cell hm-head">Subject</div>';
+    questionTypes.forEach(function(t){ h += '<div class="hm-cell hm-head">' + (shortLabels[t] || t) + '</div>'; });
+
+    sorted.forEach(function(s) {
+        h += '<div class="hm-cell hm-row-head" style="border-left:4px solid ' + subjectColors[s] + ';">' + s + '</div>';
+        questionTypes.forEach(function(t) {
+            var ts = results[s].typeStats[t];
+            if (ts && ts.ratioStats.n > 0) {
+                var z = ts.zScore || 0, bg = zColor(z), tc = zTextColor(z);
+                h += '<div class="hm-cell" style="background:' + bg + ';color:' + tc + ';" title="' + s + ' · ' + t + '\nRatio: ' + ts.avgRatio.toFixed(4) + '\nz = ' + z.toFixed(2) + '">' +
+                     '<span class="val">' + ts.avgRatio.toFixed(3) + '</span>' +
+                     '<span class="zs">(z=' + z.toFixed(2) + ')</span></div>';
+            } else {
+                h += '<div class="hm-cell" style="background:#f0f0f0;color:#aaa;"><span class="val">—</span></div>';
+            }
+        });
+    });
+    h += '</div>';
+
+    /* colour legend */
+    h += '<div class="legend-bar">';
+    h += '<span class="legend-bar-label">z-score</span>';
+    h += '<div style="text-align:center;">';
+    h += '<div class="legend-bar-scale">';
+    ['#b71c1c','#c62828','#ef5350','#ef9a9a','#ffcdd2','#c8e6c9','#66bb6a','#43a047','#2e7d32','#1b5e20'].forEach(function(c){ h += '<div class="legend-bar-seg" style="background:' + c + ';"></div>'; });
+    h += '</div>';
+    h += '<div class="legend-bar-ticks"><span>≤−2</span><span>−1.5</span><span>−1</span><span>−0.5</span><span>0</span><span>+0.5</span><span>+1</span><span>+1.5</span><span>+2</span><span>≥+2</span></div>';
+    h += '</div></div>';
+    h += '</div>';
+
+    /* Rankings */
+    h += '<div class="rankings-wrap">';
+
+    h += '<div class="ranking-panel"><div class="ranking-panel-head">SSI Ratio — All Subjects</div>';
+    sorted.forEach(function(s, i) {
+        h += '<div class="ranking-row" style="border-left-color:' + subjectColors[s] + ';">' +
+             '<span class="rk-name">' + (i+1) + '.&nbsp; ' + s + '</span>' +
+             '<span class="rk-val">' + results[s].avgRatio.toFixed(4) + '</span></div>';
+    });
+    h += '</div>';
+
+    var byConsis = subjects.slice().sort(function(a,b){ return results[a].ratioStats.stdDev - results[b].ratioStats.stdDev; });
+    h += '<div class="ranking-panel"><div class="ranking-panel-head">Consistency — Lowest Std Dev</div>';
+    byConsis.forEach(function(s, i) {
+        h += '<div class="ranking-row" style="border-left-color:' + subjectColors[s] + ';">' +
+             '<span class="rk-name">' + (i+1) + '.&nbsp; ' + s + '</span>' +
+             '<span class="rk-val">' + results[s].ratioStats.stdDev.toFixed(4) + '</span></div>';
+    });
+    h += '</div>';
+
+    h += '</div>'; // rankings-wrap
+    h += '</div>'; // dashboard-grid
+
+    /* ── Score Tables ── */
+    h += '<div class="panel-label" style="margin-top:32px;">Table 3 — Subject Scores</div>';
+    h += '<p style="font-size:12px;color:#666;margin-bottom:10px;font-style:italic;">Composite score (0–100): Ratio (0.40) + Z-Score (0.30) + Consistency (0.30). All components are normalised to [0, 1] before weighting.</p>';
+
+    h += '<table><thead><tr><th>Rank</th><th>Subject</th><th class="text-right">Avg Ratio</th><th class="text-right">Avg Z-Score</th><th class="text-right">Consistency</th><th class="text-right" style="background:#1a1a1a;color:#fff;">Score</th></tr></thead><tbody>';
+    subScores.forEach(function(row, i) {
+        h += '<tr><td>' + (i+1) + '</td>' +
+             '<td><strong style="color:' + subjectColors[row.subject] + ';">' + row.subject + '</strong></td>' +
+             '<td class="text-right font-mono">' + row.avgRatio.toFixed(4) + '</td>' +
+             '<td class="text-right font-mono ' + zClass(row.avgZ) + '">' + row.avgZ.toFixed(3) + '</td>' +
+             '<td class="text-right font-mono">' + row.avgConsis.toFixed(4) + '</td>' +
+             '<td class="text-right font-mono font-bold score-col">' + row.score.toFixed(1) + '</td></tr>';
+    });
+    h += '</tbody></table>';
+
+    h += '<div class="panel-label" style="margin-top:24px;">Table 4 — Question Type Scores</div>';
+    h += '<p style="font-size:12px;color:#666;margin-bottom:10px;font-style:italic;">Same scoring methodology applied per question type, aggregated across all subjects that include each type.</p>';
+
+    h += '<table><thead><tr><th>Rank</th><th>Question Type</th><th class="text-right">Avg Ratio</th><th class="text-right">Avg Z-Score</th><th class="text-right">Consistency</th><th class="text-right" style="background:#1a1a1a;color:#fff;">Score</th><th class="text-right">Subjects</th></tr></thead><tbody>';
+    typeScores.forEach(function(row, i) {
+        h += '<tr><td>' + (i+1) + '</td>' +
+             '<td><strong>' + row.type + '</strong></td>' +
+             '<td class="text-right font-mono">' + row.avgRatio.toFixed(4) + '</td>' +
+             '<td class="text-right font-mono ' + zClass(row.avgZ) + '">' + row.avgZ.toFixed(3) + '</td>' +
+             '<td class="text-right font-mono">' + row.avgConsis.toFixed(4) + '</td>' +
+             '<td class="text-right font-mono font-bold score-col">' + row.score.toFixed(1) + '</td>' +
+             '<td class="text-right">' + row.count + '</td></tr>';
+    });
+    h += '</tbody></table>';
+
+    h += '</div></div>'; /* dashboard-body, dashboard */
+
+    /* ─── inject ─── */
+    document.getElementById('loading').classList.add('hidden');
+    document.getElementById('content').innerHTML = h;
+    document.getElementById('content').classList.remove('hidden');
+
+    setTimeout(function(){ drawGraph(results); populateAverageBar(results); }, 80);
+}
+
+/* ─── toggle helper ─── */
+function toggleCalc(id) {
+    var el = document.getElementById(id);
+    var btn = document.querySelector('button[data-target="' + id + '"]');
+    if (el.classList.contains('hidden')) { el.classList.remove('hidden'); btn.textContent = 'Hide Calculations'; }
+    else { el.classList.add('hidden'); btn.textContent = 'Show Calculations'; }
+}
+
+/* ─── average bar ─── */
+function populateAverageBar(results) {
+    var scale = document.getElementById('average-scale');
+    if (!scale) return;
+    var vals = subjects.map(function(s){ return results[s].avgRatio; });
+    var mn = Math.min.apply(null, vals), mx = Math.max.apply(null, vals), rng = mx - mn;
+    var yMin = mn - rng * 0.12, yMax = mx + rng * 0.12;
+    var sh = scale.offsetHeight;
+
+    subjects.forEach(function(s) {
+        var ratio = results[s].avgRatio, col = subjectColors[s];
+        var top = sh * (1 - (ratio - yMin) / (yMax - yMin));
+
+        var dot = document.createElement('div');
+        dot.className = 'average-bar-dot';
+        dot.style.backgroundColor = col;
+        dot.style.top = top + 'px';
+        dot.setAttribute('data-subject', s);
+        dot.setAttribute('data-ratio', ratio.toFixed(4));
+        dot.addEventListener('mouseenter', function(e) {
+            var tip = document.getElementById('bar-tooltip');
+            tip.textContent = e.target.getAttribute('data-subject') + ': ' + e.target.getAttribute('data-ratio');
+            tip.style.display = 'block';
+            tip.style.left = (e.target.offsetLeft + 22) + 'px';
+            tip.style.top = e.target.offsetTop + 'px';
+        });
+        dot.addEventListener('mouseleave', function(){ document.getElementById('bar-tooltip').style.display = 'none'; });
+        scale.appendChild(dot);
+
+        var lbl = document.createElement('div');
+        lbl.className = 'average-bar-label';
+        lbl.style.color = col;
+        lbl.style.top = top + 'px';
+        lbl.textContent = s.substring(0, 3);
+        scale.appendChild(lbl);
+    });
+}
+
+fetchAllData();
+</script>
 </body>
 </html>
