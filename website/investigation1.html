@@ -566,12 +566,12 @@
                 ctx.font = 'bold 21px Arial';
                 ctx.fillText('Z: ' + entry.zScore.toFixed(2), x + barWidth / 2, y - 20);
                 
-                // Draw x-axis labels (rotated) - 50% LARGER FONT (13 * 1.5 = 19.5)
+                // Draw x-axis labels (rotated) - 20% smaller than other text (16px)
                 ctx.save();
                 ctx.translate(x + barWidth / 2, height - margin.bottom + 25);
                 ctx.rotate(-Math.PI / 3.2);
                 ctx.fillStyle = entry.color;
-                ctx.font = 'bold 20px Arial';
+                ctx.font = 'bold 16px Arial';
                 ctx.textAlign = 'right';
                 ctx.fillText(entry.type, 0, 0);
                 ctx.restore();
