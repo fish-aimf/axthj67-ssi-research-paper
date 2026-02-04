@@ -160,8 +160,8 @@
         
         #bar-chart {
             width: 100%;
-            height: 1131px;
-            max-width: 800px;
+            height: 800px;
+            max-width: 1131px;
             margin: 0 auto;
             display: block;
         }
@@ -456,17 +456,17 @@
             var canvas = document.getElementById('bar-chart');
             var ctx = canvas.getContext('2d');
             
-            // A4 portrait dimensions (800 x 1131 pixels)
-            var width = 800;
-            var height = 1131;
+            // A4 landscape dimensions (1131 x 800 pixels)
+            var width = 1131;
+            var height = 800;
             canvas.width = width;
             canvas.height = height;
             
             // Clear canvas
             ctx.clearRect(0, 0, width, height);
             
-            // Margins - adjusted for A4 portrait
-            var margin = { top: 40, right: 50, bottom: 200, left: 90 };
+            // Margins - adjusted for A4 landscape with larger fonts
+            var margin = { top: 100, right: 120, bottom: 180, left: 100 };
             var plotWidth = width - margin.left - margin.right;
             var plotHeight = height - margin.top - margin.bottom;
             
@@ -489,23 +489,30 @@
                 return b.ratio - a.ratio;
             });
             
-            // Find max ratio for scaling
+            // Find min and max ratio for optimized scaling
             var maxRatio = 0;
+            var minRatio = Infinity;
             for (var i = 0; i < entries.length; i++) {
                 if (entries[i].ratio > maxRatio) {
                     maxRatio = entries[i].ratio;
                 }
+                if (entries[i].ratio < minRatio) {
+                    minRatio = entries[i].ratio;
+                }
             }
             
-            var yMax = maxRatio * 1.15; // Add 15% padding for labels
+            // Optimized axis scale - start from 90% of min value instead of 0
+            var yMin = minRatio * 0.90;
+            var yMax = maxRatio * 1.08; // Reduced padding since we're not starting from 0
+            var yRange = yMax - yMin;
             
             // Calculate bar dimensions
-            var barWidth = plotWidth / entries.length * 0.65;
+            var barWidth = plotWidth / entries.length * 0.7;
             var barSpacing = plotWidth / entries.length;
             
             // Draw axes
             ctx.strokeStyle = '#333';
-            ctx.lineWidth = 2;
+            ctx.lineWidth = 3;
             ctx.beginPath();
             ctx.moveTo(margin.left, margin.top);
             ctx.lineTo(margin.left, height - margin.bottom);
@@ -514,8 +521,8 @@
             
             // Draw horizontal grid lines
             ctx.strokeStyle = '#e0e0e0';
-            ctx.lineWidth = 1;
-            var numYGridLines = 8;
+            ctx.lineWidth = 1.5;
+            var numYGridLines = 6; // Reduced from 8 to save space
             for (var i = 0; i <= numYGridLines; i++) {
                 var y = margin.top + (plotHeight / numYGridLines) * i;
                 ctx.beginPath();
@@ -523,19 +530,19 @@
                 ctx.lineTo(width - margin.right, y);
                 ctx.stroke();
                 
-                // Y-axis labels - LARGER FONT
-                var value = yMax - (yMax * (i / numYGridLines));
+                // Y-axis labels - 50% LARGER FONT (14 * 1.5 = 21)
+                var value = yMax - (yRange * (i / numYGridLines));
                 ctx.fillStyle = '#333';
-                ctx.font = 'bold 14px Arial';
+                ctx.font = 'bold 21px Arial';
                 ctx.textAlign = 'right';
-                ctx.fillText(value.toFixed(3), margin.left - 10, y + 5);
+                ctx.fillText(value.toFixed(3), margin.left - 12, y + 7);
             }
             
             // Draw bars with Z-score indicators
             for (var i = 0; i < entries.length; i++) {
                 var entry = entries[i];
                 var x = margin.left + (i * barSpacing) + (barSpacing - barWidth) / 2;
-                var barHeight = (entry.ratio / yMax) * plotHeight;
+                var barHeight = ((entry.ratio - yMin) / yRange) * plotHeight;
                 var y = height - margin.bottom - barHeight;
                 
                 // Draw bar with solid color
@@ -544,37 +551,37 @@
                 
                 // Draw bar border
                 ctx.strokeStyle = entry.color;
-                ctx.lineWidth = 2;
+                ctx.lineWidth = 2.5;
                 ctx.strokeRect(x, y, barWidth, barHeight);
                 
-                // Draw ratio value on top of bar - LARGER FONT
+                // Draw ratio value on top of bar - 50% LARGER FONT (15 * 1.5 = 22.5)
                 ctx.fillStyle = '#000';
-                ctx.font = 'bold 15px Arial';
+                ctx.font = 'bold 23px Arial';
                 ctx.textAlign = 'center';
-                ctx.fillText(entry.ratio.toFixed(4), x + barWidth / 2, y - 35);
+                ctx.fillText(entry.ratio.toFixed(4), x + barWidth / 2, y - 45);
                 
-                // Draw Z-score below ratio - LARGER FONT with color coding
+                // Draw Z-score below ratio - 50% LARGER FONT (14 * 1.5 = 21)
                 var zScoreColor = entry.zScore >= 0 ? '#27ae60' : '#e74c3c';
                 ctx.fillStyle = zScoreColor;
-                ctx.font = 'bold 14px Arial';
-                ctx.fillText('Z: ' + entry.zScore.toFixed(2), x + barWidth / 2, y - 18);
+                ctx.font = 'bold 21px Arial';
+                ctx.fillText('Z: ' + entry.zScore.toFixed(2), x + barWidth / 2, y - 20);
                 
-                // Draw x-axis labels (rotated) - LARGER FONT
+                // Draw x-axis labels (rotated) - 50% LARGER FONT (13 * 1.5 = 19.5)
                 ctx.save();
-                ctx.translate(x + barWidth / 2, height - margin.bottom + 20);
-                ctx.rotate(-Math.PI / 3.5); // Slightly less rotation for readability
+                ctx.translate(x + barWidth / 2, height - margin.bottom + 25);
+                ctx.rotate(-Math.PI / 3.2);
                 ctx.fillStyle = entry.color;
-                ctx.font = 'bold 13px Arial';
+                ctx.font = 'bold 20px Arial';
                 ctx.textAlign = 'right';
                 ctx.fillText(entry.type, 0, 0);
                 ctx.restore();
             }
             
-            // Y-axis label - LARGER FONT
+            // Y-axis label - 50% LARGER FONT (16 * 1.5 = 24)
             ctx.save();
-            ctx.translate(25, height / 2);
+            ctx.translate(30, height / 2);
             ctx.rotate(-Math.PI / 2);
-            ctx.font = 'bold 16px Arial';
+            ctx.font = 'bold 24px Arial';
             ctx.fillStyle = '#333';
             ctx.textAlign = 'center';
             ctx.fillText('Average SSI Ratio (Answer/Question)', 0, 0);
@@ -586,30 +593,30 @@
                 totalRatio += entries[i].ratio;
             }
             var avgRatio = totalRatio / entries.length;
-            var avgY = height - margin.bottom - (avgRatio / yMax) * plotHeight;
+            var avgY = height - margin.bottom - ((avgRatio - yMin) / yRange) * plotHeight;
             
             ctx.strokeStyle = '#e74c3c';
-            ctx.lineWidth = 3;
-            ctx.setLineDash([10, 5]);
+            ctx.lineWidth = 3.5;
+            ctx.setLineDash([12, 6]);
             ctx.beginPath();
             ctx.moveTo(margin.left, avgY);
             ctx.lineTo(width - margin.right, avgY);
             ctx.stroke();
             ctx.setLineDash([]);
             
-            // Draw average label - LARGER FONT
+            // Draw average label - 50% LARGER FONT (14 * 1.5 = 21) - positioned to not get cut off
             ctx.fillStyle = '#e74c3c';
-            ctx.font = 'bold 14px Arial';
+            ctx.font = 'bold 21px Arial';
             ctx.textAlign = 'left';
-            ctx.fillText('Avg: ' + avgRatio.toFixed(4), width - margin.right + 5, avgY + 5);
+            ctx.fillText('Avg: ' + avgRatio.toFixed(4), width - margin.right + 10, avgY + 8);
             
-            // Add legend for Z-score colors
-            var legendY = margin.top + 10;
-            ctx.font = 'bold 13px Arial';
+            // Add legend for Z-score colors - 50% LARGER FONT (13 * 1.5 = 19.5)
+            var legendY = 30;
+            ctx.font = 'bold 20px Arial';
             ctx.fillStyle = '#27ae60';
             ctx.fillText('● Positive Z-score (above average)', margin.left + 10, legendY);
             ctx.fillStyle = '#e74c3c';
-            ctx.fillText('● Negative Z-score (below average)', margin.left + 10, legendY + 20);
+            ctx.fillText('● Negative Z-score (below average)', margin.left + 10, legendY + 30);
         }
 
         function renderResults(results) {
