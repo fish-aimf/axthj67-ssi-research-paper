@@ -1,0 +1,472 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SSI Subject Analyzer — Investigation 2 Bar Graph</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            padding: 20px;
+            background: #f8f9fa;
+        }
+        .container {
+            max-width: 1600px;
+            margin: 0 auto;
+            background: white;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+        }
+        h1 {
+            font-size: 28px;
+            margin-bottom: 10px;
+            color: #1a1a1a;
+        }
+        .info {
+            color: #666;
+            font-size: 14px;
+            margin-bottom: 25px;
+        }
+        .loading {
+            text-align: center;
+            padding: 80px;
+            font-size: 20px;
+            color: #666;
+        }
+        
+        /* Graph Styles */
+        .graph-section {
+            margin-bottom: 40px;
+        }
+        
+        #graph-container {
+            width: 100%;
+            background: white;
+            border: 1px solid #ddd;
+            border-radius: 6px;
+            padding: 30px;
+            box-sizing: border-box;
+        }
+        
+        .graph-title {
+            text-align: center;
+            font-size: 22px;
+            font-weight: 700;
+            margin-bottom: 15px;
+            color: #2c3e50;
+        }
+        
+        .graph-subtitle {
+            text-align: center;
+            font-size: 15px;
+            color: #666;
+            margin-bottom: 25px;
+        }
+        
+        #bar-chart {
+            width: 100%;
+            height: 600px;
+            max-width: 1131px;
+            margin: 0 auto;
+            display: block;
+        }
+        
+        .stats-summary {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 20px;
+            margin-top: 30px;
+            padding: 20px;
+            background: #f8f9fa;
+            border-radius: 6px;
+        }
+        
+        .summary-card {
+            text-align: center;
+            padding: 15px;
+            background: white;
+            border-radius: 4px;
+            border: 1px solid #e0e0e0;
+        }
+        
+        .summary-card .label {
+            font-size: 12px;
+            color: #666;
+            margin-bottom: 8px;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+        
+        .summary-card .value {
+            font-size: 24px;
+            font-weight: 600;
+            color: #2c3e50;
+        }
+        
+        .summary-card .subvalue {
+            font-size: 12px;
+            color: #999;
+            margin-top: 4px;
+        }
+        
+        .z-positive {
+            color: #27ae60;
+        }
+        
+        .z-negative {
+            color: #e74c3c;
+        }
+        
+        .hidden {
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>SSI Subject Analyzer — Investigation 2 Bar Graph</h1>
+        <div class="info">Data loaded from: RESEARCH-DATA/investigation 2/fields</div>
+        
+        <div id="loading" class="loading">Loading data from GitHub...</div>
+        <div id="content" class="hidden"></div>
+    </div>
+
+    <script>
+        var subjects = [
+            'Biology','Chemistry','Computer science','Economics',
+            'English Language','Ethics','History','Mathematics','Philosophy','Physics'
+        ];
+        
+        var subjectColors = {
+            'Biology':'#2ecc71',
+            'Chemistry':'#e74c3c',
+            'Computer science':'#3498db',
+            'Economics':'#f39c12',
+            'English Language':'#9b59b6',
+            'Ethics':'#1abc9c',
+            'History':'#e67e22',
+            'Mathematics':'#34495e',
+            'Philosophy':'#c0392b',
+            'Physics':'#16a085'
+        };
+
+        var questionTypesOriginal = [
+            'Computational-Numerical','Procedural-How-To','Conceptual-Definition',
+            'Analytical-Multistep-Reasoning','Interpretive-Contextual',
+            'Evaluative-Normative','Design-Methodological','Closed-Factual'
+        ];
+
+        function getQuestionType(qNum, skipped) {
+            var num = parseInt(qNum.substring(1));
+            var idx = Math.floor((num - 1) / 6);
+            var avail = questionTypesOriginal.filter(function(t){ return t !== skipped; });
+            return avail[idx] || 'Unknown';
+        }
+
+        function calcStats(arr) {
+            var n = arr.length;
+            if (!n) return { mean:0, stdDev:0, min:0, max:0, n:0 };
+            var sum = arr.reduce(function(a,b){ return a+b; }, 0);
+            var mean = sum / n;
+            var variance = arr.reduce(function(a,v){ return a + Math.pow(v - mean, 2); }, 0) / n;
+            return { mean: mean, stdDev: Math.sqrt(variance), min: Math.min.apply(null, arr), max: Math.max.apply(null, arr), n: n };
+        }
+
+        function analyzeSubject(questions, answers, skippedType) {
+            var qKeys = Object.keys(questions).sort(function(a,b){ return parseInt(a.slice(1)) - parseInt(b.slice(1)); });
+            var aKeys = Object.keys(answers).sort(function(a,b){ return parseInt(a.slice(1)) - parseInt(b.slice(1)); });
+
+            var ratios = [];
+            qKeys.forEach(function(qk, i) {
+                var ak = aKeys[i], qv = questions[qk], av = answers[ak];
+                ratios.push(av / qv);
+            });
+
+            var qVals = Object.keys(questions).map(function(k){ return questions[k]; });
+            var aVals = Object.keys(answers).map(function(k){ return answers[k]; });
+
+            return {
+                avgQuestionSSI: calcStats(qVals).mean,
+                avgAnswerSSI:   calcStats(aVals).mean,
+                avgRatio:       calcStats(ratios).mean,
+                ratioStats:     calcStats(ratios),
+                zScore: 0 // Will be calculated later
+            };
+        }
+
+        function fetchAllData() {
+            var base = '../RESEARCH-DATA/investigation 2/fields';
+            var results = {}, done = 0, total = subjects.length;
+
+            subjects.forEach(function(subject) {
+                fetch(base + '/' + subject + '/skipped')
+                .then(function(r){ return r.ok ? r.text() : null; })
+                .then(function(txt) {
+                    var skipped = txt ? txt.trim() : null;
+                    return Promise.all([
+                        fetch(base + '/' + subject + '/ssi_of_questions').then(function(r){ return r.json(); }),
+                        fetch(base + '/' + subject + '/ssi_of_answers').then(function(r){ return r.json(); })
+                    ]).then(function(pair) {
+                        results[subject] = analyzeSubject(pair[0], pair[1], skipped);
+                        if (++done === total) renderResults(results);
+                    });
+                })
+                .catch(function(e){ console.error(subject, e); if (++done === total) renderResults(results); });
+            });
+        }
+
+        function drawBarChart(results) {
+            var canvas = document.getElementById('bar-chart');
+            var ctx = canvas.getContext('2d');
+            
+            // Compressed aspect ratio - even flatter than Investigation 1
+            var width = 1131;
+            var height = 600;
+            canvas.width = width;
+            canvas.height = height;
+            
+            ctx.clearRect(0, 0, width, height);
+            
+            // Margins - compressed vertically
+            var margin = { top: 80, right: 120, bottom: 140, left: 100 };
+            var plotWidth = width - margin.left - margin.right;
+            var plotHeight = height - margin.top - margin.bottom;
+            
+            // Prepare data sorted by ratio
+            var entries = [];
+            for (var i = 0; i < subjects.length; i++) {
+                var subject = subjects[i];
+                if (results[subject]) {
+                    entries.push({
+                        subject: subject,
+                        ratio: results[subject].avgRatio,
+                        zScore: results[subject].zScore,
+                        color: subjectColors[subject]
+                    });
+                }
+            }
+            
+            // Sort by ratio (descending)
+            entries.sort(function(a, b) {
+                return b.ratio - a.ratio;
+            });
+            
+            // Find min and max ratio for optimized scaling
+            var maxRatio = 0;
+            var minRatio = Infinity;
+            for (var i = 0; i < entries.length; i++) {
+                if (entries[i].ratio > maxRatio) {
+                    maxRatio = entries[i].ratio;
+                }
+                if (entries[i].ratio < minRatio) {
+                    minRatio = entries[i].ratio;
+                }
+            }
+            
+            // Optimized axis scale
+            var yMin = minRatio * 0.90;
+            var yMax = maxRatio * 1.08;
+            var yRange = yMax - yMin;
+            
+            // Calculate bar dimensions
+            var barWidth = plotWidth / entries.length * 0.7;
+            var barSpacing = plotWidth / entries.length;
+            
+            // Draw axes
+            ctx.strokeStyle = '#333';
+            ctx.lineWidth = 3;
+            ctx.beginPath();
+            ctx.moveTo(margin.left, margin.top);
+            ctx.lineTo(margin.left, height - margin.bottom);
+            ctx.lineTo(width - margin.right, height - margin.bottom);
+            ctx.stroke();
+            
+            // Draw horizontal grid lines
+            ctx.strokeStyle = '#e0e0e0';
+            ctx.lineWidth = 1.5;
+            var numYGridLines = 5;
+            for (var i = 0; i <= numYGridLines; i++) {
+                var y = margin.top + (plotHeight / numYGridLines) * i;
+                ctx.beginPath();
+                ctx.moveTo(margin.left, y);
+                ctx.lineTo(width - margin.right, y);
+                ctx.stroke();
+                
+                // Y-axis labels
+                var value = yMax - (yRange * (i / numYGridLines));
+                ctx.fillStyle = '#333';
+                ctx.font = 'bold 21px Arial';
+                ctx.textAlign = 'right';
+                ctx.fillText(value.toFixed(3), margin.left - 12, y + 7);
+            }
+            
+            // Draw bars with Z-score indicators
+            for (var i = 0; i < entries.length; i++) {
+                var entry = entries[i];
+                var x = margin.left + (i * barSpacing) + (barSpacing - barWidth) / 2;
+                var barHeight = ((entry.ratio - yMin) / yRange) * plotHeight;
+                var y = height - margin.bottom - barHeight;
+                
+                // Draw bar with solid color
+                ctx.fillStyle = entry.color;
+                ctx.fillRect(x, y, barWidth, barHeight);
+                
+                // Draw bar border
+                ctx.strokeStyle = entry.color;
+                ctx.lineWidth = 2.5;
+                ctx.strokeRect(x, y, barWidth, barHeight);
+                
+                // Draw ratio value on top of bar
+                ctx.fillStyle = '#000';
+                ctx.font = 'bold 23px Arial';
+                ctx.textAlign = 'center';
+                ctx.fillText(entry.ratio.toFixed(4), x + barWidth / 2, y - 45);
+                
+                // Draw Z-score below ratio
+                var zScoreColor = entry.zScore >= 0 ? '#27ae60' : '#e74c3c';
+                ctx.fillStyle = zScoreColor;
+                ctx.font = 'bold 21px Arial';
+                ctx.fillText('Z: ' + entry.zScore.toFixed(2), x + barWidth / 2, y - 20);
+                
+                // Draw x-axis labels (rotated)
+                ctx.save();
+                ctx.translate(x + barWidth / 2, height - margin.bottom + 25);
+                ctx.rotate(-Math.PI / 3.2);
+                ctx.fillStyle = entry.color;
+                ctx.font = 'bold 16px Arial';
+                ctx.textAlign = 'right';
+                ctx.fillText(entry.subject, 0, 0);
+                ctx.restore();
+            }
+            
+            // Y-axis label
+            ctx.save();
+            ctx.translate(30, height / 2);
+            ctx.rotate(-Math.PI / 2);
+            ctx.font = 'bold 24px Arial';
+            ctx.fillStyle = '#333';
+            ctx.textAlign = 'center';
+            ctx.fillText('Average SSI Ratio (Answer/Question)', 0, 0);
+            ctx.restore();
+            
+            // Draw average line
+            var totalRatio = 0;
+            for (var i = 0; i < entries.length; i++) {
+                totalRatio += entries[i].ratio;
+            }
+            var avgRatio = totalRatio / entries.length;
+            var avgY = height - margin.bottom - ((avgRatio - yMin) / yRange) * plotHeight;
+            
+            ctx.strokeStyle = '#e74c3c';
+            ctx.lineWidth = 3.5;
+            ctx.setLineDash([12, 6]);
+            ctx.beginPath();
+            ctx.moveTo(margin.left, avgY);
+            ctx.lineTo(width - margin.right, avgY);
+            ctx.stroke();
+            ctx.setLineDash([]);
+            
+            // Draw average label
+            ctx.fillStyle = '#e74c3c';
+            ctx.font = 'bold 21px Arial';
+            ctx.textAlign = 'left';
+            ctx.fillText('Avg: ' + avgRatio.toFixed(4), width - margin.right + 10, avgY + 8);
+            
+            // Add legend for Z-score colors
+            var legendY = 30;
+            ctx.font = 'bold 20px Arial';
+            ctx.fillStyle = '#27ae60';
+            ctx.fillText('● Positive Z-score (above average)', margin.left + 10, legendY);
+            ctx.fillStyle = '#e74c3c';
+            ctx.fillText('● Negative Z-score (below average)', margin.left + 10, legendY + 30);
+        }
+
+        function renderResults(results) {
+            var entries = [];
+            for (var key in results) {
+                if (results.hasOwnProperty(key)) {
+                    entries.push([key, results[key]]);
+                }
+            }
+            entries.sort(function(a, b) {
+                return b[1].avgRatio - a[1].avgRatio;
+            });
+            
+            // Calculate z-scores
+            var allRatios = [];
+            for (var i = 0; i < entries.length; i++) {
+                allRatios.push(entries[i][1].avgRatio);
+            }
+            var stats = calcStats(allRatios);
+            var overallMean = stats.mean;
+            var overallStdDev = stats.stdDev;
+            
+            for (var i = 0; i < entries.length; i++) {
+                entries[i][1].zScore = (entries[i][1].avgRatio - overallMean) / overallStdDev;
+            }
+            
+            // Calculate overall statistics
+            var overallStats = {
+                avgRatio: overallMean,
+                stdDev: overallStdDev,
+                highestRatio: entries[0],
+                lowestRatio: entries[entries.length - 1],
+                range: entries[0][1].avgRatio - entries[entries.length - 1][1].avgRatio
+            };
+            
+            var html = '<div class="graph-section">';
+            html += '<div id="graph-container">';
+            html += '<div class="graph-title">Average SSI Ratio by Subject Field</div>';
+            html += '<div class="graph-subtitle">Higher ratios indicate answers with greater semantic specificity. Z-scores show deviation from mean.</div>';
+            html += '<canvas id="bar-chart"></canvas>';
+            
+            // Stats summary
+            html += '<div class="stats-summary">';
+            html += '<div class="summary-card">';
+            html += '<div class="label">Overall Average</div>';
+            html += '<div class="value">' + overallStats.avgRatio.toFixed(4) + '</div>';
+            html += '<div class="subvalue">SSI Ratio</div>';
+            html += '</div>';
+            
+            html += '<div class="summary-card">';
+            html += '<div class="label">Highest Ratio</div>';
+            html += '<div class="value" style="color: ' + subjectColors[overallStats.highestRatio[0]] + ';">' + overallStats.highestRatio[1].avgRatio.toFixed(4) + '</div>';
+            html += '<div class="subvalue">' + overallStats.highestRatio[0] + '</div>';
+            html += '</div>';
+            
+            html += '<div class="summary-card">';
+            html += '<div class="label">Lowest Ratio</div>';
+            html += '<div class="value" style="color: ' + subjectColors[overallStats.lowestRatio[0]] + ';">' + overallStats.lowestRatio[1].avgRatio.toFixed(4) + '</div>';
+            html += '<div class="subvalue">' + overallStats.lowestRatio[0] + '</div>';
+            html += '</div>';
+            
+            html += '<div class="summary-card">';
+            html += '<div class="label">Range</div>';
+            html += '<div class="value">' + overallStats.range.toFixed(4) + '</div>';
+            html += '<div class="subvalue">Difference</div>';
+            html += '</div>';
+            
+            html += '</div>'; // stats-summary
+            html += '</div>'; // graph-container
+            html += '</div>'; // graph-section
+            
+            document.getElementById('loading').classList.add('hidden');
+            document.getElementById('content').innerHTML = html;
+            document.getElementById('content').classList.remove('hidden');
+            
+            // Draw the bar chart after rendering
+            setTimeout(function() {
+                drawBarChart(results);
+            }, 100);
+        }
+
+        fetchAllData();
+    </script>
+</body>
+</html>
