@@ -6,7 +6,6 @@ Provide a brief description of the dataset, its purpose, how it was collected, a
 This section contains 3 investigations:
 - Investigation 1 examines the correlation between question types and SSI.
 - Investigation 2 examines the correlation between subjects and SSI.
-- Investigation 3 investigates the correlation between temperature and SSI.
 
 ## Structure
 This folder contains the data used in the research project. Use the links below to navigate to specific subdirectories.
@@ -35,14 +34,5 @@ This folder contains the data used in the research project. Use the links below 
   - A results and discussion file.
 
 ---
-
-- [Investigation 3](./investigation%203/)
-  
-  **Description:**  
-  Investigation 3 investigates the correlation between temperature and SSI.  
-  This directory includes:
-  - Five prompt files and their associated AI responses.
-  - The analysis files.
-  - The results and discussion document.
-
+=
 ---
